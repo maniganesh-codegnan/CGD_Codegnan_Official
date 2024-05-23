@@ -1,0 +1,79 @@
+.inter_container{
+   margin-top: 100px;
+  
+}
+
+.inter_inner_div {
+    padding:30px 0px ;
+    background-color: #fff;
+    background-color: aliceblue;
+    .home-intern{
+        padding:0 150px;
+        font-size: 18px;
+    }
+    line-height: 1.5;
+    .intern-home-1{
+       margin:100px 150px;
+       padding:30px;
+       border:2px solid black;
+       width:500px;
+       h4{
+        font-size: 30px;
+       }
+       li{
+        margin-left:50px;
+        list-style: none;
+       }
+       .internship_rating{
+        padding-right: 30px 20px;
+       }
+       .explore-button{
+        width:140px;
+        height:40px;
+        padding:20px;
+        background-color:#1AB69D;
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 10px;
+       }
+       .explore-button:hover{
+        background-color: #EE4a62;
+       }
+
+    }
+}
+.services_provided1{
+    height: 220px;
+    background-color: #fff;
+    width: 1000px;
+    padding:50px 20px;
+    box-shadow: 0 0 20px whitesmoke;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr)); 
+    gap: 5px;
+    
+    .each_service_intern{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:303px;
+        height:64px;
+        img{
+            margin-top: 50px;
+            height: 64px;
+            width: 64px;
+        }
+        h4{
+            color:#EE4a62;
+        }
+        p{
+            font-size: 14px;
+        }
+        .services_text{
+            margin-top: 50px;
+        }
+    }
+
+
+}

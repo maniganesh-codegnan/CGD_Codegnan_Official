@@ -1,0 +1,32 @@
+.vertical-line {
+    margin: 100px;
+    position:relative;
+    border-left:1px solid black;
+    width:500px;
+    
+   
+  }
+  
+  .hello {
+    display: flex;
+    
+    align-items: center; 
+    margin-bottom: 20px; 
+    li::marker {
+        color:green; 
+        font-size: 20px; 
+        
+      }
+      
+  }
+  
+  .vertical-image {
+    margin-bottom: 100px;
+   
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px; 
+    margin-left: -25px;
+
+  }
+  

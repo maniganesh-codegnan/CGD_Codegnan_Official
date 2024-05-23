@@ -1,0 +1,12 @@
+.company_container{
+    padding:50px 0px;
+}
+.company-logo{
+    img{
+        width:180px;
+        height:65px;
+        border: 3px solid black;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}

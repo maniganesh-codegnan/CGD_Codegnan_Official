@@ -1,0 +1,146 @@
+/* 
+  .map_main-section{
+    padding-top: 20px;
+    width:200px;
+  }
+  .map_grid1{
+    box-shadow: 0 0 20px whitesmoke;
+    width:400px;
+    text-align: left;
+    a{
+        text-decoration: none;
+        color:#cc3366;
+    }
+    a:hover{
+        color: #1AB69D;
+    }
+    .en-icon{
+        font-size: 25px;
+        color:green;
+    }
+    .phone-icon{
+        font-size: 25px;
+        color:green;
+    }
+    .add-icon{
+        font-size: 25px;
+        color:green;
+    }
+    span{
+        padding: 0 20px;
+        font-weight: bolder;
+    }
+    p{
+        color: darkgrey;
+        padding-left: 50px;
+    }
+
+  }
+ .contmap{
+  border-radius: 15px;
+  box-shadow: #5c5f5f;
+ }
+ 
+ .getin{
+  box-shadow: 0 0 20px whitesmoke;
+  width:400px;
+  text-align: left;
+  padding: 40px 10px 50px 40px;
+  a{
+      text-decoration: none;
+      color:#cc3366;
+  }
+  a:hover{
+      color: #1AB69D;
+  }
+  .en-icon{
+      font-size: 25px;
+      color:green;
+  }
+  .phone-icon{
+      font-size: 25px;
+      color:green;
+  }
+  .add-icon{
+      font-size: 25px;
+      color:green;
+  }
+  span{
+      padding: 0 20px;
+      font-weight: bolder;
+  }
+  p{
+      color: darkgrey;
+      padding-left: 50px;
+  }
+
+}
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 150px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; /
+}
+
+.column {
+  flex: 1;
+  padding: 25px;
+  box-sizing: border-box; 
+}
+@media only screen and (max-width: 768px) {
+  .column {
+    flex: 1 0 50%; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column {
+    flex: 1 0 100%; 
+  }
+}
+
+
+
+
+
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin-top: 150px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 1;
+  padding: 25px;
+  box-sizing: border-box; 
+}
+
+@media only screen and (max-width: 768px) {
+  .column {
+    flex: 1 0 50%; 
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .column {
+    flex: 1 0 100%; 
+  }
+}
+ */
