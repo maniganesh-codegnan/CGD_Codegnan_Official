@@ -45,7 +45,7 @@ const course_brief = [
         intro: () => (
             <>
 
-            <img src="/syllabuspages/python-full-stack-course-syllabus-by-codegnan.png" alt="" /><br/>
+            <img src="/syllabuspages/python-full-stack-course-syllabus-by-codegnan.png" alt="" width="100%" /><br/>
             
             <p>👉 If you are short on time,<Link className="link-color" to='/'> download our complete full-stack developer course syllabus </Link> (Free PDF copy).</p>
             <p>👉 Check out our 100-day Full-stack Python classroom training program which is available in Hyderabad, Bangalore and Vijayawada.</p>
@@ -786,11 +786,11 @@ const course_brief = [
 
                <p>While it is true that Python is easy to learn, we checked practitioners’ opinions on <Link to="https://www.quora.com/Is-software-testing-an-easy-course-or-tough#:~:text=It%20is%20not%20that%20difficult,good%20analytical%20skills%20and%20patience." onClick={() => window.scrollTo({ top: 0 })} className="link-color">Quora</Link>, if learning Python full stack development would be useful for getting jobs. They say yes! However, knowing only Python is not enough, and that’s what makes learning Python full-stack development difficult. </p><br/>
 
-               <img src="/syllabuspages/python-FS-image1.png" alt="" /><br/>
+               <img src="/syllabuspages/python-FS-image1.png" alt="" width="100%" /><br/>
 
                <p>What are the things I need to know to become an expert Python full-stack developer? </p><br/>
 
-               <img src="/syllabuspages/python-FS-image2.png" alt="" /><br/>
+               <img src="/syllabuspages/python-FS-image2.png" alt="" width="100%" /><br/>
             </>
         )
     },
@@ -800,7 +800,7 @@ const course_brief = [
         intro: () => (
             <>
                <p>The average salary of a full stack Python developer in India is <Link className="link-color" to="https://www.ambitionbox.com/profile/fullstack-python-developer-salary">₹4.0 LPA  </Link> with an estimated monthly take-home salary of ₹29,531 – ₹30,852. An early-stage developer can earn around ₹1.4 LPA. However, with a little more experience in the domain and expertise, they can earn up to ₹9.2 LPA. </p><br/>
-               <img src="/syllabuspages/python-FS-image3.png" alt="" /><br/>
+               <img src="/syllabuspages/python-FS-image3.png" alt="" width="100%" /><br/>
                <p>The table below illustrates a Python full-stack developer salary range in the top-tier cities of India.</p>
             </>
         )

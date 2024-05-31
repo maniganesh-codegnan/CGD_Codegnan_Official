@@ -720,7 +720,7 @@ const course_brief = [
             <>
                 A Python developer in India can make a salary between  <Link className="link-color" to="https://www.ambitionbox.com/profile/python-software-developer-salary"> ₹1.5 LPA and ₹11.0 LPA </Link>  with an average salary of ₹6.1 LPA. Therefore, the estimated take-home salary for Python developers is ₹33,547-₹34,809 per month. 
                 <br />
-                <img src="/syllabuspages/java.1.png" alt="" />
+                <img src="/syllabuspages/java.1.png" alt="" width="100%" />
                 
                 <table className="salary-table">
                     <thead>
@@ -760,7 +760,7 @@ const course_brief = [
                         <li className="list-items" key={index}>
                             <Link to={program.link} className="link-light-color">
                                 {program.name}
-                            </Link> ({program.duration})
+                            </Link>
                         </li>
                     ))}
                 </ul>

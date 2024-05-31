@@ -309,29 +309,31 @@ export default function Home() {
                             <strong style={{ color: "#808080", fontWeight: 'bold' }}>OUR TEAM</strong>
                             <br /><br />
                             <span>
-                                <h3 className='notch-team-heading'>Our Top Notch Teams <br />Involved In Helping <span style={{ color: "#cc3366" }}>You Learn Programming</span>, <br />Not Just Coding.</h3>
+                            <h3 className='notch-team-heading'>
+                                Our Top Notch Teams <br />Involved In Helping <span style={{ color: "#cc3366" }}>You Learn Programming</span>, <br />Not Just Coding.
+                            </h3>
                             </span>
                             <div className='div_container_notch_team'>
-                                <div className='div_container_notch_team_section1'>
-                                    <ul>
-                                        <li> <span className='check'>&#x2713;</span>Embark on a Journey with Elite Mentors - IIT Alumni and Top MNC Experts.</li>
-                                        <li><span className='check'>&#x2713;</span>Experience Doubt-Free Learning from Product Developers.</li>
-                                        <li><span className='check'>&#x2713;</span>Elevate Your Skills with Expert Masterclasses.</li>
-                                    </ul>
+                            <div className='div_container_notch_team_section1'>
+                                <ul>
+                                <li><span className='check'>&#x2713;</span>Embark on a Journey with Elite Mentors - IIT Alumni and Top MNC Experts.</li>
+                                <li><span className='check'>&#x2713;</span>Experience Doubt-Free Learning from Product Developers.</li>
+                                <li><span className='check'>&#x2713;</span>Elevate Your Skills with Expert Masterclasses.</li>
+                                </ul>
+                            </div>
+                            <div className='div_container_notch_team_section2'>
+                                <div>
+                                <img src={ceo} alt="ceo" />
+                                <center><h4>Mr. SaiRam</h4></center>
                                 </div>
-                                <div className='div_container_notch_team_section2'>
-                                    <div>
-                                        <img src={ceo} alt="ceo" />
-                                        <center><h4>Mr.SaiRam</h4></center>
-                                    </div>
-                                    <div>
-                                        <img src={saketh} alt="saketh" />
-                                        <center><h4>Mr.Saketh</h4></center>
-                                    </div>
+                                <div>
+                                <img src={saketh} alt="saketh" />
+                                <center><h4>Mr. Saketh</h4></center>
                                 </div>
                             </div>
+                            </div>
                         </div>
-                    </div>
+                        </div>
                     <div className='Our_training_center'>
                         <center> <h2>Our Training <span className='change_color'>Campuses</span></h2></center>
                         <div className='div_container_training_center'>

@@ -130,6 +130,7 @@
   flex: 1;
   padding: 25px;
   box-sizing: border-box; 
+  margin: 10px;
 }
 
 @media only screen and (max-width: 768px) {

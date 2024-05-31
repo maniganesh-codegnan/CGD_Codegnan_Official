@@ -1,0 +1,39 @@
+
+.slider_benifts {
+    margin:  70px 0px;
+}
+
+.custom-dots li {
+    display: inline-block;
+    margin: 0 0px; 
+}
+
+.custom-dots li button:before {
+    padding: 0;
+    color: black;
+    font-size: 10px;
+}
+
+.each_slider_benifit {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.each_slider_benifit img {
+    max-width: 100%; 
+}
+
+.each_slider_benifit p {
+    padding-top: 5px;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.custom-dots li {
+    display: inline-block;
+    margin: 0 2px; 
+    padding: 0;
+}
+

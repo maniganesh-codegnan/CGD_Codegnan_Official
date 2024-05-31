@@ -750,7 +750,7 @@ const course_brief = [
         title: "Download the Data Structures and Algorithms course curriculum PDF",
         intro: () => (
             <>
-                <img src="/syllabuspages/C-Data-Structures-and-Algorithm.jpg" alt="" /><br/>
+                <img src="/syllabuspages/C-Data-Structures-and-Algorithm.jpg" alt="" width="100%" /><br/>
             </>
         )
     },
@@ -903,7 +903,7 @@ const course_brief = [
                         <li className="list-items" key={index}>
                             <Link to={program.link} className="link-light-color">
                                 {program.name}
-                            </Link> ({program.duration})
+                            </Link> 
                         </li>
                     ))}
                 </ul>

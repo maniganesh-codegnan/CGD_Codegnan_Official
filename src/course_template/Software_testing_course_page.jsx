@@ -161,7 +161,7 @@ const course_brief = [
         intro: () => (
             <>
             <p>Download Codegnan’s<Link className="link-color" to='#'>software testing syllabus PDF →</Link> </p>
-            <img src="/syllabuspages/Software-testing-syllabus.png" alt="" /><br/>
+            <img src="/syllabuspages/Software-testing-syllabus.png" alt="" width="100%" /><br/>
             <p>👉 Check out our complete software testing course syllabus, a 100-day classroom training program (available in Hyderabad, Bangalore and Vijayawada).</p>
             </>
         )
@@ -1050,11 +1050,11 @@ const course_brief = [
                 <p>No, software testing isn’t difficult to learn if you are starting with manual testing as we do at Codegnan. We start teaching our students with basic testing knowledge and then proceed to automation testing and other topics like core Java, MySQL, HTML and CSS.</p>
                 <p> When I searched for the same question on  <Link to="https://www.quora.com/Is-software-testing-an-easy-course-or-tough#:~:text=It%20is%20not%20that%20difficult,good%20analytical%20skills%20and%20patience." onClick={() => window.scrollTo({ top: 0 })} className="link-color">Quora</Link>, I found experts saying software testing can be challenging but it is rewarding as well. There are a couple of things that you need to master like manual testing, knowledge of a programming language, and basic computer skills. </p><br/>
 
-                <img src="/syllabuspages/software-testing-media1.png" alt="" /><br/>
+                <img src="/syllabuspages/software-testing-media1.png" alt="" width="100%" /><br/>
 
                 <p> However, software testing may not be easy for  <Link to="https://www.quora.com/Is-software-testing-an-easy-course-or-tough#:~:text=It%20is%20not%20that%20difficult,good%20analytical%20skills%20and%20patience." onClick={() => window.scrollTo({ top: 0 })} className="link-color">professionals </Link> in the domain. See what they say:</p><br/>
 
-                <img src="/syllabuspages/software-testing-media2.png" alt="" /><br/>
+                <img src="/syllabuspages/software-testing-media2.png" alt="" width="100%" /><br/>
             </>
         )
     },
@@ -1065,11 +1065,11 @@ const course_brief = [
                 <p>No, software testing isn’t difficult to learn if you are starting with manual testing as we do at Codegnan. We start teaching our students with basic testing knowledge and then proceed to automation testing and other topics like core Java, MySQL, HTML and CSS.</p>
                 <p> When I searched for the same question on  <Link to="https://www.quora.com/Is-software-testing-an-easy-course-or-tough#:~:text=It%20is%20not%20that%20difficult,good%20analytical%20skills%20and%20patience." onClick={() => window.scrollTo({ top: 0 })} className="link-color">Quora</Link>, I found experts saying software testing can be challenging but it is rewarding as well. There are a couple of things that you need to master like manual testing, knowledge of a programming language, and basic computer skills. </p><br/>
 
-                <img src="/syllabuspages/software-testing-media1.png" alt="" /><br/>
+                <img src="/syllabuspages/software-testing-media1.png" alt="" width="100%" /><br/>
 
                 <p> However, software testing may not be easy for  <Link to="https://www.quora.com/Is-software-testing-an-easy-course-or-tough#:~:text=It%20is%20not%20that%20difficult,good%20analytical%20skills%20and%20patience." onClick={() => window.scrollTo({ top: 0 })} className="link-color">professionals </Link> in the domain. See what they say:</p><br/>
 
-                <img src="/syllabuspages/software-testing-media2.png" alt="" /><br/>
+                <img src="/syllabuspages/software-testing-media2.png" alt="" width="100%" /><br/>
             </>
         )
     },
@@ -1086,11 +1086,11 @@ const course_brief = [
         intro: () => (
             <>
                <p>If you are also following industry demands before enrolling in a course like we do, here’s the <Link to="https://www.thebusinessresearchcompany.com/report/testing-software-global-market-report" onClick={() => window.scrollTo({ top: 0 })} className="link-color">  Testing Software Global Market Report 2024. </Link> It says the software testing market size will be seeing strong growth in the upcoming years and will become <Link to="https://www.thebusinessresearchcompany.com/report/testing-software-global-market-report" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> $76.98 billion </Link> in 2028, growing at a CAGR of 8.3% every year. </p>
-               <img src="/syllabuspages/software-testing-media3.png" alt="" /><br/>
+               <img src="/syllabuspages/software-testing-media3.png" alt="" width="100%" /><br/>
 
                <p>I questioned Quora whether it is manual testing or automated testing that gains importance in the market. From a <Link to="https://softwaretestingsapienssspace.quora.com/t" onClick={() => window.scrollTo({ top: 0 })} className="link-color">  community post, </Link> I found that only 9% of businesses choose manual testing, while 66% of companies prefer a hybrid approach that combines human and automated testing skills. So,  our software training course will prepare you with manual and automation methods for landing a good job.</p>
 
-               <img src="/syllabuspages/software-testing-media4.png" alt="" /><br/>
+               <img src="/syllabuspages/software-testing-media4.png" alt="" width="100%" /><br/>
             </>
         )
     },
@@ -1099,7 +1099,7 @@ const course_brief = [
         intro: () => (
             <>
                <p>It is obvious that you want to enter this domain to find a good job. To your surprise, if you search for ‘software testing jobs in India’ on LinkedIn, you will find  <Link to="https://www.linkedin.com/jobs/software-testing-jobs/?currentJobId=3857669857&originalSubdomain=in" onClick={() => window.scrollTo({ top: 0 })} className="link-color">50,000+ </Link>  opportunities for beginners and professionals. </p><br/>
-               <img src="/syllabuspages/software-testing-media5.png" alt="" /><br/>
+               <img src="/syllabuspages/software-testing-media5.png" alt="" width="100%" /><br/>
             </>
         )
     },
@@ -1108,7 +1108,7 @@ const course_brief = [
         intro: () => (
             <>
                <p>An early-stage software tester in India earns <Link to="https://www.ambitionbox.com/profile/software-tester-salary" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> ₹1.5 LPA,</Link> but with experience and expertise in the domain, you can earn as high as ₹8.0 LPA. The average annual income of a software tester in India is ₹4.7 LPA, which is a good starting point for your career.</p><br/>
-               <img src="/syllabuspages/software-testing-media6.png" alt="" /><br/>
+               <img src="/syllabuspages/software-testing-media6.png" alt="" width="100%" /><br/>
             </>
         )
     },

@@ -5,7 +5,7 @@ export default function Contact_us() {
         
     <div className="container">
         <div className="row">
-        <div className="column">
+        <div className="column ">
             <center className='contsec'>
                 <h1>Get In Touch <span className='change_color'>  with our experts</span></h1><br/>
                 <p>Get in touch with us using the enquiry form or contact details below.</p><br/><br/>

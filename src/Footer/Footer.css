@@ -1,5 +1,5 @@
-.Footer {
-    /* margin-top: 100px; */
+/* .Footer {
+    margin-top: 100px;
     padding: 100px 150px 30px 100px;
     background-color: #010F0D;
     color: #bababa;
@@ -155,9 +155,204 @@
         padding-bottom: 10px;
     }
   
-}
+} */
 
 
 /* =============original code======================== */
 
 
+
+.Footer {
+    padding: 50px 20px;
+    background-color: #010F0D;
+    color: #bababa;
+}
+
+.elementor_selection {
+    color: #bababa;
+    font-size: 16px;
+
+    #strong {
+        color: white;
+        font-weight: bold;
+    }
+
+    #main_p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        /* font-size:20px; */
+        /* font-family: "Inter", Sans-serif; */
+    }
+
+    .branch_details {
+        padding: 20px 0px;
+
+        a {
+            text-decoration: none;
+            color: #CC3366;
+            font-weight: 900;
+        }
+
+        a:hover {
+            color: #1AB69D;
+        }
+    }
+.left{
+    width: 70%;
+}
+    .populated {
+        padding: 10px;
+        margin-top: 16px;
+
+        span {
+            display: block;
+            margin-bottom: 20px;
+            padding-right: 120px;
+        }
+
+        span:hover {
+            color: white;
+        }
+    }
+}
+
+#logo2 {
+    width: 100%;
+    max-width: 290px;
+    height: auto;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 100%;
+}
+
+.social-icon {
+    font-size: 19px;
+    padding: 5px;
+}
+
+.fa-linkedin-in { color: #0077b5; }
+.fa-youtube { color: #ff0000; }
+.fa-facebook { color: #3b5998; }
+.fa-twitter { color: #1da1f2; }
+.fa-instagram { color: #c13584; }
+.fa-whatsapp { color: #25d366; }
+
+.social-icon:hover {
+    color: white;
+}
+
+.our_courses {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 340px;
+    height: 800px;
+    margin: 20px 0;
+
+    .courses {
+        padding: 10px;
+        width: 100%;
+
+        h3 {
+            color: white;
+            text-align: center;
+        }
+
+        a {
+            text-decoration: none;
+            color: #CC3366;
+            font-weight: 500;
+            display: block;
+            text-align: center;
+        }
+
+        a:hover {
+            color: #1AB69D;
+        }
+    }
+}
+
+.footer_end {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    width: 90%;
+
+    a {
+        padding: 7px;
+        color: #CC3366;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #1AB69D;
+    }
+
+    p {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+/* Media Queries for Mobile and Tablet Views */
+
+    @media (min-width: 768px) {
+    .Footer {
+        padding: 80px 50px;
+    }
+
+    .center {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .left{
+        width: 100%;
+    }
+
+
+    /* .populated {
+        margin-left: 50px;
+        margin-top: 0;
+    } */
+
+    .our_courses {
+        /* flex-direction: row; */
+        justify-content: space-evenly;
+    }
+
+    .courses {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .Footer {
+        padding: 100px 150px 30px 100px;
+    }
+
+    .center {
+        /* width: 1200px; */
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .our_courses {
+        width: 100%;
+        flex-direction: row;
+        height: 500px;
+    }
+    .left{
+        width: 100%;
+    }
+}

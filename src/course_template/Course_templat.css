@@ -1,4 +1,4 @@
-.Course_Template{
+/* .Course_Template{
     margin-top: 96px;
     background-color: #f8f8f8;
     padding:50px 0px 50px ;
@@ -144,12 +144,289 @@
       
         color:#1AB69D}
 }
-/* body {
+body {
     overflow-x: hidden;
-} */
+}
 .space{
     padding-left: 20px!important;
 }
 .space1{
     padding-left: 35px!important;
+} */
+/* ========================================== */
+
+.img{
+    width: 100%;
 }
+
+.Course_Template {
+    margin-top: 96px;
+    background-color: #f8f8f8;
+    padding: 50px 0px 50px;
+}
+
+.Course_Template .Course_Template_container {
+    box-shadow: 0 0 10px #f8f8f8;
+    background-color: white;
+    margin: 0px 250px;
+    padding: 20px;
+    border-radius: 10px;
+    line-height: 1.5;
+}
+
+.Course_Template .Course_Template_container h1 {
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.Course_Template .Course_Template_container h2 {
+    font-size: 27px;
+    padding: 10px;
+}
+
+.Course_Template .Course_Template_container .link-class {
+    text-decoration: none;
+    color: black;
+}
+
+.Course_Template .Course_Template_container .course_icons {
+    color: #ee4a62;
+    padding: 10px;
+}
+
+.Course_Template .Course_Template_container .image {
+    padding-top: 30px;
+    width: 100%;
+}
+
+.Course_Template .Course_Template_container h3 {
+    font-weight: 550;
+    font-size: 28px;
+    padding: 10px 0;
+}
+
+.Course_Template .Course_Template_container p {
+    padding: 10px 0px;
+    font-size: 17px;
+    font-weight: 100;
+}
+
+.Course_Template .Course_Template_container .list-items {
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.Course_Template .Course_Template_container h4 {
+    font-size: 19px;
+}
+
+.Course_Template .Course_Template_container h5 {
+    font-size: 16px;
+}
+
+.download_course_syllabys {
+    width: 100%;
+    height: 100px;
+    padding: 20px 70px;
+    background-color: #eefdff;
+}
+
+.salary-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.salary-table th,
+.salary-table td {
+    border: 2px solid black;
+    padding: 8px;
+}
+
+.salary-table th {
+    background-color: #f2f2f2;
+}
+
+.ceo_details_in_syllabus {
+    margin: 20px 0;
+    border: 2px solid lightgray;
+    padding: 20px;
+    font-size: 15px;
+}
+
+.ceo_details_in_syllabus img {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+}
+
+.ceo_details_in_syllabus .ceo_photo_details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ceo_details_in_syllabus .ceo_photo_details p {
+    padding: 20px;
+    font-size: 15px;
+    color: black;
+    font-weight: 400;
+}
+
+.ceo_details_in_syllabus .ceo_detail_links .socioicons {
+    padding: 10px 10px 10px;
+    font-size: 20px;
+    color: gray;
+}
+
+.link-color {
+    font-size: 18px;
+    font-weight: bold;
+    color: #bc0d27;
+    text-decoration: none;
+}
+
+.link-light-color {
+    font-size: 18px;
+    color: #bc0d27;
+    text-decoration: none;
+}
+
+.link-color:hover {
+    color: #1AB69D;
+}
+
+.link-light-color:hover {
+    color: #1AB69D;
+}
+
+.inter_links {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(50%, 1fr));
+    gap: 20px;
+}
+
+.inter_links button {
+    width: 85%;
+    height: 50px;
+    margin: 20px;
+    background-color: white;
+    border: 0.5px solid grey;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.inter_links button:hover {
+    color: #1AB69D;
+}
+
+.space {
+    padding-left: 20px !important;
+}
+
+.space1 {
+    padding-left: 35px !important;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .Course_Template .Course_Template_container {
+        margin: 0px 50px;
+        padding: 15px;
+    }
+
+    .Course_Template .Course_Template_container h1 {
+        font-size: 30px;
+        padding-top: 15px;
+    }
+
+    .Course_Template .Course_Template_container h2 {
+        font-size: 24px;
+    }
+
+    .Course_Template .Course_Template_container h3 {
+        font-size: 24px;
+    }
+
+    .Course_Template .Course_Template_container p {
+        font-size: 15px;
+    }
+
+    .Course_Template .Course_Template_container .list-items {
+        margin-left: 50px;
+        font-size: 15px;
+    }
+
+    .download_course_syllabys {
+        padding: 15px 35px;
+        height: auto;
+    }
+
+    .ceo_details_in_syllabus img {
+        height: 120px;
+        width: 120px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    .Course_Template {
+        margin-top: 0px;
+        padding: 30px 0px;
+    }
+
+    .Course_Template .Course_Template_container {
+        margin: 0px 20px;
+        padding: 10px;
+    }
+
+    .Course_Template .Course_Template_container h1 {
+        font-size: 24px;
+    }
+
+    .Course_Template .Course_Template_container h2 {
+        font-size: 20px;
+    }
+
+    .Course_Template .Course_Template_container h3 {
+        font-size: 20px;
+    }
+
+    .Course_Template .Course_Template_container p {
+        font-size: 14px;
+    }
+
+    .Course_Template .Course_Template_container .list-items {
+        margin-left: 20px;
+        font-size: 14px;
+    }
+
+    .download_course_syllabys {
+        padding: 10px 20px;
+        height: auto;
+    }
+
+    .ceo_details_in_syllabus {
+        padding: 10px;
+    }
+
+    .ceo_details_in_syllabus img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .inter_links {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+
+    .inter_links button {
+        width: 100%;
+        height: 40px;
+        margin: 10px 0;
+        font-size: 14px;
+    }
+    .video{
+        width: 100%;
+    }
+}
+

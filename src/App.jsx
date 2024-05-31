@@ -52,6 +52,10 @@ import MachineLearningCoursePage from './course_template/Machine_learning_course
 import DataScienceCoursePage from './course_template/Data_science_course_page';
 import SoftwareTestingCoursePage from './course_template/Software_testing_course_page';
 import PythonFullstackCoursePage from './course_template/Python_fullstack_course_page.jsx';
+import Jap from './JAP/JAP.jsx';
+import Blog from './Blog/Blog.jsx';
+// import Jap from './JAP/JAP.jsx';
+// import Blog from './Blog/Blog.jsx';
 
 
 
@@ -107,7 +111,10 @@ function App() {
         <Route path='/data_science_course_page' element={<DataScienceCoursePage/>}></Route>
         <Route path='/software_testing_course_page' element={<SoftwareTestingCoursePage/>}></Route>
         <Route path='/python_fullstack_course_page' element={<PythonFullstackCoursePage/>}></Route>
-        
+        <Route path='/job_accelerator_program' element={<Jap/>}></Route>
+        <Route path='/blog' element={<Blog/>}></Route>
+        {/* <Route path='/blog' element={<Blog/>}></Route>     */}
+        {/* <Route path='job_acceleratoe_program' element={<Jap/>}></Route>    */}
       </Routes>
      
        <Footer></Footer>    

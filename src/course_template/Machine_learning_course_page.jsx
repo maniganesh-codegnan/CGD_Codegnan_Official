@@ -128,7 +128,7 @@ const course_brief = [
             <>
             <strong className="download_course_syllabus"><span className='show-right'> &#9758; </span>  Check out our complete syllabus for the machine learning course which is a 1-month duration classroom training course (available in <Link className="link-color" to='/'>  Hyderabad and Vijayawada</Link> ). Download the complete  <Link className="link-color" to='/'> Machine learning course syllabus PDF.</Link>  (PDF) for free.</strong><br/>
 
-            <img src="/syllabuspages/Machine-learning-syllabus-by-codegnan.png" alt="image" />
+            <img src="/syllabuspages/Machine-learning-syllabus-by-codegnan.png" width="100%" alt="image" />
             </>
         )
     },

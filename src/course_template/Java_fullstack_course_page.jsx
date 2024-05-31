@@ -598,7 +598,8 @@ const course_brief = [
                 <p>Java full-stack training can be challenging, especially if you are new in the domain. However, if you have a basic understanding of any programming language and database management systems, this course can be a little easy. <p/>
 
                 <p> When I searched for the same question on Reddit,  <Link to="/react-js-projects" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> I found a discussion </Link> that highlighted that it takes time and effort to become a Java full-stack developer and that the route is difficult. You need to master a couple of things, including Java and JavaScript coding languages and front-end and back-end development.</p><br/><br/>
-                <img src="/syllabuspages/media.png" alt="" /><br/><br/>
+
+                <img src="/syllabuspages/media.png" alt="" width="100%" /><br/><br/>
 
                 </p>
             </>
@@ -609,7 +610,7 @@ const course_brief = [
         intro: () => (
             <>
                 <p>The salary of full-stack Java developers in India usually ranges between ₹2.0LPA and ₹13.0LPA. Presently, the average annual salary of these professionals is around ₹6.8L. It means you have an average take-home salary per month of about ₹33,547 – ₹34,809. </p>
-                <img src="/syllabuspages/java-media.png" alt="" /><br/><br/>
+                <img src="/syllabuspages/java-media.png" alt="" width="100%" /><br/><br/>
                 <p></p>
             </>
         )
@@ -653,7 +654,7 @@ const course_brief = [
                 <p> Yes, Java full-stack development is a good career in 2024 and is going to stay mainstream in the next few years.</p>
 
                 <p>According to a report from Statista, in 2023, we see <Link to="#" onClick={() => window.scrollTo({ top: 0 })} className="link-color">   full-stack developer </Link>job roles as one of the most demanded technical positions by recruiters globally. </p>
-                <img src="/syllabuspages/media2.png" alt="" /><br/><br/>
+                <img src="/syllabuspages/media2.png" alt="" width="100%" /><br/><br/>
             </>
         )
     },
@@ -664,7 +665,7 @@ const course_brief = [
              <p> Java full-stack developers are in high demand because of their varied skill sets. Companies are increasingly looking for professionals who can design, develop, and maintain full-stack applications because of the rising need for web and mobile applications.</p>
 
             <p> The graph below depicts the changes in the <Link to="https://trends.google.com/trends/explore?geo=IN&q=java%20full%20stack%20developer&hl=en" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> demand for Java full-stack developers </Link> in the last 12 months.</p>
-            <img src="/syllabuspages/media3.png" alt="" /><br/><br/>
+            <img src="/syllabuspages/media3.png" alt="" width="100%"/><br/><br/>
 
             </>
         )
@@ -676,11 +677,11 @@ const course_brief = [
                 <p>They can opt for various career options, including Java development, web designing and development, back-end development, front-end development, testing, and more. </p>
                 <p> So, the chances of getting a job after completing a Java full-stack development course are high.</p>
                 <p> I saw <Link to="https://www.linkedin.com/jobs/full-stack-java-developer-jobs/?currentJobId=3829882593" onClick={() => window.scrollTo({ top: 0 })} className="link-color">  1600+ jobs</Link> available on LinkedIn for full-stack Java developers in India.</p><br/>
-                <img src="/syllabuspages/media4.jpg" alt="" /><br/><br/>
+                <img src="/syllabuspages/media4.jpg" alt="" width="100%" /><br/><br/>
                 <p>Similarly, I searched for full-stack Java developers on Indeed and Glassdoor. On Indeed, I saw  <Link to="https://in.indeed.com/jobs?q=Full+Stack+Java+Developer&l=&vjk=483822a8062faa7a" onClick={() => window.scrollTo({ top: 0 })} className="link-color">  2400+ job vacancies </Link> in multiple areas of the Java full-stack development domain.</p>
-                <img src="/syllabuspages/media5.png" alt="" /><br/><br/> 
+                <img src="/syllabuspages/media5.png" alt="" width="100%" /><br/><br/> 
                 <p>On Glassdoor, you can find 2100+ jobs available for full-stack Java developers for multiple relevant roles.</p>
-                <img src="/syllabuspages/media6.jpg" alt="" /><br/><br/> 
+                <img src="/syllabuspages/media6.jpg" alt="" width="100%" /><br/><br/> 
             </>
         )
     },
@@ -757,7 +758,7 @@ const course_brief = [
                 <br />
                 <p>Also, codegnan has an <Link to="https://academy.codegnan.com/learn/JavaFullStackDevelopment" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> between which Angular and React JS,</Link> course at an affordable fee (₹999). Here’s what’s covered in the online course:</p>
 
-                <img src="/syllabuspages/pasted image 0.png" alt="error" /> 
+                <img src="/syllabuspages/pasted image 0.png" alt="error" width="100%" /> 
               
                 
             </>

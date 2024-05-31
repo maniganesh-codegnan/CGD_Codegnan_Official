@@ -29,7 +29,7 @@
 }
 
 .review{
-   height:400px;
+   height:500px;
 }
 .slider-wrapper {
     display: grid;
@@ -46,8 +46,12 @@
     font-size: 10px;
   }
   /* =========== Original Code================= */
+  @media only screen and (max-width: 576px) and (max-width: 720px) { 
+    .test-container{
+        padding: 45px;
+    }
 
-
+  }
 
 
 

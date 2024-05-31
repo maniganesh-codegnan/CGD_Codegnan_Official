@@ -36,19 +36,17 @@ const course_brief = [
         title: "",
         intro: () => (
             <>
-            <img src="/syllabuspages/image.png" alt="image" />
+            <img src="/syllabuspages/image.png" alt="image"  width="100%"/>
             </>
         )
     },
-
-  
     {
         title: "",
         intro: () => (
             <>
                 <p>If you want to be a part of this domain, enrol for our React JS course that opens up the door to numerous job opportunities globally. I searched on LinkedIn and found nearly 28,714 jobs available for React JS professionals in India.</p>
                 <p>Here’s the screenshot:</p><br/>
-                <img src="/syllabuspages/react2.jpeg" alt="image" /><br/><br/>
+                <img src="/syllabuspages/react2.jpeg" alt="image" width="100%" /><br/><br/>
             </>
         )
     },
@@ -439,7 +437,8 @@ const course_brief = [
         intro: () => (
             <>
                 <p> This is a JavaScript extension used in React that allows you to write HTML codes within JavaScript files. JSX converts HTML tags into React elements, which makes your code readable and intuitive when refining React applications’ UI components.</p>
-                <img src="/syllabuspages/media1.png" alt="media" />
+
+                <img src="/syllabuspages/media1.png" alt="media" width="100%" />
                 <p> Source: <Link to="/https://www.w3schools.com/react/react_jsx.asp" onClick={() => window.scrollTo({ top: 0 })} className="link-color">https://www.w3schools.com/react/</Link> </p>
             </>
         )
@@ -461,7 +460,8 @@ const course_brief = [
                 <p> Components in React go through multiple lifecycle phases like mounting, unmounting, and updating. A React component can stay in one stage at a time. It starts from the mounting stage and moves to the updating stage until it gets removed from the virtual DOM. Components then go to the unmounting stage and are finally removed from the DOM. </p>
 
                 <p>The React lifecycle method allows you to run different codes at various stages of the components’ life. You must understand these lifecycle methods in React JS for better outcomes.</p>
-                <img src="/syllabuspages/media.jpg" alt="media" />react-js-course-syllabus
+                <img src="/syllabuspages/media.jpg" alt="media" width="100%" />
+                <p> react-js-course-syllabus</p>
                 <p>Image source: projects.wojtekmaj.pl</p>
             </>
         )
@@ -512,11 +512,11 @@ const course_brief = [
             <>
                The annual salary range of a React JS developer is between ₹1.2L – ₹10.7L, with an average salary of ₹5.9LPA. This means a React JS developer has an estimated take-home salary per month of ₹29,531 – ₹30,852.
                 <br />
-                <img src="/syllabuspages/react.1.png" alt="" /><br/><br/>
+                <img src="/syllabuspages/react.1.png" alt="" width="100%" /><br/><br/>
                 <p>The table below illustrates the salary range of React JS developers in the common five cities of India.</p><br/><br/>
                 <table className="salary-table">
                     <thead>
-                        <tr>
+                        <tr> 
                            <th> City name	</th>
                            <th> React JS developer salary</th>
                         </tr>
@@ -581,7 +581,7 @@ const course_brief = [
         title: "",
         intro: () => (
             <>
-                <img src="/syllabuspages/react-js-syllabus.png" alt="react js" />
+                <img src="/syllabuspages/react-js-syllabus.png" alt="react js" width="100%" />
             </>
         )
     },
@@ -600,7 +600,7 @@ const course_brief = [
                         <li className="list-items" key={index}>
                             <Link to={program.link} className="link-light-color">
                                 {program.name}
-                            </Link> ({program.duration})
+                            </Link>
                         </li>
                     ))}
                 </ul>

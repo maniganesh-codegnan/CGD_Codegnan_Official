@@ -228,7 +228,7 @@ const course_brief = [
             <>
                 Java developers in India can make an annual income of <Link className="link-color" to="https://www.ambitionbox.com/profile/java-programmer-salary ">₹1.2LPA to ₹8.1LPA</Link> with 1 to 5 years of experience.
                 <br />
-                <img src="/syllabuspages/java.1.png" alt="" />
+                <img src="/syllabuspages/java.1.png" alt="" width="100%"/>
                 <table className="salary-table">
                     <thead>
                         <tr>

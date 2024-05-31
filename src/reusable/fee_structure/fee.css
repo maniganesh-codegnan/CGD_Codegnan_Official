@@ -1,0 +1,57 @@
+
+.service_provided_in_training {
+    background-color: #11AD93;
+    padding: 30px;
+    .sevices_provided {
+        /* width:1000px; */
+        align-items: center;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        gap: 40px;
+        font-weight: bolder;
+        color: white;
+        justify-content: center;
+        padding: 10px 30px;
+    }
+    .each_service {
+        height: 90px;
+        width: 140px;
+        padding: 0px 10px;
+        font-size: 13px;
+        text-align: center;
+    }
+    img {
+        height: 48px;
+        width: 48px;
+    }
+}
+.course_breif{
+    padding: 100px 0;
+    .breif_about_course{
+       padding: 20px;
+        text-align: left; 
+        width: 900px;
+        h1{
+            text-align: center;
+            font-size: 36px;
+        }
+        p{
+            line-height: 1.5;
+            font-size: 19px;
+        }
+        li{
+            list-style: none;
+            font-size: 19px;
+            line-height: 1.5;
+            padding: 5px;
+        }
+        .check_double{
+            height: 20px;
+            width:20px;
+            color:#cc3366;
+            font-weight: bolder;
+            padding: 1px;
+        }
+    }
+}

@@ -329,7 +329,7 @@ const course_brief = [
         title: " ",
         intro: () => (
             <>
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/RDNHewsIl_g?si=D2G2G7FiORE_53QK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                 <iframe width="560" height="315" src="https://www.youtube.com/embed/RDNHewsIl_g?si=D2G2G7FiORE_53QK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },
@@ -357,7 +357,7 @@ const course_brief = [
         title: " ",
         intro: () => (
             <>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/L1Ar1UsOpnI?si=Ht1pJWaXTg7LMqW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/L1Ar1UsOpnI?si=Ht1pJWaXTg7LMqW4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },
@@ -378,7 +378,7 @@ const course_brief = [
         title: " ",
         intro: () => (
             <>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/QP2pok2lh-0?si=kXCoydfNEtXYeui8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QP2pok2lh-0?si=kXCoydfNEtXYeui8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },
@@ -400,7 +400,7 @@ const course_brief = [
         title: " ",
         intro: () => (
             <>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/D_L1ujxEbcE?si=EG2s-1xoe0MtFYId" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/D_L1ujxEbcE?si=EG2s-1xoe0MtFYId" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },
@@ -410,7 +410,7 @@ const course_brief = [
         intro: () => (
             <>
                 <p> In C programming, recursion is the technique of how a function can call itself. This can be classified as direct and indirect recursions, where either a function calls itself directly or uses another function to call itself. You need to learn these techniques separately so that you do not implement the wrong base condition for a recursive call and confine it into an infinite loop. Here, you also need the concept of “STACK” data structure.</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/QP2pok2lh-0?si=kXCoydfNEtXYeui8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/QP2pok2lh-0?si=kXCoydfNEtXYeui8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },
@@ -455,7 +455,7 @@ const course_brief = [
         title: " ",
         intro: () => (
             <>
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/KY2TFIpZUdI?si=lz4H4ERLd_44uzyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/KY2TFIpZUdI?si=lz4H4ERLd_44uzyP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },
@@ -466,7 +466,7 @@ const course_brief = [
             <>
             <p>Strings are a one-dimensional array used to store a group of characters that ends with a null (‘\O’). C doesn’t have a String type to create or store string variables like several other programming languages. You must understand the string declaration syntax and the different ways of initialising a string. These string functions are bundled in the string.h library, and therefore, you must know how to define them in your program. </p><br/>
 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/3hLDzrbf3-k?si=fllzWb_71-L28Ilf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3hLDzrbf3-k?si=fllzWb_71-L28Ilf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },
@@ -475,7 +475,7 @@ const course_brief = [
         intro: () => (
             <>
                 <p>Pointers are the variables in your C program that store a memory address. This address is the location of another variable stored in memory. There are multiple types of pointers, like null, void, wild, and dangling pointers. Each of them has a different purpose and function that you must know.</p><br/>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/RDNHewsIl_g?si=Pvfl87cFoPpq27tn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RDNHewsIl_g?si=Pvfl87cFoPpq27tn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
             </>
         )
     },

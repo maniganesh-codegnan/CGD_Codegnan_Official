@@ -991,7 +991,7 @@ const course_brief = [
                 rameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin" 
-                allowfullscreen>
+                allowfullscreen className="video">
                 </iframe>
                 <p>Here are other free resources where you start learning relevant data science skills:</p>
             </>
@@ -1012,7 +1012,7 @@ const course_brief = [
                 title="YouTube video player" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className="video"></iframe>
              
             </>
         )
@@ -1033,7 +1033,7 @@ const course_brief = [
                 frameborder="0" 
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                 referrerpolicy="strict-origin-when-cross-origin"
-                allowfullscreen></iframe>
+                allowfullscreen className="video"></iframe>
              
             </>
         )
@@ -1045,7 +1045,7 @@ const course_brief = [
             <>
                 <p>Data science is among the highest-paying tech jobs in India with an average salary <Link to="https://www.linkedin.com/jobs/full-stack-java-developer-jobs/?currentJobId=3829882593" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> ranging from ₹3.9-27.9 lakhs </Link> per annum for professionals with relevant skills and some years of experience.</p>
 
-                <img src="/syllabuspages/data-science-salary.png" alt="" /><br/><br/>
+                <img src="/syllabuspages/data-science-salary.png" alt="" width="100%"/><br/><br/>
 
                 <p>👉 Learn about the  <Link to="/" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> future career scope of data scientists in India. </Link> </p>
             </>
