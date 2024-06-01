@@ -15,7 +15,7 @@ export default function Campus_temp(props) {
       };
     
     return (
-        <div style={{ margin: '100px 0px' }}>
+        <div>
             <div className='training_template_headerdetails'>
                 <div className='course_head_details'>
                     <h2>

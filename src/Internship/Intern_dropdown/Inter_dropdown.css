@@ -39,5 +39,44 @@
     }
   }
 }
+/* =================================================== */
 
-  
+/* Tablet view */
+@media (max-width: 768px) {
+  .drop-down-container {
+      width: 90%;
+      padding: 20px;
+  }
+
+  .drop-down-container .inner-div-drop-down h3 {
+      font-size: 18px;
+  }
+
+  .drop-down-container .inner-div-drop-down p {
+      padding-left: 15px;
+  }
+
+  .drop-down-container .inner-div-drop-down .toggle-element {
+      font-size: 25px;
+  }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+  .drop-down-container {
+      width: 100%;
+      padding: 15px;
+  }
+
+  .drop-down-container .inner-div-drop-down h3 {
+      font-size: 16px;
+  }
+
+  .drop-down-container .inner-div-drop-down p {
+      padding-left: 10px;
+  }
+
+  .drop-down-container .inner-div-drop-down .toggle-element {
+      font-size: 20px;
+  }
+}

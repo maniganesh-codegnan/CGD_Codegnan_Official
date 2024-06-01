@@ -30,12 +30,12 @@ export default function About() {
                             <i className="fa-brands fa-telegram social-icon"></i>
                         </span>
                     </center>
-                </div>
+                </div><br /><br />
                 <div className='ceo_info'>
-                    <a href="">Uppugundla Sairam</a>
+                    <a href="#">Uppugundla Sairam</a>
                     <br />
                     <br />
-                    <p>Founder & CEO</p>
+                    <p style={{ textAlign:'left' }}>Founder & CEO</p>
                     <br />
                     <span style={{ fontSize: '19px' }}>A Tech-expert with a 10-year industrial experience with 360-degree expertise in Python, Data Analysis, Big Data, Machine Learning and NLP, Data Science Consultant for Andhra Pradesh State Skill Development Corporation(APSSDC) and also BOS Member for P.B.Siddhartha College of Arts and Sciences, Vijayawada and KITS Warangal(M.Tech-Data Science).</span>
                     <br /><br />

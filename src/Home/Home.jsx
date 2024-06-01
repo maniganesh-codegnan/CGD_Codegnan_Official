@@ -83,7 +83,7 @@ export default function Home() {
 
                 </div>
                 <span>
-                    <img src={banner} alt="" className='banner-img'></img>
+                    <img src={banner} alt="" className='banner-img' width="100%"></img>
                 </span>
             </div>
             <div className='rating_container'>

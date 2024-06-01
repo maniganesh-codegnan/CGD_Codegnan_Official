@@ -1,15 +1,15 @@
 import React from "react";
 import Course_template from "./Course_template";
-import java_photo from '/course_images/java.webp';
+import java_projects from '/course_images/java-projects.png';
 import { Link } from "react-router-dom";
 
 
 
 const headdata = {
-    title: "The Complete Core Java Course Syllabus 2024",
-    date: "January 25, 2024",
-    img: java_photo,
-    intro: "Java has been around for a long time, since 1995, and still ranks among the top five most demanded programming languages by recruiters. \nLearning Java can be a great skill to acquire if you want to work in the programming or software development domain. In addition, if you have knowledge of other programming languages and are looking to increase your skill set, Java can be a great option. \nIn a survey of 57,378 software developers globally, it was found that 63.1% of people are using HTML/CSS, SQL, Python, and Java, which makes considering a Java course a thoughtful decision. \nBut where do we start from? What is the syllabus for core Java? Are we really getting jobs immediately after completing a Java course? You will find all your answers from our guide today!"
+    title: "15 Java Final Year Projects For Beginners (With Source Code)",
+    date: "April 19, 2024",
+    img: java_projects,
+    intro: "While you might have heard of multiple programming languages today, Java ranks among the top 5 programming languages according to the TIOBE Index. For more than 20 years, Java has been in the industry and is still used by nearly 30.55% of developers."
 };
 
 const coursedata = {
@@ -28,17 +28,12 @@ const courseSections = [
             "Features"
         ]
     },
+ 
     {
         title: "Java Basics & Introduction to Eclipse",
         intro: "This section takes you to the post-installation phase of Java and introduces you to the most popular Java IDE, Eclipse. We will also discuss variables and arrays, datatypes, how to create packaged classes, and write your first Java code.",
         content: [
-            "Post-install configuration",
-            "Compiling and executing",
-            "Variables and arrays",
-            "Create packaged classes",
-            "Writing a simple program",
-            "Data types",
-            "Using Eclipse"
+           
         ]
     },
     {
@@ -227,7 +222,7 @@ const course_brief = [
             <>
                 Java developers in India can make an annual income of <Link className="link-color" to="https://www.ambitionbox.com/profile/java-programmer-salary ">₹1.2LPA to ₹8.1LPA</Link> with 1 to 5 years of experience.
                 <br />
-                <img src="/syllabuspages/java.1.png" alt="" />
+                <img src="/syllabuspages/java.1.png" alt="" width="100%"/>
                 <table className="salary-table">
                     <thead>
                         <tr>

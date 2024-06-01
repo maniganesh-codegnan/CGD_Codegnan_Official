@@ -60,7 +60,7 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 320px;
+  min-width: 301px;
   z-index: 1;
 }
 
@@ -76,8 +76,8 @@
 .dropdown-content .side-listings {
   position: absolute;
   margin-top: -43.5px;
-  right: -160px;
-  width: 160px;
+  right: -220px;
+  width: 220px;
   background-color: #f9f9f9;
   display: none;
   color: black;
@@ -87,11 +87,19 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
+    /* text-decoration: none; */
 
+    
+}
+.drop{
+  text-decoration: none;
+  color: black;
+}
 .dropdown-content .side-listings ul li {
   padding: 10px;
   cursor: pointer;
+  text-decoration: none;
+
 }
 
 .dropdown:hover .dropdown-content {
@@ -119,6 +127,9 @@
 @media (max-width: 820px) {
   .Navbar {
     padding: 16px;
+    padding-right: 50px;
+  
+   
   }
 
   .dropbtn {
@@ -151,6 +162,7 @@
 
   .menu-close {
     display: block;
+    padding-right: 30px;
   }
 
   .dropdown-content {

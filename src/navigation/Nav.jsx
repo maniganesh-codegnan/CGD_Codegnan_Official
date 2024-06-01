@@ -32,55 +32,55 @@ export default function Nav() {
             <a href="#" className="option">Python Trainings <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="/python_training_in_banglore" onClick={scrollToTop}><li>In Banglore </li></Link>
-                <Link to="/python_training_in_hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/python_training_in_Vijayawada" onClick={scrollToTop}><li>In Vijayawada</li></Link>
+                <Link to="/python_training_in_banglore" className='drop' onClick={scrollToTop}><li>In Banglore </li></Link>
+                <Link to="/python_training_in_hyderabad" className='drop' onClick={scrollToTop}><li>In Hyderabad</li></Link>
+                <Link to="/python_training_in_Vijayawada" className='drop' onClick={scrollToTop}><li>In Vijayawada</li></Link>
               </ul>
             </div>
             <a href="#" className="option">Python full stack <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="/python-full-stack-developer-in-banglore" onClick={scrollToTop}><li>In Banglore</li></Link>
-                <Link to="/python-full-stack-developer-in-hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/python-full-stack-developer-in-vijayawada" onClick={scrollToTop}><li>In Vijayawada</li></Link>
+                <Link to="/python-full-stack-developer-in-banglore" className='drop' onClick={scrollToTop}><li>In Banglore</li></Link>
+                <Link to="/python-full-stack-developer-in-hyderabad" className='drop' onClick={scrollToTop}><li>In Hyderabad</li></Link>
+                <Link to="/python-full-stack-developer-in-vijayawada" className='drop' onClick={scrollToTop}><li>In Vijayawada</li></Link>
               </ul>
             </div>
             <a href="#" className="option">Java Training <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="/java-training-in-banglore" onClick={scrollToTop}><li>In Banglore</li></Link>
-                <Link to="/java-training-in-hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/java-training-in-vijayawada" onClick={scrollToTop}><li>In Vijayawada</li></Link>
+                <Link to="/java-training-in-banglore" className='drop' onClick={scrollToTop}><li>In Banglore</li></Link>
+                <Link to="/java-training-in-hyderabad" className='drop' onClick={scrollToTop}><li>In Hyderabad</li></Link>
+                <Link to="/java-training-in-vijayawada" className='drop' onClick={scrollToTop}><li>In Vijayawada</li></Link>
               </ul>
             </div>
             <a href="#" className="option">Java full stack training <span>&#9654;</span> </a>
             <div className="side-listings">
               <ul>
-                <Link to="/java-full-stack-training-in-banglore" onClick={scrollToTop}><li>In Banglore</li></Link>
-                <Link to="/java-full-stack-training-in-hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/java-full-stack-training-in-vijayawada" onClick={scrollToTop}><li>In Vijayawada</li></Link>
+                <Link to="/java-full-stack-training-in-banglore" className='drop' onClick={scrollToTop}><li>In Banglore</li></Link>
+                <Link to="/java-full-stack-training-in-hyderabad" className='drop' onClick={scrollToTop}><li>In Hyderabad</li></Link>
+                <Link to="/java-full-stack-training-in-vijayawada" className='drop' onClick={scrollToTop}><li>In Vijayawada</li></Link>
               </ul>
             </div>
             <a href="#" className="option">Software Testing <span>&#9654;</span> </a>
             <div className="side-listings">
               <ul>
-                <Link to="/Software-testing-in-banglore" onClick={scrollToTop}><li>In Banglore</li></Link>
-                <Link to="/Software-testing-in-hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/Software-testing-in-vijayawada" onClick={scrollToTop}><li>In Vijayawada</li></Link>
+                <Link to="/Software-testing-in-banglore" className='drop' onClick={scrollToTop}><li>In Banglore</li></Link>
+                <Link to="/Software-testing-in-hyderabad" className='drop' onClick={scrollToTop}><li>In Hyderabad</li></Link>
+                <Link to="/Software-testing-in-vijayawada" className='drop' onClick={scrollToTop}><li>In Vijayawada</li></Link>
               </ul>
             </div>
             <a href="#" className="option">Data science training <span>&#9654;</span> </a>
             <div className="side-listings">
               <ul>
-                <Link to="/data-science-in-hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/data-science-in-vijayawada" onClick={scrollToTop}><li>In Vijayawada</li></Link>
+                <Link to="/data-science-in-hyderabad" className='drop' onClick={scrollToTop}><li>In Hyderabad</li></Link>
+                <Link to="/data-science-in-vijayawada" className='drop' onClick={scrollToTop}><li>In Vijayawada</li></Link>
               </ul>
             </div>
             <a href="#" className="option"> Machine learning <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="/machine-learning-in-hyderabad" onClick={scrollToTop}><li>In Hyderabad</li></Link>
-                <Link to="/machine-learning-in-vijayawada" onClick={scrollToTop}><li>In Vijayawada</li></Link>
+                <Link to="/machine-learning-in-hyderabad" className='drop' onClick={scrollToTop}><li>In Hyderabad</li></Link>
+                <Link to="/machine-learning-in-vijayawada" className='drop' onClick={scrollToTop}><li>In Vijayawada</li></Link>
               </ul>
             </div>
             <Link to="/react-js-in-vijayawada" className="option"> React JS training in Vijayawada </Link>
@@ -91,20 +91,36 @@ export default function Nav() {
         <div className="dropdown">
           <button className="dropbtn">Resources <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
+          <Link to="/Blog" className="option" onClick={scrollToTop}>Blog </Link>
             <a href="#" className="option">Guides </a>
             <a href="#" className="option">Syllabus <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="./java_course_page"><li>Java Syllabus</li></Link>
-                <Link to="./ds_course_page"><li>Data structures</li></Link>
-                <Link to="./python_course_page"><li>Python syllabus</li></Link>
-                <Link to="./react_course_page"><li>React JS syllabus</li></Link>
-                <Link to="./clanguage_course_page"><li>C language syllabus</li></Link>
-                <Link to="./Data_science_course_page"><li>Data science syllabus</li></Link>
-                <Link to="./Java_fullstack_course_page"><li>Java full stack syllabus</li></Link>
-                <Link to="./Software_testing_course_page"><li>Software Testing Syllabus</li></Link>
-                <Link to="./Python_fullstack_course_page"><li>Python Full Stack Syllabus</li></Link>
-                <Link to="./machine_learning_course_page"><li>Machine learning syllabus</li></Link>
+                <Link to="./java_course_page" className='drop'><li>Java Syllabus</li></Link>
+                <Link to="./ds_course_page" className='drop'><li>Data structures</li></Link>
+                <Link to="./python_course_page" className='drop'><li>Python syllabus</li></Link>
+                <Link to="./react_course_page" className='drop'><li>React JS syllabus</li></Link>
+                <Link to="./clanguage_course_page" className='drop'><li>C language syllabus</li></Link>
+                <Link to="./Data_science_course_page" className='drop'><li>Data science syllabus</li></Link>
+                <Link to="./Java_fullstack_course_page" className='drop'><li>Java full stack syllabus</li></Link>
+                <Link to="./Software_testing_course_page" className='drop'><li>Software Testing Syllabus</li></Link>
+                <Link to="./Python_fullstack_course_page" className='drop'><li>Python Full Stack Syllabus</li></Link>
+                <Link to="./machine_learning_course_page" className='drop'><li>Machine learning syllabus</li></Link>
+              </ul>
+            </div>
+            <a href="#" className="option">Project ideas <span>&#9654;</span></a>
+            <div className="side-listings">
+              <ul>
+                <Link to="./java_projects" className='drop'><li>Java Projects</li></Link>
+                <Link to="./ds_course_page" className='drop'><li>Data structures</li></Link>
+                <Link to="./python_course_page" className='drop'><li>Python syllabus</li></Link>
+                <Link to="./react_course_page" className='drop'><li>React JS syllabus</li></Link>
+                <Link to="./clanguage_course_page" className='drop'><li>C language syllabus</li></Link>
+                <Link to="./Data_science_course_page" className='drop'><li>Data science syllabus</li></Link>
+                <Link to="./Java_fullstack_course_page" className='drop'><li>Java full stack syllabus</li></Link>
+                <Link to="./Software_testing_course_page" className='drop'><li>Software Testing Syllabus</li></Link>
+                <Link to="./Python_fullstack_course_page" className='drop'><li>Python Full Stack Syllabus</li></Link>
+                <Link to="./machine_learning_course_page" className='drop'><li>Machine learning syllabus</li></Link>
               </ul>
             </div>
           </div>

@@ -1,0 +1,19 @@
+.academic_container{
+    margin-top: 100px;
+}
+.academic_info{
+    padding: 2% 10%;
+    p{
+        line-height: 1.5;
+        font-size: 1.2rem;
+    }
+}
+
+.academic_boxes{
+    padding:7% 10%;
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-gap:40px;
+
+}

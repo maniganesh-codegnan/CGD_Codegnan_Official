@@ -3,7 +3,7 @@ import Contact_Form from '../Form/Contact_Form';
 export default function Contact_us() {
     return (
         
-    <div className="container">
+    <div className="container1">
         <div className="row">
         <div className="column ">
             <center className='contsec'>
@@ -19,14 +19,13 @@ export default function Contact_us() {
                 <h2><span className='change_color'> Have Any Questions? Our Team Will Get In Touch With You!</span></h2><br/>
 
                 <div className="map_main-section">
-                    <h2>Contact Details</h2><br />
                     <div>
-                        <i className="fa-regular fa-envelope en-icon"></i><span> Quick Contact</span>
+                        <i className="fa-regular fa-envelope en-icon"></i><span> Quick Contact</span><br/><br/>
                         <p><a href="mailto:info@codegnan.com">info@codegnan.com</a></p>
                     </div>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <div>
-                        <i className="fa-solid fa-phone phone-icon"> </i> <span> Phone Number</span>
+                        <i className="fa-solid fa-phone phone-icon"> </i> <span> Phone Number</span><br/><br/>
                         <p><a href="tel:+91 6301 341478">+91 6301 341478</a></p>
                     </div>
                 </div>
@@ -39,7 +38,6 @@ export default function Contact_us() {
                     <h2><span className='change_color'>Bengaluru</span></h2><br/>
 
                     <div className="map_main-section">
-                        <h2>Contact Details</h2><br />
                         <div>
                             <i className="fa-regular fa-envelope en-icon"></i><span> Quick Contact</span>
                                 <p><a href="mailto:info@codegnan.com">info@codegnan.com</a></p>
@@ -71,7 +69,6 @@ export default function Contact_us() {
             <h2><span className='change_color'>Hyderabad</span></h2><br/>
 
                     <div className="map_main-section">
-                        <h2>Contact Details</h2><br />
                         <div>
                             <i className="fa-regular fa-envelope en-icon"></i><span> Quick Contact</span>
                             <p><a href="mailto:info@codegnan.com">info@codegnan.com</a></p>
@@ -102,8 +99,7 @@ export default function Contact_us() {
             
             <div className="column map_grid1">
                 <h2><span className='change_color'>Vijayawada</span></h2><br/>
-                    <div className="map_main-section">                    
-                        <h2>Contact Details</h2><br />                    
+                    <div className="map_main-section">                   
                         <div>
                             <i className="fa-regular fa-envelope en-icon"></i><span> Quick Contact</span>
                             <p><a href="mailto:info@codegnan.com">info@codegnan.com</a></p>
