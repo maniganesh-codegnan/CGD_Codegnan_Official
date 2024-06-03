@@ -3,8 +3,6 @@ import Course_template from "./Course_template";
 import java_projects from '/course_images/java-projects.png';
 import { Link } from "react-router-dom";
 
-
-
 const headdata = {
     title: "15 Java Final Year Projects For Beginners (With Source Code)",
     date: "April 19, 2024",

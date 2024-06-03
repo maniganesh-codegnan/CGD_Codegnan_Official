@@ -260,7 +260,7 @@ export default function Intern_Page() {
                     </div>
                 </center>
             </div>
-            <div className="intern-home3">
+            {/* <div className="intern-home3">
                 <div className="intern-home-form">
                     <div className="intern_from">
                         <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
@@ -286,7 +286,42 @@ export default function Intern_Page() {
                         
                     </div>
                 </div>
-            </div><br /><br /><br />
+            </div><br /><br /><br /> */}
+
+
+            <div className="two-column-container">
+
+                <div className="left-column">
+                    <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
+                    <h1>Benchmark <span className="change_color">Codegnan</span><br /> Internship programs</h1><br />
+                    <img src={style} alt="" />
+                    <h3>Talk to our Expert</h3><br /><br />
+                    <InternForm />
+                </div>
+
+                <div className="right-column">
+                    <div className="syll">
+                        <div className="syllabus-button-container">
+                            <button onClick={() => setYear('2nd')}>
+                                For 2<sup>nd</sup> Year
+                            </button>
+                            <button onClick={() => setYear('3rd')}>
+                                For 3<sup>rd</sup> Year
+                            </button>
+                            </div>
+                            <hr />
+                            <div className="inside_syllabus_container">
+                            {year === '2nd' && <InternsyllabusComp data={syllabusdata} />}
+                            {year === '3rd' && <InternsyllabusComp data={syllabus2data} />}
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
             <div className="intern-home2">
                 <center>
                     <h1>Questions Generally Asked About  <span className="Linkcolor">Internship</span></h1>
