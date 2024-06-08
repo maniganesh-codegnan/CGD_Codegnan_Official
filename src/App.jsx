@@ -55,6 +55,7 @@ import PythonFullstackCoursePage from './course_template/Python_fullstack_course
 import JavaProjects from './course_template/Java-projects.jsx';
 import PythonProjects from './course_template/Python-projects.jsx';
 import ReactJsProjects from './course_template/react-js-projects.jsx';
+import CProgrammingProjects from './course_template/c-programming-projects.jsx'
 
 import Jap from './JAP/JAP.jsx';
 import Blog from './Blog/Blog.jsx';
@@ -123,6 +124,7 @@ function App() {
         <Route path='/java_projects' element={<JavaProjects/>}></Route>
         <Route path='/python-projects' element={<PythonProjects/>}></Route>
         <Route path='/react-js-projects' element={<ReactJsProjects/>}></Route>
+        <Route path='/c-programming-projects' element={<CProgrammingProjects/>}></Route>
         
       </Routes>
      

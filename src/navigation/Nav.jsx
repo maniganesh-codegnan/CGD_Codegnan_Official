@@ -92,8 +92,7 @@ export default function Nav() {
           <button className="dropbtn">Resources <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
           <Link to="/Blog" className="option" onClick={scrollToTop}>Blog </Link>
-            {/* <a href="#" className="option">Academy</a> */}
-            {/* <Link to="/academic" className="option"  onClick={scrollToTop}>Academic </Link> */}
+            <Link to="/academic" className="option"  onClick={scrollToTop}>Academic </Link>
             <a href="#" className="option">Syllabus <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
@@ -115,7 +114,7 @@ export default function Nav() {
                 <Link to="./java_projects" className='drop'><li>Java Projects</li></Link>
                 <Link to="./python-projects" className='drop'><li>Python Projects</li></Link>
                 <Link to="./react-js-projects" className='drop'><li>React JS Projects</li></Link>
-                <Link to="./react_course_page" className='drop'><li>React JS syllabus</li></Link>
+                <Link to="./c-programming-projects" className='drop'><li>C language syllabus</li></Link>
                 <Link to="./clanguage_course_page" className='drop'><li>C language syllabus</li></Link>
                 <Link to="./Data_science_course_page" className='drop'><li>Data science syllabus</li></Link>
                 <Link to="./Java_fullstack_course_page" className='drop'><li>Java full stack syllabus</li></Link>
