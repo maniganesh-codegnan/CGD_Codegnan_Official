@@ -112,8 +112,8 @@ export default function Nav() {
             <div className="side-listings">
               <ul>
                 <Link to="./java_projects" className='drop'><li>Java Projects</li></Link>
-                <Link to="./ds_course_page" className='drop'><li>Data structures</li></Link>
-                <Link to="./python_course_page" className='drop'><li>Python syllabus</li></Link>
+                <Link to="./python-projects" className='drop'><li>Python Projects</li></Link>
+                <Link to="./react-js-projects" className='drop'><li>React JS Projects</li></Link>
                 <Link to="./react_course_page" className='drop'><li>React JS syllabus</li></Link>
                 <Link to="./clanguage_course_page" className='drop'><li>C language syllabus</li></Link>
                 <Link to="./Data_science_course_page" className='drop'><li>Data science syllabus</li></Link>
