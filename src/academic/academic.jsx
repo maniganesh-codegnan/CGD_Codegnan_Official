@@ -10,8 +10,8 @@ const academic_box_content = [
         trainer: "Saketh Kallepu",
         price: "Free",
         p: "This free online Python course covers fundamentals like data types, operators, control flow, functions, and object-oriented programming to help beginners build a strong foundation.<br><br>It includes lessons, quizzes, projects like virtual assistant and web development with Flask to provide practical learning.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-python-course/",
+        buttonlink:"https://academy.codegnan.com/learn/Python",
         no_of_lessons:"135 Lessons"
     },
     {
@@ -20,8 +20,8 @@ const academic_box_content = [
         trainer:"Siva Ram",
         price:"Free",
         p:"The online C programming course covers all key areas of the language, including syntax, data types, control structures, functions, pointers, memory management, file handling, and data structures. It offers practical exercises, quizzes, and projects to reinforce learning and practical skills, such as creating applications, algorithms, and small-scale software projects.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-c-programming-course/",
+        buttonlink:"https://academy.codegnan.com/learn/C-Programming",
         no_of_lessons:"94 Lessons"
     },
     {
@@ -30,8 +30,8 @@ const academic_box_content = [
         trainer:"Siva Ram",
         price:"Free",
         p:"The online HTML and CSS course provides comprehensive instruction in both languages, covering HTML for structuring web content and CSS for styling and formatting. Students will learn essential concepts such as HTML tags, elements, attributes, and CSS selectors, properties, and values.<br><br>The course offers practical exercises, quizzes, and projects to reinforce learning and practical skills. By the end of the course, students will be proficient in creating and styling web pages using HTML and CSS.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-html-css-course/",
+        buttonlink:"https://academy.codegnan.com/learn/Introduction-to-HTML",
         no_of_lessons:"117 Lessons"
     },
     {
@@ -40,8 +40,8 @@ const academic_box_content = [
         trainer:"Vamsi",
         price:"Free",
         p:"Augmented reality (AR) seamlessly integrates virtual elements into the real world, enriching experiences by blending digital and physical environments. Through devices like smartphones and AR glasses, users can interact with overlaid digital content, such as 3D models or information overlays, enhancing tasks ranging from gaming to retail shopping.<br><br>This technology revolutionizes how we perceive and interact with our surroundings, offering immersive and engaging experiences across various industries and applications.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"https://academy.codegnan.com/learn/Augmented-Reality",
+        buttonlink:"https://academy.codegnan.com/learn/Augmented-Reality",
         no_of_lessons:"67 Lessons"
     },
     {
@@ -50,8 +50,8 @@ const academic_box_content = [
         trainer:"Rabbani",
         price:"Free",
         p:"The “Getting Started with Raspberry Pi” online course equips participants with essential skills for utilizing Raspberry Pi in diverse projects, covering hardware setup, basic programming, and practical applications. Through hands-on experience and step-by-step tutorials, learners unlock the full potential of Raspberry Pi, making it ideal for beginners and hobbyists.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-raspberry-pi-course/",
+        buttonlink:"https://academy.codegnan.com/learn/Getting-Started-with-RASPBERRY-PI",
         no_of_lessons:"19 Lessons"
     },
     {
@@ -60,8 +60,8 @@ const academic_box_content = [
         trainer:"Subramanya Raj",
         price:"999",
         p:"The online Java full stack development course covers front-end and back-end technologies like Java, HTML/CSS, JavaScript, Spring, and Hibernate, preparing participants for careers as full stack developers through hands-on projects and practical training. ",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-java-full-stack-development-course/",
+        buttonlink:"https://academy.codegnan.com/learn/JavaFullStackDevelopment",
         no_of_lessons:"63 Lessons"
     },
     {
@@ -70,8 +70,8 @@ const academic_box_content = [
         trainer:"Siva Ram",
         price:"999",
         p:"ReactJS, renowned for its component-based architecture, facilitates the creation of dynamic user interfaces in web applications through efficient rendering and reusable components, offering developers a streamlined approach to building interactive experiences.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-reactjs-course/",
+        buttonlink:"https://academy.codegnan.com/learn/ReactJS",
         no_of_lessons:"37 Lessons"
     },
     {
@@ -80,8 +80,8 @@ const academic_box_content = [
         trainer:"Manvendra",
         price:"999",
         p:"Data analysis involves examining data to extract insights, driving informed decisions across industries through statistical analysis and machine learning techniques, enhancing efficiency and competitiveness.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-data-analysis-course/",
+        buttonlink:"https://academy.codegnan.com/learn/Data-Analysis",
         no_of_lessons:"102 Lessons"
     },
     {
@@ -90,8 +90,8 @@ const academic_box_content = [
         trainer:"Saketh Kallepu",
         price:"999",
         p:"Machine learning with Python utilizes libraries like scikit-learn, TensorFlow, and Keras for model development. Python’s versatility and extensive libraries make it a top choice for implementing various machine learning algorithms. Through practical exercises, learners gain hands-on experience in applying machine learning techniques to real-world data.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-machine-learning-course-using-python/",
+        buttonlink:"https://academy.codegnan.com/learn/Machine-Learning",
         no_of_lessons:"129 Lessons"
     },
     {
@@ -100,8 +100,8 @@ const academic_box_content = [
         trainer:"Manvendra",
         price:"599",
         p:"The Microsoft Azure AI Fundamentals [AI-900] course provides an introduction to AI concepts and their implementation on the Azure platform. Participants learn about machine learning, natural language processing, and computer vision, gaining foundational knowledge for AI-related roles. Completion of the course prepares learners to delve deeper into Azure AI services and pursue advanced certifications",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-microsoft-azure-ai-fundamentals-course/",
+        buttonlink:"https://academy.codegnan.com/learn/ai-900",
         no_of_lessons:"95 Lessons"
     },
     {
@@ -110,8 +110,8 @@ const academic_box_content = [
         trainer:"Eswar",
         price:"499",
         p:"The Python web framework Flask course teaches participants how to build web applications using Flask’s lightweight and flexible framework. Through practical exercises, learners acquire skills in creating routes, handling requests, and rendering templates for dynamic web development. This course offers hands-on experience, making it ideal for beginners looking to become proficient in Flask for web development.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-python-web-framework-course/",
+        buttonlink:"https://academy.codegnan.com/learn/Flask",
         no_of_lessons:"46 Lessons"
     },
     {
@@ -120,8 +120,8 @@ const academic_box_content = [
         trainer:"Eswar",
         price:"499",
         p:"MySQL is an open-source relational database management system (RDBMS) renowned for its reliability and ease of use. It efficiently stores and retrieves data using structured query language (SQL), making it a top choice for web applications and organizations worldwide.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-mysql-course/",
+        buttonlink:"https://academy.codegnan.com/learn/SQL",
         no_of_lessons:"74 Lessons"
     },
     {
@@ -130,8 +130,8 @@ const academic_box_content = [
         trainer:"Saketh Kallepu",
         price:"499",
         p:"The online JavaScript course offers practical training in JavaScript programming, covering essential concepts for web development in a concise format, making it suitable for beginners.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-javascript-course/",
+        buttonlink:"https://academy.codegnan.com/learn/JavaScript",
         no_of_lessons:"142 Lessons"
     },
     {
@@ -140,8 +140,8 @@ const academic_box_content = [
         trainer:"Bhagath Sainath",
         price:"399",
         p:"The online Node.js course offers practical training in building efficient network applications with JavaScript, focusing on event-driven programming and non-blocking I/O, suitable for both beginners and experienced developers.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-nodejs-course/",
+        buttonlink:"https://academy.codegnan.com/learn/Nodejs",
         no_of_lessons:"41 Lessons"
     },
     {
@@ -150,8 +150,8 @@ const academic_box_content = [
         trainer:"Ravi Chandra",
         price:"399",
         p:"The online Python web development course offers practical training in creating web applications with Python, covering frameworks like Django and Flask. Participants learn essential concepts like routing, templating, and database integration, making it suitable for beginners and those looking to enhance their skills in web development. Through hands-on projects and exercises, learners gain proficiency in building dynamic and scalable web applications using Python.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-web-development-with-python/",
+        buttonlink:"https://academy.codegnan.com/learn/Web-Development-with-Python",
         no_of_lessons:"30 Lessons"
     },
     {
@@ -160,8 +160,8 @@ const academic_box_content = [
         trainer:"Manvendra",
         price:"399",
         p:"The online Python mini projects course offers practical training in building small-scale projects to reinforce programming concepts. Participants learn to develop simple applications such as calculators, to-do lists, weather apps, and basic games using Python. Through hands-on exercises and guided tutorials, learners gain proficiency in Python programming while creating practical and fun projects.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"/academy/online-python-mini-projects/",
+        buttonlink:"https://academy.codegnan.com/learn/Python-Mini-Projects",
         no_of_lessons:"54 Lessons"
     },
     {
@@ -170,8 +170,8 @@ const academic_box_content = [
         trainer:"Rabbani",
         price:"299",
         p:"The online IoT using NodeMCU course offers basic training in building IoT projects with NodeMCU, focusing on connecting sensors, collecting data, and cloud communication, ideal for beginners in IoT technology.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"https://academy.codegnan.com/learn/Internet-of-things-using-Nodemcu",
+        buttonlink:"https://academy.codegnan.com/learn/Internet-of-things-using-Nodemcu",
         no_of_lessons:"28 Lessons"
     },
     {
@@ -180,8 +180,8 @@ const academic_box_content = [
         trainer:"Rabbani",
         price:"299",
         p:"The online Getting Started with Arduino Uno course offers basic training in Arduino programming and hardware essentials, suitable for beginners interested in electronics and embedded systems.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"https://academy.codegnan.com/learn/Getting-Started-with-Arduino",
+        buttonlink:"https://academy.codegnan.com/learn/Getting-Started-with-Arduino",
         no_of_lessons:"26 Lessons"   
     },
     {
@@ -190,8 +190,8 @@ const academic_box_content = [
         trainer:"Vamsi",
         price:"299",
         p:"The online Google ARCore Using Unity course provides basic training in creating augmented reality (AR) applications with Unity and Google’s ARCore platform, suitable for beginners and experienced developers interested in AR technology.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"https://academy.codegnan.com/learn/Google-ARCore-with-Unity",
+        buttonlink:"https://academy.codegnan.com/learn/Google-ARCore-with-Unity",
         no_of_lessons:"33 Lessons"   
     },
     {
@@ -200,8 +200,8 @@ const academic_box_content = [
         trainer:"Manvendra",
         price:"Free",
         p:"The online Web Scraping with Python course provides basic training in extracting data from websites using Python, ideal for beginners and data enthusiasts looking to automate data extraction tasks.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"https://www.youtube.com/playlist?list=PLKsznI6wR5hsKzk_ls0aNP29u4HCLYOs5",
+        buttonlink:"https://www.youtube.com/playlist?list=PLKsznI6wR5hsKzk_ls0aNP29u4HCLYOs5",
         no_of_lessons:"10 Lessons"
     },
     {
@@ -210,18 +210,18 @@ const academic_box_content = [
         trainer:"Jeswanth",
         price:"Free",
         p:"The WordPress with Oxygen Builder course offers straightforward training in creating websites using WordPress and Oxygen Builder, focusing on visual design and customization without coding, suitable for beginners and experienced web developers.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"https://www.youtube.com/playlist?list=PLKsznI6wR5hvBNZqIX_l3WI1m7dGDLPUB",
+        buttonlink:"https://www.youtube.com/playlist?list=PLKsznI6wR5hvBNZqIX_l3WI1m7dGDLPUB",
         no_of_lessons:"14 Lessons"
     },
     {
-        image:"public/academic_images/Introduction-to-Computer-Vision.webp",
+        image:"/academic_images/Introduction-to-Computer-Vision.webp",
         headlink:"Introduction to Computer Vision",
         trainer:"Manvendra",
         price:"Free",
         p:"The Introduction to Computer Vision course provides fundamental training in understanding and applying computer vision techniques. Participants learn about image processing, feature extraction, object detection, and image recognition algorithms. Through practical exercises and projects, learners gain hands-on experience in analyzing and interpreting visual data, making it ideal for beginners and enthusiasts interested in computer vision technology.",
-        headlinklink:"#",
-        buttonlink:"#",
+        headlinklink:"https://www.youtube.com/playlist?list=PLKsznI6wR5huZzI27ZHpX-F_NxEfNSUyY",
+        buttonlink:"https://www.youtube.com/playlist?list=PLKsznI6wR5huZzI27ZHpX-F_NxEfNSUyY",
         no_of_lessons:"7 Lessons"
     }
 

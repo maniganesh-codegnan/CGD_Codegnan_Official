@@ -92,7 +92,8 @@ export default function Nav() {
           <button className="dropbtn">Resources <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
           <Link to="/Blog" className="option" onClick={scrollToTop}>Blog </Link>
-            <a href="#" className="option">Guides </a>
+            {/* <a href="#" className="option">Academy</a> */}
+            {/* <Link to="/academic" className="option"  onClick={scrollToTop}>Academic </Link> */}
             <a href="#" className="option">Syllabus <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>

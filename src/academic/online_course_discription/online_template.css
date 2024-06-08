@@ -1,0 +1,142 @@
+.online_container {
+    margin-top: 96px;
+   
+
+}
+
+.online_course_info_container {
+    padding: 3% 7%;
+    background-color: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .online_course_info {
+        padding: 3%;
+        width: 60%;
+        h1{
+            font-weight: 500;
+            padding-bottom: 17px;
+        }
+        p{
+            line-height: 1.5;
+            font-size: 1.2rem;
+            li{
+                list-style-type: none;
+            }
+            font-weight: 100;
+        }
+        .link_to_academic1{
+            margin-left: 10px;
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+            background-color: #EE4a62;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .link_to_academic2{
+            margin-left: 10px;
+            text-decoration: none;
+            padding: 10px;
+            color: white;
+            background-color: #1AB69D;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: transform 0.1s ease;
+        }
+        .link_to_academic1:hover{
+            background-color: #1AB69D;
+            transform: scale(1.5) translateY(-5px);
+        }
+        .link_to_academic2:hover{
+            background-color: #EE4a62;
+            transform: scale(1.5) translateY(-5px);
+        }
+
+    }
+
+    .online_course_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            
+            width: 80%;
+            height: 80%;
+            border-right-width: 15px;
+            border-bottom-width: 15px;
+            border-left-width: 3px;
+            border-style: solid;
+            border-color:grey;
+            border-radius: 25px;
+
+        }
+
+
+
+    }
+}
+.span_content{
+    padding: 3% 18%;
+    line-height: 1.5;
+    font-size: 1.2rem;
+    h2{
+        font-weight: 500;
+        margin: 20px 0px;
+    }
+    p{
+        font-weight: 100;
+    }
+    li{
+        font-weight: 100;
+        margin-left: 5%;
+    }
+}
+.online_dropdown{
+    background-color:#f7f7f7 ;
+}
+/* ________________________________ */
+@media only screen and (max-width: 1100px) {
+ 
+    .online_course_info_container{
+        display: block;
+    }
+    .online_course_info_container .online_course_info {
+        width: 100%;
+        font-size: 0.7rem;
+       
+    }
+
+    .online_course_image{
+        padding-top: 20px;
+        width:100%;
+        height:100%;
+    }
+}
+@media only screen and (max-width: 900px){
+    .online_course_info_container .online_course_info {
+        width: 100%;
+        p{
+            font-size: 19px;
+        }
+    }
+    .span_content{
+        padding:3% 7%;
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .online_course_info_container .online_course_info {
+        width: 100%;
+        p{
+            font-size: 15px;
+        }
+    }
+    .span_content{
+        padding:3% 7%;
+        font-size: 15px;
+    }
+}
