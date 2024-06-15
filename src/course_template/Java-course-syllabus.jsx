@@ -302,7 +302,6 @@ const course_brief = [
                 <Link to=" " className="link-light-color">Python career opportunities</Link>
             </>
         )
-
     }
 
 ];

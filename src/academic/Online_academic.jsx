@@ -220,7 +220,7 @@ const academic_box_content = [
         trainer:"Manvendra",
         price:"Free",
         p:"The Introduction to Computer Vision course provides fundamental training in understanding and applying computer vision techniques. Participants learn about image processing, feature extraction, object detection, and image recognition algorithms. Through practical exercises and projects, learners gain hands-on experience in analyzing and interpreting visual data, making it ideal for beginners and enthusiasts interested in computer vision technology.",
-        headlinklink:"https://www.youtube.com/playlist?list=PLKsznI6wR5huZzI27ZHpX-F_NxEfNSUyY",
+        headlinklink:"/python_training_in_banglore",
         buttonlink:"https://www.youtube.com/playlist?list=PLKsznI6wR5huZzI27ZHpX-F_NxEfNSUyY",
         no_of_lessons:"7 Lessons"
     }

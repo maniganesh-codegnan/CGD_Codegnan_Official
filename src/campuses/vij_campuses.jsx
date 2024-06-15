@@ -1,8 +1,8 @@
 import Campus_temp from "./campuses_template";
 import { Link } from "react-router-dom";
 const headData = {
-    title: "Codegnan Vijayawada",
-    color_title:"IT training centre",
+    title: "Codegnan Vijayawada - Python, Full stack Java, Software Testing & ",
+    color_title:"Data science training institute",
     p: "Codegnan’s IT training centre in Vijayawada offers top rated IT and technical skills training courses and training programs. Our tech training program includes placement assistance with <a href='/' className='custom-link'>job acceleration program</a> (JAP) in Vijayawada.",
     language:"English",
     rating:" 2,198",

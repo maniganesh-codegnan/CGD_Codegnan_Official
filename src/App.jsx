@@ -10,29 +10,31 @@ import Collaboration from './Collabarations.jsx';
 import Pre from './Prefooter/Prefooter.jsx';
 import Gallery from './about/Gallery.jsx';
 import Course_template from './course_template/Course_template.jsx';
-import JavaCoursePage from './course_template/Java_course_page.jsx';
-import Python_training_in_banglore from './Training/Python_training_in_banglore.jsx';
-import Python_training_in_hyderabad from './Training/python_training_in_hyderabad.jsx';
-import Python_training_in_Vijayawada from './Training/Python_training_in_Vijayawada.jsx';
-import Python_full_stack_training_in_banglore from './Training/Python-full-stack/Python_full_stack_in_Banglore.jsx';
-import Python_full_stack_training_in_hyderabad from './Training/Python-full-stack/Python_full_stack_in_Hyderabad.jsx';
-import Python_full_stack_training_in_vijayawada from './Training/Python-full-stack/Python_full_stack_Vijayawada.jsx';
-import Java_training_in_banglore from './Training/Java-training/Java_training_in_Banglore.jsx';
-import Java_training_in_hyderabad from './Training/Java-training/Java_training_in_hyderabad.jsx';
-import Java_training_in_vijayawada from './Training/Java-training/Java_training_in_vijayawada.jsx';
-import Java_full_stack_training_in_banglore from './Training/Java-full-stack/Java_full_stack_in_banglore.jsx';
-import Java_full_stack_training_in_hyderabad from './Training/Java-full-stack/Java_full_stack_in_hyderabad.jsx';
-import Java_full_stack_training_in_vijayawada from './Training/Java-full-stack/Java_full_stack_in_vijayawada.jsx';
-import Data_science_in_vijayawada from './Training/Data-science/Data_science_in_Vijayawada.jsx';
-import Data_science_in_hyderabad from './Training/Data-science/Data_science_in_Hyderabad.jsx';
-import Machine_learning_in_hyderabad from './Training/Machine-Learning/Machine_learning_in_Hyderabad.jsx';
-import Machine_learning_in_vijayawada from './Training/Machine-Learning/Machine_learning_in_Vijayawada.jsx';
-import Software_testing_in_banglore from './Training/Software-testing/Software_testing_in_Banglore.jsx';
-import Software_testing_in_hyderabad from './Training/Software-testing/Software_testing_in_Hyderabad.jsx';
-import Software_testing_in_vijayawada from './Training/Software-testing/Software_testing_in_Vijayawada.jsx';
-import React_JS_in_vijayawada from './Training/React_JS_in_vijayawada.jsx';
-import Data_structers_and_Algorithms_in_vijayawada from './Training/Data_structures_and_algorithms_in_vijayawada.jsx';
-import C_progrmming_in_vijayawada from './Training/C_programming_in_vijayawada.jsx';
+import JavaCourseSyllabus from './course_template/Java-course-syllabus.jsx';
+
+// import JavaCourseSyllabus from "./blog/course_template/Java-course-syllabus.jsx";
+import PythonTraininginBanglore from './Training/Python-training-in-banglore.jsx';
+import PythonTrainingCourseinHyderabad from './Training/python-full-stack-developer-in-banglore.jsx';
+import PythonTraininginVijayawada  from './Training/Python-training-in-banglore.jsx';
+import Python_full_stack_training_course_in_banglore from './Training/Python-full-stack/python-full-stack-developer-course-in-bangalore.jsx';
+import Python_full_stack_training_course_in_hyderabad from './Training/Python-full-stack/Python_full_stack_course_in_Hyderabad.jsx';
+import Python_full_stack_training_course_in_vijayawada from './Training/Python-full-stack/Python_full_stack_course_Vijayawada.jsx';
+import Core_java_training_course_in_bangalore from './Training/Java-training/Core_java_training_course_in_Bangalore.jsx';
+import Core_java_training_course_in_hyderabad from './Training/Java-training/Core_java_training_course_in_hyderabad.jsx';
+import Core_java_training_course_in_vijayawada from './Training/Java-training/Core_java_training_course_in_vijayawada.jsx';
+import Java_full_stack_training_course_in_bangalore from './Training/Java-full-stack/Java_full_stack_course_in_bangalore.jsx';
+import Java_full_stack_training_course_in_hyderabad from './Training/Java-full-stack/Java_full_stack_course_in_hyderabad.jsx';
+import Full_stack_java_training_course_in_vijayawada from './Training/Java-full-stack/Full_stack_java_training_course_in_vijayawada.jsx';
+import Data_science_course_training_in_vijayawada from './Training/Data-science/Data_science_course_training_in_Vijayawada.jsx';
+import Data_science_course_training_in_hyderabad from './Training/Data-science/Data_science_course_training_in_Hyderabad.jsx';
+import Machine_learning_course_training_in_hyderabad from './Training/Machine-Learning/Machine_learning_course_training_in_Hyderabad.jsx';
+import Machine_learning_course_training_in_vijayawada from './Training/Machine-Learning/Machine_learning_course_training_in_Vijayawada.jsx';
+import Software_testing_training_course_in_banglore from './Training/Software-testing/Software_testing_training_course_in_banglore.jsx';
+import Software_testing_training_course_in_hyderabad from './Training/Software-testing/Software_testing_training_course_in_hyderabad.jsx';
+import Software_testing_training_course_in_vijayawada from './Training/Software-testing/Software_testing_training_course_in_vijayawada.jsx';
+import React_JS_training_course_in_vijayawada from './Training/React_JS_training_course_in_vijayawada.jsx';
+import Data_structers_and_Algorithms_training_in_vijayawada from './Training/Data_structures_and_algorithms_training_in_vijayawada.jsx';
+import C_progrmming_course_training_in_vijayawada from './Training/C_programming_course_training_in_vijayawada.jsx';
 import Vij_campus from './campuses/vij_campuses.jsx';
 import Hyd_campus from './campuses/hyd_campuses.jsx';
 import Bang_campus from './campuses/bang_campuses.jsx';
@@ -43,24 +45,48 @@ import Intern_dropdown from './Internship/Intern_dropdown/Inter_dropdown.jsx';
 import Intern_Page from './Internship/Intership_page.jsx';
 
 
-import DsCoursePage from './course_template/ds_course_page.jsx';
-import PythonCoursePage from './course_template/python_course_page.jsx';
-import ReactCoursePage from  './course_template/React_course_page.jsx';
-import JavaFullstackCoursePage from './course_template/Java_fullstack_course_page';
-import ClanguageCoursePage from './course_template/Clanguage_course_page';
-import MachineLearningCoursePage from './course_template/Machine_learning_course_page';
-import DataScienceCoursePage from './course_template/Data_science_course_page';
-import SoftwareTestingCoursePage from './course_template/Software_testing_course_page';
-import PythonFullstackCoursePage from './course_template/Python_fullstack_course_page.jsx';
+import DataStructuresAndAlgorithmsCourseSyllabus from './course_template/data-structures-and-algorithms-course-syllabus.jsx';
+import PythonCourseSyllabus from './course_template/python-course-syllabus.jsx';
+import ReactJsCourseSyllabus from  './course_template/react-js-course-syllabus.jsx';
+import FullStackJavaDeveloperCourseSyllabus from './course_template/full-stack-java-developer-course-syllabus.jsx';
+import CLanguageCourseSyllabus from './course_template/c-language-course-syllabus.jsx';
+import MachineLearningCourseSyllabus from './course_template/machine-learning-course-syllabus.jsx';
+import DataScienceCourseSyllabus from './course_template/data-science-course-syllabus.jsx';
+import SoftwareTestingCourseSyllabus from './course_template/software-testing-course-syllabus.jsx';
+import PythonFullStackDeveloperCourseSyllabus from './course_template/python-full-stack-developer-course-syllabus.jsx';
 import JavaProjects from './course_template/Java-projects.jsx';
 import PythonProjects from './course_template/Python-projects.jsx';
 import ReactJsProjects from './course_template/react-js-projects.jsx';
-import CProgrammingProjects from './course_template/c-programming-projects.jsx'
+import CProgrammingProjects from './course_template/c-programming-projects.jsx';
+import DataStructureAndAlgorithmProjectIdeas from './course_template/data-structure-and-algorithm-project-ideas.jsx';
+import MachineLearningProjects from './course_template/machine-learning-projects.jsx';
+import SoftwareTestingProjects from './course_template/software-testing-projects.jsx';
+import Data_science_projects_for_beginners from './course_template/data-science-projects-for-beginners.jsx';
+import React_js_vs_angular_which_is_best_javascript_framework from './course_template/react-js-vs-angular-which-is-best-javascript-framework.jsx';
+
 
 import Jap from './JAP/JAP.jsx';
 import Blog from './Blog/Blog.jsx';
-import Academic from './academic/academic.jsx';
 import OnlineCourse from './academic/online_course_discription/online_template.jsx';
+
+import Online_Academic from './academic/Online_academic.jsx';
+import Online_python from './academic/online_course_discription/python_online.jsx';
+import Online_C from './academic/online_course_discription/c_online.jsx';
+import Online_html from './academic/online_course_discription/online_html.jsx';
+import Online_raspberry from './academic/online_course_discription/raspberry_online.jsx';
+import Online_java from './academic/online_course_discription/java_online.jsx';
+import Online_react from './academic/online_course_discription/react_online.jsx';
+import Online_data_analysis from './academic/online_course_discription/online_data_analysis.jsx';
+import Online_ML from './academic/online_course_discription/machine_learning_online.jsx';
+import Online_MicrosoftAzure from './academic/online_course_discription/online_microsoft_azure.jsx';
+import Online_flask from './academic/online_course_discription/flask_online.jsx';
+import Online_sql from './academic/online_course_discription/online_sql.jsx';
+import Online_js from './academic/online_course_discription/oonline_js.jsx';
+import Online_node from './academic/online_course_discription/online_node.jsx';
+import Online_python_web from './academic/online_course_discription/online_python_web.jsx';
+import Online_python_mini from './academic/online_course_discription/online_python_mini.jsx';
+
+// import Course_template from "./course_template/Course_template.jsx";
 
 
 
@@ -79,29 +105,29 @@ function App() {
         <Route path="/about" element={<About/>  } />
         <Route path='/placements' element={<Placements />}></Route>
         <Route path='/gallery' element={<Gallery />}></Route>
-        <Route path='/java_course_page' element={<JavaCoursePage />}></Route>
-        <Route path='/python_training_in_banglore' element={<Python_training_in_banglore />}></Route>
-        <Route path='/python_training_in_hyderabad' element={<Python_training_in_hyderabad />}></Route>
-        <Route path='/python_training_in_Vijayawada' element={<Python_training_in_Vijayawada/>}></Route>
-        <Route path='/python-full-stack-developer-in-banglore' element={<Python_full_stack_training_in_banglore/>}></Route>
-        <Route path='/python-full-stack-developer-in-hyderabad' element={<Python_full_stack_training_in_hyderabad/>}></Route>
-        <Route path='/python-full-stack-developer-in-vijayawada' element={<Python_full_stack_training_in_vijayawada/>}></Route>
-        <Route path='/java-training-in-banglore' element={<Java_training_in_banglore/>}></Route>
-        <Route path='/java-training-in-hyderabad' element={<Java_training_in_hyderabad/>}></Route>
-        <Route path='/java-training-in-vijayawada' element={<Java_training_in_vijayawada/>}></Route>
-        <Route path='/java-full-stack-training-in-banglore' element={<Java_full_stack_training_in_banglore/>}></Route>
-        <Route path='/java-full-stack-training-in-hyderabad' element={<Java_full_stack_training_in_hyderabad/>}></Route>
-        <Route path='/java-full-stack-training-in-vijayawada' element={<Java_full_stack_training_in_vijayawada/>}></Route>
-        <Route path='/data-science-in-vijayawada' element={<Data_science_in_vijayawada/>}></Route>
-        <Route path='/data-science-in-hyderabad' element={<Data_science_in_hyderabad/>}></Route>
-        <Route path='/machine-learning-in-hyderabad' element={<Machine_learning_in_hyderabad/>}></Route>
-        <Route path='/machine-learning-in-vijayawada' element={<Machine_learning_in_vijayawada/>}></Route>
-        <Route path='/software-testing-in-banglore' element={<Software_testing_in_banglore/>}></Route>
-        <Route path='/software-testing-in-hyderabad' element={<Software_testing_in_hyderabad/>}></Route>
-        <Route path='/software-testing-in-vijayawada' element={<Software_testing_in_vijayawada/>}></Route>
-        <Route path='/react-js-in-vijayawada' element={<React_JS_in_vijayawada/>}></Route>
-        <Route path='/data-structures-and-algorithms-in-vijayawada' element={<Data_structers_and_Algorithms_in_vijayawada/>}></Route>
-        <Route path='/c-programming-in-vijayawada' element={<C_progrmming_in_vijayawada/>}></Route>
+        <Route path='/Java-course-syllabus' element={<JavaCourseSyllabus />}></Route>
+        <Route path='/python-training-in-banglore' element={<PythonTraininginBanglore />}></Route>
+        <Route path='/python-training-course-in-hyderabad' element={<PythonTrainingCourseinHyderabad />}></Route>
+        <Route path='/python-training-in-vijayawada' element={<PythonTraininginVijayawada />}></Route>
+        <Route path='/python-full-stack-developer-course-in-banglore' element={<Python_full_stack_training_course_in_banglore/>}></Route>
+        <Route path='/python-full-stack-developer-course-in-hyderabad' element={<Python_full_stack_training_course_in_hyderabad/>}></Route>
+        <Route path='/python-full-stack-developer-course-in-vijayawada' element={<Python_full_stack_training_course_in_vijayawada/>}></Route>
+        <Route path='/core-java-training-course-in-bangalore' element={<Core_java_training_course_in_bangalore/>}></Route>
+        <Route path='/Core-java-training-course-in-hyderabad' element={<Core_java_training_course_in_hyderabad/>}></Route>
+        <Route path='/Core-java-training-course-in-vijayawada' element={<Core_java_training_course_in_vijayawada/>}></Route>
+        <Route path='/java-full-stack-training-course-in-bangalore' element={<Java_full_stack_training_course_in_bangalore/>}></Route>
+        <Route path='/java-full-stack-training-course-in-hyderabad' element={<Java_full_stack_training_course_in_hyderabad/>}></Route>
+        <Route path='/full-stack-java-training-course-in-vijayawada' element={<Full_stack_java_training_course_in_vijayawada/>}></Route>
+        <Route path='/data-science-course-training-in-vijayawada' element={<Data_science_course_training_in_vijayawada/>}></Route>
+        <Route path='/data-science-course-training-in-hyderabad' element={<Data_science_course_training_in_hyderabad/>}></Route>
+        <Route path='/machine-learning-course-training-in-hyderabad' element={<Machine_learning_course_training_in_hyderabad/>}></Route>
+        <Route path='/machine-learning-course-training-in-vijayawada' element={<Machine_learning_course_training_in_vijayawada/>}></Route>
+        <Route path='/software-testing-training-course-in-banglore' element={<Software_testing_training_course_in_banglore/>}></Route>
+        <Route path='/software-testing-training-course-in-hyderabad' element={<Software_testing_training_course_in_hyderabad/>}></Route>
+        <Route path='/software-testing-training-course-in-vijayawada' element={<Software_testing_training_course_in_vijayawada/>}></Route>
+        <Route path='/react-js-training-course-in-vijayawada' element={<React_JS_training_course_in_vijayawada/>}></Route>
+        <Route path='/data-structures-and-algorithms-training-in-vijayawada' element={<Data_structers_and_Algorithms_training_in_vijayawada/>}></Route>
+        <Route path='/c-programming-course-training-in-vijayawada' element={<C_progrmming_course_training_in_vijayawada/>}></Route>
         <Route path='/vijayawada_campus' element={<Vij_campus/>}></Route>
         <Route path='/hyderabad_campus' element={<Hyd_campus/>}></Route>
         <Route path='/bangalore_campus' element={<Bang_campus/>}></Route>
@@ -109,22 +135,44 @@ function App() {
         <Route path='/internship_page' element={ <Intern_Page/>}></Route>
 
 
-        <Route path='/ds_course_page' element={<DsCoursePage />}></Route>
-        <Route path='/python_course_page' element={<PythonCoursePage />}></Route>
-        <Route path='/react_course_page' element={<ReactCoursePage />}></Route>
-        <Route path='/Java_fullstack_course_page' element={<JavaFullstackCoursePage/>}></Route>
-        <Route path='/clanguage_course_page' element={<ClanguageCoursePage/>}></Route>
-        <Route path='/machine_learning_course_page' element={<MachineLearningCoursePage/>}></Route>
-        <Route path='/data_science_course_page' element={<DataScienceCoursePage/>}></Route>
-        <Route path='/software_testing_course_page' element={<SoftwareTestingCoursePage/>}></Route>
-        <Route path='/python_fullstack_course_page' element={<PythonFullstackCoursePage/>}></Route>
+        <Route path='/data-structures-and-algorithms-course-syllabus' element={<DataStructuresAndAlgorithmsCourseSyllabus />}></Route>
+        <Route path='/python-course-syllabus' element={<PythonCourseSyllabus />}></Route>
+        <Route path='/react-js-course-syllabus' element={<ReactJsCourseSyllabus />}></Route>
+        <Route path='/full-stack-java-developer-course-syllabus' element={<FullStackJavaDeveloperCourseSyllabus/>}></Route>
+        <Route path='/c-language-course-syllabus' element={<CLanguageCourseSyllabus/>}></Route>
+        <Route path='/machine-learning-course-syllabus' element={<MachineLearningCourseSyllabus/>}></Route>
+        <Route path='/data-science-course-syllabus' element={<DataScienceCourseSyllabus/>}></Route>
+        <Route path='/software-testing-course-syllabus' element={<SoftwareTestingCourseSyllabus/>}></Route>
+        <Route path='/python-full-stack-developer-course-syllabus' element={<PythonFullStackDeveloperCourseSyllabus/>}></Route>
         <Route path='/job_accelerator_program' element={<Jap/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
-        <Route path='/academic' element={<Academic/>}></Route>
+        {/* <Route path='/academic' element={<Academic/>}></Route> */}
         <Route path='/java_projects' element={<JavaProjects/>}></Route>
         <Route path='/python-projects' element={<PythonProjects/>}></Route>
         <Route path='/react-js-projects' element={<ReactJsProjects/>}></Route>
         <Route path='/c-programming-projects' element={<CProgrammingProjects/>}></Route>
+        <Route path='/data-structure-and-algorithm-project-ideas' element={<DataStructureAndAlgorithmProjectIdeas/>}></Route>
+        <Route path='/machine-learning-projects' element={<MachineLearningProjects/>}></Route>
+        <Route path='/software-testing-projects' element={<SoftwareTestingProjects/>}></Route>
+        <Route path='/data-science-projects-for-beginners' element={<Data_science_projects_for_beginners/>}></Route>
+        <Route path='/react-js-vs-angular-which-is-best-javascript-framework' element={<React_js_vs_angular_which_is_best_javascript_framework />}></Route>
+
+        <Route path='/online-academic' element={<Online_Academic/>}></Route>
+        <Route path='/academy/online-python-course/' element={<Online_python/>}></Route>     
+        <Route path='/academy/online-c-programming-course/' element={<Online_C/>}></Route>
+        <Route path='/academy/online-html-css-course/' element={<Online_html/>}></Route>
+        <Route path='/academy/online-raspberry-pi-course/' element={<Online_raspberry/>}></Route>
+        <Route path='/academy/online-java-full-stack-development-course/' element={<Online_java/>}></Route>
+        <Route path='/academy/online-reactjs-course/' element={<Online_react/>}></Route>
+        <Route path='/academy/online-data-analysis-course/' element={<Online_data_analysis/>}></Route>
+        <Route path='/academy/online-machine-learning-course-using-python/' element={<Online_ML/>}></Route>
+        <Route path='/academy/online-microsoft-azure-ai-fundamentals-course/' element={<Online_MicrosoftAzure/>}/>
+        <Route path='/academy/online-python-web-framework-course/' element={<Online_flask/>}/>
+        <Route path='/academy/online-mysql-course/' element={<Online_sql/>}/>
+        <Route path='/academy/online-javascript-course/' element={<Online_js/>}/>
+        <Route path='/academy/online-nodejs-course/' element={<Online_node/>}/>
+        <Route path='/academy/online-web-development-with-python/' element={<Online_python_web/>}/>
+        <Route path='/academy/online-python-mini-projects/' element={<Online_python_mini/>}/>
         
       </Routes>
      

@@ -53,7 +53,16 @@
 }
 .blog_head2{
     font-size: 36px;
+   
 }
+.blog_link{
+  color: #020202;
+  text-decoration: none;
+}
+.blog_link:hover {
+   color: #e41f3a;
+  }
+
 .blog_p{
     font-size: 1.2rem;
     padding: 0px 17%;
@@ -76,3 +85,4 @@
         margin: 20px 0;
     }
 }
+

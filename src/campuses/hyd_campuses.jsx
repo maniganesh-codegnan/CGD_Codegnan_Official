@@ -1,9 +1,9 @@
 import Campus_temp from "./campuses_template";
 import { Link } from "react-router-dom";
 const headData = {
-    title: "Codegnan Hyderabad",
-    color_title:"IT training centre",
-    p: "Codegnan’s IT training solutions in Hyderabad offers top rated IT and technical skills training courses and training programs. Our tech training program includes placement assistance with <a href='/' className='custom-link'>job acceleration program</a> (JAP) in Hyderabad.",
+    title: "Python, Full stack Java, Software Testing & Data science training institute in Hyderabad",
+    color_title:" Codegnan Hyderabad",
+    p: "Codegnan’s IT training solutions in Hyderabad offer top-rated IT and technical skills training courses such as Full-stack Java, Python, Data science, and software testing courses in Hyderabad. Our tech training program includes placement assistance with the <a href='/' className='custom-link'>job acceleration program</a> (JAP) in Hyderabad.",
     language:"English",
     rating:" 2,198",
     formh:"Enquiry Form",

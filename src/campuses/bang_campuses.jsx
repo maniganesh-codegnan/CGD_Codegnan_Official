@@ -1,9 +1,9 @@
 import Campus_temp from "./campuses_template";
 import { Link } from "react-router-dom";
 const headData = {
-    title: "Codegnan Destination Technologies ",
-    color_title:" in Bangalore, IT training centre",
-    p: "Codegnan’s IT training centre in Bangalore offers top rated IT and technical skills training courses and training programs. Our tech training program includes placement assistance with <a href='/' className='custom-link'>job acceleration program</a> (JAP) in Bangalore.",
+    title: "Python, Java, Software Testing training institute in Bangalore,",
+    color_title:" Codegnan Destination Technologies",
+    p: "Codegnan’s IT training centre in Bangalore offers IT training courses such as software testing, full-stack Python, and Java. Our tech training program includes placement assistance with the <a href='/' className='custom-link'>job acceleration program</a> (JAP) in Bangalore.",
     language:"English",
     rating:" 2,198",
     formh:"Enquiry Form",

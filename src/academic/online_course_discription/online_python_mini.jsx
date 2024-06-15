@@ -3,6 +3,7 @@ import OnlineCourse from "./online_template";
 import { Link } from "react-router-dom";
 
 
+
 const headContext = {
     title: "Python Mini Projects",
     p: "Having theoretical knowledge of Python is not sufficient for someone who wants to become a Python developer and excel in the field, it requires practical knowledge. This course compiles a few mini Python projects along with providing you necessary knowledge about how to build them effectively.\n" +

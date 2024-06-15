@@ -1,11 +1,10 @@
 import "./Footer.css"
 import logo from '../assets/Logo2.png';
+import { useState } from 'react';
 
 export default function Footer() {
     return (
         <div className="Footer">
-
-
             <section className="elementor_selection">
                 <div className="center">
                     <div className="left">
