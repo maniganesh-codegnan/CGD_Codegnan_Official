@@ -35,19 +35,75 @@ const courseSections = [
                 "MailAsana"
         ]
     },
+    // {
+    //     title: " Write a Java program to draw a right triangle star pattern.‍",
+    //     intro: `
+    //         <pre> 
+                
+    //             *
+    //             * *
+    //             * * *
+    //             * * * *
+    //             * * * * *
+    //             public class Codegnan
+    //             {
+    //             public static void RTriangle(int n)
+    //             {
+    //             int i, j;
+    //             for(i=0; i<n; i++) //outer loop for number of rows(n)
+    //             { for(j=2*(n-i); j>=0; j–) // inner loop for spaces
+    //             {
+    //             System.out.print(” “); // printing space
+    //             }
+    //             for(j=0; j<=i; j++) //  inner loop for columns
+    //             {
+    //             System.out.print(“* “); // print star
+    //             }
+    //             System.out.println(); // ending line after each row
+    //             }
+    //             }
+    //             public static void main(String args[])
+    //             {
+    //             int n = 5;
+    //             RTriangle(n);
+    //             }
+    //             }
+    //         </pre>`,
+    //     content: []
+    // },
 
 ];
 
 const course_brief = [
-    
-   
     {
-        title: "Download the Python course curriculum PDF",
-        intro: "<br/><ul>" +
+        title: "",
+        intro:() =>(
+            <>
+            <p><b>👉 Releated resources:</b><Link to="/java-course-syllabus" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> Complete Java Course Syllabus for beginners</Link></p>
+            </>
+        )
+
+    },
+    {
+        title: "Benefits of ReactJS Version",
+        intro: "<h5>Let us have a quick glance at why you should use React:</h5><ul>" +
             [
-                "Python course PDF",
-                "Find more information about our Python classroom training in Vijayawada, Hyderabad, Bangalore",
-                "Enroll in our free Python course (135 lessons) "
+                "Straightforwardness React is easy to learn and apply on account of its-",
+                "dependence on JavaScript,",
+                "the simplicity of blending in with HTML,",
+                "component-based architecture."
+            ].map((item, index) => (
+                "<li key=" + index + " style='margin-left: 100px;'>" + item + "</li>"
+            )).join('') +
+            "</ul>"
+    },
+    {
+        title: " ",
+        intro: "Any developer with an essential comprehension of JavaScript would have the option to get acquainted with React and begin making exceptionally responsive applications very quickly. <br /><ul>" +
+            [
+                "Efficiency In JavaScript, reusable code is extricated to a function or class. In React, it can be well-written as a component. By incorporating reusable components, and thus helping limit the violations of the DRY principle, React speeds up development and makes it more efficient.",
+                "Quick rendering React’s Virtual DOM accomplishes high application performance and satisfying user experience while making your developer’s work quicker.",
+                "Community support There’s an abundance of assets and tutorials for React accessible on the web, just as an active community ready to get you out of the issues."
             ].map((item, index) => (
                 "<li key=" + index + " style='margin-left: 100px;'>" + item + "</li>"
             )).join('') +
@@ -56,167 +112,30 @@ const course_brief = [
    
    
     {
-        title: "Complete Python Course Syllabus and Curriculum For 2024",
+        title: "What is AngularJS?",
         intro: () => (
             <>
-                Here’s a quick overview of the Python training syllabus for beginners: 
-                <br /><br/>
-              
-                <table className="salary-table">
-                    <thead>
-                        <tr>
-                            <th>Module number</th>
-                            <th>Module name</th>
-                            <th>Topics Covered</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>1	</td>
-                            <td>Python Introduction and Setting up the Environment	</td>
-                            <td>Introduction to Programming, Choosing Python, Setting up Python environment, Python IDEs</td>
-                        </tr>
-                        <tr>
-                            <td>2	</td>
-                            <td>Python Basic Syntax and Data Types	</td>
-                            <td>Input/output, Comments, Variables, Data types, Typecasting</td>
-                        </tr>
-                        <tr>
-                            <td>3	</td>
-                            <td>Operators in Python	</td>
-                            <td>Arithmetic, Assignment, Comparison, Logical, Identity, Membership, Bitwise operators</td>
-                        </tr>
-                        <tr>
-                            <td>4	</td>
-                            <td>Strings in Python	</td>
-                            <td>Creating, Formatting, Indexing, Slicing, String methods5</td>
-                        </tr>
-                        <tr>
-                            <td> 5	</td>
-                            <td> Lists in Python	Creating, Properties, </td>
-                            <td> Indexing, Slicing, Methods, Modifying lists</td>
-                        </tr>
-                        <tr>
-                            <td> 6	</td>
-                            <td> Tuples in Python	</td>
-                            <td> Syntax, Properties, Indexing, Slicing, Methods</td>
-                        </tr>
-                        <tr>
-                            <td> 7	</td>
-                            <td> Sets in Python	</td>
-                            <td> Syntax, Updating, Operations, Methods</td>
-                        </tr>
-                        <tr>
-                            <td>  8	</td>
-                            <td>  Dictionaries in Python	</td>
-                            <td>  Syntax, Keys/values, Accessing, Methods</td>
-                        </tr>
-                        <tr>
-                            <td>9	</td>
-                            <td>Python Conditional Statements	</td>
-                            <td>if, if-else, if-elif-else</td>
-                         </tr>
-                        <tr>
-                            <td>10	</td>
-                            <td>Loops in Python	</td>
-                            <td>while, for, break, continue, pass, range</td>
-                        </tr>
-                        <tr>
-                            <td>11	</td>
-                            <td>List and Dictionary Comprehensions	</td>
-                            <td>Syntax, Uses</td>
-                            </tr>
-                        <tr>
-                            <td>12	</td>
-                            <td>Functions in Python	</td>
-                            <td>Creating, Calling, Arguments, Variables, Recursion</td>
-                        </tr>
-                        <tr>
-                            <td>13	</td>
-                            <td>Anonymous Functions	</td>
-                            <td>Lambda functions</td>
-                         </tr>
-                        <tr>
-                            <td>14	</td>
-                            <td>Generators in Python	</td>
-                            <td>Creating, Using generators</td>
-                            </tr>
-                        <tr>
-                            <td>15	</td>
-                            <td>Modules in Python	</td>
-                            <td>Creating, Importing, Built-in modules</td>
-                            </tr>
-                        <tr>
-                            <td>16	</td>
-                            <td>Packages & Data Analysis	</td>
-                            <td>Creating packages, NumPy, Pandas, Matplotlib</td>
-                            </tr>
-                        <tr>
-                            <td>17	</td>
-                            <td>Exceptions & Error Handling	Syntax errors, </td>
-                        <td>Logical errors, try/except/finally</td>
-                        </tr>
-                        <tr>
-                            <td>18	</td>
-                            <td>Classes & Objects	</td>
-                            <td>Creating, Attributes, Methods, Inheritance, Polymorphism</td>
-                        </tr>
-                        <tr>
-                            <td>19	</td>
-                            <td>Date & Time	</td>
-                            <td>date, time, datetime modules</td>
-                        </tr>
-                        <tr>
-                            <td>20	</td>
-                            <td>Regex in Python	</td>
-                            <td>re module, Common functions</td>
-                        </tr>
-                        <tr>
-                            <td>21	</td>
-                            <td>Files in Python	Opening, </td>
-                            <td>Reading, Writing, Closing files</td>
-                        </tr>
-                        <tr>
-                            <td>22	</td>
-                            <td>Web Scraping </td>	
-                            <td>BeautifulSoup, Scraping static & dynamic sites</td>
-                        </tr>
-                        <tr>
-                            <td>23	</td>
-                            <td>Database Access	MySQL, </td>
-                            <td>CRUD operations</td>
-                        </tr>
-                        <tr>
-                            <td>24	</td>
-                            <td>Data Analysis	NumPy, </td>
-                            <td>Pandas, Visualization</td>
-                        </tr>
-                        <tr>
-                            <td>25	</td>
-                            <td>APIs in Python	</td>
-                            <td>Public APIs, Accessing data</td>
-                        </tr>
-                        <tr>
-                            <td>26	</td>
-                            <td>Python for Web Development	</td>
-                            <td>Flask Framework, Routes, Templates</td>
-                        </tr>
-                    </tbody>
-                </table>
+                <p>Angular is an all-in-one open-source JavaScript framework that is maintained by Google, to manufacture profoundly responsive single-page applications. Similar to ReactJS, an Angular-based website will see all site changes made in the program. Instead of interacting with a server to stack data, a browser-side experience allows the page to render rapidly with a more mobile-like experience. Angular recently observed the release of its most current version of Angular 9, which is built-on TypeScript, a superset of JavaScript.</p>
+
+                <p>Since React is a JavaScript library instead of the full JavaScript framework of Angular, many developers will include more libraries when utilizing React to give it the usefulness of a total framework.</p>
             </>
         )
     },
 
     {
-        title: "1. Python Introduction and Setting up the Environment",
-        intro: "The first section of the course introduces learners to Python programming, including the process of downloading and setting up its environment, and Python IDEs. Plus, you will know where Python is mostly used and why it is gaining popularity in Data Science.\nSubjects covered in introduction and setting up the Python environment: :<br/> <br/><ul>" +
+        title: "Organizations that use AngularJS:",
+        intro: "<ul>" +
             [
-                " Introduction to Programming",
-                " R or Python?",
-                " Why Python for Data Science?",
-                " Different job roles with Python",
-                " Different Python IDEs",
-                " Downloading and setting up the Python environment"
+                "PayPal",
+                "Gmail",
+                "The Guardian",
+                "DoubleClick",
+                "Upwork",
+                "HBO",
+                "Sony",
+                "General",
+                "MotorsNike",
+                "Nike"
 
             ].map((item, index) => (
                 "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
@@ -224,14 +143,13 @@ const course_brief = [
             "</ul>"
     },
     {
-        title: "2. Python Basic Syntax and Data Types",
-        intro: "Once you have installed Python on PCs and Macs, you must know how to write a program. But before that, this course will introduce you to the basic syntax, input and output operations, comments, variables, data types, and typecasting in Python. While variables store data of multiple types, each type has a different function. You will learn each data type category and cast them from one type to another. \nSubjects covered in basic syntax and data types in Python: :<br/> <br/><ul>" +
+        title: "Benefits of AngularJS",
+        intro: "Now, let us have a quick glance at why you should use Angular: <br/><ul>" +
             [
-                "Python input and output operations.",
-                "Comments",
-                "Variables, rules for naming variables",
-                "Basic Data Types in Python",
-                "Typecasting in Python"
+                "Clear and brief code Angular’s basic component architecture dispenses with the requirement for unnecessary code and makes development smooth. Being built with TypeScript implies that the framework assists developers with finding and eliminates error at an early stage in the development procedure.=",
+                "Consistency Independent logical and functional components are the building blocks of Angular. They are reusable, firm LEGO-like blocks of code that can be utilized to rapidly scale new and existing applications. In addition, the autonomy of every part makes it simple for developers to test an application for errors.",
+                "Documentation and community support On the authority Angular site, there is a lot of documentation that developers can depend on as they get acquainted with the system or experience issues while coding. The website is likewise a decent place to get up to date on any news or updates. Angular, much the same as React, additionally appreciates active community support, including conversation sheets on stages, for example, Gitter, Stack Overflow, Facebook, and Reddit.",
+                "Simple testing Angular utilizes Jasmine with the Karma test runner and offers a testing library (TestBed) that permits developers to effectively unit test their components. Furthermore, it accompanies Protractor arranged for simple e2e testing."
 
             ].map((item, index) => (
                 "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
@@ -239,565 +157,251 @@ const course_brief = [
             "</ul>"
     },
     {
-        title: "3. Operators in Python",
-        intro: "Operators in a programming language instruct the machine to perform a particular operation on variables and values. Python operators are of multiple types, and each defines a unique operation. For example, the arithmetic operator “+” instructs the interpreter to perform “addition”. In this part of the course, you will be introduced to each of these operators and will understand where to use them and how they function in an instruction. \nSubjects covered in operators in Python :<br/> <br/><ul>" +
-            [
-                "Arithmetic operators",
-                "Assignment operators",
-                "Comparison operators",
-                "Logical operators",
-                "Identity operators",
-                "Membership operators",
-                "Bitwise operators"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "4. Strings in Python",
-        intro: "Strings are usually the collection of alphabets, words, or characters. These are some of the primitive data structures and building blocks for data manipulation. This part of the Python course will introduce you to strings and their representation, multiple string methods, string indexing and slicing, and formatting strings.\nSubjects covered in strings in Python:<br/> <br/><ul>" +
-            [
-                "Creating strings",
-                "String formatting",
-                "Indexing",
-                "Slicing",
-                "String methods"
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "5. Lists",
-        intro: "Python programmers use lists to store multiple items in a single variable. Lists are one of the four main in-built Python data types, and you can identify them when mentioned within square brackets. List items maintain an order, are changeable, and allow duplicate values. This section will cover the basics of creating Python lists, including list indexing and slicing, and different list methods. \nSubjects covered in lists in Python:<br/> <br/><ul>" +
-            [
-                "Creating lists",
-                "Properties of lists",
-                "List indexing",
-                "List slicing",
-                "List of lists",
-                "List methods",
-                "Adding, updating & removing elements from lists"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "6. Tuples",
-        intro: "Another in-built Python data type, other than lists, is tuples and it also stores multiple items in a single variable. Python tuple items are written within round brackets, and these collections maintain an order and are unchangeable. This part of the Python course will give in-depth knowledge of tuples, including their syntax, properties, indexing and slicing, and tuple methods. \nSubjects covered in tuples in Python:<br/> <br/><ul>" +
-            [
-                "Syntax to create tuples",
-                "Tuple properties",
-                "Indexing on tuples",
-                "Slicing on tuples",
-                "Tuple methods"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "7. Sets",
-        intro: "Just like Lists and Tuples, Sets form an essential part of Python’s in-built data types that can store several items in a single variable. These elements are written within curly brackets and are unordered, unchangeable, and unindexed. Sets are different from the previous two data types, and learners will know the difference in this section. Plus, you will learn the syntax for creating sets, their operations and methods, and updating sets. \nSubjects covered in sets in Python:<br/> <br/><ul>" +
-            [
-                "The syntax for creating sets",
-                "Updating sets",
-                "Set operations and methods",
-                "Difference between sets, lists, and tuples",
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "8. Dictionaries ",
-        intro: "Lastly, you will know dictionaries, one of the four in-built Python data types used to store data values in a key:value pairs, and are written within curly brackets. This section will introduce you to the creation of dictionaries and storing data within them, along with knowledge of keys and values, ways to access elements of dictionaries, and different dictionary methods.\n Subjects covered in dictionaries in Python:<br/> <br/><ul>" +
-            [
-                "The syntax for creating Dictionaries",
-                "Storing data in Dictionaries ",
-                "Dictionaries keys and values",
-                "Accessing the elements of Dictionaries ",
-                "Dictionary methods"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "9. Python conditional statements",
-        intro: "While you are creating a Python program, you may need to put some conditions. For example, if a condition is true, then the next statement will be executed; otherwise, another statement will be printed. Python conditional statements consist of if statements, if-else statements, and if-elif-else statements. This section of the course will help you set logic with each of these conditional statements. \nSubjects covered in conditional statements in Python:<br/> <br/><ul>" +
-            [
-                "Setting logic with conditional statements",
-                "If statements",
-                "If -else statements",
-                "If-elif-else statements"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "10. Loops in Python",
-        intro: "ust like conditional statements, loops in Python are vital to know. Looping refers to the execution of repeated statements until a specific condition is met. This programming language mainly uses while and for loop commands. You will learn them in this section, along with the use of break, continue, and pass statements and the use of the range function. \nSubjects covered in loops in Python:<br/> <br/><ul>" +
-            [
-                "Iterating with Python loops",
-                "while loop",
-                "for loop",
-                "range",
-                "break",
-                "continue",
-                "pass",
-                "enumerate",
-                "zip",
-                "assert"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "11. List and Dictionaries comprehension",
-        intro: "Python List and Dictionaries comprehension offers shorter syntax to create new lists or new dictionaries depending on the value of an existing list. This section will define why list comprehension is used and the syntax for list comprehension and dict comprehension. \nSubjects covered in list and dictionary comprehension in Python:<br/> <br/><ul>" +
-            [
-                "Why List comprehension",
-                "The syntax for list comprehension",
-                "The syntax for dict comprehension"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "12. Functions ",
-        intro: "Functions within a Python program are a collection or block of code that is executed only when you call for them, and they return data as a result. This segment of the Python course will teach you about creating and calling functions, along with different arguments, global and local variables, and recursion.\n Subjects covered in functions in Python:<br/> <br/><ul>" +
-            [
-                "What are Functions",
-                "Modularity and code reusability",
-                "Creating functions",
-                "Calling functions",
-                "Passing Arguments",
-                "Positional Arguments",
-                "Keyword Arguments",
-                "Variable-length arguments (*args)",
-                "Variable Keyword length arguments (**kargs)",
-                "Return keyword in Python ",
-                "Passing function as an argument",
-                "Passing function in return",
-                "Global and local variables",
-                "Recursion"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "13. Anonymous Function ",
-        intro: "Python’s anonymous functions refer to those that have no name and can be invoked immediately or stored within a variable. These are known as lambda functions. They can take any number of arguments and only one expression. You will learn about them in depth in this portion. \n Subjects covered in anonymous function in Python:<br/> <br/><ul>" +
-            [
-                "Lambda",
-                "Lambda with filter",
-                "Lambda with map",
-                "Lambda with reduce"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "14. Generators",
-        intro: "Generators in Python allow coders to declare a function that acts like an iterator. These are the shortcuts to creating iterators, and this part of the course will teach you how to create and use generators. \nSubject covered in generators in Python: <br/> <br/><ul>" +
-            [
-                " Creating and using generators"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "15. Modules ",
-        intro: "Modules are similar to a code library that consists of Python definitions and statements and can be imported into other modules or to the main module. You will learn how to create modules, import functions and variables from different modules, and learn the in-built Python modules here.\nubjects covered in modules in Python:<br/> <br/><ul>" +
-            [
-                "Creating modules",
-                "Importing functions from a different module",
-                "Importing variables from different modules",
-                "Python built-in modules"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "16. Packages  – Data Analysis",
-        intro: "<br/> <br/><ul>" +
-            [
-                "Creating packages",
-                "Importing modules from the package",
-                "Different ways of importing modules and packages",
-                "Working on Numpy, Pandas, and Matplotlib"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "17. Exceptions and Error handling",
-        intro: "When your Python program encounters an error or exception while executing a code, it normally stops execution and generates an error message. You need to know ways of handling such errors and exceptions. This part of the course will teach with the necessary measures using try, except, and finally block, along with teaching multiple syntax and logical errors.\nSubjects covered in exceptions and error handling in Python:<br/> <br/><ul>" +
-            [
-                "Syntax errors",
-                "Logical errors",
-                "Handling errors using try, except and finally"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "18. Classes and Objects (OOPS) ",
-        intro: "As Python programming is object-oriented, there is an object in almost everything in Python. So, you need to know what an object is and how to create it. Along with that, you must know about classes that act like object constructors in Python. This portion of the course will give you a clear view of both classes and objects, along with attributes and methods, inheritance, polymorphism, and operator overloading.\nSubjects covered in classes and objects in Python:<br/> <br/><ul>" +
-            [
-                "Creating classes & Objects",
-                "Attributes and methods",
-                "Understanding __init__ constructor method",
-                "Class and instance attributes",
-                "Different types of methods",
-                "Instance methods",
-                "Class methods",
-                "Static methods",
-                "Inheritance",
-                "Creating child and parent class",
-                "Overriding parent methods",
-                "The super() function",
-                "Understanding Types of inheritance",
-                "Single inheritance",
-                "Multiple Inheritance",
-                "Multilevel Inheritance",
-                "Polymorphism",
-                "Operator overloading"
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "19. Date and Time",
-        intro: "Date and time are modules of Python and are named the DateTime module, which supplies Python classes to work with date and time. You can learn multiple other associated things like time delta, strftime(), striptime() and more, along with date and time modules.\nSubjects covered in data and time in Python:<br/> <br/><ul>" +
-            [
-                "date module",
-                "time module",
-                "datetime module",
-                "time delta",
-                "formatting date and time",
-                "strftime()",
-                "striptime()"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "20. Regex",
-        intro: "Regular Expression (Regex), a tiny but highly specialised programming language, is used within Python and is available through the “re” module. This portion of the course will allow you to understand in depth the use of regex and a few “re” module functions that are commonly used while coding.\n Subjects covered in Regex in Python:<br/> <br/><ul>" +
-            [
-                "Understanding the use of regex",
-                "re.search()",
-                "re.compile()",
-                "re.find()",
-                "re.split()",
-                "re.sub()",
-                "Meta characters and their use"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "21. Files",
-        intro: "A file in Python is the named location where you can store data. There are multiple functions in Python for creating, reading, deleting, and updating files. You can learn them from this part of the course that gives you a clear understanding of files, from opening and reading to writing and closing files. \nSubjects covered in files in Python:<br/> <br/><ul>" +
-            [
-                "Opening file",
-                "Opening different file types",
-                "Read, write, close files",
-                "Opening files in different modes"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "22. Web Scraping ",
-        intro: "Web Scraping is a vital skill for anyone, especially data scientists, who are responsible for analysing large volumes of datasets. This process uses an algorithm or a program to extract a huge volume of data from the web. You can learn the basics of web scraping with beautiful soup and scraping dynamic websites in this segment.  \nSubjects covered in web scraping in Python:<br/> <br/><ul>" +
-            [
-                "Installing BeautifulSoup",
-                "Understanding web structures",
-                "Chrome devtools",
-                "request ",
-                "Scraping data from the web using Beautiful Soup",
-                "scraping static websites",
-                "Scraping dynamic websites using Beautifulsoup"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "23. Database Access ",
-        intro: "You can use Python in database applications, and this section teaches you MySQL which is one of the most popular databases. It will cover the basics of creating tables and inserting values into them, along with the idea of querying and updating and deleting database tables.\nSubjects covered in database access in Python: <br/> <br/><ul>" +
-            [
-                "Accessing Database using MySql",
-                "Creating tables",
-                "Insert Values",
-                "Commit changes",
-                "Query",
-                "Update and Delete"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "24. Working on Data Analysis ",
-        intro: "Data analysis is a process of collecting, transforming, and organising data to make data-driven decisions. In Python, data analysis can be done using NumPy and Pandas. This section will teach you data analysis and data visualisation in Python.\nSubjects covered in working on data analysis in Python:<br/> <br/><ul>" +
-            [
-                "Introduction and Working on Numpy-Multidimensional Arrays",
-                "Working on Pandas – EDA Process",
-                " Data Visualization",
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "25. APIs the Unsung Hero of the Connected World ",
-        intro: "Python APIs are used to retrieve data from multiple sources. For example, you can retrieve weather data from various websites, and this segment will give you hands-on experience on it. Learners will get a clear understanding of APIs and how to access Public APIs.\nSubjects covered in APIs in Python:<br/> <br/><ul>" +
-            [
-                "Introduction to APIs",
-                "Accessing Public APIs"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-    {
-        title: "26. Python for Web Development – Flask",
-        intro: "Flask is a popular Python API that allows experts to build web applications. Python 2.6 and higher variants must install Flask, and you can import Flask on any Python IDE from the Flask package. This section of the course will help you install Flask and learn how to use the Python Flask Framework.\n Subjects covered in Python for Web development using Flask:<br/> <br/><ul>" +
-            [
-                "Introduction to Python Web Framework Flask",
-                "Installing Flask",
-                "Working on GET, POST, PUT, METHODS using Python Flask Framework",
-                "Working on Templates, render_template function"
-
-            ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
-            )).join('') +
-            "</ul>"
-    },
-   
-    {
-        title: "Hands-on projects included the Python course syllabus",
+        title: "React vs. Angular – History",
         intro: () => (
             <>
-                <p>You can also check out our complete <Link to="/python-full-stack-developer-course-syllabus" onClick={() => window.scrollTo({ top: 0 })} className="link-color">full stack Python developer course curriculum.</Link> </p>
+                <h4> React</h4>
+                <p>React, launched by Facebook, in 2013. React is mostly used by the Facebook company in its products like Facebook, Instagram, and Whatsapp. In November 2018, Facebook released the latest version, 16.X.</p>
+
+                <h4> Angular</h4>
+                <p>Angular, introduced by Google, released in 2010. Angular is a Typescript-based javascript framework. The next version Angular 2 (dropped the JS from the name- AngularJS), Angular 2+. The latest version is Angular 10, released in June 2020.</p>
+
+                <h4> React vs Angular – Popularity</h4>
+                <p>The explanation behind the developers why they like React or Angular is that since React includes more Javascript and has an alternate syntax JSX (Javascript XML), it has a stricter setup, architecture, and environment of React. Thus, developers utilize Angular more for this situation. Angular is a well-structured technology with an immense amount of projects and assets.</p>
             </>
         )
     },
     {
-        title: "1. Web Scraping Dynamic Website with multiple pages along with Data Analysis",
+        title: "React vs. Angular – Comparison of Component Model",
         intro: () => (
             <>
-            <p>Web scraping refers to extracting of useful data from websites using Python script. This hands-on training program teaches you web scraping of dynamic websites and collects data from single and multiple websites without manually writing code for each site. </p>
+                <p>React exhibits entirely different characteristics. It combines the UI parts and behavior of components.</p>
 
-            <p>Learners will get in-depth knowledge of importing necessary libraries, setting up URL strings, parsing data from target websites using the BeautifulSoup library parser, identifying and extracting classes and tags, and creating and applying loops on multiple pages to extract required data.</p>
-            </>
-        )
-    },
-    {
-        title: "2. Sending Automated Emails",
-        intro: () => (
-            <>
-            <p>You will get hands-on training in sending automated email messages in Python, including text messages, photos, and important files. Learners can import modules, build message content, attach pictures and multiple attachments, make a list of all emails they want to send, and set a function to instruct the machine to send emails automatically to set destinations. </p>
-             
-            <p>You will also learn to  <Link to="/how-to-send-multiple-emails-simple-way-using-python" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> schedule email messages using the schedule package in Python.</Link> </p>
-            <img src="/courses-images/sending_automated_emails_illustrationg.png" alt="error" />
-            <img src="/syllabuspages/python_is_most_popular_programming_language.png" alt="error" />
-            </>
-        )
-    },
-    {
-        title: "3. Building a Virtual Assistant with Frontend Interface",
-        intro: () => (
-            <>
-            <p>Building a virtual assistant with a front-end interface is interesting, and you can do it with Python. This course will give you real-life experience in building a virtual assistant and understanding the use of different Python methods.</p>
-               
-            </>
-        )
-    },
-    {
-        title: "4. Assessing Public Weather APIs and People in Space API",
-        intro: () => (
-            <>
-            <p>Python APIs help in understanding and predicting the weather for tomorrow. Here, you can learn how to use Public Weather APIs in real-time to predict tomorrow’s weather. Similarly, you can work with People in Space APIs, which create an indicator that displays the number of people currently in space.</p>
-              
-            </>
-        )
-    },
-    {
-        title: "What is the Python course fee? ",
-        intro: () => (
-            <>
-            <p>Passing the Hackerrank examination is tough, but you can easily crack it with regular practice. This course will help you solve challenges at every level, ensuring you achieve a five-star badge and rank within the top 1 lakh challengers. </p>
-            </>
-        )
-    },
-    {
-        title: "5. Working on Hackerrank use cases and solving level-by-level challenges ",
-        intro: () => (
-            <>
-            <p>The Python course fee at Codegnan is Rs 8,000 for both online and offline classes. Upon completion, you will receive an industry-recognised certificate that will help you land good jobs in your early career phase.</p>
-             
-            </>
-        )
-    },
-    {
-        title: "Is learning Python easy?",
-        intro: () => (
-            <>
-            <p>Learning Python is comparatively easier than most other programming languages and is a good place to start your programming career. However, by saying easy, it doesn’t mean they can’t build complexity. Still, its packaging or library simplifications, easy-going syntax, and object model simplifications make it easier than C, Java, and other languages.</p>
-            <p>It has an easy-to-understand syntax that beginners can catch and implement in their programs. Python has multiple built-in features and available modules that you can import into your program to get the desired result. So, all you need to do is learn the library functions, APIs, how to import modules and other elements of Python programming. </p>
-            <p> Learn the <Link to="/java-training-in-banglore" onClick={() => window.scrollTo({ top: 0 })} className="link-color">career opportunities as a Python developer in India.</Link> </p>
-            </>
-        )
-    },
-    {
-        title: "What is the Python course duration? ",
-        intro: () => (
-            <>
-                <p>The Python course duration at Codegnan is 1 month. During this period, you will not only receive in-depth theoretical Python knowledge but also hands-on experience upon completion of each module. </p>
-                <p>Additionally, you get to work on three <Link to="/python-projects" onClick={() => window.scrollTo({ top: 0 })} className="link-color">real-life Python projects</Link>that can improve your professional portfolio.</p>
-                <p>Have questions? <Link to="/contact_us" onClick={() => window.scrollTo({ top: 0 })} className="link-color">Contact our Python experts </Link> and get your first two classes for FREE.</p>
-            </>
-        )
-    },
-    {
-        title: "What is the Python course fee? ",
-        intro: () => (
-            <>
-            <p>The Python course fee at Codegnan is Rs 8,000 for both online and offline classes. Upon completion, you will receive an industry-recognised certificate that will help you land good jobs in your early career phase.</p>
-              
-            </>
-        )
-    },
-    {
-        title: "What is the salary of a Python developer in India?",
-        intro: () => (
-            <>
-                A Python developer in India can make a salary between  <Link className="link-color" to="https://www.ambitionbox.com/profile/python-software-developer-salary"> ₹1.5 LPA and ₹11.0 LPA </Link>  with an average salary of ₹6.1 LPA. Therefore, the estimated take-home salary for Python developers is ₹33,547-₹34,809 per month. 
-                <br />
-                <img src="/syllabuspages/java.1.png" alt="" width="100%" />
+                <h4> Here is the component model of React:</h4>
+                <img src="/syllabuspages/prog11.png" alt="error" />
+                <p>In Angular, components are known by the name of directives. Angular separates the UI components, as components are in HTML tags and their behavior in Javascript code.  So, it helps in faster angular development services. </p>
+
+                <p>Here is the component model of Angular:</p>
+                <img src="/syllabuspages/prog1.png" alt="error" />
+
+                <h3>React vs. Angular – Learning Scale</h3>
+                <h4>Angular:</h4>
+                <p>Difficult- Angular has a steep learning curve since learning includes mastering in MVC and Typescript, so it takes time to learn the complete Angular.</p>
+
+                <h4>React:</h4>
+                <p>Moderate- React comes with the starting guide, making it easier to start with the react development. But, it does not mean you would not face difficulties learning about the libraries and integrations in React.</p>
                 
-                <table className="salary-table">
-                    <thead>
-                        <tr>
-                            <th>City name</th>
-                            <th>Python developer salary</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Python in Hyderabad</td>
-                            <td><Link className="link-color" to="https://www.ambitionbox.com/profile/python-software-developer-salary/hyderabad-location">₹2.0LPA – ₹9.0LPA</Link></td>
-                        </tr>
-                        <tr>
-                            <td>Python in Bengaluru</td>
-                            <td><Link className="link-color" to="https://www.ambitionbox.com/profile/python-software-developer-salary/bengaluru-location">₹2.4LPA – ₹11.0LPA</Link></td>
-                        </tr>
-                        <tr>
-                            <td>Python in Vijayawada</td>
-                            <td><Link className="link-color" to="https://www.ambitionbox.com/profile/python-software-developer-salary/vijayawada-location">₹3.5LPA – ₹8.0LPA</Link></td>
-                        </tr>
-                    </tbody>
-                </table>
             </>
         )
     },
     {
-        intro: () => (
-            <>
-                <h4>Looking for more details about codegnan’s Core Java courses?</h4>
-                <ul>
-                    {[
-                        { name: "Data Science Course curriculum and syllabus", link: "/data-science-course-syllabus" },
-                        { name: "Java course syllabus for beginners to advanced", link: "/java-training-hyderabad" },
-                        { name: "Python vs Java vs PHP—The key differences", link: "/python-vs-java-vs-php-the-ultimate-guide/" }
-                    ].map((program, index) => (
-                        <li className="list-items" key={index}>
-                            <Link to={program.link} className="link-light-color">
-                                {program.name}
-                            </Link>
-                        </li>
-                    ))}
-                </ul>
-                <br />
-                <h5>Further resources</h5>
-                <p>Visit our training centres (in Hyderabad, Vijayawada, and Bangalore) and get your first two training classes for free.</p>
-            </>
-        )
-
-    },
-    {
-        title: "Why enroll in codegnan’s Python training course?",
-        intro: "If you want to start your career in Python programming, you can try Codegnan. There are multiple reasons why you must give it a try.<br/> <br/><ul>" +
+        title: "ReactJs vs. AngularJs – Which Javascript framework should I choose?",
+        intro: " <br/><ul>" +
             [
-                "The course is available for only Rs 8,000",
-                "Gain in-depth Python knowledge within 1 month",
-                "Trained by experts from top institutions and industry specialists",
-                "Both online and offline classes are available",
-                "Each module ends in a practical class",
-                "Work on three real-world projects",
-                "Get career support with Codegnan’s job acceleration program",
-                "Receive industry-accredited certificate on course completion",
-                "Gain chances to rank among less than 1 lakh candidates and win a Hackerrank certificate",
-                "Codegnan’s learners are placed in more than 1250 companies",
-                "Codegnan has received 4.8/5 ratings from more than 2,200 students"
+                "<b>React</b> is focused on building the view layer only. Angular is a full-fledged framework for building the entire front-end.",
+                "<b>React</b> uses JSX syntax which mixes HTML and JavaScript. Angular uses HTML templates. It updates only the changed parts of the DOM for better performance. Angular updates the entire DOM on any change.",
+                "<b>React</b> follows a uni-directional data flow between components. Angular has two-way binding between the model and view.",
+                "<b>React</b> is a library with basic capabilities. Angular has a lot of built-in features like routing, HTTP services, forms validation etc.",
+                "<b>React</b> needs other libraries to handle routing, HTTP requests etc. Angular provides these out-of-the-box.",
+                "<b>React</b> has a steep learning curve. Angular is more beginner friendly.",
+                "<b>React</b> promotes reusable components. Angular promotes separation of concerns via MVC."
 
             ].map((item, index) => (
                 "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
             )).join('') +
             "</ul>"
     },
+    {
+        title: "Put simply,",
+        intro: "<ul>" +
+            [
+                "Choose React.JS— If you want simple views with high performance",
+                "Choose Angular— If you want an out-of-the-box full framework ",
+                "If you are a beginner— Angular is easier to start",
+                "If you want to focus on reusable UI components— React is better"
+            ].map((item, index) => (
+                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
+            )).join('') +
+            "</ul>"
+    },
+    {
+        title: "Factors to consider before choosing a react angular framework",
+        intro: "<ul>" +
+            [
+                "Learning Curve of the Technology",
+                "Benefits on the Server-Side and User-Side Aspects",
+                "Functionalities, Special Features, and Components",
+                "Updates, Trends, and Popularity on the Web Development Industry"
 
+            ].map((item, index) => (
+                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
+            )).join('') +
+            "</ul>"
+    },
+    {
+        title: "",
+        intro: () => (
+            <>
+                <table className="salary-table">
+                    <thead>
+                        <tr>
+                            <th> Feature</th>
+                            <th> Angular</th>
+                            <th> ReactJS</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th> Company</th>
+                            <td> Google	</td>
+                            <td> Facebook</td>
+                        </tr>
+                        <tr>
+                            <th> Initial Release	</th>
+                            <td> 2010 (AngularJS), 2016 (Angular2+)	</td>
+                            <td> 2013 </td>
+                        </tr>
+                        <tr>
+                            <th>Language</th>
+                            <td>JavaScript, TypeScript	</td>
+                            <td>JavaScript, JSX</td>
+                        </tr>
+                        <tr>
+                            <th> Architecture	</th>
+                            <td> Full-fledged MVC framework	</td>
+                            <td> Component-based library</td>
+                        </tr>
+                        <tr>
+                            <th> Rendering	</th>
+                            <td> Real DOM	</td>
+                            <td> Virtual DOM</td>
+                        </tr>
+                        <tr>
+                            <th> Data Binding	</th>
+                            <td> Two-way	</td>
+                            <td> One-way</td>
+                        </tr>
+                        <tr>
+                            <th> App Size	</th>
+                            <td> Depends upon bundle size	</td>
+                            <td> Relatively small (with tree-shaking)</td>
+                        </tr>
+                        <tr>
+                            <th> Performance	</th>
+                            <td> High	</td>
+                            <td> High</td>
+                        </tr>
+                        <tr>
+                            <th> Learning Curve	</th>
+                            <td> Steep	</td>
+                            <td> Moderate</td>
+                        </tr>
+                        <tr>
+                            <th> Community Support	</th>
+                            <td> Large	</td>
+                            <td> Large</td>
+                        </tr>
+                        <tr>
+                            <th> State Management	</th>
+                            <td> Built-in (RxJS, services)	</td>
+                            <td> External libraries (e.g., Redux)</td>
+                        </tr>
+                        <tr>
+                            <th> Mobile Development	</th>
+                            <td> NativeScript	</td>
+                            <td> React Native</td>
+                        </tr>
+                        <tr>
+                            <th> Server-Side Rendering	</th>
+                            <td> Angular Universal	</td>
+                            <td> Next.js, Gatsby.js</td>
+                        </tr>
+                        <tr>
+                            <th> Dependency Injection	</th>
+                            <td> Built-in	</td>
+                            <td> External libraries (e.g., React Context)</td>
+                        </tr>
+                        <tr>
+                            <th> Routing	</th>
+                            <td> Built-in (Angular Router)	</td>
+                            <td> External libraries (e.g., React Router)</td>
+                        </tr>
+                        <tr>
+                            <th> Development </th>
+                            <td> Environment	</td>
+                            <td> Angular CLI	Create React App (CRA), Next.js CLI</td>
+                        </tr>
+                        <tr>
+                            <th> Licensing	</th>
+                            <td> Open-source	</td>
+                            <td> Open-source</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>It is undeniable that Angular is used for building applications for its readability, reusability, and scalability at a large scale. Angular is most popular among Javascript developers but React is easy to learn because of the multiple integrations of some mandatory tools and libraries to manage dependency.</p>
+            </>
+        )
+    },
+    {
+        title: "Final Words On reacting js vs angular js ",
+        intro: "Angular and React are both developing and being embraced by the large players on the tech scene. One is a steady, very much characterized, and normalized system that is incredible for long-term projects, while the other is a library that can be utilized to gather a model with reusable components surprisingly fast. \n Passing a subjective judgment on which one is “better” without becoming more acquainted with React and Angular’s unique qualities and shortcomings would be unhelpful and misleading. Your choice of which one to go with ought to eventually rely upon:<br/> <br/><ul>" +
+            [
+                "the points of interest of your venture",
+                "the current range of abilities of your engineers",
+                "your financial plan"
+
+            ].map((item, index) => (
+                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
+            )).join('') +
+            "</ul>"
+    },
+    {
+        title: " ",
+        intro: () => (
+            <>
+                <p>I hope that this guide has explained a portion of the dilemma surrounding the two technologies. Understand Javascript better by enrolling yourself in Javascript training online or Javascript training offline.</p>
+                <p>For learning and improving your skills, check out our <Link to="/java-interview-questions" onClick={() => window.scrollTo({ top: 0 })} className="link-color">Java interview questions and answers.</Link> </p>
+            </>
+        )
+    },
+    {
+        title: "Why enroll in Codegnan’s React JS training course?",
+        intro: "If you’re looking forward to working as a front-end web developer (which means building UIs), then you should learn ReactJS.\nWith ReactJS training at Codegnan, you’ll develop a strong understanding of React’s most essential concepts: JSX, components of React JS, classes and functions in ReactJS, props, state, ReactJS lifecycle methods, hooks, etc.<br/> <br/><ul>" +
+            [
+                "<strong> Experienced Trainers:</strong> The course is taught by industry experts with over 8 years of experience in handling real-world projects. ",
+                "<strong> Job Support:</strong> codegnan provides job assistance through resume preparation, mock interviews, and dedicated placement support to help students find jobs after the course.",
+                "<strong> Practical Focus:</strong> The curriculum includes working on real-world projects, exercises and hands-on coding assignments. ",
+                "<strong> Flexible Batches:</strong> codegnan offers flexible batch timings including weekday, weekend and fast-track batches. Students can choose a schedule on the weekend that suits them.",
+                "<strong> Affordable Fees (₹8,000):</strong> The course fees are quite affordable compared to other institutes. codegnan offers discounts to make quality training accessible.",
+                "<strong> Online and Offline Classes:</strong> Students can join online classes from anywhere or attend offline classes in Vijayawada center for in-person interactions.",
+                "<strong> Lifetime Access:</strong> Students get lifetime access to course content for revision even after course completion. 24×7 support is also provided.",
+                "<strong> Industry recognized certificates:</strong> codegnan is a trusted training provider with top companies hiring their certified students. "
+
+            ].map((item, index) => (
+                "<li key=" + index + " style='margin-left: 50px;'>" + item + "</li>"
+            )).join('') +
+            "</ul>"
+    },
+    {
+        title: " ",
+        intro: () => (
+            <>
+                <p>👉 Enroll in Codegnan’s <Link to="/react-js-training-course-in-vijayawada" onClick={() => window.scrollTo({ top: 0 })} className="link-color"> React JS course training for Vijayawada location (1-month course duration).</Link></p>
+                <p>Also, if you’re looking for an online course with lifetime course access, you can <Link to="/https://academy.codegnan.com/learn/ReactJSreact-js-training-course-in-vijayawada" onClick={() => window.scrollTo({ top: 0 })} className="link-color">  enroll in our online react JS course here. </Link></p>
+                <p>You will also be able to combine these ideas in React’s modular programming style. The graceful solutions provided by ReactJS are making it grow rapidly in the world of programming languages. Thus, there’s never been a better time to learn ReactJS. </p>
+            </>
+        )
+    }
 ];
 
 const nav_interview = [
     {
-        name: "Python Career Opportunities: Scope, Jobs, and Future in India",
-        link: "/"
+        name: "120 Important Java Interview Questions and Answers (2024)",
+        link: "/java-interview-questions"
     },
     {
-        name:"120 Important Java Interview Questions and Answers (2024)",
-        link:"/"
+        name:"Python Course Syllabus For Beginners to Advanced (2024)",
+        link:"/python-course-syllabus"
     }
 ];
 

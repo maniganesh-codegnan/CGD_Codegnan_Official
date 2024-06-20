@@ -1,0 +1,442 @@
+.about_container {
+    background-color: #fff;
+    /* margin-top: 100px; */
+    padding-top: 30px;
+    display: block;
+
+    .home-intern {
+
+        padding: 0 150px;
+        font-size: 18px;
+    }
+
+    line-height: 1.5;
+
+    .jap-home-1 {
+
+        margin: 100px 0px;
+        padding: 30px;
+
+        width: 650px;
+
+        h4 {
+            font-size: 30px;
+        }
+
+        li {
+            margin-left: 50px;
+            list-style: none;
+        }
+
+        .internship_rating {
+            padding-right: 30px 20px;
+        }
+
+
+    }
+}
+
+.jap_form {
+    background-color: white;
+    box-shadow: 0 0 20px white;
+    padding: 20px;
+}
+
+.jap-form-self {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jap_faqs {
+    padding: 50px 0px;
+}
+
+.jap_collab {
+    img {
+        width: 112px;
+        height: 36px;
+        margin: 10px;
+        padding: 10px;
+        width: 166px;
+        height: 65px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
+
+.explore-button {
+    width: 140px;
+    height: 40px;
+    padding: 20px;
+    background-color: #1AB69D;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.explore-button:hover {
+    background-color: #EE4a62;
+}
+
+.jap_syllabus {
+    padding: 70px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    /* align-items: center; */
+    .jap_meet_expert {
+        width: 33%;
+    }
+}
+
+
+.jap_salary_container {
+    padding:  50px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap:20px;
+    
+    .each_component_in_jap {
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+        width: 230px;
+        background-color: #e7dcfa;
+        h1 {
+            color:#8E56FF;
+            display: flex;
+            justify-content: center;
+        }
+        p{
+            font-size: 14px;
+        }
+    }
+
+}
+
+.we_are_good{
+  
+    background-color: #F5F1EB;
+    padding:100px;
+    padding-bottom: 200px;
+    p{
+        padding:0px 70px;
+    }
+    image{
+        padding:10px;
+    }
+}
+
+
+.we_are_good {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cGF0aCBkPSJNMCwwIEwwLDEwMCBMIDEwMCwwIFoiIGZpbGw9IiNGRkYiPjwvcGF0aD48L3N2Zz4=');
+    background-repeat: repeat-x;
+    background-position: bottom;
+   
+}
+.im {
+    margin-right: 10px;
+    font-size: 18px;
+}
+.sp{
+    color: black;
+    
+}
+.jap_img{
+    padding:10px;
+}
+
+/* ================================== */
+
+.jap_container {
+    background-color: aliceblue;
+    padding-top: 30px;
+    display: block;
+
+    .home-intern {
+        padding: 0 150px;
+        font-size: 18px;
+    }
+
+    line-height: 1.5;
+
+    .jap-home-1 {
+        margin: 100px 0px;
+        padding: 30px;
+        width: 650px;
+
+        h4 {
+            font-size: 30px;
+        }
+
+        li {
+            margin-left: 50px;
+            list-style: none;
+        }
+
+        .internship_rating {
+            padding-right: 30px 20px;
+        }
+    }
+}
+
+.jap_form {
+    background-color: white;
+    box-shadow: 0 0 20px white;
+    padding: 20px;
+}
+
+.jap-form-self {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.jap_faqs {
+    padding: 50px 0px;
+}
+
+.jap_collab {
+    img {
+        width: 166px;
+        height: 65px;
+        margin: 10px;
+        padding: 10px;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
+}
+
+.explore-button {
+    width: 140px;
+    height: 40px;
+    padding: 20px;
+    background-color: #1AB69D;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.explore-button:hover {
+    background-color: #EE4a62;
+}
+
+.jap_syllabus {
+    padding: 70px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+    .jap_meet_expert {
+        width: 33%;
+    }
+}
+
+.jap_salary_container {
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 20px;
+
+    .each_component_in_jap {
+        border-radius: 15px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 150px;
+        width: 230px;
+        background-color: #e7dcfa;
+
+        h1 {
+            color: #8E56FF;
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+.we_are_good {
+    background-color: #F5F1EB;
+    padding: 100px;
+    padding-bottom: 200px;
+
+    p {
+        padding: 0px 70px;
+    }
+
+    image {
+        padding: 10px;
+    }
+}
+
+.we_are_good {
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIj48cGF0aCBkPSJNMCwwIEwwLDEwMCBMIDEwMCwwIFoiIGZpbGw9IiNGRkYiPjwvcGF0aD48L3N2Zz4=');
+    background-repeat: repeat-x;
+    background-position: bottom;
+}
+
+.im {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.sp {
+    color: black;
+}
+
+.jap_img {
+    padding: 10px;
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .jap_container .home-intern {
+        padding: 0 50px;
+        font-size: 16px;
+    }
+
+    .jap_container .jap-home-1 {
+        width: 100%;
+        margin: 50px 0;
+        padding: 20px;
+
+        h4 {
+            font-size: 26px;
+        }
+
+        li {
+            margin-left: 20px;
+        }
+
+        .internship_rating {
+            padding-right: 10px;
+        }
+    }
+
+    .jap-form-self {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .jap_faqs {
+        padding: 30px 0;
+    }
+
+    .jap_collab img {
+        width: 130px;
+        height: 50px;
+    }
+
+    .jap_syllabus {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .jap_syllabus .jap_meet_expert {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .jap_salary_container {
+        padding: 30px 20px;
+    }
+
+    .we_are_good {
+        padding: 50px 20px;
+        padding-bottom: 100px;
+
+        p {
+            padding: 0px 20px;
+        }
+    }
+
+    .still_douts {
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 380px) {
+    .jap_container .home-intern {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    .jap_container .jap-home-1 {
+        margin: 20px 0;
+        padding: 10px;
+        width: 100%;
+
+        h4 {
+            font-size: 20px;
+        }
+
+        li {
+            margin-left: 10px;
+        }
+
+        .internship_rating {
+            padding-right: 5px;
+        }
+    }
+
+    .jap_form {
+        padding: 10px;
+    }
+
+    .jap-form-self {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .jap_faqs {
+        padding: 20px 0;
+    }
+
+    .jap_collab img {
+        width: 100px;
+        height: 40px;
+    }
+
+    .jap_syllabus {
+        flex-direction: column;
+        align-items: center;
+        padding: 40px 10px;
+    }
+
+    .jap_syllabus .jap_meet_expert {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .jap_salary_container {
+        padding: 20px 10px;
+    }
+
+    .we_are_good {
+        padding: 40px 10px;
+        padding-bottom: 80px;
+
+        p {
+            padding: 0px 10px;
+        }
+    }
+
+    .still_douts {
+        padding: 20px 10px;
+    }
+}

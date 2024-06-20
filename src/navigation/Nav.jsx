@@ -97,30 +97,28 @@ export default function Nav() {
             <a href="#" className="option">Syllabus <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="./java-course-syllabus" className='drop'><li>Java Syllabus</li></Link>
-                <Link to="./data-structures-and-algorithms-course-syllabus" className='drop'><li>Data structures</li></Link>
-                <Link to="./python-course-syllabus" className='drop'><li>Python syllabus</li></Link>
-                <Link to="./react-js-course-syllabus" className='drop'><li>React JS syllabus</li></Link>
-                <Link to="./c-language-course-syllabus" className='drop'><li>C language syllabus</li></Link>
-                <Link to="./data-science-course-syllabus" className='drop'><li>Data science syllabus</li></Link>
-                <Link to="./full-stack-java-developer-course-syllabus" className='drop'><li>Java full stack syllabus</li></Link>
-                <Link to="./software-testing-course-syllabus" className='drop'><li>Software Testing Syllabus</li></Link>
-                <Link to="./python-full-stack-developer-course-syllabus" className='drop'><li>Python Full Stack Syllabus</li></Link>
-                <Link to="./machine-learning-course-syllabus" className='drop'><li>Machine learning syllabus</li></Link>
+                <Link to="./blog/java-course-syllabus" className='drop'><li>Java Syllabus</li></Link>
+                <Link to="./blog/data-structures-and-algorithms-course-syllabus" className='drop'><li>Data structures</li></Link>
+                <Link to="./blog/python-course-syllabus" className='drop'><li>Python syllabus</li></Link>
+                <Link to="./blog/react-js-course-syllabus" className='drop'><li>React JS syllabus</li></Link>
+                <Link to="./blog/c-language-course-syllabus" className='drop'><li>C language syllabus</li></Link>
+                <Link to="./blog/data-science-course-syllabus" className='drop'><li>Data science syllabus</li></Link>
+                <Link to="./blog/full-stack-java-developer-course-syllabus" className='drop'><li>Java full stack syllabus</li></Link>
+                <Link to="./blog/software-testing-course-syllabus" className='drop'><li>Software Testing Syllabus</li></Link>
+                <Link to="./blog/python-full-stack-developer-course-syllabus" className='drop'><li>Python Full Stack Syllabus</li></Link>
+                <Link to="./blog/machine-learning-course-syllabus" className='drop'><li>Machine learning syllabus</li></Link>
               </ul>
             </div>
             <a href="#" className="option">Project ideas <span>&#9654;</span></a>
             <div className="side-listings">
               <ul>
-                <Link to="./java_projects" className='drop'><li>Java Projects</li></Link>
-                <Link to="./python-projects" className='drop'><li>Python Projects</li></Link>
-                <Link to="./react-js-projects" className='drop'><li>React JS Projects</li></Link>
-                <Link to="./c-programming-projects" className='drop'><li>C language Projects</li></Link>
-                <Link to="./data-structure-and-algorithm-project-ideas" className='drop'><li>Data Structure Projects</li></Link>
-                <Link to="./machine-learning-projects" className='drop'><li>machine-learning-projects</li></Link>
-                <Link to="./software-testing-projects" className='drop'><li>Software Testing Projects</li></Link>
-                <Link to="./data-science-projects-for-beginners" className='drop'><li>Data Science Projects For Beginners</li></Link>
-                <Link to="./react-js-vs-angular-which-is-best-javascript-framework" className='drop'><li>React</li></Link>
+                <Link to="./blog/java_projects" className='drop'><li>Java Projects</li></Link>
+                <Link to="./blog/Python-projects" className='drop'><li>Python Projects</li></Link>
+                <Link to="./blog/react-js-projects" className='drop'><li>React JS Projects</li></Link>
+                <Link to="./blog/c-programming-projects" className='drop'><li>C language Projects</li></Link>
+                <Link to="./blog/data-structure-and-algorithm-project-ideas" className='drop'><li>Data Structure Projects</li></Link>
+                <Link to="./blog/machine-learning-projects" className='drop'><li>machine-learning-projects</li></Link>
+                <Link to="./blog/software-testing-projects/" className='drop'><li>Software Testing Projects</li></Link>
               </ul>
             </div>
           </div>
@@ -131,7 +129,8 @@ export default function Nav() {
         <div className="dropdown">
           <button className="dropbtn">About <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
-            <Link to="/about" className="option" onClick={scrollToTop}>Team </Link>
+            <Link to="/about" className="option" onClick={scrollToTop}>About </Link>
+            <Link to="/team" className="option" onClick={scrollToTop}>Team </Link>
             <Link to="/gallery" className="option" onClick={scrollToTop}>Gallery</Link>
             <Link to="/internship_page" className="option" onClick={scrollToTop}>Internships</Link>
             <Link to="/job_accelerator_program" className="option" onClick={scrollToTop}>Job Accelerator Program</Link>

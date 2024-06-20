@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Nav from './navigation/Nav'
 import Footer from './Footer/Footer';
 import Home from './Home/Home.jsx';
-import About from './about/About';
+import Team from './about/Team.jsx';
 import Placements from './placements/Placements';
 import Companies from './Companies/Companies.jsx';
 import Collaboration from './Collabarations.jsx';
@@ -11,6 +11,7 @@ import Pre from './Prefooter/Prefooter.jsx';
 import Gallery from './about/Gallery.jsx';
 import Course_template from './course_template/Course_template.jsx';
 import JavaCourseSyllabus from './course_template/Java-course-syllabus.jsx';
+import About from './about_us/about.jsx' ;
 
 // import JavaCourseSyllabus from "./blog/course_template/Java-course-syllabus.jsx";
 import PythonTraininginBanglore from './Training/Python-training-in-banglore.jsx';
@@ -63,6 +64,7 @@ import MachineLearningProjects from './course_template/machine-learning-projects
 import SoftwareTestingProjects from './course_template/software-testing-projects.jsx';
 import Data_science_projects_for_beginners from './course_template/data-science-projects-for-beginners.jsx';
 import React_js_vs_angular_which_is_best_javascript_framework from './course_template/react-js-vs-angular-which-is-best-javascript-framework.jsx';
+import Java_interview_questions from './course_template/java-interview-questions.jsx';
 
 
 import Jap from './JAP/JAP.jsx';
@@ -86,7 +88,6 @@ import Online_node from './academic/online_course_discription/online_node.jsx';
 import Online_python_web from './academic/online_course_discription/online_python_web.jsx';
 import Online_python_mini from './academic/online_course_discription/online_python_mini.jsx';
 
-// import Course_template from "./course_template/Course_template.jsx";
 
 
 
@@ -102,10 +103,11 @@ function App() {
       <Nav/>
       <Routes>
       <Route path="/" element={<Home/>  } />
-        <Route path="/about" element={<About/>  } />
+        <Route path="/team" element={<Team/>  } ></Route>
+        <Route path='/about' element={<About/>}></Route>
         <Route path='/placements' element={<Placements />}></Route>
         <Route path='/gallery' element={<Gallery />}></Route>
-        <Route path='/Java-course-syllabus' element={<JavaCourseSyllabus />}></Route>
+        <Route path='/blog/Java-course-syllabus' element={<JavaCourseSyllabus />}></Route>
         <Route path='/python-training-in-banglore' element={<PythonTraininginBanglore />}></Route>
         <Route path='/python-training-course-in-hyderabad' element={<PythonTrainingCourseinHyderabad />}></Route>
         <Route path='/python-training-in-vijayawada' element={<PythonTraininginVijayawada />}></Route>
@@ -135,27 +137,27 @@ function App() {
         <Route path='/internship_page' element={ <Intern_Page/>}></Route>
 
 
-        <Route path='/data-structures-and-algorithms-course-syllabus' element={<DataStructuresAndAlgorithmsCourseSyllabus />}></Route>
-        <Route path='/python-course-syllabus' element={<PythonCourseSyllabus />}></Route>
-        <Route path='/react-js-course-syllabus' element={<ReactJsCourseSyllabus />}></Route>
-        <Route path='/full-stack-java-developer-course-syllabus' element={<FullStackJavaDeveloperCourseSyllabus/>}></Route>
-        <Route path='/c-language-course-syllabus' element={<CLanguageCourseSyllabus/>}></Route>
-        <Route path='/machine-learning-course-syllabus' element={<MachineLearningCourseSyllabus/>}></Route>
-        <Route path='/data-science-course-syllabus' element={<DataScienceCourseSyllabus/>}></Route>
-        <Route path='/software-testing-course-syllabus' element={<SoftwareTestingCourseSyllabus/>}></Route>
-        <Route path='/python-full-stack-developer-course-syllabus' element={<PythonFullStackDeveloperCourseSyllabus/>}></Route>
+        <Route path='/blog/data-structures-and-algorithms-course-syllabus' element={<DataStructuresAndAlgorithmsCourseSyllabus />}></Route>
+        <Route path='/blog/python-course-syllabus' element={<PythonCourseSyllabus />}></Route>
+        <Route path='/blog/react-js-course-syllabus' element={<ReactJsCourseSyllabus />}></Route>
+        <Route path='/blog/full-stack-java-developer-course-syllabus' element={<FullStackJavaDeveloperCourseSyllabus/>}></Route>
+        <Route path='/blog/c-language-course-syllabus' element={<CLanguageCourseSyllabus/>}></Route>
+        <Route path='/blog/machine-learning-course-syllabus' element={<MachineLearningCourseSyllabus/>}></Route>
+        <Route path='/blog/data-science-course-syllabus' element={<DataScienceCourseSyllabus/>}></Route>
+        <Route path='/blog/software-testing-course-syllabus' element={<SoftwareTestingCourseSyllabus/>}></Route>
+        <Route path='/blog/python-full-stack-developer-course-syllabus' element={<PythonFullStackDeveloperCourseSyllabus/>}></Route>
         <Route path='/job_accelerator_program' element={<Jap/>}></Route>
         <Route path='/blog' element={<Blog/>}></Route>
-        {/* <Route path='/academic' element={<Academic/>}></Route> */}
-        <Route path='/java_projects' element={<JavaProjects/>}></Route>
-        <Route path='/python-projects' element={<PythonProjects/>}></Route>
-        <Route path='/react-js-projects' element={<ReactJsProjects/>}></Route>
-        <Route path='/c-programming-projects' element={<CProgrammingProjects/>}></Route>
-        <Route path='/data-structure-and-algorithm-project-ideas' element={<DataStructureAndAlgorithmProjectIdeas/>}></Route>
-        <Route path='/machine-learning-projects' element={<MachineLearningProjects/>}></Route>
-        <Route path='/software-testing-projects' element={<SoftwareTestingProjects/>}></Route>
-        <Route path='/data-science-projects-for-beginners' element={<Data_science_projects_for_beginners/>}></Route>
-        <Route path='/react-js-vs-angular-which-is-best-javascript-framework' element={<React_js_vs_angular_which_is_best_javascript_framework />}></Route>
+        <Route path='/blog/java_projects' element={<JavaProjects/>}></Route>
+        <Route path='/blog/python-projects' element={<PythonProjects/>}></Route>
+        <Route path='/blog/react-js-projects' element={<ReactJsProjects/>}></Route>
+        <Route path='/blog/c-programming-projects' element={<CProgrammingProjects/>}></Route>
+        <Route path='/blog/data-structure-and-algorithm-project-ideas' element={<DataStructureAndAlgorithmProjectIdeas/>}></Route>
+        <Route path='/blog/machine-learning-projects' element={<MachineLearningProjects/>}></Route>
+        <Route path='/blog/software-testing-projects' element={<SoftwareTestingProjects/>}></Route>
+        <Route path='/blog/data-science-projects-for-beginners' element={<Data_science_projects_for_beginners/>}></Route>
+        <Route path='/blog/react-js-vs-angular-which-is-best-javascript-framework' element={<React_js_vs_angular_which_is_best_javascript_framework />}></Route>
+        <Route path='/blog/java-interview-questions' element={<Java_interview_questions/>}></Route>
 
         <Route path='/online-academic' element={<Online_Academic/>}></Route>
         <Route path='/academy/online-python-course/' element={<Online_python/>}></Route>     
