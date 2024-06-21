@@ -3,8 +3,6 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-
 function Collaboration() {
 
   const settings = {
@@ -31,7 +29,7 @@ function Collaboration() {
         {data.map((d, index) => (
   <div key={index}>
     <div className='collaboration-one' style={{backgroundColor:"white"}}>
-      <img src={d.img} alt="Error" className="collaboration" style={{width:"120px",height:"120px"}}/>
+      <img src={d.img} alt="Error" className="collaboration" style={{width:"116px",height:"120px"}}/>
     </div>
   </div>
 ))}
@@ -85,10 +83,6 @@ const data = [
   {
     img : './collaboration/nec.webp',
   },
-  // {
-  //   img : './collaboration/narasaraopeta.webp',
-  // },
-  
   {
     img : './collaboration/nri.webp',
   },

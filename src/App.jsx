@@ -88,6 +88,14 @@ import Online_node from './academic/online_course_discription/online_node.jsx';
 import Online_python_web from './academic/online_course_discription/online_python_web.jsx';
 import Online_python_mini from './academic/online_course_discription/online_python_mini.jsx';
 
+import Sairam_Uppugundla from './team_members/sairam-uppugundla.jsx';
+import Saketh_Kallepu from './team_members/saketh-kallepu.jsx';
+import Saikiran_Tarigopula from './team_members/saikiran-tarigopula.jsx';
+import Kishor_Kumar from './team_members/kishor-kumar.jsx';
+import Ravi_Siva_Ram_Teja  from './team_members/ravi-siva-ram-teja.jsx';
+import Manohar_Chary_Vadla from './team_members/manohar-chary-vadla.jsx';
+import Jitendra_Chautharia from './team_members/jitendra-chautharia.jsx';
+
 
 
 
@@ -175,7 +183,15 @@ function App() {
         <Route path='/academy/online-nodejs-course/' element={<Online_node/>}/>
         <Route path='/academy/online-web-development-with-python/' element={<Online_python_web/>}/>
         <Route path='/academy/online-python-mini-projects/' element={<Online_python_mini/>}/>
-        
+
+        <Route path='/sairam-uppugundla' element={<Sairam_Uppugundla/>}></Route>
+        <Route path='/saketh-kallepu/' element={<Saketh_Kallepu/>}></Route>
+        <Route path='/saikiran-tarigopula' element={<Saikiran_Tarigopula/>}></Route>
+        <Route path='/kishor-kumar' element={<Kishor_Kumar/>}></Route>
+        <Route path='/ravi-siva-ram-teja' element={<Ravi_Siva_Ram_Teja/>}></Route>
+        <Route path='/manohar-chary-vadla' element={<Manohar_Chary_Vadla/>}></Route>
+        <Route path='/jitendra-chautharia' element={<Jitendra_Chautharia/>}></Route>
+
       </Routes>
      
        <Footer></Footer>    

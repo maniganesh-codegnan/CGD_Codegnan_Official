@@ -1,0 +1,48 @@
+.team_about{
+    background-color: #F5F5F5;
+}
+.ceoo{
+    display: flex;
+    flex-direction: row;
+    padding:50px 100px;
+    .ceo_img1{
+        width:359px;
+        height:400px;
+        /* padding: 40px 40px; */
+        /* box-shadow: 0 0 10px gray; */
+        border-radius: 10px;
+        img{
+            width:250px;
+            height: 250px;
+            
+        }
+        
+    }
+    .ceo_info1{
+        margin-top: -50px;
+        /* width:750px; */
+        /* height:150px; */
+        padding:50px;
+      
+       
+    }
+    .check_double{
+        height: 20px;
+        width:20px;
+        color:#1ab6a3;
+        font-weight: bolder;
+        padding: 1px;
+    }
+    a{
+        font-size: 20px;
+    }
+    li{
+        list-style: none;
+        font-size:18px;
+        padding: 10px;
+        
+    }
+    p{
+        text-align: justify;
+    }
+}

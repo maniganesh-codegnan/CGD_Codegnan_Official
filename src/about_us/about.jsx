@@ -13,30 +13,30 @@ import Companies from '../Companies/Companies';
 
 
 const data2 = [
-    // {
-    //     head: "What is the salary of a full stack developer ?",
-    //     p: "A full stack developer in India could earn anywhere from INR 60,000 to 80,000 per month, depending on the type of company."
-    // },
-    // {
-    //     head: "What are the eligibility criteria?",
-    //     p: "The basic and foremost eligibility criteria for the Codegnan Full Stack Development class is for the student to be a learning-oriented individual seeking opportunities to upskill for faster career growth. For other criteria, you can see the section above."
-    // },
-    // {
-    //     head: "What is meant by a full-stack development program?",
-    //     p: "Full Stack Course breaks down the fundamentals of each technology that you would require to become a Full Stack Developer. The entire course is broken down into five separate segments: Frontend, Backend, Database, Other Essential Technologies, and Debugging/Version Control."
-    // },
-    // {
-    //     head: "Is there any entrance test for this program?",
-    //     p: "Your interest in programming itself is the entrance test."
-    // },
-    // {
-    //     head: "Are full-stackers in demand?",
-    //     p: "Full stack is a high-demand job where the candidates could get placed in IT companies. Even startups have a more high demand for full-stack developers."
-    // },
-    // {
-    //     head: "I’m new to programming and without an engineering background, how can I cope?",
-    //     p: "To create as many job opportunities for our students, we do intend to help every student who is willing to “make the extra catching up needed” in terms of programming & Development logic."
-    // }
+    {
+        head: "What is the salary of a full stack developer ?",
+        p: "A full stack developer in India could earn anywhere from INR 60,000 to 80,000 per month, depending on the type of company."
+    },
+    {
+        head: "What are the eligibility criteria?",
+        p: "The basic and foremost eligibility criteria for the Codegnan Full Stack Development class is for the student to be a learning-oriented individual seeking opportunities to upskill for faster career growth. For other criteria, you can see the section above."
+    },
+    {
+        head: "What is meant by a full-stack development program?",
+        p: "Full Stack Course breaks down the fundamentals of each technology that you would require to become a Full Stack Developer. The entire course is broken down into five separate segments: Frontend, Backend, Database, Other Essential Technologies, and Debugging/Version Control."
+    },
+    {
+        head: "Is there any entrance test for this program?",
+        p: "Your interest in programming itself is the entrance test."
+    },
+    {
+        head: "Are full-stackers in demand?",
+        p: "Full stack is a high-demand job where the candidates could get placed in IT companies. Even startups have a more high demand for full-stack developers."
+    },
+    {
+        head: "I’m new to programming and without an engineering background, how can I cope?",
+        p: "To create as many job opportunities for our students, we do intend to help every student who is willing to “make the extra catching up needed” in terms of programming & Development logic."
+    }
 ];
 
 
@@ -116,24 +116,24 @@ const syllabusdata = [
 
 const salaries = [
     {
-        no: 12,
-        head: " L P.a",
-        p: "An average Full Stack Developer gets INR 12 Lakhs Per Annum as their salary."
+        no: 20.5,
+        head: "K",
+        p: "STUDENTS ENROLLED"
     },
     {
-        no: 2,
-        head: " Rank",
-        p: "Fullstack development is listed as Top 2nd in 2020 and continuing in 2021."
+        no: 667,
+        head: " ",
+        p: "CLASSES COMPLETED "
     },
     {
-        no: 15,
-        head: " K Jobs",
-        p: "Highly potential Job Portals are adding 5k jobs every month. Naukri, linkedin are top of it."
+        no: 100 ,
+        head: "%",
+        p: " SATISFACTION "
     },
     {
-        no: 4,
-        head: " k/hr",
-        p: "As a Freelancer you can earn 4,000 per hour. You’ll never imagine what is the full scope of it."
+        no: 100 ,
+        head: "%",
+        p: "HIGHLY SKILLED MENTORS"
     }
 ]
 
@@ -144,7 +144,6 @@ export default function Jap() {
 
             <div className="about_container">
                 <span className="home-intern">
-                    {/* <Link className="Linkcolor" to="/">Home</Link>&nbsp; &gt; &nbsp;<strong>Codegnan’s 100 Days Job Accelerator Program (JAP)</strong> */}
                 </span>
                 <div className="jap-form-self">
                     <div className="jap-home-1">
@@ -154,48 +153,15 @@ export default function Jap() {
 
                         <p> In fact, there are 1250+ companies (including Google, Bosch, nvidia, etc.) have hired codegnan learners.</p>
                         <br />
-                        {/* <div>
-                            <span className="internship_rating">( 183 Rating)</span>
-                            <i className="fas fa-star star_t_t"></i>
-                            <i className="fas fa-star star_t_t"></i>
-                            <i className="fas fa-star star_t_t"></i>
-                            <i className="fas fa-star star_t_t"></i>
-                            <i className="fas fa-star star_t_t"></i>
-                            <br /><br /><br />
-                        </div> */}
-                        {/* <div>
-                            <Link to="your_destination_url" className="explore-button">
-                                Limited Time Offer. Enroll your name <i className="fas fa-arrow-right"></i>
-                            </Link>
-                        </div> */}
-                        {/* <br /><br /><br /><br /><br /><br />
-                        <p>AFTER SUCCESSFUL COMPLETION</p>
-                        <p><b>What Will You Achieve Through Successful Completion of the Program?</b></p> */}
-                        {/* <What_you_earn /> */}
+                     
                     </div>
                     <div className="jap_form">
-                        <img src="syllabuspages/IMG_3185-1-scaled-768x512.jpgw3.webp" alt="" width="80%" />
-                     
-                        {/* <iframe
-                            width="380"
-                            height="200"
-                            src="https://www.youtube.com/embed/ZPtH0Qw_AWA" // Changed to embed URL for better compatibility
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                        ></iframe> */}
-                        <center>
-                            <br />
-                            {/* <h2>Talk to Our Expert</h2> */}
-                            {/* <img src={style} alt="" /> */}
-                            {/* <InternForm /> */}
-                           
-                        </center>
+                        <img src="syllabuspages/IMG_3185-1-scaled-768x512.jpgw3.webp" alt="" width="80%" className="aboutimg"/>
                     </div>
                 </div>
                 <Fee />
             </div>
+
             <div className="jap_syllabus">
                 <center>
                 <div className='codegnan_success'>
@@ -208,19 +174,7 @@ export default function Jap() {
                 </center>
             </div>
             
-            <div className="jap_salary_container">
-                {salaries.map((salaryItem, index) => (
-                    <div key={index} className="each_component_in_jap">
-                        <h1>
-                            <SalaryComponent salary={salaryItem.no} /> <p>&nbsp;</p> <span>{salaryItem.head}</span>
-                        </h1>
-                        <center>
-                            <p>{salaryItem.p}</p>
-                        </center>
 
-                    </div>
-                ))}
-            </div>
             <div className="we_are_good">
                 <center>
                     <b className="Linkcolor">LEARN THE BEST FROM THE ALUMNI OF PREMIUM COMPANIES</b><br /><br />
@@ -241,6 +195,29 @@ export default function Jap() {
                         </Link>
                     </div>
                 </center>
+            </div>
+            <div className="media" >
+                <h1><span className="Linkcolor">Important </span> links</h1>
+                <img src={style} alt=""/>
+            </div>
+            <div className="container">
+                <div className="column">
+                    <img src="/we_are_recognized_by/team.png" alt="" width="30%"/>
+                    <h2>Meet Our Team</h2>
+                </div>
+                <div className="column">
+                    <img src="/we_are_recognized_by/Gallery.png" alt="" width="30%"/>
+                    <h2>Gallery</h2>
+                </div>
+                <div className="column">
+                    <img src="/we_are_recognized_by/contact.png" alt="" width="30%"/>
+                    <h2>Job accelerator program</h2>
+                </div>
+                <div className="column">
+                    <img src="/we_are_recognized_by/contact.png" alt="" width="30%"/>
+                    <h2>Contact or experts</h2>
+                </div>
+               
             </div>
             <div className="about_container">
                 <span className="home-intern">
@@ -263,6 +240,23 @@ export default function Jap() {
                     </div>
                 </div>
             </div>
+            <center>
+            <h1><span className="Linkcolor"> Codegnan  </span> Impact </h1>
+            <img src={style} alt="" />
+            </center>
+            <div className="jap_salary_container">
+                {salaries.map((salaryItem, index) => (
+                    <div key={index} className="each_component_in_jap">
+                        <h1>
+                            <SalaryComponent salary={salaryItem.no} /> <p>&nbsp;</p> <span>{salaryItem.head}</span>
+                        </h1>
+                        <center>
+                            <p>{salaryItem.p}</p>
+                        </center>
+
+                    </div>
+                ))}
+            </div>
             <div className="we_are_good">
                 <center>
                     <b className="Linkcolor">WE ARE GOOD</b><br /><br />
@@ -278,6 +272,43 @@ export default function Jap() {
                     <img src="/we_are_recognized_by/nsdc-logo.png" alt="" />
                 </center>
             </div>
+            <div className="media" >
+                <h4>CODEGNAN</h4><br/>
+                <h1><span className="Linkcolor"> Media Publications </span> Media, awards, and news</h1>
+                <img src={style} alt=""/>
+            </div>
+
+            <div className="container">
+                <div className="column2">
+                    <p className="para">Stay up-to-date with the latest news and trends in the field through our recommended media publications. These reputable sources provide insightful articles, tutorials, and industry insights to keep you informed and inspired. Whether you’re a beginner or an advanced learner, exploring these publications will expand your knowledge and help you stay ahead.</p>
+                </div>
+                <div className="column2">
+                    <img src="/we_are_recognized_by/the-washington-post-image.pngw3_.webp" alt="" width="40%" />&nbsp; &nbsp; &nbsp; &nbsp; 
+                    <img src="/we_are_recognized_by/the-new-york-times-image.png" alt="" width="40%"/>&nbsp; &nbsp; &nbsp; 
+                    <img src="/we_are_recognized_by/the-better-india-image.png" alt="" />
+                </div>
+               
+            </div>
+            
+            <div className="container">
+                {/* <div className="column1">
+                    
+                </div> */}
+                <div className="column1">
+                    <img src="/we_are_recognized_by/paper.jpegw3-1-595xh.webp" className="news" alt="" width="100%"/>
+                 
+                </div>
+                <div className="column1">
+                    <img src="/we_are_recognized_by/paper-ad.jpgw3_-595xh.webp" className="news" alt="" width="100%"/>
+          
+                </div>
+                <div className="column1">
+                    <img src="/we_are_recognized_by/codegnan-dat-sacience.jpgw3_-595xh.webp" className="news" alt="" width="100%"/>
+                </div>
+                {/* <div className="column1">
+                
+                </div> */}
+            </div>
 
             
             <div className='our_collaborations jap_collab'>
@@ -287,14 +318,13 @@ export default function Jap() {
                     <Collaboration />
                 </center>
             </div>
-            <div className="jap_faqs">
+            {/* <div className="jap_faqs">
                 <center>
                     <h1>Questions Generally Asked About This <span className="Linkcolor">Program</span></h1>
                     <img src={style} alt="" />
                 </center>
                 <Intern_dropdown data={data2} />
-
-            </div>
+            </div> */}
 
         </div>
     );

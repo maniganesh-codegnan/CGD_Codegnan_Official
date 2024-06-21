@@ -142,6 +142,8 @@ export default function Nav() {
             <Link to="/vijayawada_campus" className="option" onClick={scrollToTop}>Vijayawada </Link>
             <Link to="/hyderabad_campus" className="option" onClick={scrollToTop}>Hyderabad</Link>
             <Link to="/bangalore_campus" className="option" onClick={scrollToTop}>Banglore</Link>
+            <Link to="/sairam-uppugundla" className="option" onClick={scrollToTop}>sairam-uppugundla</Link>
+            {/* <Link to "/sairam-uppugundla" className="option" onClick={scrollToTop}>sai</Link> */}
           </div>
         </div>
         <Link to="/contact"> <button className="dropbtn">Contact</button></Link>
