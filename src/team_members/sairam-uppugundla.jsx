@@ -1,14 +1,6 @@
 // import './about.css';
 import './team.css';
 import ceo from '/members/sairam-sir.webp'
-import m1 from '/members/trainer-2.pngw3_.webp'
-import m2 from '/members/sai-kiran.webp';
-import m3 from '/members/Eswar-g-1.webp';
-import m4 from '/members/Kishor-Kumar-java.webp';
-import m5 from '/members/shiva-ram-teja.webp';
-import m6 from '/members/manohar.webp';
-import m7 from '/members/Kowshik.webp';
-import m8 from '/members/Jitendra.webp';
 
 export default function About() {
     return (

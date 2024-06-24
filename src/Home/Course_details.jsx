@@ -1,9 +1,8 @@
+
 // import React from 'react';
 // import './Rated.css';
 
-// export default function Course_details(props) {
-//     const { duration, courseTitle, locations, paragraph,course } = props;
-
+// export default function Course_details({ duration, courseTitle, locations, paragraph, course, customStyle = {} }) {
 //     return (
 //         <div className='course_container' style={customStyle}>
 //             <span><i className="fa-solid fa-calendar-days calender_icon"></i></span>
@@ -13,18 +12,17 @@
 //             <p>
 //                 <strong>Classroom training : </strong>
 //                 {locations.map(location => (
-//                     <a key={location} href="#">{location}</a>
+//                     <a key={location} href="">{location}</a>
 //                 ))}
 //             </p>
 //         </div>
 //     );
 // }
 
+import React from 'react'; 
+import { Link } from 'react-router-dom';
 
-import React from 'react';
-import './Rated.css';
-
-export default function Course_details({ duration, courseTitle, locations, paragraph, course, customStyle = {} }) {
+export default function Course_details({ duration, courseTitle, locations, urls, paragraph, course, customStyle = {} }) {
     return (
         <div className='course_container' style={customStyle}>
             <span><i className="fa-solid fa-calendar-days calender_icon"></i></span>
@@ -33,11 +31,12 @@ export default function Course_details({ duration, courseTitle, locations, parag
             {paragraph}
             <p>
                 <strong>Classroom training : </strong>
-                {locations.map(location => (
-                    <a key={location} href="#">{location}</a>
+                {locations.map((location, index) => (
+                    <Link key={location} to={urls[index]}>
+                        {location}
+                    </Link>
                 ))}
             </p>
         </div>
     );
 }
-

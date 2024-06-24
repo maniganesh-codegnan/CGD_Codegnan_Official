@@ -82,7 +82,7 @@ export default function Footer() {
             &copy; Copyright 2018-{new Date().getFullYear()} | Codegnan IT Solutions PVT LTD
             <br />
             <p>
-            <a href="">Privacy Policy</a>|<a href="">Terms ans Conditions</a>|<a href="">Refuncd Policy</a>|<a href="">Cancellation Policy</a>
+            <a href="/privacy-policy">Privacy Policy</a>|<a href="/terms-conditions">Terms ans Conditions</a>|<a href="/refund-policy">Refuncd Policy</a>|<a href="/cancellation-policy">Cancellation Policy</a>
             </p>
             </div>
            

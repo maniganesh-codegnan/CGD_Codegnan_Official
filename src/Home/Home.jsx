@@ -77,7 +77,7 @@ export default function Home() {
                         <li><span className='check'>&#x2713;</span>Rated 4.8/5 by more than 2,200 students</li>
                     </ul>
                     <br />
-                    <a href="your_destination_url" className="explore-button">
+                    <a href="/job_accelerator_program" className="explore-button">
                         Explore Program <i className="fas fa-arrow-right"></i>
                     </a> <br /> <br />
 
@@ -132,42 +132,72 @@ export default function Home() {
                         <h1><i className="fa-solid fa-star custom-icon"></i>Our Certification <span className='change_color'>programs</span></h1>
                     </center>
                     <div className='course_details_container'>
+                       
                         <Course_details
                             duration="1 Month"
                             courseTitle="Python"
                             course="training"
-                            locations={['Hyderabad  ,', 'Vijayawada  ', 'Bangalore']}
+                            locations={['Hyderabad  ,', 'Vijayawada ,', 'Bangalore']}
+                            urls={[
+                                '/python-training-course-in-hyderabad',
+                                '/python-training-in-vijayawada',
+                                '/python-training-in-banglore'
+                            ]}
                             paragraph={<p>Launch your data science or web development career with Python, the versatile programming language.</p>} />
                         <Course_details
                             duration="6 Months"
                             courseTitle="Data science"
                             course="training"
                             locations={['Hyderabad  ,', 'Vijayawada  ']}
+                            urls={[
+                                '/data-science-course-training-in-hyderabad',
+                                '/data-science-course-training-in-vijayawada'
+                            ]}
                             paragraph={<p>Advance your analytics career by gaining data science skills to extract strategic insights.</p>} />
                         <Course_details
                             duration="100 Days"
                             courseTitle="Full-stack Pyhton"
                             course="course"
-                            locations={['Hyderabad  ,', 'Vijayawada  ', 'Bangalore']}
+                            locations={['Hyderabad  ,', 'Vijayawada , ', 'Bangalore']}
+                            urls={[
+                                '/python-full-stack-developer-course-in-hyderabad',
+                                '/python-full-stack-developer-course-in-vijayawada',
+                                '/python-full-stack-developer-course-in-banglore'
+                            ]}
                             paragraph={<p>Become a full-stack Python developer and kickstart your web and app development career.</p>} />
 
                         <Course_details
                             duration="1 Month"
                             courseTitle="Java"
                             course="training"
-                            locations={['Hyderabad  ,', 'Vijayawada  ', 'Bangalore']}
+                            locations={['Hyderabad  ,', 'Vijayawada , ', 'Bangalore']}
+                            urls={[
+                                '/core-java-training-course-in-hyderabad',
+                                '/core-java-training-course-in-vijayawada',
+                                '/core-java-training-course-in-bangalore'
+                               
+                            ]}
                             paragraph={<p>Strengthen your backend development career by mastering object-oriented Java.</p>} />
                         <Course_details
                             duration="6 Months"
                             courseTitle="Machine Learning"
                             course="training"
                             locations={['Hyderabad  ,', 'Vijayawada  ']}
+                            urls={[
+                                '/machine-learning-course-training-in-hyderabad',
+                                '/machine-learning-course-training-in-vijayawada'
+                            ]}
                             paragraph={<p>Advance your career in AI by mastering machine learning models and algorithms.</p>} />
                         <Course_details
                             duration="100 Days"
                             courseTitle="Full-stack Java"
                             course="course"
-                            locations={['Hyderabad  ,', 'Vijayawada  ', 'Bangalore']}
+                            locations={['Hyderabad  ,', 'Vijayawada , ', 'Bangalore']}
+                            urls={[
+                                '/java-full-stack-training-course-in-hyderabad',
+                                '/full-stack-java-training-course-in-vijayawada',
+                                '/java-full-stack-training-course-in-bangalore'
+                            ]}
                             paragraph={<p>Launch your career as a full-stack developer by gaining in-demand Java skills spanning front and backend.</p>} />
 
                         <Course_details
@@ -175,24 +205,38 @@ export default function Home() {
                             courseTitle="React JS"
                             course="training"
                             locations={['Vijayawada  ']}
+                            urls={[
+                                '/react-js-training-course-in-vijayawada'
+                            ]}
                             paragraph={<p>Boost your front-end career by building interactive web apps with React.</p>} />
                         <Course_details
                             duration="3 Months"
                             courseTitle="Data structures & algoritm"
                             course="training"
                             locations={['Vijayawada  ']}
+                            urls={[
+                                '/data-structures-and-algorithms-training-in-vijayawada'
+                            ]}
                             paragraph={<p>Strengthen your foundations to pass interviews and excel in software roles.</p>} />
                         <Course_details
                             duration="30 Days"
                             courseTitle="C Programming"
                             course="course"
-                            locations={['Vijayawada  ', 'Bangalore']}
+                            locations={['Vijayawada  ']}
+                            urls={[
+                                '/c-programming-course-training-in-vijayawada'
+                            ]}
                             paragraph={<p>Advance your systems and hardware programming career by mastering C language.</p>} />
                          <Course_details  className="special_course_details"
                             duration="100 Days"
                             courseTitle="Software testing"
                             course="course"
-                            locations={['Vijayawada  ', 'Bangalore' ,' Hyderabad']}
+                            locations={['Vijayawada  ', 'Bangalore ,' ,' Hyderabad']}
+                            urls={[
+                                '/Software-testing-training-course-in-vijayawada',
+                                '/software-testing-training-course-in-banglore',
+                                '/software-testing-training-course-in-hyderabad'
+                            ]}
                             paragraph={<p>Comprehensive training in manual, white-box, and black-box testing, integrating Selenium, with practical application in live projects, ensures mastery in software testing.</p>} 
                             />
                             {/* customStyle={{ width: , gridColumn: 'span 3'}} */}
@@ -243,7 +287,7 @@ export default function Home() {
                                 <h3 onClick={showText}>
                                     <span id="buttonSymbol" className="buttonclick">&#9660;</span> Job Assistance Program
                                 </h3>
-                                <p id="para_buttonclick" className="hidden">Enroll in our 100-day <a href=""> Job Accelerator Program</a>, offering ajob placement and career support for a successful transition into the workforce.</p>
+                                <p id="para_buttonclick" className="hidden">Enroll in our 100-day <a href="/job_accelerator_program"> Job Accelerator Program</a>, offering ajob placement and career support for a successful transition into the workforce.</p>
                             </div>
                             <hr />
                             <div className='why_to_enroll_listings'>
@@ -257,14 +301,14 @@ export default function Home() {
                                 <h3 onClick={showText}>
                                     <span id="buttonSymbol" className="buttonclick">&#9660;</span> Expert Trainers and Mentors
                                 </h3>
-                                <p id="para_buttonclick" className="hidden">Get mentored by industry experts, including professionals from IITs, Amazon, Google, ensuring top-notch education and real-world insights. Meet our <a href="">team of trainers and mentors</a>.</p>
+                                <p id="para_buttonclick" className="hidden">Get mentored by industry experts, including professionals from IITs, Amazon, Google, ensuring top-notch education and real-world insights. Meet our <a href="/team">team of trainers and mentors</a>.</p>
                             </div>
                             <hr />
                             <div className='why_to_enroll_listings'>
                                 <h3 onClick={showText}>
                                     <span id="buttonSymbol" className="buttonclick">&#9660;</span> Online or Classroom Training
                                 </h3>
-                                <p id="para_buttonclick" className="hidden">Choose your preferred learning mode – online live classes or attend classroom training in Hyderabad, Vijayawada, and Bangalore. <a href="">Contact us now</a>  to share your queries</p>
+                                <p id="para_buttonclick" className="hidden">Choose your preferred learning mode – online live classes or attend classroom training in Hyderabad, Vijayawada, and Bangalore. <a href="/contact">Contact us now</a>  to share your queries</p>
                             </div>
                             <hr />
                             <div className='why_to_enroll_listings'>
@@ -344,7 +388,7 @@ export default function Home() {
                                 </div>
                                 <h3>Vijayawada training <span className='change_color'>centre</span></h3>
                                 <p>40-5-19/16, Prasad Naidu Complex, P.B.Siddhartha Busstop, Moghalrajpuram, Vijayawada, Andhra Pradesh, 520010.</p>
-                                <p>Visit our <a href="" className='campus_link'>Vijayawada Campus</a></p> <br />
+                                <p>Visit our <a href="/vijayawada_campus" className='campus_link'>Vijayawada Campus</a></p> <br />
                             </div>
                             <div className='center_details'>
                                 <div>
@@ -353,7 +397,7 @@ export default function Home() {
                                 </div>
                                 <h3>Hyderabad training <span className='change_color'>centre</span></h3>
                                 <p>Kothwal Madhava Reddy Plaza, Near JNTUH Metro Station, Nizampet X Roads, Hyderabad, 500072.</p>
-                                <p>Visit our <a href="" className='campus_link'>Hyderabad Campus</a></p>
+                                <p>Visit our <a href="/hyderabad_campus" className='campus_link'>Hyderabad Campus</a></p>
                             </div>
                             <div className='center_details'>
                                 <div>
@@ -362,7 +406,7 @@ export default function Home() {
                                 </div>
                                 <h3>Banglore training <span className='change_color'>centre</span></h3>
                                 <p>#951, 16th Main, BTM 2nd Stage, Bengaluru, Karnataka, 560076.</p><br />
-                                <p>Visit our <a href="" className='campus_link'>Banglore Campus</a></p>
+                                <p>Visit our <a href="/bangalore_campus" className='campus_link'>Banglore Campus</a></p>
                             </div>
                         </div>
                     </div>
@@ -379,11 +423,9 @@ export default function Home() {
                             <h1>Still have questions regarding courses?</h1><br />
                             <p>Talk to our team and get support in identifying the right tech career course for you. Our team will answer your questions regarding courses, fees, batch details, and all.</p>
                             <br />
-                            <button> <i className="fa-solid fa-phone phone" ></i> Call us</button>
-
+                            <button> <i className="fa-solid fa-phone phone" ></i><a href="contact"> Call us </a></button>
                         </div>
                     </center>
-
                 </div>
             </div>
         </div>

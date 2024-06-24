@@ -309,11 +309,14 @@
     
   }
   .map_grid-item2{
-    box-shadow: 0 0 20px whitesmoke;
+    /* box-shadow: 0 0 10px gray; */
+    box-shadow: 0px 30px 50px 0px rgba(7.999999999999998, 2.000000000000002, 33, 0.10196078431372549);
     width:400px;
     padding:40px;
     margin-left: 60px;
     text-align: left;
+    background-color: white;
+    border-radius: 10px;
     a{
         text-decoration: none;
         color:#cc3366;

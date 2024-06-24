@@ -441,20 +441,32 @@
     }
 }
 /* =====================original========================== */
+.color{
+    text-decoration: none;
+    color: black;
+}
+.color:hover{
+    color: #EE4a62;
+}
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
   
-  .column {
+  .column-1 {
     flex: 1;
     padding: 10px;
-    border: 2px solid black;
     margin: 5px;
     text-align: center;
     border-radius: 5px;
   }
+.column-1:hover{
+    box-shadow: 0 0 10px gray;
+    border-radius: 20px;
+
+
+}
 
   .container {
     display: flex;
@@ -469,7 +481,6 @@
     
   }
   .news{
-    /* box-shadow: 10px 10px 10px 10px lightsteelblue; */
     box-shadow: 0 0 10px gray;
     border-radius: 10px;
   }

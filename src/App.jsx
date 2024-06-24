@@ -95,6 +95,10 @@ import Kishor_Kumar from './team_members/kishor-kumar.jsx';
 import Ravi_Siva_Ram_Teja  from './team_members/ravi-siva-ram-teja.jsx';
 import Manohar_Chary_Vadla from './team_members/manohar-chary-vadla.jsx';
 import Jitendra_Chautharia from './team_members/jitendra-chautharia.jsx';
+import Privacy_Policy from './Privacy_policy/privacy-policy.jsx';
+import Terms_Conditions from './Privacy_policy/terms-conditions.jsx';
+import Refund_Policy from './Privacy_policy/refund-policy.jsx';
+import Cancellation_Policy from './Privacy_policy/cancellation-policy.jsx';
 
 
 
@@ -191,6 +195,10 @@ function App() {
         <Route path='/ravi-siva-ram-teja' element={<Ravi_Siva_Ram_Teja/>}></Route>
         <Route path='/manohar-chary-vadla' element={<Manohar_Chary_Vadla/>}></Route>
         <Route path='/jitendra-chautharia' element={<Jitendra_Chautharia/>}></Route>
+        <Route path='/privacy-policy' element={<Privacy_Policy />}></Route>
+        <Route path='/terms-conditions' element={<Terms_Conditions />}></Route>
+        <Route path='/refund-policy' element={<Refund_Policy />}></Route>
+        <Route path='/cancellation-policy' element={<Cancellation_Policy/>}></Route>
 
       </Routes>
      

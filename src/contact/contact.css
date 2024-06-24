@@ -1,10 +1,10 @@
 
   .map_main-section{
     padding-top: 20px;
-    width:200px;
+    width:260px;
   }
   .map_grid1{
-    box-shadow: 0 0 20px whitesmoke;
+    box-shadow: 0 0 10px gray;
     width:400px;
     text-align: left;
     margin: 20px;
@@ -19,15 +19,15 @@
     }
     .en-icon{
         font-size: 25px;
-        color:green;
+        color:#1AB69D;
     }
     .phone-icon{
         font-size: 25px;
-        color:green;
+        color:#1AB69D;
     }
     .add-icon{
         font-size: 25px;
-        color:green;
+        color:#1AB69D;
     }
     span{
         padding: 0 20px;
@@ -45,12 +45,14 @@
  }
  
  .getin{
-  box-shadow: 0 0 20px whitesmoke;
+  box-shadow: 0 0 10px gray;
   width:auto;
   text-align: left;
   /* padding: 40px 10px 50px 40px; */
   padding: 80px 50px ;
   border-radius: 20px;
+  /* width: 500px; */
+
   a{
       text-decoration: none;
       color:#cc3366;
@@ -60,15 +62,15 @@
   }
   .en-icon{
       font-size: 25px;
-      color:green;
+      color:#1AB69D;
   }
   .phone-icon{
       font-size: 25px;
-      color:green;
+      color:#1AB69D;
   }
   .add-icon{
       font-size: 25px;
-      color:green;
+      color:#1AB69D;
   }
   span{
       padding: 0 20px;
@@ -103,3 +105,12 @@
   padding: 20px;
   box-sizing: border-box; 
 }
+
+/* =========================== Original Code =============================== */
+/* @media only screen  (max-width: 576px) {
+  
+}
+.getin{
+
+  width: 360px!important;
+} */

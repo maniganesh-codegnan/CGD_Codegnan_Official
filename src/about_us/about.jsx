@@ -156,7 +156,7 @@ export default function Jap() {
                      
                     </div>
                     <div className="jap_form">
-                        <img src="syllabuspages/IMG_3185-1-scaled-768x512.jpgw3.webp" alt="" width="80%" className="aboutimg"/>
+                        <img src="syllabuspages/IMG_3185-1-scaled-768x512.jpgw3.webp" alt="" width="90%" className="aboutimg"/>
                     </div>
                 </div>
                 <Fee />
@@ -201,21 +201,21 @@ export default function Jap() {
                 <img src={style} alt=""/>
             </div>
             <div className="container">
-                <div className="column">
+                <div className="column-1">
                     <img src="/we_are_recognized_by/team.png" alt="" width="30%"/>
-                    <h2>Meet Our Team</h2>
+                    <h1><a href="/team" className="color">Meet Our Team</a></h1>
                 </div>
-                <div className="column">
+                <div className="column-1">
                     <img src="/we_are_recognized_by/Gallery.png" alt="" width="30%"/>
-                    <h2>Gallery</h2>
+                    <h1><a href="/gallery" className="color">Gallery</a></h1>
                 </div>
-                <div className="column">
+                <div className="column-1">
                     <img src="/we_are_recognized_by/contact.png" alt="" width="30%"/>
-                    <h2>Job accelerator program</h2>
+                    <h1><a href="/job_accelerator_program" className="color">Job accelerator program</a></h1>
                 </div>
-                <div className="column">
+                <div className="column-1">
                     <img src="/we_are_recognized_by/contact.png" alt="" width="30%"/>
-                    <h2>Contact or experts</h2>
+                    <h1><a href="/contact" className="color">Contact or <br/> Experts</a></h1>
                 </div>
                
             </div>
@@ -229,7 +229,7 @@ export default function Jap() {
                         <p>Sairam Uppugundla is the founder and CEO of codegnan, started in 2018. As the proud CEO of Codegnan, his mission is to build a strong foundation for young minds to unlock their true potential and contribute to the future of tech career.</p>
                         <br /><br/>
                         <div>
-                        <Link to="/contact" className="explore-button">
+                        <Link to="/sairam-uppugundla" className="explore-button">
                         Learn more about the founder <i className="fas fa-arrow-right"></i>
                         </Link>
                         </div>

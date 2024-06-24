@@ -17,7 +17,7 @@ export default function About() {
             </center>
             <div className='ceo'>
                 <div className='ceo_img'>
-                    <img src={ceo} />
+                    <img src={ceo} alt="Uppugundla Sairam"/>
                     <br />
                     <center>
                     <h3>Uppugundla Sairam</h3>
@@ -32,7 +32,7 @@ export default function About() {
                     </center>
                 </div><br /><br />
                 <div className='ceo_info'>
-                    <a href="#">Uppugundla Sairam</a>
+                    <a href="/sairam-uppugundla">Uppugundla Sairam</a>
                     <br />
                     <br />
                     <p style={{ textAlign:'left' }}>Founder & CEO</p>
@@ -46,8 +46,8 @@ export default function About() {
             <div className='codegnan_members'>
                 <div className='members_div'>
                     <center>
-                    <img src={m1} alt="" />
-                    <a href="">Kallepu Saketh Reddy</a>
+                    <img src={m1} alt="Kallepu Saketh Reddy" />
+                    <a href="/saketh-kallepu">Kallepu Saketh Reddy</a>
                     <br /><br />
                     <p>Co-Founder and Chief Management Officer </p>
                     <br />
@@ -56,8 +56,8 @@ export default function About() {
                 </div>
                 <div className='members_div'>
                     <center>
-                    <img src={m2} alt="" />
-                    <a href="">Saikiran Tarigopula</a>
+                    <img src={m2} alt="Saikiran Tarigopula" />
+                    <a href="/saikiran-tarigopula">Saikiran Tarigopula</a>
                     <br /><br />
                     <p>Co-Founder and Chief Operating Officer </p>
                     <br />
@@ -66,7 +66,7 @@ export default function About() {
                 </div>
                 <div className='members_div'>
                     <center>
-                    <img src={m3} alt="" />
+                    <img src={m3} alt="Eshwar Gogineni" />
                     <a href="">Eshwar Gogineni</a>
                     <br /><br />
                     <p>Co-Founder & Chief Information Officer </p>
@@ -76,8 +76,8 @@ export default function About() {
                 </div>
                 <div className='members_div'>
                     <center>
-                    <img src={m4} alt="" />
-                    <a href="">Kishor Kumar</a>
+                    <img src={m4} alt="Kishor Kumar" />
+                    <a href="/kishor-kumar">Kishor Kumar</a>
                     <br /><br />
                     <p>Senior Full Stack Corporate Trainer </p>
                     <br />
@@ -88,8 +88,8 @@ export default function About() {
             <div className='codegnan_members'>
                 <div className='members_div'>
                     <center>
-                    <img src={m5} alt="" />
-                    <a href="">Ravi Siava Ram Teja</a>
+                    <img src={m5} alt="Ravi Siava Ram Teja" />
+                    <a href="/ravi-siva-ram-teja">Ravi Siava Ram Teja</a>
                     <br /><br />
                     <p>MERN Stack Developer & Mentor </p>
                     <br />
@@ -98,8 +98,8 @@ export default function About() {
                 </div>
                 <div className='members_div'>
                     <center>
-                    <img src={m6} alt="" />
-                    <a href="">Manohar Chary Vadla</a>
+                    <img src={m6} alt="Manohar Chary Vadla" />
+                    <a href="/manohar-chary-vadla">Manohar Chary Vadla</a>
                     <br /><br />
                     <p>Data Scientist & Mentor </p>
                     <br />

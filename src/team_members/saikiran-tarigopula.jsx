@@ -1,14 +1,6 @@
 // import './about.css';
 import './team.css';
-import ceo from '/members/sairam-sir.webp'
-import m1 from '/members/trainer-2.pngw3_.webp'
 import m2 from '/members/sai-kiran.webp';
-import m3 from '/members/Eswar-g-1.webp';
-import m4 from '/members/Kishor-Kumar-java.webp';
-import m5 from '/members/shiva-ram-teja.webp';
-import m6 from '/members/manohar.webp';
-import m7 from '/members/Kowshik.webp';
-import m8 from '/members/Jitendra.webp';
 
 export default function About() {
     return (
@@ -57,17 +49,11 @@ export default function About() {
 
                 </div>
                 <div className='ceo_img1'>
-                    <img src={ceo} />
+                    <img src={m2} />
                     <br />
                     <center>
-                    <h3>Uppugundla Sairam</h3>
-                    <br />
-                    <h4>Founder & CEO</h4>
                         <span>
-                            <i className="fa-brands fa-linkedin-in social-icon"></i>
-                            <i className="fa-brands fa-twitter social-icon"></i>
-                            <i className="fa-brands fa-instagram social-icon"></i>
-                            <i className="fa-brands fa-telegram social-icon"></i>
+                            <a href="https://www.linkedin.com/in/saikiran-tarigopula-222564136/?original_referer=https%3A%2F%2Fcodegnan.com%2F"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />

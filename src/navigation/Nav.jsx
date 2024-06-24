@@ -129,9 +129,10 @@ export default function Nav() {
         <div className="dropdown">
           <button className="dropbtn">About <span className='down_triangle'>&#9660;</span></button>
           <div className="dropdown-content">
-            <Link to="/about" className="option" onClick={scrollToTop}>About </Link>
+            
             <Link to="/team" className="option" onClick={scrollToTop}>Team </Link>
             <Link to="/gallery" className="option" onClick={scrollToTop}>Gallery</Link>
+            <Link to="/about" className="option" onClick={scrollToTop}>About </Link>
             <Link to="/internship_page" className="option" onClick={scrollToTop}>Internships</Link>
             <Link to="/job_accelerator_program" className="option" onClick={scrollToTop}>Job Accelerator Program</Link>
           </div>
@@ -142,8 +143,6 @@ export default function Nav() {
             <Link to="/vijayawada_campus" className="option" onClick={scrollToTop}>Vijayawada </Link>
             <Link to="/hyderabad_campus" className="option" onClick={scrollToTop}>Hyderabad</Link>
             <Link to="/bangalore_campus" className="option" onClick={scrollToTop}>Banglore</Link>
-            <Link to="/sairam-uppugundla" className="option" onClick={scrollToTop}>sairam-uppugundla</Link>
-            {/* <Link to "/sairam-uppugundla" className="option" onClick={scrollToTop}>sai</Link> */}
           </div>
         </div>
         <Link to="/contact"> <button className="dropbtn">Contact</button></Link>

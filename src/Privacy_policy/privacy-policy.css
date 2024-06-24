@@ -1,0 +1,108 @@
+.pricy{
+    padding-left: 50px;
+}
+li{
+    list-style: none;
+}
+
+.team_about{
+    background-color: #F5F5F5;
+}
+.pri-head{
+    color: #EE4A62;
+}
+.ceoo{
+    display: flex;
+    flex-direction: row;
+    padding:50px 100px;
+    .ceo_img1{
+        width:359px;
+        height:400px;
+        /* padding: 40px 40px; */
+        /* box-shadow: 0 0 10px gray; */
+        border-radius: 10px;
+        img{
+            width:250px;
+            height: 300px;
+            border-radius: 15px;
+            
+        }
+        
+    }
+    .ceo_info1{
+        margin-top: -50px;
+        /* width:750px; */
+        /* height:150px; */
+        padding:50px;
+      
+       
+    }
+    .check_double{
+        height: 20px;
+        width:20px;
+        color:#1ab6a3;
+        font-weight: bolder;
+        padding: 1px;
+    }
+    a{
+        font-size: 20px;
+    }
+    li{
+        list-style: none;
+        font-size:18px;
+        padding: 10px;
+        
+    }
+    p{
+        text-align: justify;
+        color: rgba(12, 12, 12, 0.877);
+    }
+    
+}
+/* ===========================original code============================== */
+/* Responsive styles */
+@media (max-width: 768px) {
+    .ceoo {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .pri-head {
+        font-size: 1.5em;
+    }
+
+    .ceo_info1 h1 {
+        font-size: 1.3em;
+    }
+
+    .ceo_info1 h2 {
+        font-size: 1.1em;
+    }
+
+    .ceo_info1 p, .ceo_info1 ul, .ceo_info1 li {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    .ceoo {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .pri-head {
+        font-size: 1.2em;
+    }
+
+    .ceo_info1 h1 {
+        font-size: 2em;
+    }
+
+    .ceo_info1 h2 {
+        font-size: 25px;
+    }
+
+    .ceo_info1 p, .ceo_info1 ul, .ceo_info1 li {
+        font-size: 20px;
+    }
+}
