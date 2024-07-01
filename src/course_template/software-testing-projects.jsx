@@ -38,15 +38,15 @@ const course_brief = [
                 <Link to=" " className="link-light-color">Software Testing projects for beginners with source code</Link><br />
                 <ul>
                     {[
-                        { name: "1. E-commerce website testing ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "2. Social media websites testing  ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "3. Derive Sanity Test Scenarios for Admin Interface  ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "4. Chat Application Testing  ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "5. Building and testing your favourite blog in HTML ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "6. Resume building with HTML and manual testing  ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "7. Building and testing registration and login page ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "8. Building and testing the Paytm clone Page ", link: "/machine-learning-in-hyderabad", duration: "1 month" },
-                        { name: "9. Building and testing portfolio page with CSS ", link: "/machine-learning-in-hyderabad", duration: "1 month" }
+                        { name: "1. E-commerce website testing ", link: "#444", duration: "1 month" },
+                        { name: "2. Social media websites testing  ", link: "/", duration: "1 month" },
+                        { name: "3. Derive Sanity Test Scenarios for Admin Interface  ", link: "/", duration: "1 month" },
+                        { name: "4. Chat Application Testing  ", link: "/", duration: "1 month" },
+                        { name: "5. Building and testing your favourite blog in HTML ", link: "/", duration: "1 month" },
+                        { name: "6. Resume building with HTML and manual testing  ", link: "/", duration: "1 month" },
+                        { name: "7. Building and testing registration and login page ", link: "/", duration: "1 month" },
+                        { name: "8. Building and testing the Paytm clone Page ", link: "/", duration: "1 month" },
+                        { name: "9. Building and testing portfolio page with CSS ", link: "/", duration: "1 month" }
 
                     ].map((program, index) => (
                         <li className="list-items" key={index}>
@@ -112,7 +112,7 @@ const course_brief = [
         title: "Software Testing projects for beginners with source code ",
         intro: () => (
             <>
-                <h3>1. E-commerce website testing</h3>
+                <h3 id="444" >1. E-commerce website testing</h3>
                 <img src="/syllabuspages/E-commerce-website-testing.png" alt="" width="100%"/>
                 <p><b>Difficulty level: </b>Medium</p>
                 <p>This project focuses on testing the functionalities, usability and performance of an e-commerce website. Learners will need to create different test cases, execute them manually and through automation tools, and report any issues or defects to the development team. The main purpose of the project is to ensure the website meets all the client’s requirements and provides a seamless shopping experience for users. </p>

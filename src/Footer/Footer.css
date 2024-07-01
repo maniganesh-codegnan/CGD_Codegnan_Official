@@ -302,8 +302,16 @@
         padding-top: 20px;
         padding-bottom: 10px;
     }
+    
 }
-
+.foot_men{
+    text-decoration: none;
+     color: #bababa;
+ }
+ .foot_men:hover{
+    color: white;
+ }
+ 
 /* Media Queries for Mobile and Tablet Views */
 
     @media (min-width: 768px) {

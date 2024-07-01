@@ -6,6 +6,8 @@ import InternForm from "../Form/Intership_form";
 import InternsyllabusComp from './Intern_syllabus/Intern_syllabus.jsx';
 import { useState } from "react";
 
+import Java_Curriculum from './curriculum/java_curriculum.jsx';
+
 import style from '/training/heading-separator.png';
 
 
@@ -58,10 +60,11 @@ const data2 = [
 
 const syllabusdata = [
     {
-        head: "MERN Stack :",
+        head: "Skills covered in our Python training institute in Bangalore ",
         p: (
             <>
-                ReactJS, #SQL, #MongoDB, #Express
+               
+                Skills covered in our Java training institute in Bangalore
                 <ul>
                     {[
                         "Every Project will be deployed in Amazon Web Services Cloud."
@@ -72,70 +75,70 @@ const syllabusdata = [
             </>
         )
     },
-    {
-        head: "Machine Learning :",
-        p: (
-            <>
-                #Data Analysis using Python, , #Supervised Learning Algorithms, #Unsupervised Learning, #Algorithms, #Flask, #Git, #Github, #MIT App Inventor
-                <ul>
-                    {[
-                        "All algorithms will be implemented with real use case datasets and finally the Model will be deployed on Web Servers"
-                    ].map((item, index) => (
-                        <li key={index} style={{ marginLeft: "10px" }}>{item}</li>
-                    ))}
-                </ul>
-            </>
-        )
-    },
-    {
-        head: "Deep Learning :",
-        p: (
-            <>
-                #Artificial Neural Networks Implementation from Scratch, #Optimization and Regularization, #Convolutional Neural Networks, #AlexNet, #GoogLeNet, #VGG Transfer, #Learning, #ResNet, #Training in Tensorflow and Keras, #Recurrent , #Neural Networks , #LSTMs, #GANs
-            </>
-        )
-    },
-    {
-        head: "Computer Vision :",
-        p: (
-            <>
-                #Opencv, #Image Classification , #Object Detection , #SSD/RetinaNet , #Video , #Object Detection , #YOLO models , #Object Counting , #Pytorch/Tensorflow & Keras , #Optical Character Recognition.
-            </>
-        )
-    },
-    {
-        head: "Natural Language Processing :",
-        p: (
-            <>
-                #NLTK, #Text Processing, #POS Tagging, #Bag of Words, #Semantics, #Entity Linking, #Information Extraction, #Text Classification, #Sentiment Analysis, #Chatbots, #Alexa, #DialogFlow and #IBM Watson.
-            </>
-        )
-    },
-    {
-        head: "Internet of Things :",
-        p: (
-            <>
-                #Networking, #Sensor Networks, #Arduino Programming, #Integration of Sensors and Actuators with Arduino, #Implementation of IoT with Raspberry Pi, #Data Handling and Analytics, #Case Studies related to Agriculture, #Activity Monitoring and Healthcare.
-            </>
-        )
-    },
-    {
-        head: "Python Full Stack :",
-        p: (
-            <>
-                Python, SQL (MySQL), Flask/Django, HTML, CSS, Bootstrap,Git and Github Every Project will be deployed in Amazon Web Services Cloud
-            </>
-        )
-    },
-    {
-        head: "Front End Development with React :  ",
-        p: (
-            <>
-                HTML, CSS, Bootstrap, JavaScript, ReactJs, Git and Github
-                Every Project will be deployed on Web Servers
-            </>
-        )
-    }
+    // {
+    //     head: "Machine Learning :",
+    //     p: (
+    //         <>
+    //             #Data Analysis using Python, , #Supervised Learning Algorithms, #Unsupervised Learning, #Algorithms, #Flask, #Git, #Github, #MIT App Inventor
+    //             <ul>
+    //                 {[
+    //                     "All algorithms will be implemented with real use case datasets and finally the Model will be deployed on Web Servers"
+    //                 ].map((item, index) => (
+    //                     <li key={index} style={{ marginLeft: "10px" }}>{item}</li>
+    //                 ))}
+    //             </ul>
+    //         </>
+    //     )
+    // },
+    // {
+    //     head: "Deep Learning :",
+    //     p: (
+    //         <>
+    //             #Artificial Neural Networks Implementation from Scratch, #Optimization and Regularization, #Convolutional Neural Networks, #AlexNet, #GoogLeNet, #VGG Transfer, #Learning, #ResNet, #Training in Tensorflow and Keras, #Recurrent , #Neural Networks , #LSTMs, #GANs
+    //         </>
+    //     )
+    // },
+    // {
+    //     head: "Computer Vision :",
+    //     p: (
+    //         <>
+    //             #Opencv, #Image Classification , #Object Detection , #SSD/RetinaNet , #Video , #Object Detection , #YOLO models , #Object Counting , #Pytorch/Tensorflow & Keras , #Optical Character Recognition.
+    //         </>
+    //     )
+    // },
+    // {
+    //     head: "Natural Language Processing :",
+    //     p: (
+    //         <>
+    //             #NLTK, #Text Processing, #POS Tagging, #Bag of Words, #Semantics, #Entity Linking, #Information Extraction, #Text Classification, #Sentiment Analysis, #Chatbots, #Alexa, #DialogFlow and #IBM Watson.
+    //         </>
+    //     )
+    // },
+    // {
+    //     head: "Internet of Things :",
+    //     p: (
+    //         <>
+    //             #Networking, #Sensor Networks, #Arduino Programming, #Integration of Sensors and Actuators with Arduino, #Implementation of IoT with Raspberry Pi, #Data Handling and Analytics, #Case Studies related to Agriculture, #Activity Monitoring and Healthcare.
+    //         </>
+    //     )
+    // },
+    // {
+    //     head: "Python Full Stack :",
+    //     p: (
+    //         <>
+    //             Python, SQL (MySQL), Flask/Django, HTML, CSS, Bootstrap,Git and Github Every Project will be deployed in Amazon Web Services Cloud
+    //         </>
+    //     )
+    // },
+    // {
+    //     head: "Front End Development with React :  ",
+    //     p: (
+    //         <>
+    //             HTML, CSS, Bootstrap, JavaScript, ReactJs, Git and Github
+    //             Every Project will be deployed on Web Servers
+    //         </>
+    //     )
+    // }
 ]
 
 const syllabus2data = [
@@ -209,7 +212,7 @@ export default function Intern_Page() {
     
     return (
         <div className="inter_container">
-            <div className="inter_inner_div">
+            {/* <div className="inter_inner_div">
                 <span className="home-intern">
                     <Link className="Linkcolor" to="/">Home</Link>&nbsp; &gt; &nbsp;<strong>Internship</strong>
                 </span>
@@ -258,45 +261,10 @@ export default function Intern_Page() {
 
                     </div>
                 </center>
-            </div>
-            {/* <div className="intern-home3">
-                <div className="intern-home-form">
-                    <div className="intern_from">
-                        <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
-                        <h1>Benchmark <span className="change_color">Codegnan</span> Internship programs</h1><br />
-                        <img src={style} alt="" />
-                        <h3>Talk to our Expert</h3><br /><br />
-                        <InternForm />
-                    </div>
-                    <div className="all_year_syllabus">
-                        <div className="syllabus-button-container">
-                        <button onClick={() => setYear('2nd')}>
-                            For 2<sup>nd</sup> Year
-                        </button>
-                        <button onClick={() => setYear('3rd')}>
-                            For 3<sup>rd</sup> Year
-                        </button>
-                        </div>
-                        <hr />
-                        <div className="inside_syllabus_container">
-                        {year === '2nd' && <InternsyllabusComp data={syllabusdata} />}
-                        {year === '3rd' && <InternsyllabusComp data={syllabus2data} />}
-                        </div>
-                        
-                    </div>
-                </div>
-            </div><br /><br /><br /> */}
+            </div> */}
 
 
             <div className="two-column-container">
-
-                <div className="left-column">
-                    <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
-                    <h1>Benchmark <span className="change_color">Codegnan</span><br /> Internship programs</h1><br />
-                    <img src={style} alt="" />
-                    <h3>Talk to our Expert</h3><br /><br />
-                    <InternForm />
-                </div>
 
                 <div className="right-column">
                     <div className="syll">
@@ -314,6 +282,14 @@ export default function Intern_Page() {
                             {year === '3rd' && <InternsyllabusComp data={syllabus2data} />}
                         </div>
                     </div>
+                </div>
+                <div className="left-column">
+                    <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
+                    <h1>Benchmark <span className="change_color">Codegnan</span><br /> Internship programs</h1><br />
+                    <img src={style} alt="" />
+                    <h3>Talk to our Expert</h3><br /><br />
+                    <InternForm />
+                    <java_curriculum/>
                 </div>
 
             </div>

@@ -99,6 +99,17 @@ import Privacy_Policy from './Privacy_policy/privacy-policy.jsx';
 import Terms_Conditions from './Privacy_policy/terms-conditions.jsx';
 import Refund_Policy from './Privacy_policy/refund-policy.jsx';
 import Cancellation_Policy from './Privacy_policy/cancellation-policy.jsx';
+import Java_Curriculum from './curriculum/java_curriculum.jsx';
+import Python_Curriculum from './curriculum/python_curriculum.jsx';
+import Java_Full_Stack_Curriculum from './curriculum/java_full_stack_curriculum.jsx';
+import Python_Full_Stack_Curriculum from './curriculum/python_full_stack_curriculum.jsx';
+import Data_Science_Curriculum from './curriculum/data-science-curriculum.jsx';
+import Machine_Learning_Curriculum from './curriculum/machine-learning-curriculum.jsx';
+import Software_Testing_Curriculum from './curriculum/Software-testing-curriculum.jsx';
+import React_JS_Curriculum from './curriculum/react-js-curriculum.jsx';
+import Data_Structures_Curriculum from './curriculum/data-structures-curriculum.jsx';
+import C_Programming_Curriculum from './curriculum/c-programming-curriculum.jsx';
+// import Java from './Internship/java.jsx';
 
 
 
@@ -199,6 +210,17 @@ function App() {
         <Route path='/terms-conditions' element={<Terms_Conditions />}></Route>
         <Route path='/refund-policy' element={<Refund_Policy />}></Route>
         <Route path='/cancellation-policy' element={<Cancellation_Policy/>}></Route>
+        <Route path='/java_curriculum' element={<Java_Curriculum/>}></Route>
+        <Route path='/python_curriculum' element={<Python_Curriculum />}></Route>
+        <Route path='/java_full_stack_curriculum' element={<Java_Full_Stack_Curriculum/>}></Route>
+        <Route path='/python_full_stack_curriculum' element={<Python_Full_Stack_Curriculum/>}></Route>
+        <Route path='/data-science-curriculum' element={<Data_Science_Curriculum/>}></Route>
+        <Route path='/machine-learning-curriculum' element={<Machine_Learning_Curriculum/>}></Route>
+        <Route path='/Software-testing-curriculum' element={<Software_Testing_Curriculum/>}></Route>
+        <Route path='/react-js-curriculum' element={<React_JS_Curriculum/>}></Route>
+        <Route path='/data-structures-curriculum' element={<Data_Structures_Curriculum/>}></Route>
+        <Route path='/c-programming-curriculum' element={<C_Programming_Curriculum/>}></Route>
+        {/* <Route path='/java' element={<Java/>}></Route> */}
 
       </Routes>
      
