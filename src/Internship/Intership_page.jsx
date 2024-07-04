@@ -322,16 +322,14 @@ export default function Intern_Page() {
 
 
             <div className="intern-home2">
-                <center>
+                <center> 
                     <h1>Questions Generally Asked About  <span className="Linkcolor">Internship</span></h1>
                     <img src={style} alt="" />
                 </center>
                 <div className="intern-home-drop">
                     <Inter_dropdown data={data2} />
                 </div>
-
             </div>
-
         </div>
     );
 }

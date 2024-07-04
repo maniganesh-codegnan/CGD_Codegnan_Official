@@ -109,11 +109,9 @@ import Software_Testing_Curriculum from './curriculum/Software-testing-curriculu
 import React_JS_Curriculum from './curriculum/react-js-curriculum.jsx';
 import Data_Structures_Curriculum from './curriculum/data-structures-curriculum.jsx';
 import C_Programming_Curriculum from './curriculum/c-programming-curriculum.jsx';
-// import Java from './Internship/java.jsx';
-
-
-
-
+import Video_Testimonials from './video-testimonials.jsx';
+import TabS from './curriculum/Tabs.jsx';
+import Java from './Internship/java.jsx';
 
 
 
@@ -220,7 +218,9 @@ function App() {
         <Route path='/react-js-curriculum' element={<React_JS_Curriculum/>}></Route>
         <Route path='/data-structures-curriculum' element={<Data_Structures_Curriculum/>}></Route>
         <Route path='/c-programming-curriculum' element={<C_Programming_Curriculum/>}></Route>
-        {/* <Route path='/java' element={<Java/>}></Route> */}
+        <Route path='/video-testimonials' element={<Video_Testimonials/>}></Route>
+        <Route path='/Tabs' element={<TabS/>}></Route>
+        <Route path='/java' element={<Java/>}></Route>
 
       </Routes>
      
@@ -228,7 +228,6 @@ function App() {
       
     </div>
   );
- 
 }
 
 export default App

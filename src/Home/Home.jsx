@@ -40,6 +40,7 @@ import Testimonials from '../student_testimonals/Testimonials.jsx';
 import ceo from '/members/sairam-sir.webp';
 import saketh from '/members/trainer-2.pngw3_.webp';
 import Collaboration from '../Collabarations.jsx';
+import Video_Testimonials from '../video-testimonials.jsx';
 
 
 export default function Home() {
@@ -415,6 +416,13 @@ export default function Home() {
                             <h1 className='change_color'>Our Collaborations</h1>
                             <br /><br />
                             <Collaboration />
+                        </center>
+                    </div>
+                    <div className='our_collaborations'>
+                        <center>
+                            <h1 className='change_color'>Video Testimonials <span> of Our Students </span> </h1>
+                            <br /><br />
+                            <Video_Testimonials/>
                         </center>
                     </div>
                     <center>

@@ -12,8 +12,9 @@
 
 .drop-down-container{
   
-  width:1100px;
-  padding:30px 40px;
+  /* width:1100px; */
+  width: auto;
+  /* padding:30px 40px; */
   .inner-div-drop-down{
     padding:10px 20px;
     h3{

@@ -344,10 +344,7 @@
     .div_container_notch_team {
         flex-direction: row;
     }
-   
 }
-
-
 /* Mobile Styles */
 @media only screen and (max-width: 600px) {
  
@@ -402,11 +399,8 @@
         .div_container_training_center {
             grid-template-columns: 1fr; 
         }
-        
     }
     
-
-
     .still_douts{
         width: 400px;
         height: 400px;
@@ -448,8 +442,6 @@
     }
     .grid-item{
         margin: 10px 0px;
-        
-
     }
     .certification_program {
         margin-top: 50px;
@@ -458,7 +450,6 @@
         h1 {
             font-size: 28px;
         }
-
         .custom-icon {
             font-size: 36px;
             padding: 8px; 
@@ -474,12 +465,10 @@
         gap: 20px; 
         padding:  20px 0px; 
     }
-    
+
     .still_douts{
         width: 768px;
     }
-    
-    
 }
 /* Media query for tablet view */
 @media only screen and (min-width: 700px) and (max-width: 900px) {

@@ -1,4 +1,6 @@
 import Training_template from "./Training_template";
+import Java from './Internship/java.jsx';
+
 const headData = {
     title: "Best Python Training In Vijayawada",
     p: "Whenever you opt for an IT training program, the first question that comes to mind is whether will you get a job or not. If you also have a similar question in your mind, then don’t worry, we got you covered.Codegnan has various Python training courses in Vijayawada that not only assists you in quality training but also helps you complete practical hands-on projects on Python.",

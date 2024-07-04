@@ -3,32 +3,11 @@ import './internship.css';
 import { Link } from "react-router-dom";
 import Inter_dropdown from "./Intern_dropdown/Inter_dropdown";
 import InternForm from "../Form/Intership_form";
-import InternsyllabusComp from './Intern_syllabus/Intern_syllabus.jsx';
+import InternsyllabusComp from './Java_syllabus/Intern_syllabus.jsx';
 import { useState } from "react";
-
-import Java_Curriculum from './curriculum/java_curriculum.jsx';
 
 import style from '/training/heading-separator.png';
 
-
-const data = [
-    {
-        img: "/intern_services/image-61-1.png ",
-        head: "Skilled Leader",
-        p: "Empower your career under the professional guidance of industry-experienced leaders."
-    },
-    {
-        img: "/intern_services/image-55-1-1.png ",
-        head: "Realtime Project ",
-        p: "Gain hands-on knowledge and industry insights with real-time enterprise projects "
-    },
-    {
-
-        img: "/intern_services/image-56-1-1.png ",
-        head: "Completion Certificate",
-        p: "Elevate your career with Codegnan's internship program and earn comprehensive certifications"
-    }
-]
 
 const data2 = [
     {
@@ -60,14 +39,23 @@ const data2 = [
 
 const syllabusdata = [
     {
-        head: "Skills covered in our Python training institute in Bangalore ",
+        head: "MERN Stack :",
         p: (
             <>
-               
-                Skills covered in our Java training institute in Bangalore
+                ReactJS, #SQL, #MongoDB, #Express
+                <Inter_dropdown data={data2} />
+                
+            </>
+        )
+    },
+    {
+        head: "Machine Learning :",
+        p: (
+            <>
+                #Data Analysis using Python, , #Supervised Learning Algorithms, #Unsupervised Learning, #Algorithms, #Flask, #Git, #Github, #MIT App Inventor
                 <ul>
                     {[
-                        "Every Project will be deployed in Amazon Web Services Cloud."
+                        "All algorithms will be implemented with real use case datasets and finally the Model will be deployed on Web Servers"
                     ].map((item, index) => (
                         <li key={index} style={{ marginLeft: "10px" }}>{item}</li>
                     ))}
@@ -75,77 +63,22 @@ const syllabusdata = [
             </>
         )
     },
-    // {
-    //     head: "Machine Learning :",
-    //     p: (
-    //         <>
-    //             #Data Analysis using Python, , #Supervised Learning Algorithms, #Unsupervised Learning, #Algorithms, #Flask, #Git, #Github, #MIT App Inventor
-    //             <ul>
-    //                 {[
-    //                     "All algorithms will be implemented with real use case datasets and finally the Model will be deployed on Web Servers"
-    //                 ].map((item, index) => (
-    //                     <li key={index} style={{ marginLeft: "10px" }}>{item}</li>
-    //                 ))}
-    //             </ul>
-    //         </>
-    //     )
-    // },
-    // {
-    //     head: "Deep Learning :",
-    //     p: (
-    //         <>
-    //             #Artificial Neural Networks Implementation from Scratch, #Optimization and Regularization, #Convolutional Neural Networks, #AlexNet, #GoogLeNet, #VGG Transfer, #Learning, #ResNet, #Training in Tensorflow and Keras, #Recurrent , #Neural Networks , #LSTMs, #GANs
-    //         </>
-    //     )
-    // },
-    // {
-    //     head: "Computer Vision :",
-    //     p: (
-    //         <>
-    //             #Opencv, #Image Classification , #Object Detection , #SSD/RetinaNet , #Video , #Object Detection , #YOLO models , #Object Counting , #Pytorch/Tensorflow & Keras , #Optical Character Recognition.
-    //         </>
-    //     )
-    // },
-    // {
-    //     head: "Natural Language Processing :",
-    //     p: (
-    //         <>
-    //             #NLTK, #Text Processing, #POS Tagging, #Bag of Words, #Semantics, #Entity Linking, #Information Extraction, #Text Classification, #Sentiment Analysis, #Chatbots, #Alexa, #DialogFlow and #IBM Watson.
-    //         </>
-    //     )
-    // },
-    // {
-    //     head: "Internet of Things :",
-    //     p: (
-    //         <>
-    //             #Networking, #Sensor Networks, #Arduino Programming, #Integration of Sensors and Actuators with Arduino, #Implementation of IoT with Raspberry Pi, #Data Handling and Analytics, #Case Studies related to Agriculture, #Activity Monitoring and Healthcare.
-    //         </>
-    //     )
-    // },
-    // {
-    //     head: "Python Full Stack :",
-    //     p: (
-    //         <>
-    //             Python, SQL (MySQL), Flask/Django, HTML, CSS, Bootstrap,Git and Github Every Project will be deployed in Amazon Web Services Cloud
-    //         </>
-    //     )
-    // },
-    // {
-    //     head: "Front End Development with React :  ",
-    //     p: (
-    //         <>
-    //             HTML, CSS, Bootstrap, JavaScript, ReactJs, Git and Github
-    //             Every Project will be deployed on Web Servers
-    //         </>
-    //     )
-    // }
+    {
+        head: "Deep Learning :",
+        p: (
+            <>
+                #Artificial Neural Networks Implementation from Scratch, #Optimization and Regularization, #Convolutional Neural Networks, #AlexNet, #GoogLeNet, #VGG Transfer, #Learning, #ResNet, #Training in Tensorflow and Keras, #Recurrent , #Neural Networks , #LSTMs, #GANs
+            </>
+        )
+    }
 ]
 
 const syllabus2data = [
     {
-        head: "MERN Stack :",
+        head: "",
         p: (
             <>
+            <Inter_dropdown data={data2} />
                 ReactJS, #SQL, #MongoDB, #Express
                 <ul>
                     {[
@@ -212,6 +145,7 @@ export default function Intern_Page() {
     
     return (
         <div className="inter_container">
+
             {/* <div className="inter_inner_div">
                 <span className="home-intern">
                     <Link className="Linkcolor" to="/">Home</Link>&nbsp; &gt; &nbsp;<strong>Internship</strong>
@@ -264,40 +198,37 @@ export default function Intern_Page() {
             </div> */}
 
 
-            <div className="two-column-container">
-
-                <div className="right-column">
-                    <div className="syll">
+            <div className="intern-home3">
+                <div className="intern-home-form">
+                   
+                    <div className="all_year_syllabus">
                         <div className="syllabus-button-container">
-                            <button onClick={() => setYear('2nd')}>
-                                For 2<sup>nd</sup> Year
-                            </button>
-                            <button onClick={() => setYear('3rd')}>
-                                For 3<sup>rd</sup> Year
-                            </button>
-                            </div>
-                            <hr />
-                            <div className="inside_syllabus_container">
-                            {year === '2nd' && <InternsyllabusComp data={syllabusdata} />}
-                            {year === '3rd' && <InternsyllabusComp data={syllabus2data} />}
+                        <button onClick={() => setYear('2nd')}>
+                        Course Curriculum
+                        </button>
+                        <button onClick={() => setYear('3rd')}>
+                        Skills covered
+                        </button>
                         </div>
+                        <hr />
+                        <div className="inside_syllabus_container">
+                        {year === '2nd' && <InternsyllabusComp data={syllabusdata} />}
+                        {year === '3rd' && <InternsyllabusComp data={syllabus2data} />}
+                        </div>
+                        
+                    </div>
+                    <div className="intern_from">
+                        <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
+                        <h1>Benchmark <span className="change_color">Codegnan</span> Internship programs</h1><br />
+                        <img src={style} alt="" />
+                        <h3>Talk to our Expert</h3><br /><br />
+                        <InternForm />
                     </div>
                 </div>
-                <div className="left-column">
-                    <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
-                    <h1>Benchmark <span className="change_color">Codegnan</span><br /> Internship programs</h1><br />
-                    <img src={style} alt="" />
-                    <h3>Talk to our Expert</h3><br /><br />
-                    <InternForm />
-                    <java_curriculum/>
-                </div>
-
-            </div>
+            </div><br /><br /><br />
 
 
-
-
-            <div className="intern-home2">
+            {/* <div className="intern-home2">
                 <center>
                     <h1>Questions Generally Asked About  <span className="Linkcolor">Internship</span></h1>
                     <img src={style} alt="" />
@@ -305,8 +236,7 @@ export default function Intern_Page() {
                 <div className="intern-home-drop">
                     <Inter_dropdown data={data2} />
                 </div>
-
-            </div>
+            </div> */}
 
         </div>
     );
