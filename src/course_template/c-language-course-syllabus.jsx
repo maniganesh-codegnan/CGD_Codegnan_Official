@@ -3,6 +3,7 @@ import Course_template from "./Course_template";
 import c_langauge_photo from '/course_images/c-langauge.png';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
 
 
 const headdata = {
@@ -662,6 +663,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>C Language syllabus and subjects for 2024 (with free PDF)</title>
+                <meta name="description" content="Learning C language provides the easiest way to understand high-level languages like Java and Python. It gives coders the basic knowledge of how to start programming and learn about loops, conditional statements and more. Experts say C is the mother or base for other programming languages. Even if you aren't using the C language professionally," />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

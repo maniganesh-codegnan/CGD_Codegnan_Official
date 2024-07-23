@@ -4,6 +4,9 @@ import style from '/training/heading-separator.png';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import FAQ from '../curriculum/FAQ'
+// import JavaComponent from './Internship/java.jsx';
+// import JavaComponent from "./Internship/java.jsx";
+
 
 export default function Training_template(props) {
     const { head, middle, middle2, middle3, middle4, middle5, mentor, coursep, other, map_details, train_opt } = props;
@@ -19,14 +22,14 @@ export default function Training_template(props) {
     const { title: maptitle, mapSrc, email, phoneNumber, address } = map_details;
     const { title: train_title, color_title: trainc_title, p: train_p, list: train_listings } = train_opt;
 
-    // State for countdown timer
+    //---------------- State for countdown timer ------------------
     const [offerEndsIn, setOfferEndsIn] = useState('');
 
-    // Calculate time remaining until offer ends
+    //---------- Calculate time remaining until offer ends----------
     useEffect(() => {
         const offerEndTime = new Date(); 
-        offerEndTime.setHours(offerEndTime.getHours() + 6); 
-        offerEndTime.setMinutes(offerEndTime.getMinutes() + 59); 
+        offerEndTime.setHours(offerEndTime.getHours() + 6);
+        offerEndTime.setMinutes(offerEndTime.getMinutes() + 59);
         offerEndTime.setSeconds(offerEndTime.getSeconds() + 60);
 
         const updateCountdown = () => {
@@ -116,6 +119,7 @@ export default function Training_template(props) {
                     <p>{formtext}</p>
                     <br />
                     <FormComponent />
+                    {/* <JavaComponent /> */}
                 </div>
             </div>
             <br /><br /><br /><br /><br />

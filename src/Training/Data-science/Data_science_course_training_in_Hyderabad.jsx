@@ -1,4 +1,6 @@
 import Training_template from "../Training_template";
+import { Helmet } from 'react-helmet';
+
 const headData = {
     title: "Best Data Science Course Training",
     color_title:"in Hyderabad ",
@@ -183,9 +185,13 @@ const headData = {
       }
     ]
   }
-export default function Python_full_stack_training_in_hyderabad() {
+export default function Data_science_course_training_in_Hyderabad() {
     return (
         <div>
+           <Helmet>
+              <title>Best Data Science Course Training In Hyderabad (#1 Institute)</title>
+              <meta name="description" content="codegnan offers the best data science course in Hyderabad with 24/7 lifetime support. Learn about the course syllabus and fees." />
+          </Helmet>
             <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
       </div>
     );

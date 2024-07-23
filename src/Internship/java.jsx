@@ -2,21 +2,19 @@ import React from "react";
 import './internship.css';
 import { Link } from "react-router-dom";
 import Inter_dropdown from "./Intern_dropdown/Inter_dropdown";
-import InternForm from "../Form/Intership_form";
+import FormComponent from '../Form/Form';
 import InternsyllabusComp from './Java_syllabus/Intern_syllabus.jsx';
 import { useState } from "react";
-
 import style from '/training/heading-separator.png';
-
 
 const data2 = [
     {
-        head: "Who can be the audience of Online Java Training in Vijayawada?",
-        p: "The following aspirants can opt for a Java course in Vijayawada: Programming Enthusiasts, Project Managers, Web Developers, Full Stack Developers, Software Developers, Software Engineers, Technical Lead Architects, Technology Enthusiasts, Web Enthusiasts, etc."
+        head: "JAVA Introduction",
+        p: 'History \n\n\n Features'
     },
     {
-        head: "What are the prerequisites of Java training in Vijayawada Online?",
-        p: "To learn Java you do not really need any prerequisites. This means no programming language knowledge is needed to learn Java. However, for a better understanding, you can opt for C++ programming as a foundational language."
+        head: "Java Basics & Introduction to Eclipse",
+        p: "Post Install Configuration \n Writing a simple program \ncompiling and executing \nData types \nVariables and Arrays \nUsing Eclipse \nCreate packaged classes \nEclipse shortcuts "
     },
     {
         head: "What is the future of Java Programming?",
@@ -36,15 +34,13 @@ const data2 = [
     }
 ];
 
-
 const syllabusdata = [
     {
-        head: "MERN Stack :",
+        head: " ",
         p: (
             <>
-                ReactJS, #SQL, #MongoDB, #Express
+                <h2 style={{ color :"black" }}>Java Training Course <span style={{ color :"red" }} > Curriculum In Bangalore </span></h2><br />
                 <Inter_dropdown data={data2} />
-                
             </>
         )
     },
@@ -218,11 +214,12 @@ export default function Intern_Page() {
                         
                     </div>
                     <div className="intern_from">
-                        <h4 className="Linkcolor">INTERNSHIP WE OFFER</h4><br />
-                        <h1>Benchmark <span className="change_color">Codegnan</span> Internship programs</h1><br />
-                        <img src={style} alt="" />
-                        <h3>Talk to our Expert</h3><br /><br />
-                        <InternForm />
+                        <h2 className="Linkcolor">Become a Python developer</h2><br />
+                        {/* <h1>Benchmark <span className="change_color">Codegnan</span> Internship programs</h1><br /> */}
+                        {/* <img src={style} alt="" /> */}
+                        {/* <h3>Talk to our Expert</h3><br /> */}
+                        <p>Talk to our expert Python mentors and learn how our training programs in Bangalore can help you become a  Python developer and get a high-paying job.</p><br /><br />
+                        <FormComponent />
                     </div>
                 </div>
             </div><br /><br /><br />

@@ -3,6 +3,8 @@ import Course_template from "./Course_template";
 import python_projects from '/course_images/python-project.webp';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
 const headdata = {
     title: "Python Projects for Beginners 2024 (Shared by Experts)",
     date: "March 8, 2024",
@@ -936,6 +938,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>Python Projects for Beginners 2024 (Shared by Experts)</title>
+                <meta name="description" content="Our trainers and mentors at codegnan have trained more than 30,000 students and helped them complete hands-on Python projects and work on live case studies. In fact, our online and offline Python training programs offer a bunch of interesting Python projects designed for beginners, intermediate and professionals. Based on our training experience, we have curated" />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

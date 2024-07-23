@@ -32,7 +32,6 @@
             padding-right: 30px 20px;
         }
 
-
     }
 }
 
@@ -342,6 +341,7 @@
     .jap_syllabus {
         flex-direction: column;
         align-items: center;
+        padding: 30px;
     }
 
     .jap_syllabus .jap_meet_expert {
@@ -350,7 +350,7 @@
     }
 
     .jap_salary_container {
-        padding: 30px 20px;
+        /* padding: 30px 20px; */
     }
 
     .we_are_good {
@@ -440,3 +440,53 @@
         padding: 20px 10px;
     }
 }
+
+
+@media (max-width: 600px) {
+    .home-intern {
+        padding: 0 10px; /* Further adjust padding for small screens */
+        font-size: 14px; /* Further adjust font size for small screens */
+    }
+
+    .jap-home-1 {
+        margin: 20px 0px; /* Further adjust margin for small screens */
+        padding: 15px; /* Further adjust padding for small screens */
+        
+        h4 {
+            font-size: 20px; /* Further adjust font size for small screens */
+        }
+
+        li {
+            margin-left: 10px; /* Further adjust margin for small screens */
+        }
+    }
+
+    .jap-form-self {
+        flex-direction: column; /* Stack items vertically */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .jap_faqs {
+        padding: 20px 5px; /* Further adjust padding for small screens */
+    }
+
+    .jap_collab {
+        img {
+            width: 80px; /* Further adjust width for small screens */
+            height: auto; /* Maintain aspect ratio */
+            margin: 5px; /* Further adjust margin for small screens */
+            padding: 5px; /* Further adjust padding for small screens */
+        }
+    }
+
+    .explore-button {
+        width: 100px; /* Further adjust width for small screens */
+        height: 30px; /* Further adjust height for small screens */
+        padding: 10px; /* Further adjust padding for small screens */
+    }
+}
+
+
+/* -------------------------------------------------------------------------------- */
+

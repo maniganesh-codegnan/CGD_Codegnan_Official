@@ -4,7 +4,7 @@ import reactjs_photo from '/course_images/reactjs.webp';
 import reactjs1_photo from '/course_images/reactjs1.png';
 import { Link } from "react-router-dom";
 
-
+import { Helmet } from 'react-helmet';
 
 const headdata = {
     title: "React JS Course Syllabus For Beginners and Advanced (2024)",
@@ -629,6 +629,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>React JS Course Syllabus For Beginners and Advanced (2024)</title>
+                <meta name="description" content="Find the complete React JS course curriculum (including PDF) for online and classroom 1-month training program. Updated for 2024 session." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

@@ -1,6 +1,8 @@
 import Training_template from "./Training_template";
 import Java from './Internship/java.jsx';
 
+import { Helmet } from 'react-helmet';
+
 const headData = {
     title: "Best Python Training In Vijayawada",
     p: "Whenever you opt for an IT training program, the first question that comes to mind is whether will you get a job or not. If you also have a similar question in your mind, then don’t worry, we got you covered.Codegnan has various Python training courses in Vijayawada that not only assists you in quality training but also helps you complete practical hands-on projects on Python.",
@@ -156,6 +158,11 @@ const headData = {
 export default function Python_training_in_Vijayawada() {
     return (
         <div>
+            <Helmet>
+                <title>⭐ Best Python Course In Hyderabad (#1 Institute) </title>
+                <meta name="description" content="Codegnan offers the best Python course in Hyderabad. Course duration: 1 month, fees: ₹15,000, Rating: 4.8/5. Get discounts if you APPLY NOW." />
+            </Helmet>
+
         <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
       </div>
     );

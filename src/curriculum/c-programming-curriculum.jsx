@@ -209,7 +209,7 @@ const data = [
               <p> ● Formatted Input-Output Functions </p>
               <p> ● Character Input-Output Functions </p>
 
-         <p><b> ‍Hands-On -Working with different file modes and file related functions.</b></p>
+         <p><b> Hands-On -Working with different file modes and file related functions.</b></p>
          <p><b> Hands-on : Project Implementation from scratch.  </b></p>
     `
   },

@@ -5,9 +5,9 @@ import Inter_dropdown from "./Intern_dropdown/Inter_dropdown";
 import InternForm from "../Form/Intership_form";
 import InternsyllabusComp from './Intern_syllabus/Intern_syllabus.jsx';
 import { useState } from "react";
+import { Helmet } from "react-helmet";
 
 import style from '/training/heading-separator.png';
-
 
 const data = [
     {
@@ -21,7 +21,6 @@ const data = [
         p: "Gain hands-on knowledge and industry insights with real-time enterprise projects "
     },
     {
-
         img: "/intern_services/image-56-1-1.png ",
         head: "Completion Certificate",
         p: "Elevate your career with Codegnan's internship program and earn comprehensive certifications"
@@ -209,6 +208,10 @@ export default function Intern_Page() {
     
     return (
         <div className="inter_container">
+            <Helmet>
+                <title> Internship </title>
+                <meta name="description" content="Explore Codegnan IT Solution&#039;s website and LinkedIn for the latest internship openings and application details." />
+            </Helmet>
             <div className="inter_inner_div">
                 <span className="home-intern">
                     <Link className="Linkcolor" to="/">Home</Link>&nbsp; &gt; &nbsp;<strong>Internship</strong>
@@ -330,6 +333,7 @@ export default function Intern_Page() {
                     <Inter_dropdown data={data2} />
                 </div>
             </div>
+            
         </div>
     );
 }

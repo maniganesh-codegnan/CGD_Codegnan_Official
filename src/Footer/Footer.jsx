@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from '../assets/Logo2.png';
+import logo from '../assets/Logo2-1.png';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 

@@ -10,6 +10,8 @@ import SalaryComponent from "./salary_component/salary";
 import './about.css';
 import Companies from '../Companies/Companies';
 
+import { Helmet } from 'react-helmet';
+
 
 
 const data2 = [
@@ -140,8 +142,10 @@ const salaries = [
 export default function Jap() {
     return (
         <div>
-
-
+            <Helmet>
+                <title>About codegnan: Why we exist</title>
+                <meta name="description" content="At codegnan, we not only focus on delivering quality education and practical learning to our students but also help them get placed in jobs or internships." />
+            </Helmet>
             <div className="about_container">
                 <span className="home-intern">
                 </span>

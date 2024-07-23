@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import sending_automated_emails_illustration from '/course_images/sending-automated-emails-illustration.png';
 import python_is_most_popular_programming_language from '/syllabuspages/python-is-most-popular-programming-language.png';
 
+import { Helmet } from 'react-helmet';
+
 
 
 const headdata = {
@@ -39,8 +41,6 @@ const courseSections = [
         // ]
     },
    
-    
- 
 ];
 
 const course_brief = [
@@ -809,6 +809,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>Python Course Syllabus: Course Fees, Duration, and Eligibility </title>
+                <meta name="description" content="Python developers have been in demand for several years, and recently, Python ranked among the top five most demanded programming languages globally. The best part of Python programming is that anyone with basic computer knowledge can learn and use it. Python is not just a programming language used for web and app development," />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

@@ -2,6 +2,7 @@ import React from "react";
 import Course_template from "./Course_template";
 import Softwaretesting_projects from '/course_images/software-testing-projects-illustration.png';
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 const headdata = {
     title: "Software Testing Projects For Final Year With Source Code ",
@@ -1051,6 +1052,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+             <Helmet>
+                <title>Software Testing Projects For Final Year With Source Code</title>
+                <meta name="description" content="No applications or software are launched on the market without being tested. Software testing projects give you an idea of what to test within an application and how you can do so. If you want to select the right software testing career path, you need hands-on experience in software testing. In the last five years" />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

@@ -1,6 +1,7 @@
 import './Nav.css';
-import logo from '../assets/Logo.png';
-import { Link } from "react-router-dom";
+// import logo from '../assets/Logo.png';
+import logo from '../assets/Logo1.png';
+import { Link } from "react-router-dom"; 
 import { useState } from 'react';
 // import Course_template from "./course_template/Course_template.jsx";
 

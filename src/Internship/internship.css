@@ -295,6 +295,7 @@
         .each_service_intern {
             /* width: 100%; */
             height: auto;
+            width:342px;
         }
     }
 }

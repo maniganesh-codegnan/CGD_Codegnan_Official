@@ -3,6 +3,8 @@ import Course_template from "./Course_template";
 import cprogram_projects from '/course_images/C-programming-projects-illustration.png';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
 const headdata = {
     title: "17 C Language Projects For Beginners with Source Code",
     date: "March 23, 2024",
@@ -1045,6 +1047,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>17 C Language Projects For Beginners with Source Code</title>
+                <meta name="description" content="C programming is a machine-independent language that helps learners step into the World of creating operating systems like Windows, Oracle, Python interpreter, etc. It may not be the most used programming language in 2024, but it still ranks among the top 10 languages. With 5+ years of experience training 30,000+ students globally, Codegnan believes hands-on" />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

@@ -1,9 +1,15 @@
 import './contact.css';
 import Contact_Form from '../Form/Contact_Form';
+import { Helmet } from 'react-helmet';
+
 export default function Contact_us() {
     return (
         
     <div className="container1">
+        <Helmet>
+            <title>Contact Us - Codegnan </title>
+            <meta name="description" content="To reach Codegnan IT Solutions, please use the provided contact details on our website or social media channels." />
+        </Helmet>
         <div className="row">
         <div className="column ">
             <center className='contsec'>

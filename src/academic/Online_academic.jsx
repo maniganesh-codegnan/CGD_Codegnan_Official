@@ -2,6 +2,7 @@ import React from 'react';
 import './acaademic.css';
 import style from '/training/heading-separator.png';
 import Box from './academic_box_component/box';
+import { Helmet } from 'react-helmet';
 
 const academic_box_content = [
     {
@@ -230,6 +231,10 @@ const academic_box_content = [
 export default function Academic() {
     return (
         <div className="academic_container">
+            <Helmet>
+                <title>Codegnan Academy - Grow your career in tech with our online courses</title>
+                <meta name="Welcome to CodeGnan Online Academy, your one-stop destination for mastering the latest technologies and programming languages." />
+            </Helmet>
             <div className="academic_info">
                 <h1>Codegnan <span className="Linkcolor">Academy</span></h1>
                 <img src={style} alt="" />

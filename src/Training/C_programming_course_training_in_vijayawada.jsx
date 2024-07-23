@@ -1,5 +1,6 @@
-
 import Training_template from "./Training_template";
+import { Helmet } from 'react-helmet';
+
 const headData = {
   title: " Best C Programming Language Course ",
   color_title:" Training in Vijayawada",
@@ -165,9 +166,13 @@ const training_options={
 }
 
 
-export default function Python_training_in_banglore() {
+export default function C_programming_course_training_in_vijayawada() {
   return (
     <div>
+       <Helmet>
+          <title>Best C Programming Language Course Training in Vijayawada</title>
+          <meta name="description" content="codegnan offers C programming course training in Vijayawada with 24/7 lifetime student support. Find the course syllabus and fees today." />
+      </Helmet>
       <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
     </div>
   );

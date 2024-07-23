@@ -1,5 +1,6 @@
-
 import Training_template from "./Training_template";
+import { Helmet } from 'react-helmet';
+
 const headData = {
   title: "Best React JS Training Course",
   color_title:"in Vijayawada",
@@ -17,6 +18,7 @@ const middleData = {
   title: "React JS course  ",
   color_title:"overview and key features",
   p: "Codegnan It Solutions is the best place to learn Java course in Vijayawada. This course aims to train students from basic concepts to advanced concepts.\nBy learning our Java full stack course, you will master key concepts like Core Java, J2EE, along with popular frameworks like Hibernate, Spring, and Reactjs. Currently, there are many active job openings for Java. \n\nThe world’s best companies are looking for certified Java professionals. Enroll in our best Java Training in Vijayawada and learn real-time application scenarios. \n\n Codegnan IT Solutions is one of the best Java training institutes in Vijayawada, which provides both theoretical and practical knowledge through training on live projects and a dedicated placement cell for all of our students. The course curriculum is designed in such a way that every student gets an in-depth understanding of Java, covering all modules from fundamental to advanced levels. \n\n This training is conducted by industrial experts with more than 8 years of experience  \n\nin handling live projects. We have well-experienced trainers and provide both offline and online training classes to students, which enables them to handle any difficulties they may face when entering the IT sector. \n\n Additionally, we provide training with placement solutions to our students, and our placement team schedules drives and conducts mock interviews during the training to help with career opportunities. We have already kept a moderate training fee to support students coming from all sections of society. \n\nTop highlights",
+  
   list: [
      " Hackerrank certification included",
      " Learn from experts",
@@ -146,9 +148,14 @@ const training_options={
 }
 
 
-export default function Python_training_in_banglore() {
+export default function React_JS_training_course_in_vijayawada() {
   return (
     <div>
+      <Helmet>
+          <title>Best React JS Training Course in Vijayawada (#1 Institute)</title>
+          <meta name="description" content="codegnan offers the best React JS training in Vijayawada with hands-on projects and lifetime support. Find the syllabus and fees." />
+      </Helmet>
+      
       <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
     </div>
   );

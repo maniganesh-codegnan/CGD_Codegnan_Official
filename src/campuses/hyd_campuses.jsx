@@ -1,5 +1,8 @@
 import Campus_temp from "./campuses_template";
 import { Link } from "react-router-dom";
+
+
+import { Helmet } from 'react-helmet';
 const headData = {
     title: "Python, Full stack Java, Software Testing & Data science training institute in Hyderabad",
     color_title:" Codegnan Hyderabad",
@@ -65,6 +68,10 @@ const course_pricing={
 export default function Vij_campus(){
     return(
         <div>
+            <Helmet>
+                <title>Python, Full stack Java, Software Testing &amp; Data science training institute in Hyderabad </title>
+                <meta name="description" content="Start your tech and IT career with codegnan’s training programs and courses in Hyderabad." />
+            </Helmet>
             <Campus_temp head={headData} map_details={map_address} middle2={middle2Data} coursep={course_pricing}/>
         </div>
     );

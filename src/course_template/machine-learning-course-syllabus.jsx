@@ -3,6 +3,8 @@ import Course_template from "./Course_template";
 import machine_photo from '/course_images/machine-learning-syllabus-pdf-by-codegnan.png';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
 
 
 const headdata = {
@@ -10,7 +12,6 @@ const headdata = {
     date: "April 8, 2024",
     img: machine_photo,
     intro: "Are you overwhelmed by the vast number of machine learning topics and not knowing where to start or what order to follow? \nThen our machine learning course syllabus will give you a structured outline of subjects and topics to learn. \nAlso, I’ve listed practical machine-learning projects that will improve your learning.\n <b>Note:</b> Our machine learning and AI trainers have created this outline after teaching more than 30,000 students all over India through online or offline classes in Vijayawada, Hyderabad, and Bangalore. \nHere’s the course syllabus at a glance:"
-    
 };
 
 const coursedata = {
@@ -558,6 +559,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>Machine learning course syllabus (with downloadable PDF)</title>
+                <meta name="description" content="Are you overwhelmed by the vast number of machine learning topics and not knowing where to start or what order to follow? Then our machine learning course syllabus will give you a structured outline of subjects and topics to learn. Also, I’ve listed practical machine-learning projects that will improve your learning. Note: Our machine learning" />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

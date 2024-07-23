@@ -65,6 +65,16 @@ import SoftwareTestingProjects from './course_template/software-testing-projects
 import Data_science_projects_for_beginners from './course_template/data-science-projects-for-beginners.jsx';
 import React_js_vs_angular_which_is_best_javascript_framework from './course_template/react-js-vs-angular-which-is-best-javascript-framework.jsx';
 import Java_interview_questions from './course_template/java-interview-questions.jsx';
+import Software_Testing_Career_Paths from './course_template/software-testing-career-paths.jsx';
+import Python_Career_Paths from './course_template/python-career-paths.jsx';
+import Data_Science_Course_Fees_and_Duration from './course_template/data-science-course-fees-and-duration.jsx';
+import How_to_Become_a_Python_Full_Stack_Developer from './course_template/how-to-become-a-python-full-stack-developer.jsx';
+import Data_Science_and_ai_Companies_Building_Tomorrow_on_Fast_Track from './course_template/data-science-and-ai-companies-building-tomorrow-on-fast-track.jsx';
+import Why_Django_is_the_go_to_Framework_for_Python_Web_Development_Ultimate_Django_Guide from './course_template/why-django-is-the-go-to-framework-for-python-web-development-ultimate-django-guide.jsx';
+import Top_13_Artificial_Intelligence_Applications_In_Real_World_Ai_Use_Cases from './course_template/top-13-artificial-intelligence-applications-in-real-world-ai-use-cases.jsx';
+import Java_Career_Paths from './course_template/java-career-paths.jsx';
+import How_To_Become_A_Java_Full_Stack_Developer from './course_template/how-to-become-a-java-full-stack-developer.jsx';
+import Future_Scope_Of_Data_Science_Career_In_India from './course_template/future-scope-of-data-science-career-in-india.jsx';
 
 
 import Jap from './JAP/JAP.jsx';
@@ -112,9 +122,6 @@ import C_Programming_Curriculum from './curriculum/c-programming-curriculum.jsx'
 import Video_Testimonials from './video-testimonials.jsx';
 import TabS from './curriculum/Tabs.jsx';
 import Java from './Internship/java.jsx';
-
-
-
 
 
 
@@ -179,7 +186,16 @@ function App() {
         <Route path='/blog/data-science-projects-for-beginners' element={<Data_science_projects_for_beginners/>}></Route>
         <Route path='/blog/react-js-vs-angular-which-is-best-javascript-framework' element={<React_js_vs_angular_which_is_best_javascript_framework />}></Route>
         <Route path='/blog/java-interview-questions' element={<Java_interview_questions/>}></Route>
-
+        <Route path='/blog/software-testing-career-paths' element={<Software_Testing_Career_Paths/>}></Route>
+        <Route path='/blog/python-career-paths' element={<Python_Career_Paths/>}></Route>
+        <Route path='/blog/data-science-course-fees-and-duration' element={<Data_Science_Course_Fees_and_Duration/>}></Route>
+        <Route path='/blog/how-to-become-a-python-full-stack-developer' element={<How_to_Become_a_Python_Full_Stack_Developer/>}></Route>
+        <Route path='/blog/data-science-and-ai-companies-building-tomorrow-on-fast-track' element={<Data_Science_and_ai_Companies_Building_Tomorrow_on_Fast_Track/>}></Route>
+        <Route path='/blog/why-django-is-the-go-to-framework-for-python-web-development-ultimate-django-guide' element={<Why_Django_is_the_go_to_Framework_for_Python_Web_Development_Ultimate_Django_Guide/>}></Route>
+        <Route path='/blog/top-13-artificial-intelligence-applications-in-real-world-ai-use-cases' element={<Top_13_Artificial_Intelligence_Applications_In_Real_World_Ai_Use_Cases/>}></Route>
+        <Route path='/blog/java-career-paths' element={<Java_Career_Paths/>}></Route>
+        <Route path='/blog/how-to-become-a-java-full-stack-developer' element={<How_To_Become_A_Java_Full_Stack_Developer />}></Route>
+        <Route path='/blog/future-scope-of-data-science-career-in-india' element={<Future_Scope_Of_Data_Science_Career_In_India/>}></Route>
         <Route path='/online-academic' element={<Online_Academic/>}></Route>
         <Route path='/academy/online-python-course/' element={<Online_python/>}></Route>     
         <Route path='/academy/online-c-programming-course/' element={<Online_C/>}></Route>

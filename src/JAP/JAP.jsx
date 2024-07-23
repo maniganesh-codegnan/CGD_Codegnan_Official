@@ -1,3 +1,5 @@
+import React from 'react';
+import { Helmet } from 'react-helmet';
 import { Link } from "react-router-dom";
 import InternForm from "../Form/Intership_form";
 import What_you_earn from "../reusable/jab_slider/jap_slider";
@@ -9,11 +11,9 @@ import InternsyllabusComp from "../Internship/Intern_syllabus/Intern_syllabus";
 import SalaryComponent from "./salary_component/salary";
 import './jap.css';
 
-
-
 const data2 = [
     {
-        head: "What is the salary of a full stack developer ?",
+        head: "What is the salary of a full stack developer?",
         p: "A full stack developer in India could earn anywhere from INR 60,000 to 80,000 per month, depending on the type of company."
     },
     {
@@ -38,22 +38,20 @@ const data2 = [
     }
 ];
 
-
 const syllabusdata = [
     {
         head: "Frontend :",
         p: (
             <>
-                <i className="fas fa-clock im" ></i><span className="sp">Duration : 10 Days</span>
+                <i className="fas fa-clock im"></i><span className="sp">Duration : 10 Days</span>
                 <br /><br />
-                <i className="fas fa-book im"></i>Mode : <span className="sp">10% Theory and 90% Practical </span><br /><br />
+                <i className="fas fa-book im"></i>Mode : <span className="sp">10% Theory and 90% Practical</span><br /><br />
                 <i className="fas fa-clipboard im"></i><span className="sp">Course Includes</span><br />
                 <img src="/syllabus_jsp_courses/CSS.png" className="jap_img" alt="" />
                 <img src="/syllabus_jsp_courses/html.png" className="jap_img" alt="" />
-                <img src="/syllabus_jsp_courses/JS.png" className="jap_img"  alt="" />
+                <img src="/syllabus_jsp_courses/JS.png" className="jap_img" alt="" />
                 <br />
                 <i className="fas fa-desktop im"></i><span className="sp">Frontend Exam - Global Certification</span><br />
-                
             </>
         )
     },
@@ -61,14 +59,13 @@ const syllabusdata = [
         head: "Database :",
         p: (
             <>
-                <i className="fas fa-clock im" ></i><span className="sp">Duration : 15 Days</span>
+                <i className="fas fa-clock im"></i><span className="sp">Duration : 15 Days</span>
                 <br /><br />
-                <i className="fas fa-book im"></i>Mode : <span className="sp"> 10% Theory and 90% Practical </span><br /><br />
+                <i className="fas fa-book im"></i>Mode : <span className="sp">10% Theory and 90% Practical</span><br /><br />
                 <i className="fas fa-clipboard im"></i><span className="sp">Course Includes</span><br />
                 <img src="/syllabus_jsp_courses/SQL.png" className="jap_img" alt="" />
                 <br />
                 <i className="fas fa-desktop im"></i><span className="sp">Database Exam - Global Certification</span><br />
-                
             </>
         )
     },
@@ -76,15 +73,14 @@ const syllabusdata = [
         head: "Server :",
         p: (
             <>
-                <i className="fas fa-clock im" ></i><span className="sp">Duration : 15 Days</span>
+                <i className="fas fa-clock im"></i><span className="sp">Duration : 15 Days</span>
                 <br /><br />
-                <i className="fas fa-book im"></i>Mode : <span className="sp">10% Theory and 90% Practical </span><br /><br />
+                <i className="fas fa-book im"></i>Mode : <span className="sp">10% Theory and 90% Practical</span><br /><br />
                 <i className="fas fa-clipboard im"></i><span className="sp">Course Includes</span>
                 <br />
                 <img src="/syllabus_jsp_courses/Appache.png" className="jap_img" alt="" />
-                <img src="/syllabus_jsp_courses/java2eee.png"  className="jap_img" alt="" /><br />
-                <i className="fas fa-desktop im"></i><span className="sp">Use Cases Implementation </span><br />
-                
+                <img src="/syllabus_jsp_courses/java2eee.png" className="jap_img" alt="" /><br />
+                <i className="fas fa-desktop im"></i><span className="sp">Use Cases Implementation</span><br />
             </>
         )
     },
@@ -92,26 +88,25 @@ const syllabusdata = [
         head: "Backend :",
         p: (
             <>
-                <i className="fas fa-clock im" ></i><span className="sp">Duration : 40 Days</span>
+                <i className="fas fa-clock im"></i><span className="sp">Duration : 40 Days</span>
                 <br /><br />
-                <i className="fas fa-book im"></i>Mode : <span className="sp">10% Theory and 90% Practical </span><br /><br />
+                <i className="fas fa-book im"></i>Mode : <span className="sp">10% Theory and 90% Practical</span><br /><br />
                 <i className="fas fa-clipboard im"></i><span className="sp">Course Includes</span>
                 <br />
-                <img src="/syllabus_jsp_courses/backend/CSS-3.png"  className="jap_img" alt="" />
+                <img src="/syllabus_jsp_courses/backend/CSS-3.png" className="jap_img" alt="" />
                 <img src="/syllabus_jsp_courses/backend/git.png" className="jap_img" alt="" />
-                <img src="/syllabus_jsp_courses/backend/hibernate.png"  className="jap_img" alt="" />
+                <img src="/syllabus_jsp_courses/backend/hibernate.png" className="jap_img" alt="" />
                 <img src="/syllabus_jsp_courses/backend/github.png" className="jap_img" alt="" />
-                <img src="/syllabus_jsp_courses/backend/java2eee-1.png"  className="jap_img" alt="" />
+                <img src="/syllabus_jsp_courses/backend/java2eee-1.png" className="jap_img" alt="" />
                 <img src="/syllabus_jsp_courses/backend/jsp.png" className="jap_img" alt="" />
-                <img src="/syllabus_jsp_courses/backend/spring-boot.png"  className="jap_img" alt="" />
+                <img src="/syllabus_jsp_courses/backend/spring-boot.png" className="jap_img" alt="" />
                 <img src="/syllabus_jsp_courses/backend/spring.png" className="jap_img" alt="" />
                 <br />
                 <i className="fas fa-desktop im"></i><span className="sp">Java Global Certification</span><br />
-                
             </>
         )
     }
-]
+];
 
 const salaries = [
     {
@@ -134,12 +129,15 @@ const salaries = [
         head: " k/hr",
         p: "As a Freelancer you can earn 4,000 per hour. You’ll never imagine what is the full scope of it."
     }
-]
+];
 
 export default function Jap() {
     return (
         <div>
-
+            <Helmet>
+                <title>100 Days Codegnan’s Job Accelerator Program (JAP)</title>
+                <meta name="description" content="Codegnan's Job Accelerator Program (JAP) offers a 100-day intensive training to prepare students for high-demand tech " />
+            </Helmet>
 
             <div className="jap_container">
                 <span className="home-intern">
@@ -166,7 +164,7 @@ export default function Jap() {
                                 Limited Time Offer. Enroll your name <i className="fas fa-arrow-right"></i>
                             </Link>
                         </div>
-                        <br /><br /><br /><br /><br /><br />
+                        <br /><br /><br /><br />
                         <p>AFTER SUCCESSFUL COMPLETION</p>
                         <p><b>What Will You Achieve Through Successful Completion of the Program?</b></p>
                         <What_you_earn />
@@ -213,7 +211,6 @@ export default function Jap() {
                         <center>
                             <p>{salaryItem.p}</p>
                         </center>
-
                     </div>
                 ))}
             </div>
@@ -245,9 +242,7 @@ export default function Jap() {
                     <img src={style} alt="" />
                 </center>
                 <Intern_dropdown data={data2} />
-
             </div>
-
         </div>
     );
 }

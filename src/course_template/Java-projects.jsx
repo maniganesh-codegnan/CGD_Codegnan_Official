@@ -3,6 +3,8 @@ import Course_template from "./Course_template";
 import java_projects from '/course_images/java-projects.png';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
 const headdata = {
     title: "15 Java Final Year Projects For Beginners (With Source Code)",
     date: "April 19, 2024",
@@ -1198,6 +1200,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>15 Java Final Year Projects For Beginners (With Source Code)</title>
+                <meta name="description" content="While you might have heard of multiple programming languages today, Java ranks among the top 5 programming languages according to the TIOBE Index. For more than 20 years, Java has been in the industry and is still used by nearly 30.55% of developers. No matter whether you are a beginner in the IT industry or ..." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

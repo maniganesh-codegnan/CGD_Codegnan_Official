@@ -2,8 +2,51 @@ import React from "react";
 import { Link } from 'react-router-dom';
 import './Blog.css';
 import style from '/training/heading-separator.png';
+import { Helmet } from 'react-helmet';
 
 const BlogContent = [
+    {
+        tag: "Java ",
+        img: "/course_images/java-career-path-direction-guide-by-codegnan.png",
+        head: "6 Java Career Paths: High Paying and In-Demand",
+        p: "At Codegnan, we have trained 4,000+ students to become Java developers with placement assistance. So, with our experience and training of Java students for 6+ years, we know the ins…",
+        url: "/blog/java-career-paths/"
+    },
+    {
+        tag: "Java ",
+        img: "/course_images/Become-a-java-Full-Stack-Developer-illustration.png",
+        head: "How To Become a Java Full Stack Developer (Only 5 Steps)",
+        p: "At Codegnan, our mentors have trained more than 30,000 students to start their tech careers (especially in Java and full-stack development) and get jobs and internships. From learning to getting…",
+        url: "/blog/how-to-become-a-java-full-stack-developer/"
+    },
+    {
+        tag: "Python ",
+        img: "/course_images/Become-a-Python-Full-Stack-Developer-illustration.png",
+        head: "How To Become a Python Full Stack Developer (Only 5 Steps)",
+        p: "At Codegnan, our mentors have trained more than 30,000 students to start their tech careers (especially in Python and Java) and secure jobs and internships.  From learning to getting high-paying…",
+        url: "/blog/how-to-become-a-python-full-stack-developer"
+    },
+    {
+        tag: "Software Testing ",
+        img: "/course_images/Software-testing-career-path-illustration-by-codegnan.png",
+        head: "6 High-Paying Software Testing Career Paths In 2024",
+        p: "After training more than 30,000+ students in the tech field, we know the ins and outs of career paths for software testers. Based on our expertise and years of experience,…",
+        url: "/blog/software-testing-career-paths/"
+    },
+    {
+        tag: "Python",
+        img: "/course_images/python-career-paths-illustration-by-codegnan.png",
+        head: "7 Python Career Paths That Are Most In-Demand",
+        p: "After completing a Python course, most students are inclined towards back-end web development, scripting, or product development.  But, you can advance your Python career path in multiple ways, like working…",
+        url: "/blog/python-career-paths"
+    },
+    {
+        tag: "Data Science",
+        img: "/course_images/Data-science-course-duration-and-fees-illustration-by-codegnan.png",
+        head: "Data Science Course Fees and Duration in India [2024]",
+        p: "Data science course fees in India range from ₹2,00,000 to ₹8,00,000 in 2024 if you opt for academic qualifications such as B.Tech, M.Tech, and so on. The data science course…",
+        url: "/blog/data-science-course-fees-and-duration/"
+    },
     {
         tag: "C langauge Java Python Uncategorized",
         img: "/course_images/software-testing-projects-illustration.png",
@@ -42,7 +85,7 @@ const BlogContent = [
     {
         tag: "Java",
         img: "/blog_images/java-projects.png",
-        head: "14 Java Final Projects For Beginners (With Source Code)",
+        head: "15 Java Final Projects For Beginners (With Source Code)",
         p: "While you might have heard of multiple programming languages today, Java ranks among the top 5 programming languages according to the TIOBE Index. For more than 20 years, Java has…",
         url: "/blog/java_projects"
     },
@@ -129,7 +172,58 @@ const BlogContent = [
         head: "120 Important Java Interview Questions and Answers(2024)",
         p: "There are endless questions asked in a Java interview depending on the job position and candidates with different skills, experience, and background knowledge. However, some common JAVA questions often get…",
         url: "/blog/java-interview-questions"
-    }
+    },
+    {
+        tag: "Python",
+        img: "/course_images/java.webp",
+        head: "The Complete Core Java Course Syllabus 2024",
+        p: "Java has been around for a long time, since 1995, and still ranks among the top five most demanded programming languages by recruiters.  Learning Java can be a great skill…",
+        url: "/blog/java-course-syllabus/"
+    },
+    {
+        tag: "Data Science",
+        img: "/course_images/Data-science-career-scope-in-India-BY-CODEGNAN-destination.webp",
+        head: " Future Scope Of Data Science Career in India (2024)",
+        p: "Data science will become one of the highest-valued careers in 2024 and beyond, and we expect it to only grow further.  According to Indeed’s research, jobs like data scientist, data…",
+        url: "/blog/future-scope-of-data-science-career-in-india/"
+    },
+    {
+        tag: "Data Science",
+        img: "/course_images/data-science.webp",
+        head: "Data Science Course Syllabus and Subjects 2024 (PDF included)",
+        p: "If you’re looking to start your career in data science, you should know the key subjects and course syllabus to plan your learning path. In this guide, I have listed…",
+        url: "/blog/data-science-course-syllabus/"
+    },
+    {
+        tag: "Data Science",
+        img: "/course_images/Core-Java-syllabus-details.webp",
+        head: "Data Science and AI Companies building tomorrow on Fast Track",
+        p: "Data Science and Artificial Intelligence technologies are spreading like a virus.",
+        url: "/blogs/data-science-and-ai-companies-building-tomorrow-on-fast-track"
+    },
+    {
+        tag: "Uncategorized",
+        img: "/course_images/why-django-is-the-go-to-framework-for-python-web-development-ultimate-django-guide.webp",
+        head: "Why Django is the go to framework for Python Web development? Ultimate Django Guide ",
+        p: "If you are a web developer, then probably choosing the right framework for your web development tasks is crucial.",
+        url: "/blogs/top-13-artificial-intelligence-applications-in-real-world-ai-use-cases"
+    },
+    {
+        tag: "Uncategorized",
+        img: "/course_images/how-to-send-multiple-emails-simple-way-using-python.jpgw3.webp",
+        head: "How to send multiple emails simple way using python ",
+        p: "Using python send an email To check and reply to the emails is a big-time draining.",
+        url: "/blog/data-science-course-syllabus"
+    },
+    {
+        tag: "Artificial Intelligence",
+        img: "/course_images/top-13.jpgw3.webp",
+        head: "Top 13 Artificial Intelligence Applications in real world | AI Use Cases",
+        p: "From predicting human actions to the advancement of natural language processing, Artificial Intelligence is the field that is giving a new direction to the living of a normal person..",
+        url: "/blog/data-science-course-syllabus"
+    },
+    
+
 ];
 
 const scrollToTop = () => {
@@ -139,6 +233,10 @@ const scrollToTop = () => {
 export default function Blog() {
     return (
         <div className="blog_page">
+            <Helmet>
+                <title>Codegnan blog: Start and grow your career in tech</title>
+                <meta name="description" content="Our guides and resources help you learn IT skills and become job-ready in the tech field. Get access to free articles, eBooks, templates, etc." />
+            </Helmet>
             <center>
                 <h1 className="blog_head2">The codegnan blog</h1>
                 <br /><br />

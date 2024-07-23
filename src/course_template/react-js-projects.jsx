@@ -3,6 +3,8 @@ import Course_template from "./Course_template";
 import reactjs_projects from '/course_images/react-j-project-ideas-illustration.png';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
 const headdata = {
     title: "15 React JS Projects for Beginners 2024",
     date: "March 14, 2024",
@@ -860,6 +862,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>15 React JS Projects for Beginners 2024 - Codegnan</title>
+                <meta name="description" content="This guide lists the top React JS projects for beginners and professionals that can help learners develop their skills and land high-quality jobs." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

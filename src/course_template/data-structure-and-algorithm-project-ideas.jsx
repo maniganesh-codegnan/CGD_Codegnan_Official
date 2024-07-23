@@ -2,6 +2,7 @@ import React from "react";
 import Course_template from "./Course_template";
 import datastructer_projects from '/course_images/data-structure-and-algorithm-projects-ilustration.png';
 import { Link } from "react-router-dom";
+import { Helmet } from 'react-helmet';
 
 const headdata = {
     title: "15 Data Structure and Algorithm (DSA) Project Ideas",
@@ -1056,6 +1057,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>15 Data Structure and Algorithm (DSA) Project Ideas - Codegnan</title>
+                <meta name="description" content="If you are a full-stack software developer, learning Data Structures and Algorithms is essential for organizing data and solving problems efficiently. Not only full-stack developers but anyone working in the programming domain needs to have basic concepts of data structures and algorithms. After training 30,000+ students in the last five years, we saw that theoretical " />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

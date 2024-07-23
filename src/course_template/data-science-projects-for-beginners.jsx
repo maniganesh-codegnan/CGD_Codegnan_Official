@@ -1,7 +1,9 @@
 import React from "react";
 import Course_template from "./Course_template";
 import datascienceproject_projects from '/course_images/Data-Science-Project-illustration.png';
+import { Helmet } from 'react-helmet';
 import { Link } from "react-router-dom";
+
 
 const headdata = {
     title: "15 Data Science Projects For Beginners With Source Code",
@@ -1219,6 +1221,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>15 Data Science Projects For Beginners With Source Code - Codegnan</title>
+                <meta name="description" content="In this guide, Our data science trainers at Codegnan have compiled this list of 15 data science projects for beginners and final-year projects. Best part? We have included the source code and video tutorial for each project idea so you can start implementing the data science projects immediately. 👉 Become a successful data scientist with ......" />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

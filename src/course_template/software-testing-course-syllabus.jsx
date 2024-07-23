@@ -3,6 +3,7 @@ import Course_template from "./Course_template";
 import softwaretesting_photo from '/course_images/software-testing.png';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
 
 
 const headdata = {
@@ -1170,6 +1171,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>Software Testing Course Syllabus (with Downloadable PDF)</title>
+                <meta name="description" content="Find the complete software testing course syllabus that aims at building software testing professionals from zero." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

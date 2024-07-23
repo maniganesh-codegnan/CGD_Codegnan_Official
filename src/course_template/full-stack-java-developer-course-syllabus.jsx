@@ -3,6 +3,7 @@ import Course_template from "./Course_template";
 import javaFullstack_photo from '/course_images/java-course-fullstack-development-syllabus.webp';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
 
 
 const headdata = {
@@ -807,6 +808,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>The COMPLETE Full Stack Java Course Syllabus (2024 Session)</title>
+                <meta name="description" content="We created this transparent course syllabus for anyone wanting to become a full-stack Java developer in 2024." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

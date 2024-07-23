@@ -3,6 +3,8 @@ import Course_template from "./Course_template";
 import Javainterviewquestions_photo from '/course_images/JAVA-Interview-Questions.webp';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
 const headdata = {
     title: "120 Important Java Interview Questions and Answers (2024)",
     date: "January 31, 2024",
@@ -2220,6 +2222,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>120 Important Java Interview Questions and Answers (2024)</title>
+                <meta name="description" content="There are endless questions asked in a Java interview depending on the job position and candidates with different skills, experience, and background knowledge. However, some common JAVA questions often get asked and answered repeatedly in Java interviews everywhere. This is why we have asked our Java experts and mentors to share their top interview questions" />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

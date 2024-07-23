@@ -2,8 +2,7 @@ import React from "react";
 import Course_template from "./Course_template";
 import datascience_photo from '/course_images/data-science.webp';
 import { Link } from "react-router-dom";
-
-
+import { Helmet } from 'react-helmet';
 
 const headdata = {
     title: "Data Science Course Syllabus and Subjects 2024 (PDF included)",
@@ -18,7 +17,6 @@ const coursedata = {
     p: "",
     // linkText: "full syllabus details here.",
     // syllabusLink: "/full-syllabus-details"
-    
 };
 
 const courseSections = [
@@ -57,7 +55,6 @@ const course_brief = [
                     ))}
                 </ul>
               
-                
             </>
         )
 
@@ -1114,6 +1111,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>Data Science Course Syllabus and Subjects 2024 (PDF included)</title>
+                <meta name="description" content="Find the complete course curriculum and subject syllabus of data science for different streams such as M.sc, B.Tech, BCA with free PDF." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

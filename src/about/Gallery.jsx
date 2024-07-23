@@ -1,4 +1,7 @@
 import './about.css';
+import { Helmet } from 'react-helmet';
+
+
 export default function Gallery(){
     const data = [
         {img:'/gallery/1.webp'},
@@ -26,6 +29,10 @@ export default function Gallery(){
     ];
     return(
         <div className="Gallery_container">
+            <Helmet>
+                <title>Gallery - Codegnan</title>
+                <meta name="description" content="Gallery" />
+            </Helmet>
             <div className='Gallery_heading'>
                 <span>
                     <a href="/">Home</a>&nbsp; &gt; &nbsp;<strong>Gallery</strong>

@@ -3,6 +3,7 @@ import Course_template from "./Course_template";
 import java_photo from '/course_images/java.webp';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
 
 
 const headdata = {
@@ -320,6 +321,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>The Complete Core Java Course Syllabus 2024</title>
+                <meta name="description" content="Java has been around for a long time, since 1995, and still ranks among the top five most demanded programming languages by recruiters.&nbsp; Learning Java can be a great skill to acquire if you want to work in the programming or software development domain. In addition, if you have knowledge of other programming languages " /> 
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

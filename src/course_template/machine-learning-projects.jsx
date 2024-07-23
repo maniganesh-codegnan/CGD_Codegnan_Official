@@ -3,6 +3,8 @@ import Course_template from "./Course_template";
 import MachineLearning_projects from '/course_images/machine-learning-project-ideas-illustration.png';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
+
 const headdata = {
     title: " 15 Best Machine Learning Projects With Source Code (2024",
     date: " April 20, 2024",
@@ -1121,6 +1123,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>15 Best Machine Learning Projects With Source Code (2024)</title>
+                <meta name="description" content="This list of 15 machine learning project ideas with source code will make you ready for high paying jobs and crack machine learning interviews." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

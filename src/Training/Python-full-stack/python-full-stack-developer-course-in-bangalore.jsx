@@ -1,4 +1,7 @@
 import Training_template from "../Training_template";
+import { Helmet } from 'react-helmet';
+
+
 const headData = {
     title: "#1 Python Full Stack Developer Course",
     color_title:"Training in Bangalore for 2023/24 passouts",
@@ -181,6 +184,10 @@ const headData = {
   export default function Python_full_stack_training_in_banglore() {
     return (
       <div>
+            <Helmet>
+              <title>#1 Python Full Stack Developer Course Training in Bangalore</title>
+              <meta name="description" content="codegnan offers Full Stack Python developer training in Bangalore with job placement support. Learn about the syllabus and fees today." />
+          </Helmet>
         <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
       </div>
     );

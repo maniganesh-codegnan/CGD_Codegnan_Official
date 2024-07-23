@@ -1,4 +1,6 @@
 import Training_template from "../Training_template";
+import { Helmet } from 'react-helmet';
+
 const headData = {
     title: "Best Software Testing Training",
     color_title:"  Course in Hyderabad",
@@ -157,9 +159,13 @@ const headData = {
       }
     ]
   }
-export default function Python_full_stack_training_in_hyderabad() {
+export default function Software_testing_training_course_in_hyderabad () {
     return (
         <div>
+            <Helmet>
+                <title>⭐ Software Testing Training in Hyderabad With Placement </title>
+                <meta name="description" content="Codegnan offers software testing training in Hyderabad with placement. Course duration: 100 days, fees: ₹50,000, 4.8/5 (rated by 2,220+ students)." />
+            </Helmet>
             <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
       </div>
     );

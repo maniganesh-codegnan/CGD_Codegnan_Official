@@ -1,9 +1,9 @@
 import React from "react";
 import Course_template from "./Course_template";
 import datas_photo from '/course_images/datas.webp';
-// import datastructure_photo from './course_images/datastructure.webp';
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet';
 
 
 const headdata = {
@@ -932,6 +932,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>Data Structures And Algorithms Course Syllabus (with PDF) - Codegnan</title>
+                <meta name="description" content="At codegnan Institute, our team of experts have trained 30,500+ students in different IT fields including data structures and algorithms. And, some of the often-asked questions our students ask before joining the training program are So, we decided to create this complete course curriculum with a downloadable PDF syllabus for anyone who wants to learn" />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

@@ -3,7 +3,7 @@ import Course_template from "./Course_template";
 import fullstackpython_photo from '/course_images/fullstack-python.png';
 import { Link } from "react-router-dom";
 
-
+import { Helmet } from 'react-helmet';
 
 const headdata = {
     title: "Python Full Stack Developer Course Syllabus (With PDF)",
@@ -946,6 +946,10 @@ const nav_interview = [
 export default function JavaCoursePage() {
     return (
         <div>
+            <Helmet>
+                <title>Python Full Stack Developer Course Syllabus (With PDF)</title>
+                <meta name="description" content="Codegnan's Python Full Stack Developer course syllabus curriculum covers Python, web dev with Flask, front-end, databases. Hands-on training by experts for better jobs." />
+            </Helmet>
             <Course_template head={headdata} course={coursedata} section={courseSections} coursep={course_brief} inter_links={nav_interview} />
         </div>
     );

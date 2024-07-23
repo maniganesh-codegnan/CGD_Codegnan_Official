@@ -42,6 +42,9 @@ import saketh from '/members/trainer-2.pngw3_.webp';
 import Collaboration from '../Collabarations.jsx';
 import Video_Testimonials from '../video-testimonials.jsx';
 
+import { Helmet } from 'react-helmet';
+
+
 
 export default function Home() {
     function showText(event) {
@@ -58,10 +61,13 @@ export default function Home() {
         event.currentTarget.classList.toggle('heading-clicked');
     }
    
-
     return (
 
         <div>
+            <Helmet>
+                <title>Codegnan: Online & classroom IT training institute (India)</title>
+                <meta name="description" content="Codegnan offers finishing schools for students starting their career in tech. Become job-ready with our expert trainer led online and classroom IT courses." />
+            </Helmet>
             <div className="home">
                 <div className='banner_div'>
                     <h1>Online & classroom <br /> <span className='change_color'>IT training institute (India)</span> </h1>

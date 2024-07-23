@@ -9,9 +9,15 @@ import m6 from '/members/manohar.webp';
 import m7 from '/members/Kowshik.webp';
 import m8 from '/members/Jitendra.webp';
 
+import { Helmet } from 'react-helmet';
+
 export default function About() {
     return (
         <div className="team_about">
+        <Helmet>
+            <title>Our Team Members at codegnan </title>
+            <meta name="description" content="Meet the experts, trainers, founders, and mentors behind codegnan. " />
+        </Helmet>
             <center>
                 <h1>Our Team Members at codegnan</h1>
             </center>
