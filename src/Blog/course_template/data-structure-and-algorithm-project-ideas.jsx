@@ -131,7 +131,7 @@ const course_brief = [
                 "<strong>Hospitals and nursing homes:</strong> They can store emergency contacts and patient contacts to get connected effectively during emergency "
 
             ].map((item, index) => (
-                "<li key=" + index + " style='margin-left: 100px;'>" + item + "</li>"
+                "<li key=" + index + " style='margin-left: 70px;'>" + item + "</li>"
             )).join('') +
             "</ul>"
     },
@@ -141,7 +141,7 @@ const course_brief = [
             <>
                 <p> <Link className="link-color" to='https://github.com/Alkaison/Phonebook-Management-System'> 👉 Find the source code</Link></p>
                 <iframe 
-                width="560" 
+                width="100%" 
                 height="315" 
                 src="https://www.youtube.com/embed/9mJqFMNhfck?si=FwXNCGK5tNRVWOCu" 
                 title="YouTube video player" frameborder="0" 

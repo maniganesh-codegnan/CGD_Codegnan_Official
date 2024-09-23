@@ -157,7 +157,7 @@ export default function Jap() {
 
                         <p> In fact, there are 1250+ companies (including Google, Bosch, nvidia, etc.) have hired codegnan learners.</p>
                         <br />
-                     
+                    
                     </div>
                     <div className="jap_form">
                         <img src="syllabuspages/IMG_3185-1-scaled-768x512.jpgw3.webp" alt="" width="90%" className="aboutimg"/>
@@ -166,17 +166,17 @@ export default function Jap() {
                 <Fee />
             </div>
 
-            <div className="jap_syllabus">
+            {/* <div className="jap_syllabus"> */}
                 <center>
                 <div className='codegnan_success'>
                     <h4>CODEGNAN LEARNERS SUCCESS</h4>
                     <h1><span className='change_color'>1250+ Companies Have Hired </span>  Codegnan Learners</h1>
                     <center><img src={style} alt="" /></center><br />
-                    <p>To ensure providing the best IT classes and training programs codegnan have mentors and trainers from the alumni of world’s tech companies and universities such as IIT Delhi, Stanford University IIT Bombay, Google, Amazon, Microsoft and many more..</p>
+                    <p>To ensure providing the best IT classes and training programs codegnan have mentors and trainers from the alumni of world’s tech companies and universities such as IIT Delhi, Stanford University IIT Bombay, Google, Amazon, Microsoft and many more.</p>
                     <Companies/>
                 </div>
                 </center>
-            </div>
+            {/* </div> */}
             
 
             <div className="we_are_good">
@@ -200,7 +200,9 @@ export default function Jap() {
                     </div>
                 </center>
             </div>
-            <div className="media" >
+
+
+            {/* <div className="media" >
                 <h1><span className="Linkcolor">Important </span> links</h1>
                 <img src={style} alt=""/>
             </div>
@@ -222,7 +224,36 @@ export default function Jap() {
                     <h1><a href="/contact" className="color">Contact or <br/> Experts</a></h1>
                 </div>
                
+            </div> */}
+
+
+
+            <div className="media">
+                <h1><span className="Linkcolor">Important </span> links</h1>
+                <img src={style} alt=""/>
             </div>
+
+            <div className="container">
+                <div className="column-1">
+                    <img src="/we_are_recognized_by/team.png" alt="" width="30%"/>
+                    <h1><a href="/team" className="color">Meet Our Team</a></h1>
+                </div>
+                <div className="column-1">
+                    <img src="/we_are_recognized_by/Gallery.png" alt="" width="30%"/>
+                    <h1><a href="/gallery" className="color">Gallery</a></h1>
+                </div>
+                <div className="column-1">
+                    <img src="/we_are_recognized_by/JAP.png" alt="" width="30%"/>
+                    <h1><a href="/job_accelerator_program" className="color">Job accelerator program</a></h1>
+                </div>
+                <div className="column-1">
+                    <img src="/we_are_recognized_by/contact.png" alt="" width="30%"/>
+                    <h1><a href="/contact" className="color">Contact or <br/> Experts</a></h1>
+                </div>
+            </div>
+
+
+
             <div className="about_container">
                 <span className="home-intern">
                 </span>

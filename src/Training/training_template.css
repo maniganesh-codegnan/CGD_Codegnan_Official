@@ -49,8 +49,9 @@
         line-height: 1.5;
 
         p {
-            font-size: 18px;
+            font-size: 19px;
             padding: 20px 10px;
+            line-height: 26px;
         }
     }
 
@@ -187,7 +188,7 @@
     }
     .each_scope{
         padding: 20px;
-        width: 460px;
+        /* width: 460px; */
         line-height: 1.5;
         font-size: 18px;
         background-color: white;
@@ -210,6 +211,7 @@
         
         p{
             margin-top: 10px;
+            line-height: 26px;
         }
     }
     .each_scope_container{
@@ -665,3 +667,7 @@
 }
 
 }
+
+
+
+

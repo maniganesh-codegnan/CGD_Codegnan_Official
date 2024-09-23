@@ -3,13 +3,15 @@ import FormComponent from '../Form/Form';
 import style from '/training/heading-separator.png';
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import FAQ from '../curriculum/FAQ'
+import FAQ from '../faqs/FAQ';
 // import JavaComponent from './Internship/java.jsx';
 // import JavaComponent from "./Internship/java.jsx";
 
 
 export default function Training_template(props) {
-    const { head, middle, middle2, middle3, middle4, middle5, mentor, coursep, other, map_details, train_opt } = props;
+//     alert('Hello')
+//   console.log('Hai')
+    const { head, middle, middle2, curriculumData, middle3, middle4, middle5, mentor, coursep, other, map_details, train_opt } = props;
     const { title: headTitle, color_title: headctitle, p: headP, language: headL, duration: headDuation, price: headPrice, rating: headrating, formh, formtext, no_of_hours } = head;
     const { title: mtitle, color_title: mctitle, p: mp, list: mlistings } = middle;
     const { title: m2title, color_title: m2ctitle, p: m2p, list2: m2L } = middle2;
@@ -86,9 +88,10 @@ export default function Training_template(props) {
     ];
 
     return (
+        
         <div className='tth'>
             <center>
-                <div className='download_broucher'><button>Need more info? <span>Download the Brochure</span></button></div>
+                <div className='download_broucher'><button> Need more info? <span>Download the Brochure</span></button></div>
             </center>
             <div className='training_template_headerdetails'>
                 <div className='course_head_details'>
@@ -111,8 +114,6 @@ export default function Training_template(props) {
                     <p style={{fontSize:"22px", fontFamily:"sans-serif"}}>Offer Ends in </p> 
                     {/* Display countdown */}
                     <h2>{offerEndsIn}</h2>
-                    
-                    
                 </div>
                 <div className='training_template_form_1'>
                     <h4>{formh}</h4>
@@ -147,6 +148,7 @@ export default function Training_template(props) {
                         </ul>
                     </div>
                 </div>
+                
                 <div className='career_scope_container'>
                     <div className='career_scope'>
                         <h1><span className='change_color'>{m2ctitle}</span>{m2title}</h1>
@@ -166,7 +168,7 @@ export default function Training_template(props) {
                         </div>
                     </div>
                 </div>
-
+               {curriculumData}
                 <div className='career_scope_container' style={{ backgroundColor: "#f3fbfb" }}>
                     {(m3ctitle || m3title || m3p || (m3L && m3L.length > 0)) ? (
                         <div className='career_scope'>

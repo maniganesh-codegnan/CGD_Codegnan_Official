@@ -21,7 +21,7 @@ const coursedata = {
 const courseSections = [
    
     {
-        title: " ",
+        title: "👉 Become a full-stack Java developer with Codegnan’s training classes (100 days):",
         intro: " ",
         content: [
             // "Knowledge of how to store and manage different tasks using arrays and lists",
@@ -37,7 +37,7 @@ const course_brief = [
         intro: () => (
             <>
                 <ul>
-                    <h4>👉 Become a full-stack Java developer with Codegnan’s training classes (100 days):</h4>
+                    {/* <h4>👉 Become a full-stack Java developer with Codegnan’s training classes (100 days):</h4> */}
                     {[
                         { name: " Java full-stack developer course in Bangalore with placement ", link: "/java-full-stack-training-course-in-bangalore" },
                         { name: "Java Full-stack developer training in Hyderabad with placement", link: "/java-full-stack-training-course-in-hyderabad" },
@@ -91,7 +91,7 @@ const course_brief = [
               <p>To become a full-stack Java developer, you need to understand the basics of full-stack development. If you are a front-end developer or a back-end developer or have basic knowledge of Java programming, this career option can be an excellent choice. However, becoming a full-stack Java developer doesn’t have any prerequisites, and anyone interested in the career can opt for it. </p>
              <p>But you need to enrol in a Java Full Stack developer course from a reputed institution and earn a course completion certificate. It proves your skills and expertise to potential recruiters.</p>
              <p>You can enrol in Codegnan’s Java Full Stack training course, which is specially designed for beginners as well as experienced Java developers.</p>
-             <img src="/syllabuspages/Best-Java-full-stack-training-course-With-Placement-by-codegnan-1024x512.png" alt="error" />
+             <img src="/syllabuspages/Best-Java-full-stack-training-course-With-Placement-by-codegnan-1024x512.png" alt="error" width="100%" />
              <p>You can also learn about Java full-stack development from different blog posts or YouTube videos. But I specifically don’t recommend you follow these resources as they don’t let you understand where to start from. Also, there are a few reasons why I don’t recommend these sources, like</p>
            
             </>
@@ -116,7 +116,7 @@ const course_brief = [
             <>
                 <p> To solve this problem, you can enrol on our platform, where you get live interactive online sessions and classroom training with industry experts. You can ask them questions and grow under their supervision. </p>
                 <p> Here’s the first few lessons you get from Codegnan:</p>
-                <img src="/syllabuspages/image-27.png" alt="error" />
+                <img src="/syllabuspages/image-27.png" alt="error" width="100%"/>
 
             </>
         )
@@ -131,16 +131,16 @@ const course_brief = [
 
                 <p> Let’s see with <Link className="link-color" to='/home'> Codegnan </Link>   what type of projects you can work on:  </p>
                 <p> The picture below gives an overview of the key responsibilities of a junior Java developer.</p>
-                <img src="/syllabuspages/image-37.png" alt="error" />
+                <img src="/syllabuspages/image-37.png" alt="error" width="100%"/>
                  <p>  You can also create your individual projects and host them on free platforms like Vercel, Railway, Render, and Fly.io. Otherwise, using Heroku and Elastic Beanstalk (a good AWS service) is the best solution for deploying an application.</p>
                  <p>  I am sharing the link to sign up for Heroku.</p>
-                 <img src="/syllabuspages/image-44.png" alt="error" />
+                 <img src="/syllabuspages/image-44.png" alt="error" width="100%"/>
                  <p> If you want to deploy your Java-based project for the real world, you must buy hosting services and a domain. For example, GoDaddy can provide you with a domain and hosting services for which you must pay charges.</p>
                  <p> Let’s see what they charge for domain and secured hosting.</p>
-                 <img src="/syllabuspages/image-36-1024x458.png" alt="error" />
+                 <img src="/syllabuspages/image-36-1024x458.png" alt="error"width="100%" />
                  <p>What are some of the projects you can do? I will share a few</p>
                  <p>Start with creating a simple website. You can create such a website with Java.</p>
-                 <img src="/syllabuspages/image-61.png" alt="error" />
+                 <img src="/syllabuspages/image-61.png" alt="error" width="100%"/>
                   <p>Find the <Link className="link-color" to='https://github.com/Cedrick1101/Voice_Banking_App'> source code </Link>  for website development </p>
                   <p>👉 Find our comprehensive list of best <Link className="link-color" to='/blog/java-projects/'>  Java final year project ideas with source code </Link> </p>
             </>
@@ -280,11 +280,11 @@ const course_brief = [
             <>
                 <p>Whenever you apply for jobs on different job boards or in your professional network, you must present an attractive portfolio to potential recruiters. This portfolio must have details about your qualifications and links to your projects. </p>
                 <p>Here’s an example of a Java full-stack developer portfolio. </p>
-                <img src="/syllabuspages/image-48.png" alt="error" />
+                <img src="/syllabuspages/image-48.png" alt="error" width="100%"/>
                 <p> For the freshers, you won’t have work experience to showcase on your resume. So, you can list all the projects you worked on during your training period and individual projects that you completed later. This shows your real skills and expertise in Java full-stack development to recruiters.</p>
                 <p> Always try adding your projects to GitHub and sharing your repository link on your resume. Recruiters will not only see how efficient you are in developing full-stack applications but also understand your knowledge of version control systems and managing remote repositories.</p>
                 <p> You need to create a GitHub account to upload all your projects in one place. Here’s how your sign-in page looks like. </p>
-                <img src="/syllabuspages/image-28.png" alt="error" />
+                <img src="/syllabuspages/image-28.png" alt="error" width="100%"/>
                 <p>Let me recommend a few things to consider on GitHub.</p>
             </>
         )
@@ -304,7 +304,7 @@ const course_brief = [
         title: "",
         intro: () => (
             <>
-                <img src="/syllabuspages/image-33.png" alt="error" />
+                <img src="/syllabuspages/image-33.png" alt="error" width="100%" />
             </>
         )
     },
@@ -323,7 +323,7 @@ const course_brief = [
         title: "",
         intro: () => (
             <>
-                <img src="/syllabuspages/image-38.png" alt="error" />
+                <img src="/syllabuspages/image-38.png" alt="error" width="100%" />
             </>
         )
     },
@@ -342,7 +342,7 @@ const course_brief = [
         title: "",
         intro: () => (
             <>
-                <img src="/syllabuspages/image-41-1024x395.png" alt="error" />
+                <img src="/syllabuspages/image-41-1024x395.png" alt="error" width="100%" />
             </>
         )
     },
@@ -361,7 +361,7 @@ const course_brief = [
         title: "",
         intro: () => (
             <>
-                <img src="/syllabuspages/image-53-1024x475.png" alt="error" />
+                <img src="/syllabuspages/image-53-1024x475.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -380,7 +380,7 @@ const course_brief = [
         title: " ",
         intro: () => (
             <>
-                <img src="/syllabuspages/image-56-1024x483.png" alt="error" />
+                <img src="/syllabuspages/image-56-1024x483.png" alt="error" width="100%"/>
                 <p>I am sharing the <Link className="link-color" to='https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects'> link </Link>  to learn more about creating projects on GitHub.</p>
             </>
         )
@@ -396,10 +396,10 @@ const course_brief = [
                 <p> You can search for entry-level Java full-stack development on different job boards.</p>
                 <p> Like, I searched on LinkedIn, and found 2500+ <Link className="link-color" to='https://www.linkedin.com/jobs/full-stack-java-developer-jobs/?currentJobId=3954502119&originalSubdomain=in'>full-stack Java development  </Link> job vacancies in India.</p>
 
-                <img src="/syllabuspages/image-52-768x464.png" alt="error" />
+                <img src="/syllabuspages/image-52-768x464.png" alt="error" width="100%"/>
                 <p>Now, let me show you the requirements for a <Link className="link-color" to='https://in.indeed.com/cmp/Wavity-Pvt.-Ltd./jobs?jk=4e252a5d86f94d67&start=0&clearPrefilter=1'>Java full-stack development </Link> job.</p>
 
-                <img src="/syllabuspages/image-59-1024x273.png" alt="error" />
+                <img src="/syllabuspages/image-59-1024x273.png" alt="error" width="100%"/>
 
                 <p>Besides looking for job boards, you can also search for local companies to check entry-level job opportunities on their career pages. Even if you don’t find any entry-level roles on the page, you can email them you’ll, resume it and ask for any future opportunities. Make sure you attach a cover letter and mention all your Java full-stack development projects, skills and any internship experience with the mail.</p>
 
@@ -413,11 +413,11 @@ const course_brief = [
                 <p>Regularly upskilling yourself is essential to survive the changing trends in the market. You can attend webinars, seminars, or workshops to learn about what is trending in the market and their implementation from senior developers. Otherwise, you can enrol in advanced Java full-stack development courses or individual skill development courses. </p>
                 <p>To deal with new challenges, you can also sign up on different websites that provide programming quizzes and assignments for developers, such as HackerRank, LeetCode, Codewars, and Coderbyte. </p>
                 <p>I am sharing the sign-up link for HackerRank, where you can find numerous problems to solve and upskill yourself. Let me share a secret: your HackerRank badges can help you get a good job. </p>
-                <img src="/syllabuspages/image-29-1024x470.png" alt="error" />
+                <img src="/syllabuspages/image-29-1024x470.png" alt="error" width="100%"/>
                 <p>Another great way to learn new things about Java full-stack development is to join developer communities. They provide the necessary guidance and resources to help you solve almost any development challenges. </p>
 
                 <p>Let me share with you a link to join the Java full-stack development community.</p>
-                <img src="/syllabuspages/image-51-1024x485.png" alt="error" />
+                <img src="/syllabuspages/image-51-1024x485.png" alt="error" width="100%"/>
                 
             </>
         )
@@ -437,15 +437,15 @@ const course_brief = [
             <>
                 <p> Java is the core language for backend development, so you must have an in-depth knowledge of the language to build well-functioning software and applications. Learning Java basics includes understanding its data types, data structures, control flow statements, exception and error handling, object-oriented programming concepts, interfaces, and multithreaded programming.</p>
                 <p> Here’s what we cover of Java in our specially designed Java full-stack training course</p>
-                <img src="/syllabuspages/image-60-636x1024.png" alt="error" />
+                <img src="/syllabuspages/image-60-636x1024.png" alt="error" width="100%"/>
                 <h3>Step 2: Learn using web development technologies </h3>
                 <p> As a full stack developer, you are not only responsible for developing the back end of your application but also concentrating on the look and responsiveness of your application. This means you need to learn different web design technologies like HTML, CSS, and JavaScript. While HTML and CSS are responsible for the look of your application, JavaScript ensures its responsiveness on multiple devices.</p>
                 <p> You can start your full-stack development journey by taking our self-paced <Link className="link-color" to='/academy/online-html-css-course/'> HTML and CSS course. </Link></p>
 
-                <img src="/syllabuspages/image-58-1024x464.png" alt="error" />
+                <img src="/syllabuspages/image-58-1024x464.png" alt="error" width="100%"/>
 
                 <p>We also have a separate <Link className="link-color" to='/academy/online-javascript-course'> JavaScript online course </Link> for students who want to upskill themselves or learn about necessary topics before getting into full-stack development. </p>
-                <img src="/syllabuspages/image-30-1024x418.png" alt="error" />
+                <img src="/syllabuspages/image-30-1024x418.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -456,10 +456,10 @@ const course_brief = [
                 <p> For full-stack developers, working with databases is essential, as your software or application needs them to store and retrieve data efficiently. In real-world applications, databases are used to store and maintain user information, transaction records, etc.</p>
                 <p> If you enrol in our Java full-stack development course, you don’t need to take individual SQL training. Our full-stack Java course syllabus covers the basic MySQL and database programming concepts, which are almost sufficient for you to develop software or an application. </p>
                 <p> Here’s what you will learn within our course curriculum</p>
-                <img src="/syllabuspages/image-34-1024x631.png" alt="error" />
+                <img src="/syllabuspages/image-34-1024x631.png" alt="error" width="100%"/>
 
                 <p>But if you want to upskill yourself, you can enrol in our online, self-paced <Link className="link-color" to='/academy/online-mysql-course/'> MySQL course </Link> . It comprises 74 lessons, which you can complete at your convenience. </p>
-                <img src="/syllabuspages/image-50.png" alt="error" />
+                <img src="/syllabuspages/image-50.png" alt="error" width="100%"/>
               
             </>
         )
@@ -471,7 +471,7 @@ const course_brief = [
                 <p> Now that you want to become a full-stack Java developer with no experience, you need to enrol in a beginner course. However, most of these courses require a minimum graduation degree in any subject. But, if you have a bachelor’s degree in computer science and experience with Java programming language and database management, it will give you an added benefit in the learning process.</p>
                 <p> Here’s what you will learn with us in our 100 days Java full stack training course.</p>
 
-                <img src="/syllabuspages/image-54.png" alt="error" />
+                <img src="/syllabuspages/image-54.png" alt="error" width="100%"/>
                 <p>The best part of our course is that we don’t ask candidates only from IT backgrounds but anyone with a graduation degree or who is a working professional in any field.</p>
             </>
         )
@@ -482,7 +482,7 @@ const course_brief = [
             <>
                 <p>As you are a fresher, it’s understandable that you won’t have any work experience. However, potential recruiters would like to see what projects you worked on in order to understand your skills and expertise. To do so, you can create a GitHub account and share all your projects on the platform. Then, put the link to your account on your resume as a reference for recruiters.</p>
                 <p><Link className="link-color" to='https://github.com/'> Creating a GitHub account </Link> looks like this:</p>
-                <img src="/syllabuspages/image-45.png" alt="error" />
+                <img src="/syllabuspages/image-45.png" alt="error" width="100%"/>
                 <p>Let me suggest some beginner-level Java full-stack development projects. </p>
               
             </>
@@ -509,12 +509,12 @@ const course_brief = [
             <>
                 <p> If finding a job is difficult for newly qualified Java full-stack developers, I suggest you try out internship programs. These can be paid or unpaid programs and usually extend for 2 to 4 months. Why I said just applying for an internship program is that you don’t have many responsibilities within the company, but you get ample experience from senior developers. You can stay within a team and see how the entire development process works. Additionally, upon completing this program, you will receive a work experience certificate that will help you land better job opportunities in the future.</p>
                 <p> We understand the need for internship opportunities and the difficulty of finding the right ones. Therefore, we have created an <Link className="link-color" to='/internships'> internship portal </Link>  for all our candidates, where you can access different opportunities posted by recruiters on the platform.</p>
-                <img src="/syllabuspages/image-55.png" alt="error" />
+                <img src="/syllabuspages/image-55.png" alt="error" width="100%"/>
 
                 <p>Additionally, you can find different job boards, like Internshala, specially designed for freshers to search for internship opportunities.</p>
                 <p>Below, I am sharing what skills you need for a Java full-stack development internship opportunity. </p>
 
-                <img src="/syllabuspages/image-46.png" alt="error" />
+                <img src="/syllabuspages/image-46.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -527,7 +527,7 @@ const course_brief = [
                 <p> To do this, you simply create a LinkedIn profile, add all your qualifications, projects, skills, and achievements, and then start connecting with people in your domain. You can also follow the top developers or software companies for job-related updates and knowledge of the latest tools and technologies they are currently using within your industry.</p>
                 <p> Below, I have shared LinkedIn’s login page. Here, you can either log into your account using your email and password or create a new account.</p>
 
-                <img src="/syllabuspages/image-35-1024x358.png" alt="error" />
+                <img src="/syllabuspages/image-35-1024x358.png" alt="error" width="100%"/>
           
             </>
         )
@@ -538,7 +538,7 @@ const course_brief = [
             <>
                 <p> To upskill yourself and learn about new trends, it is good to attend different seminars, webinars and workshops. These events provide you with opportunities to learn new skills from industry experts or improve your existing knowledge in specific areas of full-stack Java development. Also, it gives you the chance to connect with potential employers and industry experts.</p>
                 <p> If you don’t want to take on so much responsibility in finding better job opportunities and learning from industry experts, join our hundred-day job accelerator program. This program is specially designed for candidates to learn about front-end development, server-side development, databases, and backend technologies. Besides clearing your theoretical concepts, we aim to provide you with hands-on training on every module.</p>
-                <img src="/syllabuspages/image-42.png" alt="error" />
+                <img src="/syllabuspages/image-42.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -551,7 +551,7 @@ const course_brief = [
                 <p> Having an understanding of the Java coding language is a must for full-stack developers. But before that, you should know how to set up your IDE, which can be IntelliJ or Eclipse, and import files and projects. </p>
                 <p> The first few things you can learn about Java are its object-oriented programming concept, flow control statements, Java methods, array collection framework, and generics. </p>
                 <p> With this picture below, I am sharing the essential OOP concepts you should learn.</p>
-                <img src="/syllabuspages/image-57-1536x864.png" alt="error" />
+                <img src="/syllabuspages/image-57-1536x864.png" alt="error" width="100%"/>
                 <p>You should also understand Java’s multithreading feature, which ensures maximum CPU resource utilisation by concurrently executing multiple threads or parts of a program. I recommend you learn a few more things, such as lambda expressions, file handling, functional interfaces, the Stream API, the New Date and Time API, and Default Methods.</p>
             </>
         )
@@ -564,7 +564,7 @@ const course_brief = [
 
                 <p>The image below shows a basic <Link className="link-color" to='https://www.intellectsoft.net/blog/web-application-architecture/'> web application architecture.</Link> </p>
 
-                <img src="/syllabuspages/image-43.png" alt="error" />
+                <img src="/syllabuspages/image-43.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -578,7 +578,7 @@ const course_brief = [
                 <p> JavaScript adds functional qualities to your web pages or applications and enhances its user interactions.</p>
                 <p> The graph below shows the <Link className="link-color" to='https://www.statista.com/statistics/1124699/worldwide-developer-survey-most-used-frameworks-web/'>most used web frameworks </Link> among developers in India and globally as of 2023</p>
 
-                <img src="/syllabuspages/image-32.png" alt="error" />
+                <img src="/syllabuspages/image-32.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -594,7 +594,7 @@ const course_brief = [
                 <p> Microsoft SQL</p>
                 <p> Below, I have shared the <Link className="link-color" to='https://survey.stackoverflow.co/2023/#most-popular-technologies-language-prof'> top 10 databases </Link> used by developers as of stack overflow developer survey 2023 </p>
 
-                <img src="/syllabuspages/image-31.png" alt="error" />
+                <img src="/syllabuspages/image-31.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -604,7 +604,7 @@ const course_brief = [
             <>
                 <p> Knowledge of version control systems such as Git is essential for full-stack developers to track any code changes made within a team and collaborate efficiently with all team members. It also allows you to maintain different versions of the project, work on multiple features simultaneously, roll back changes if required, and manage releases efficiently. </p>
                 <p> I am sharing the download link for Git on Windows with you. </p>
-                <img src="/syllabuspages/image-47-768x534.png" alt="error" />
+                <img src="/syllabuspages/image-47-768x534.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -614,7 +614,7 @@ const course_brief = [
             <>
                 <p>As a full-stack Java developer, you need to deploy your applications effectively, which requires proper knowledge of web hosting. This knowledge allows you to choose the appropriate platform for application deployment, configure servers, and ensure their optimal performance and security. Additionally, hosting knowledge helps you troubleshoot server-side errors or issues and implement continuous integration and deployment (CI/CD) pipelines. Some popular cloud web hosting platforms I prefer are AWS, Azure from Microsoft, and Google Cloud Platform. </p>
                 <p>Here’s how professional developers ranked <Link className="link-color" to='https://survey.stackoverflow.co/2023/#most-popular-technologies-platform-prof'> cloud platforms </Link>  as of 2023</p>
-                <img src="/syllabuspages/image-39.png" alt="error" />
+                <img src="/syllabuspages/image-39.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -651,10 +651,10 @@ const course_brief = [
             <>
                 <p> Java full-stack developers need to understand the basic concept of testing and debugging so that they can identify and solve bugs and issues early in the development phase. Some popular testing frameworks include JUnit, TestNG, Selenium, etc. JUnit and TestNG are suitable frameworks for unit testing; however, if you are testing a web application, I suggest you use Selenium. </p>
                 <p> I have shared a few Java testing frameworks below for your understanding.</p>
-                <img src="/syllabuspages/image-49-288x300.png" alt="error" />
+                <img src="/syllabuspages/image-49-288x300.png" alt="error" width="100%"/>
 
                 <p>The number of developers using automated testing tools is increasing every day. I followed the StackOverflow developers survey 2023 to find the most <Link className="link-color" to='https://survey.stackoverflow.co/2023/#most-popular-technologies-platform-prof'>  popular processes, tools, and programs</Link> developers use within an organisation. Here’s what I found: nearly 60.79% of developers are using automated testing in their companies; see the graph below:</p>
-                <img src="/syllabuspages/image-40-768x468.png" alt="error" />
+                <img src="/syllabuspages/image-40-768x468.png" alt="error" width="100%"/>
             </>
         )
     },

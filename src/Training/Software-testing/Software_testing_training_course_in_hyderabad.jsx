@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import Software_Testing_Hyd from '../../Internship/software-testing-hyderabad';
+import Software_Testing_FAQ from '../../faqs/Software-testing-faq-hyderabad';
 
 const headData = {
     title: "Best Software Testing Training",
@@ -19,14 +21,14 @@ const headData = {
     color_title:" Training Overview",
     p: "Software testing skills are essential for launching high-quality, defect-free products in the market. A software tester is responsible for thoroughly checking a product and reporting its findings to the development team. \nIf you want to be a part of the product development process enrol for our software testing training course in Hyderabad. It covers all basic knowledge of manual testing, white box and black box testing, work with test cases, understanding of popular testing tools like Selenium, and use of TestNG. This curriculum follows a practical approach of training and designed for beginners to professionals. \nKey features of our software testing training course in Hyderabad",
     list: [
-      " <b>Course duration:</b> 100 days " ,
-      " <b>Course fees:</b> ₹50,000 " ,
-      " <b>Training mode:</b> Offline " ,
-      " <b>Delivery language:</b> English " ,
-      " <b>Expert trainers:</b> Learn under the mentorship of students from top universities and working professionals in the domain " ,
-      " <b>Practical-based training:</b> The course curriculum includes working on multiple live projects for better knowledge of software testing " ,
-      " <b>Industry-recognised certificate:</b> Upon successful course completion, each learner will receive an industry-accredited certificate " ,
-      " <b>Placement assistance:</b> 100% placement support with a promise of nearly 150 drive in a year " ,
+      "  Course duration: 100 days " ,
+      "  Course fees: ₹50,000 " ,
+      "  Training mode: Offline " ,
+      "  Delivery language: English " ,
+      "  Expert trainers: Learn under the mentorship of students from top universities and working professionals in the domain " ,
+      "  Practical-based training: The course curriculum includes working on multiple live projects for better knowledge of software testing " ,
+      "  Industry-recognised certificate: Upon successful course completion, each learner will receive an industry-accredited certificate " ,
+      "  Placement assistance: 100% placement support with a promise of nearly 150 drive in a year " ,
     ]
   };
   
@@ -159,6 +161,8 @@ const headData = {
       }
     ]
   }
+  const curriculumData = <Software_Testing_Hyd />
+
 export default function Software_testing_training_course_in_hyderabad () {
     return (
         <div>
@@ -166,7 +170,10 @@ export default function Software_testing_training_course_in_hyderabad () {
                 <title>⭐ Software Testing Training in Hyderabad With Placement </title>
                 <meta name="description" content="Codegnan offers software testing training in Hyderabad with placement. Course duration: 100 days, fees: ₹50,000, 4.8/5 (rated by 2,220+ students)." />
             </Helmet>
-            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            {/* <Software_Testing_Hyd/> */}
+            <Software_Testing_FAQ/>
+
       </div>
     );
   }

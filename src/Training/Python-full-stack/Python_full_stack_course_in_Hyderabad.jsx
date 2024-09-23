@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import PythonFS_Hyderabad from '../../Internship/pythonfs-hyderabad';
+import Python_FS_Faq_Hyd from '../../faqs/python_full_stack_faq_hyderabad';
 
 const headData = {
     title: "#1 Python Full Stack Developer Course",
@@ -89,7 +91,7 @@ const headData = {
       "Automation enthusiasts",
       "Data Science enthusiasts"
     ].map((item, index) => (
-        "<li key=" + index + " style='margin-left: 150px;'>" + item + "</li>"
+        "<li key=" + index + " style='margin-left: 80px;'>" + item + "</li>"
     )).join('') +
     "</ul>",
   };
@@ -161,6 +163,8 @@ const headData = {
     //   }
     // ]
   }
+
+  const curriculumData = <PythonFS_Hyderabad />
 export default function Python_full_stack_training_in_hyderabad() {
     return (
       <div>
@@ -168,7 +172,9 @@ export default function Python_full_stack_training_in_hyderabad() {
               <title>#1 Python Full Stack Developer Course in Hyderabad</title>
               <meta name="description" content="codegnan offers a full-stack Python developer course in Hyderabad with practical projects and live classes. Learn about syllabus and fees." />
             </Helmet>
-            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            {/* <PythonFS_Hyderabad /> */}
+            <Python_FS_Faq_Hyd/>
       </div>
     );
   }

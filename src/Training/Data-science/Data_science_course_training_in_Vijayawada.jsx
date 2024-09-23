@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import Data_Science from '../../Internship/data-science-vijayawada';
+import Data_Science_FAQ from '../../faqs/data-science-faq-vijayawada'; 
 
 const headData = {
     title: "#1 Data Science Course Training",
@@ -186,6 +188,8 @@ const headData = {
       }
     ]
   }
+  const curriculumData = <Data_Science />
+
 export default function Data_science_course_training_in_Vijayawada() {
     return (
         <div>
@@ -193,7 +197,9 @@ export default function Data_science_course_training_in_Vijayawada() {
                 <title>Best Data Science Course Training In Vijayawada (#1 Institute)</title>
                 <meta name="description" content="codegnan offers the best data science training in Vijayawada with projects and 24/7 lifetime support. Learn about the syllabus and fees today." />
             </Helmet>
-            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
-      </div>
+            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            {/* <Data_Science/> */}
+            <Data_Science_FAQ/>
+        </div>
     );
   }

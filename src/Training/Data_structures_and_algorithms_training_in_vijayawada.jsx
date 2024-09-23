@@ -1,5 +1,8 @@
 import Training_template from "./Training_template";
 import { Helmet } from 'react-helmet';
+import Data_Structure from '../Internship/data-structures';
+import Data_structure_Faqs from '../faqs/data-structures-curriculum';
+
 const headData = {
   title: "Data Structures and AlgorithmsTraining ",
   color_title:"Course in Vijayawada",
@@ -141,7 +144,7 @@ const training_options={
   ]
 }
 
-
+const curriculumData = <Data_Structure />
 export default function Data_structures_and_algorithms_training_in_vijayawada() {
   return (
     <div>
@@ -149,7 +152,9 @@ export default function Data_structures_and_algorithms_training_in_vijayawada() 
           <title>#1 Data Structures and Algorithms Course Training in Vijayawada</title>
           <meta name="description" content="codegnan offers the best data structure algorithms training in Vijayawada with lifetime student support. Learn about the syllabus and fees." />
       </Helmet>
-      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      <Data_Structure/>
+      <Data_structure_Faqs/>
     </div>
   );
 }

@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import Data_Science_Curriculum from '../../Internship/data-science-hyderabad';
+import DSH_Faq from '../../faqs/data-science-curriculum';
 
 const headData = {
     title: "Best Data Science Course Training",
@@ -120,7 +122,7 @@ const headData = {
   
   const mentorsData={
     color_title:"Meet your",
-    title:" Full Stack Python course trainers",
+    title:" Full Stack Data Science course trainers",
     mentors:[
       {
         name:"Saketh Kallepu",
@@ -183,16 +185,22 @@ const headData = {
           )).join('') +
           "</ul>",
       }
+      
     ]
   }
+  const curriculumData = <Data_Science_Curriculum />
+
 export default function Data_science_course_training_in_Hyderabad() {
     return (
         <div>
-           <Helmet>
+            <Helmet>
               <title>Best Data Science Course Training In Hyderabad (#1 Institute)</title>
               <meta name="description" content="codegnan offers the best data science course in Hyderabad with 24/7 lifetime support. Learn about the course syllabus and fees." />
-          </Helmet>
-            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
-      </div>
+            </Helmet>
+            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            {/* <Data_Science_Curriculum/> */}
+            <DSH_Faq/>
+        </div>
     );
+    
   }

@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import Machine_Learning from '../../Internship/machine-learning-hyderabad';
+import Machine_Faqs from '../../faqs/machine-learning-curriculum';
 
 const headData = {
     title: "Machine Learning Course Training",
@@ -182,6 +184,7 @@ const headData = {
       }
     ]
   }
+  const curriculumData = <Machine_Learning />
 export default function Machine_learning_course_training_in_Hyderabad() {
     return (
         <div>
@@ -189,7 +192,9 @@ export default function Machine_learning_course_training_in_Hyderabad() {
               <title>Machine Learning Course Training in Hyderabad (#1 Institute)</title>
               <meta name="description" content="codegnan offers best machine learning training in Hyderabad with lifetime student support. Learn about syllabus and fees today." />
             </Helmet>
-            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            {/* <Machine_Learning/> */}
+            <Machine_Faqs/>
       </div>
     );
   }

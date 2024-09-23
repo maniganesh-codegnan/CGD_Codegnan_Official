@@ -90,7 +90,7 @@ const syllabus2data = [
         head: "Machine Learning :",
         p: (
             <>
-                #Data Analysis using Python, , #Supervised Learning Algorithms, #Unsupervised Learning, #Algorithms, #Flask, #Git, #Github, #MIT App Inventor
+                #Data Analysis using Python, #Supervised Learning Algorithms, #Unsupervised Learning, #Algorithms, #Flask, #Git, #Github, #MIT App Inventor
                 <ul>
                     {[
                         "All algorithms will be implemented with real use case datasets and finally the Model will be deployed on Web Servers"
@@ -137,6 +137,7 @@ const syllabus2data = [
 ]
 
 export default function Intern_Page() {
+    alert('Javs.jsx')
     const [year, setYear] = useState('2nd');
     
     return (

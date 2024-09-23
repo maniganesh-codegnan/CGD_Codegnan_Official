@@ -1,5 +1,8 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import SoftwareTestingCurriculum from '../../Internship/software-testing-bangalore';
+import FAQ from '../../faqs/Software-testing-curriculum';
+
 
 const headData = {
     title: "Best Software Testing Training",
@@ -163,7 +166,7 @@ const headData = {
       }
     ]
   }
-  
+  const curriculumData = <SoftwareTestingCurriculum />
   
   export default function Software_testing_training_course_in_banglore() {
     return (
@@ -172,7 +175,9 @@ const headData = {
               <title>⭐ Software Testing Course in Bangalore With Placement Support</title>
               <meta name="description" content="Codegnan offers the best software testing course in Bangalore. Course duration: 100 days, fees: ₹50,000, Rating: 4.8/5. Request demo classes." />
           </Helmet>
-        <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+        <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+        {/* <SoftwareTestingCurriculum/> */}
+        <FAQ/>
       </div>
     );
   }

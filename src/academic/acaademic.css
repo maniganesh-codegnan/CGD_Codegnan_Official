@@ -1,5 +1,5 @@
 .academic_container{
-    margin-top: 100px;
+    /* margin-top: 100px; */
 }
 .academic_info{
     padding: 2% 10%;
@@ -16,4 +16,19 @@
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     grid-gap:40px;
 
+}
+@media (max-width: 480px) {
+    .academic_info {
+        padding: 5% 2%;
+    }
+
+    .academic_info p {
+        font-size: 0.9rem;
+    }
+
+    .academic_boxes {
+        padding: 5% 2%;
+        grid-template-columns: 1fr;
+        grid-gap: 20px;
+    }
 }

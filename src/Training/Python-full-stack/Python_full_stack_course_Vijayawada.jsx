@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import Pythonfs_Viajyawada from '../../Internship/python-vijayawada'
+import Python_Fs_Faq_Vijayawada from '../../faqs/python_full_stack_faq_vijayawada';
 
 const headData = {
     title: "#1 Python Full Stack Developer Course",
@@ -175,6 +177,9 @@ const headData = {
       }
     ]
   }
+
+  const curriculumData = <Pythonfs_Viajyawada />
+
 export default function Python_full_stack_training_in_vijayawada() {
     return (
       <div>
@@ -182,7 +187,9 @@ export default function Python_full_stack_training_in_vijayawada() {
               <title>#1 Python Full Stack Developer Course Training in Vijayawada</title>
               <meta name="description" content="codegnan offers a full-stack Python developer course in Vijayawada with practical projects and live classes. Learn about syllabus and fees." />
             </Helmet>
-            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            {/* <Pythonfs_Viajyawada/> */}
+            <Python_Fs_Faq_Vijayawada/>
       </div>
     );
   }

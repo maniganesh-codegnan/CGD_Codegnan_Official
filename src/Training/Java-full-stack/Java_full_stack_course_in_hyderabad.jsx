@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import Javafs_Hydrabad from '../../Internship/javafs-hyd';
+import JavaFS_Hyd_Faq from '../../faqs/java_full_stack_Faq_Hyderabad';
 
 const headData = {
   title: "Full Stack Java Training Course ",
@@ -174,6 +176,8 @@ const training_options = {
     }
   ]
 }
+const curriculumData = <Javafs_Hydrabad /> 
+
 export default function Java_full_stack_training_in_hyderabad() {
   return (
     <div>
@@ -181,7 +185,9 @@ export default function Java_full_stack_training_in_hyderabad() {
           <title>#1 Full Stack Java Training Course In Hyderabad With Placement</title>
           <meta name="description" content="codegnan offers full-stack Java developer training in Hyderabad with job placement support. Learn about the syllabus and fees today." />
         </Helmet>
-      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options} />
+      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options} />
+      {/* <Javafs_Hydrabad/> */}
+      <JavaFS_Hyd_Faq/>
     </div>
   );
 }

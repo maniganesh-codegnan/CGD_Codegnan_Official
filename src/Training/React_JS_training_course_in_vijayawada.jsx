@@ -1,5 +1,7 @@
 import Training_template from "./Training_template";
 import { Helmet } from 'react-helmet';
+import ReactJS from '../Internship/reactjs';
+import Faqs from '../faqs/react-js-curriculum';
 
 const headData = {
   title: "Best React JS Training Course",
@@ -146,7 +148,7 @@ const training_options={
     }
   ]
 }
-
+const curriculumData = <ReactJS />
 
 export default function React_JS_training_course_in_vijayawada() {
   return (
@@ -156,7 +158,9 @@ export default function React_JS_training_course_in_vijayawada() {
           <meta name="description" content="codegnan offers the best React JS training in Vijayawada with hands-on projects and lifetime support. Find the syllabus and fees." />
       </Helmet>
       
-      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      {/* <ReactJS/> */}
+      <Faqs/>
     </div>
   );
 }

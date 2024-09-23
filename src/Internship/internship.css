@@ -115,7 +115,7 @@
 
 .syllabus-button-container{
     display: flex;
-    justify-content: flex-end;           /*  Align items from right to left*/
+    justify-content: flex-end;  
     align-items: center;
     button{
         height: 50px;
@@ -286,6 +286,7 @@
         
     }
 
+
     .services_provided1 {
         width: 100%;
         grid-template-columns: 1fr;
@@ -297,5 +298,56 @@
             height: auto;
             width:342px;
         }
+    }
+}
+
+.intern-home-form {
+    order: 1;
+    position: sticky;
+    margin-top: 100px;
+    display: flex;
+    flex: 1;
+    overflow-y: auto;
+    justify-content: space-around;
+}
+
+.intern_home_form .intern_from {
+    width: 450px;
+    flex: 0 0 auto;
+}
+
+.intern_home_form .inside_syllabus_container {
+    padding-top: 50px;
+}
+@media (max-width: 767px) {
+    .intern-home-form {
+        flex-direction: column; /* Stack items vertically */
+        margin-top: 50px; /* Adjust margin for mobile */
+        padding: 10px; /* Add padding for mobile */
+        justify-content: center; /* Center items */
+    }
+
+    .intern-home-form .intern_from {
+        width: 100%; /* Full width for mobile */
+        max-width: none; /* Remove any max-width constraints */
+    }
+
+    .intern-home-form .inside_syllabus_container {
+        padding-top: 20px; /* Less padding for mobile */
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .intern-home-form {
+        flex-direction: row; /* Keep items in a row */
+        margin-top: 75px; /* Adjust margin for tablet */
+    }
+
+    .intern-home-form .intern_from {
+        width: 80%; /* Adjust width for tablets */
+        max-width: 600px; /* Set max-width to prevent it from being too large */
+    }
+
+    .intern-home-form .inside_syllabus_container {
+        padding-top: 30px; /* Adjust padding for tablets */
     }
 }

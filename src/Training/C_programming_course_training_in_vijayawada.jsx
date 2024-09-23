@@ -1,8 +1,10 @@
 import Training_template from "./Training_template";
 import { Helmet } from 'react-helmet';
+import C_program from '../Internship/c-programming';
+import C_programming_Faqs from '../faqs/c-programming-faqs';
 
 const headData = {
-  title: " Best C Programming Language Course ",
+  title: "Best C Programming Language Course ",
   color_title:" Training in Vijayawada",
   p: "Codegnan offers C programming language training in Vijayawada, a 1-month beginner-friendly course. It covers fundamentals such as data types, control structures, arrays, functions, pointers, and file handling. \nIt includes hands-on coding, live project experience, certification, job assistance, and flexible online or offline learning options.",
   language:"English",
@@ -63,7 +65,7 @@ const middle2Data={
       info:" As a fresh graduate, you can explore freelance opportunities to build simple software or offer programming services to clients."
     }
   ]
-  // p:"Remember that the opportunities listed here are for beginners and non-IT people with just the knowledge gained from this C programming course. /nFor those who are already into programming, learning C language will be a way of upskilling."
+
 };
 
 const middle3Data={
@@ -165,7 +167,7 @@ const training_options={
   // ]
 }
 
-
+const curriculumData = <C_program />
 export default function C_programming_course_training_in_vijayawada() {
   return (
     <div>
@@ -173,7 +175,9 @@ export default function C_programming_course_training_in_vijayawada() {
           <title>Best C Programming Language Course Training in Vijayawada</title>
           <meta name="description" content="codegnan offers C programming course training in Vijayawada with 24/7 lifetime student support. Find the course syllabus and fees today." />
       </Helmet>
-      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      {/* <C_program/> */}
+      <C_programming_Faqs/>
     </div>
   );
 }

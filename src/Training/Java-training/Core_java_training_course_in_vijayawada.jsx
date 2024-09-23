@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import JavaVijayawada from '../../Internship/java-vijayawada';
+import Java_Faq_Vijayawada from "../../faqs/java_Faq_Vijayawada";
 
 const headData = {
     title: "",
@@ -161,6 +163,8 @@ const headData = {
       }
     ]
   }
+  const curriculumData = <JavaVijayawada/> 
+
 export default function Core_java_training_course_in_vijayawada() {
     return (
         <div>
@@ -168,7 +172,9 @@ export default function Core_java_training_course_in_vijayawada() {
                 <title>Java Training in Vijayawada (4.8/5, Rated by 2,200+ students)</title>
                 <meta name="description" content="Codegnan offers the best Java training in Vijayawada. Course duration: 1 month, fees: ₹20,000, Rating: 4.8/5. Get discounts if you APPLY NOW." />
             </Helmet>
-            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+            {/* <JavaVijayawada /> */}
+            <Java_Faq_Vijayawada/>
       </div>
     );
   }

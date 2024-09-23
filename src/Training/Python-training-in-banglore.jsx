@@ -1,5 +1,7 @@
 import Training_template from "./Training_template";
 import { Helmet } from 'react-helmet';
+import Python from '../Internship/python';
+import Python_Faq_Banglore from '../faqs/python_curriculum';
 
 
 const headData = {
@@ -195,6 +197,7 @@ const data2 = [
   }
 ]
 
+const curriculumData = <Python />
 
 
 export default function Python_training_in_banglore() {
@@ -204,7 +207,9 @@ export default function Python_training_in_banglore() {
           <title>⭐ Best Python Course In Bangalore (#1 Institute) </title>
           <meta name="description" content="Codegnan offers the best Python course in Bangalore. Course duration: 1 month, fees: ₹12,000, Rating: 4.8/5. Get discounts if you APPLY NOW." />
       </Helmet>
-      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options} faq={data2}/>
+      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options} faq={data2}/>
+      {/* <Python/> */}
+      <Python_Faq_Banglore/>
     </div>
   );
 }

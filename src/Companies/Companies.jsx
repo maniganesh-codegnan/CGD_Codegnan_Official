@@ -111,6 +111,3 @@ const data = [
   },
 ]
 export default Companies;
-
-
-

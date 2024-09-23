@@ -1,5 +1,7 @@
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import JavaFS_Bang from '../../Internship/javafs-bangalore';
+import JavaFS_Faq_bangalore from '../../faqs/java_full_stack_curriculum';
 
 const headData = {
   title: "Java Full Stack Training Course in Bangalore",
@@ -171,6 +173,7 @@ const training_options={
   // ]
 }
 
+const curriculumData = <JavaFS_Bang /> 
 
 export default function Java_full_stack_training_in_banglore() {
   return (
@@ -179,7 +182,9 @@ export default function Java_full_stack_training_in_banglore() {
           <title>#1 Java Full Stack Training Course in Bangalore with Placement</title>
           <meta name="description" content="codegnan offers the best core Java course training in Bangalore with practical projects and placement assistance. Find syllabus and fees." />
       </Helmet>
-      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      {/* <JavaFS_Bang/> */}
+      <JavaFS_Faq_bangalore/>
     </div>
   );
 }

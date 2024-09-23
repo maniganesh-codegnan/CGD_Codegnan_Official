@@ -1,6 +1,8 @@
 
 import Training_template from "../Training_template";
 import { Helmet } from 'react-helmet';
+import JavaCurriculumBanglore from '../../Internship/java-bangalore';
+import Java_Faq_bangalore from "../../faqs/java_curriculum";
 
 const headData = {
   title: "Best Core Java Training",
@@ -163,8 +165,7 @@ const training_options={
     }
   ]
 }
-
-
+const curriculumData = <JavaCurriculumBanglore/> 
 export default function Core_java_training_course_in_Bangalore() {
   return (
     <div>
@@ -172,7 +173,10 @@ export default function Core_java_training_course_in_Bangalore() {
         <title>⭐ Best Java Training in Bangalore (#1 Institute)</title>
         <meta name="description" content="codegnan offers a full-stack Python developer course in Vijayawada with practical projects and live classes. Learn about syllabus and fees." />
       </Helmet>
-      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+      <Training_template head={headData} middle={middleData} middle2={middle2Data} middle3={middle3Data} curriculumData={curriculumData} middle4={middle4Data} middle5={middle5Data} mentor={mentorsData} coursep={course_pricing} other={otherLocationsData} map_details={map_address} train_opt={training_options}/>
+    
+      {/* <JavaCurriculumBanglore /> */}
+      <Java_Faq_bangalore />
     </div>
   );
 }

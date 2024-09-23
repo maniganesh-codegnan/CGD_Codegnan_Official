@@ -1,23 +1,24 @@
-import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Nav from './navigation/Nav'
+// import { useState } from 'react';
+// import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import {  Routes, Route } from 'react-router-dom';
+import Nav from './navigation/Nav';
 import Footer from './Footer/Footer';
 import Home from './Home/Home.jsx';
 import Team from './about/Team.jsx';
 import Placements from './placements/Placements';
 import Companies from './Companies/Companies.jsx';
-import Collaboration from './Collabarations.jsx';
-import Pre from './Prefooter/Prefooter.jsx';
+// import Collaboration from './Collabarations.jsx';
+// import Pre from './Prefooter/Prefooter.jsx';
 import Gallery from './about/Gallery.jsx';
-import Course_template from './course_template/Course_template.jsx';
+// import Course_template from './course_template/Course_template.jsx';
 import JavaCourseSyllabus from './course_template/Java-course-syllabus.jsx';
 import About from './about_us/about.jsx' ;
 
 // import JavaCourseSyllabus from "./blog/course_template/Java-course-syllabus.jsx";
 import PythonTraininginBanglore from './Training/Python-training-in-banglore.jsx';
-import PythonTrainingCourseinHyderabad from './Training/python-full-stack-developer-in-banglore.jsx';
-import PythonTraininginVijayawada  from './Training/Python-training-in-banglore.jsx';
-import Python_full_stack_training_course_in_banglore from './Training/Python-full-stack/python-full-stack-developer-course-in-bangalore.jsx';
+import PythonTrainingCourseinHyderabad from './Training/Python-training-in-Hyderabad.jsx';
+import PythonTraininginVijayawada from './Training/Python-training-in-vijayawada.jsx';
+import Python_full_stack_training_course_in_banglore from './Training/Python-full-stack/python-full-stack-course-bangalore.jsx';
 import Python_full_stack_training_course_in_hyderabad from './Training/Python-full-stack/Python_full_stack_course_in_Hyderabad.jsx';
 import Python_full_stack_training_course_in_vijayawada from './Training/Python-full-stack/Python_full_stack_course_Vijayawada.jsx';
 import Core_java_training_course_in_bangalore from './Training/Java-training/Core_java_training_course_in_Bangalore.jsx';
@@ -41,8 +42,8 @@ import Hyd_campus from './campuses/hyd_campuses.jsx';
 import Bang_campus from './campuses/bang_campuses.jsx';
 import Contact_us from './contact/contact_us.jsx';
 
-import InternsyllabusComp from './Internship/Intern_syllabus/Intern_syllabus.jsx';
-import Intern_dropdown from './Internship/Intern_dropdown/Inter_dropdown.jsx';
+// import InternsyllabusComp from './Internship/Intern_syllabus/Intern_syllabus.jsx';
+// import Intern_dropdown from './Internship/Intern_dropdown/Inter_dropdown.jsx';
 import Intern_Page from './Internship/Intership_page.jsx';
 
 
@@ -79,7 +80,7 @@ import Future_Scope_Of_Data_Science_Career_In_India from './course_template/futu
 
 import Jap from './JAP/JAP.jsx';
 import Blog from './Blog/Blog.jsx';
-import OnlineCourse from './academic/online_course_discription/online_template.jsx';
+// import OnlineCourse from './academic/online_course_discription/online_template.jsx';
 
 import Online_Academic from './academic/Online_academic.jsx';
 import Online_python from './academic/online_course_discription/python_online.jsx';
@@ -109,19 +110,61 @@ import Privacy_Policy from './Privacy_policy/privacy-policy.jsx';
 import Terms_Conditions from './Privacy_policy/terms-conditions.jsx';
 import Refund_Policy from './Privacy_policy/refund-policy.jsx';
 import Cancellation_Policy from './Privacy_policy/cancellation-policy.jsx';
-import Java_Curriculum from './curriculum/java_curriculum.jsx';
-import Python_Curriculum from './curriculum/python_curriculum.jsx';
-import Java_Full_Stack_Curriculum from './curriculum/java_full_stack_curriculum.jsx';
-import Python_Full_Stack_Curriculum from './curriculum/python_full_stack_curriculum.jsx';
-import Data_Science_Curriculum from './curriculum/data-science-curriculum.jsx';
-import Machine_Learning_Curriculum from './curriculum/machine-learning-curriculum.jsx';
-import Software_Testing_Curriculum from './curriculum/Software-testing-curriculum.jsx';
-import React_JS_Curriculum from './curriculum/react-js-curriculum.jsx';
-import Data_Structures_Curriculum from './curriculum/data-structures-curriculum.jsx';
-import C_Programming_Curriculum from './curriculum/c-programming-curriculum.jsx';
+import Java_Curriculum from './faqs/java_curriculum.jsx';
+import Python_Curriculum from './faqs/python_curriculum.jsx';
+import Java_Full_Stack_Curriculum from './faqs/java_full_stack_curriculum.jsx';
+// import Python_Full_Stack_Curriculum from './curriculum/python_full_stack_curriculum.jsx';
+import Python_Full_Stack_Faq_Bangalore from './faqs/python_full_stack_faq_bangalore.jsx';
+import Data_Science_Curriculum from './faqs/data-science-curriculum.jsx';
+import Machine_Learning_Curriculum from './faqs/machine-learning-curriculum.jsx';
+import Machine_Learning_Faq_Vijayawada from './faqs/machine-learning-faq-vijayawada.jsx'
+
+import Software_Testing_Curriculum from './faqs/Software-testing-curriculum.jsx';
+import React_JS_Curriculum from './faqs/react-js-curriculum.jsx';
+import Data_Structures_Curriculum from './faqs/data-structures-curriculum.jsx';
+import Data_Science_Faq_vijayawada from './faqs/data-science-faq-vijayawada.jsx';
+import C_Programming_Curriculum from './faqs/c-programming-faqs.jsx';
+import TabS from './faqs/Tabs.jsx';
+
 import Video_Testimonials from './video-testimonials.jsx';
-import TabS from './curriculum/Tabs.jsx';
 import Java from './Internship/java.jsx';
+import Java_Bangalore from './Internship/java-bangalore.jsx';
+// import Java_Vijayawada from './Internship/java-vijayawada.jsx';
+import Java_Hyderabad from './Internship/java-hyderabad.jsx';
+// import Python from './Internship/python.jsx';
+// // import Java_Curriculum from './Training/Java-Curriculum.jsx';
+// import JavaCurriculum from './Training/Java-Curriculum-Bangalore.jsx';
+// import JavaCurriculum from './Training/Java-Curriculum-Bangalore.jsx';
+// import Java_Curriculum_Vijayawada from './Training/Java-Curriculum-Vijayawada.jsx';
+// import Java_Curriculum_Hyderabad from './Training/Java-Curriculum-Hyderabad.jsx';
+// import Python_Hyd from './Internship/python-hyd.jsx';
+
+
+
+
+
+
+import Pythonfs_Bangalore from './Internship/pythonfs-bangalore.jsx';
+import Pythonfs_Hyderabad from './Internship/pythonfs-hyderabad.jsx';
+import Pythonfs_Vijayawada from './Internship/pythonfs-vijayawada.jsx';
+import Javafs_Bangalore from './Internship/javafs-bangalore.jsx';
+import Javafs_Hyd from './Internship/javafs-hyd.jsx';
+import Javafs_Vijayawadaa from './Internship/javafs-vijayawadaa.jsx';
+import Software_Testing_Bangalore from './Internship/software-testing-bangalore.jsx';
+import Software_Testing_Hyderabad from './Internship/software-testing-hyderabad.jsx';
+import Software_Testing_Vijayawada from './Internship/software-testing-vijayawada.jsx';
+import Data_Science_Hyderabad from './Internship/data-science-hyderabad.jsx';
+import Data_Science_Vijayawada from './Internship/data-science-vijayawada.jsx';
+import Machine_Learning_Hyderabad from './Internship/machine-learning-hyderabad.jsx';
+import Machine_Learning_Vijayawada from './Internship/machine-learning-vijayawada.jsx';
+import ReactJS from './Internship/reactjs.jsx';
+import Data_Structures from './Internship/data-structures.jsx';
+import C_Programming from './Internship/c-programming.jsx';
+
+
+import Software_Testing_Faq_Vijayawada from './faqs/Software-testing-faq-vijayawada.jsx';
+import Software_Testing_Faq_Hyderabad from './faqs/Software-testing-faq-hyderabad.jsx';
+import Java_Full_Stack_Faq_Vijayawada from'./faqs/java_full_stack_Faq_Vijayawada.jsx';
 
 
 
@@ -131,6 +174,7 @@ function App() {
       <Nav/>
       <Routes>
       <Route path="/" element={<Home/>  } />
+        <Route path='/Companies' element={<Companies/>}></Route>
         <Route path="/team" element={<Team/>  } ></Route>
         <Route path='/about' element={<About/>}></Route>
         <Route path='/placements' element={<Placements />}></Route>
@@ -211,7 +255,7 @@ function App() {
         <Route path='/academy/online-javascript-course/' element={<Online_js/>}/>
         <Route path='/academy/online-nodejs-course/' element={<Online_node/>}/>
         <Route path='/academy/online-web-development-with-python/' element={<Online_python_web/>}/>
-        <Route path='/academy/online-python-mini-projects/' element={<Online_python_mini/>}/>
+        <Route path='/academy/online-python-mini-projects/' element={<Online_python_mini/>}></Route>
 
         <Route path='/sairam-uppugundla' element={<Sairam_Uppugundla/>}></Route>
         <Route path='/saketh-kallepu/' element={<Saketh_Kallepu/>}></Route>
@@ -227,16 +271,53 @@ function App() {
         <Route path='/java_curriculum' element={<Java_Curriculum/>}></Route>
         <Route path='/python_curriculum' element={<Python_Curriculum />}></Route>
         <Route path='/java_full_stack_curriculum' element={<Java_Full_Stack_Curriculum/>}></Route>
-        <Route path='/python_full_stack_curriculum' element={<Python_Full_Stack_Curriculum/>}></Route>
+        <Route path='/python_full_stack_faq_bangalore' element={<Python_Full_Stack_Faq_Bangalore/>}></Route>
         <Route path='/data-science-curriculum' element={<Data_Science_Curriculum/>}></Route>
         <Route path='/machine-learning-curriculum' element={<Machine_Learning_Curriculum/>}></Route>
+        <Route path='/machine-learning-faq-vijayawada' element={<Machine_Learning_Faq_Vijayawada/>}></Route>
         <Route path='/Software-testing-curriculum' element={<Software_Testing_Curriculum/>}></Route>
         <Route path='/react-js-curriculum' element={<React_JS_Curriculum/>}></Route>
         <Route path='/data-structures-curriculum' element={<Data_Structures_Curriculum/>}></Route>
+        <Route path='/data-science-faq-vijayawada' element={<Data_Science_Faq_vijayawada/>}></Route>
         <Route path='/c-programming-curriculum' element={<C_Programming_Curriculum/>}></Route>
         <Route path='/video-testimonials' element={<Video_Testimonials/>}></Route>
         <Route path='/Tabs' element={<TabS/>}></Route>
         <Route path='/java' element={<Java/>}></Route>
+        <Route path='/java-bangalore' element={<Java_Bangalore/>}></Route>
+        {/* <Route path='/java-vijayawada' element={<Java_Vijayawada/>}></Route> */}
+        <Route path='/java-hyderabad' element={<Java_Hyderabad/>}></Route>
+        {/* <Route path='/python' element={<Python/>}></Route> */}
+        {/* <Route path='/Java-Curriculum' element={<Java_Curriculum/>}></Route>  */}
+        {/* <Route path='/Java-Curriculum' element={<JavaCurriculum/>}></Route> */}
+        {/* <Route path='/python-hyd' element={<Python_Hyd/>}></Route> */}
+        
+
+
+
+        {/* <Route path='/Java-Curriculum-Vijayawada' element={<Java_Curriculum_Vijayawada/>}></Route>
+        <Route path='/Java-Curriculum-Hyderabad' element={<Java_Curriculum_Hyderabad/>}></Route> */}
+
+        <Route path='/pythonfs-bangalore' element={<Pythonfs_Bangalore/>}></Route>
+        <Route path='/pythonfs-hyderabad' element={<Pythonfs_Hyderabad/>}></Route>
+        <Route path='/pythonfs-vijayawada' element={<Pythonfs_Vijayawada/>}></Route>
+        <Route path='/javafs-bangalore' element={<Javafs_Bangalore/>}></Route>
+        <Route path='/javafs-hyd' element={<Javafs_Hyd/>}></Route>
+        <Route path='/javafs-vijayawadaa' element={<Javafs_Vijayawadaa/>}></Route>
+        <Route path='/software-testing-bangalore' element={<Software_Testing_Bangalore/>}></Route>
+        <Route path='/software-testing-hyderabad' element={<Software_Testing_Hyderabad/>}></Route>
+        <Route path='/software-testing-vijayawada' element={<Software_Testing_Vijayawada/>}></Route>
+        <Route path='/data-science-hyderabad' element={<Data_Science_Hyderabad/>}></Route>
+        <Route path='/data-science-vijayawada' element={<Data_Science_Vijayawada/>}></Route>
+        <Route path='/machine-learning-hyderabad' element={<Machine_Learning_Hyderabad/>}></Route>
+        <Route path='/machine-learning-vijayawada' element={<Machine_Learning_Vijayawada/>}></Route>
+        <Route path='/reactjs' element={<ReactJS/>}></Route>
+        <Route path='/data-structures' element={<Data_Structures/>}></Route>
+        <Route path='/c-programming' element={<C_Programming/>}></Route>
+
+
+        <Route path='/Software-testing-faq-vijayawada' element={<Software_Testing_Faq_Vijayawada/>}></Route>
+        <Route path='/Software-testing-faq-hyderabad' element={<Software_Testing_Faq_Hyderabad/>}></Route>
+        <Route path='/java_full_stack_Faq_Vijayawada' element={<Java_Full_Stack_Faq_Vijayawada/>}></Route>
 
       </Routes>
      

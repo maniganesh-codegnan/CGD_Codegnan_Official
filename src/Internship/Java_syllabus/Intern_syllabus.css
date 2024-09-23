@@ -3,6 +3,7 @@
     position:relative;
     /* border-left:1px solid black; */
     width:500px;
+    /* width: 390px; */
     
    
   }
@@ -106,4 +107,11 @@
           padding: 4px 0px;
       }
   }
+  .vertical-linee {
+    /* margin: 100px; */
+    position:relative;
+    /* border-left:1px solid black; */
+    /* width:500px; */
+    width: 390px;
+}
 }

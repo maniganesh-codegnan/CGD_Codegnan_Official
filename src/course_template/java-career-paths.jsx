@@ -8,7 +8,7 @@ const headdata = {
     title: "6 Java Career Paths: High Paying and In-Demand",
     date:  "July 16, 2024",
     img:   javacareerpath_projects ,
-    intro: "At Codegnan, we have trained 4,000+ students to become Java developers with placement assistance. \n So, with our experience and training of Java students for 6+ years, we know the ins and outs of the industry. \n Based on our expertise and years of experience, I have written this guide on the best Java career paths based on a bunch of parameters such as:"
+    intro: "At Codegnan, we have trained 4,000+ students to become Java developers with placement assistance. \n So, with our experience and training of Java students for 6+ years, we know the ins and outs of the industry. "
 };
 
 const coursedata = {
@@ -22,7 +22,7 @@ const courseSections = [
    
     {
         title: " ",
-        intro: " ",
+        intro: " Based on our expertise and years of experience, I have written this guide on the best Java career paths based on a bunch of parameters such as:",
         content: [
             // "Knowledge of how to store and manage different tasks using arrays and lists",
             // "Implement algorithms to search and sort tasks based on specific criteria like priority or due dates",
@@ -72,7 +72,7 @@ const course_brief = [
         title: " ",
         intro: () => (
             <>
-                <img src="/syllabuspages/Java-Career-Paths-High-Paying-and-In-Demand-by-codegnan-1024x512.png" alt="error" />
+                <img src="/syllabuspages/Java-Career-Paths-High-Paying-and-In-Demand-by-codegnan-1024x512.png" alt="error" width="100%"/>
            
             </>
         )
@@ -121,7 +121,7 @@ const course_brief = [
             <>
                 <p> We have taken a real-time <Link className="link-color" to='https://www.linkedin.com/jobs/view/3836324028/?alternateChannel=search&refId=kXPJuOWUoeLJWFrLIkwSHQ%3D%3D&trackingId=wZkT90qQrI%2BzjsRVFpUqEg%3D%3D'> junior Java developer </Link> job vacancy post from LinkedIn to understand their responsibilities and key skills required. </p>
                 <p> The picture below gives an overview of the key responsibilities of a junior Java developer.</p>
-                <img src="/syllabuspages/image-65.png" alt="error" />
+                <img src="/syllabuspages/image-65.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -163,7 +163,7 @@ const course_brief = [
         intro: () => (
             <>
                 <p><b>Average annual salary:</b> <Link className="link-color" to='https://www.ambitionbox.com/profile/junior-java-developer-salary'> ₹3.3 lakhs in India, </Link>,<Link className="link-color" to='https://www.glassdoor.co.in/Salaries/us-java-developer-salary-SRCH_IL.0,2_IN1_KO3,17.htm'> $1,17,983 in the United States </Link> </p>
-                <img src="/syllabuspages/image-64.png" alt="error" />
+                <img src="/syllabuspages/image-64.png" alt="error" width="100%"/>
          
             </>
         )
@@ -224,11 +224,11 @@ const course_brief = [
             <>
                 <p>The image below shows how Java knowledge plays an important role in landing an <Link className="link-color" to='https://www.linkedin.com/jobs/view/3913802321/?alternateChannel=search&refId=NotAvailable&trackingId=h19PvVVtRXadKIQt%2FbZCsw%3D%3D'> Android developers, </Link> job.</p>
 
-                <img src="/syllabuspages/image-66.png" alt="error" />
+                <img src="/syllabuspages/image-66.png" alt="error" width="100%"/>
 
                 <p><b>Average annual salary: </b> <Link className="link-color" to='https://www.ambitionbox.com/profile/android-developer-salary'> ₹5.7 lakhs in India </Link>,<Link className="link-color" to='https://www.glassdoor.co.in/Salaries/us-android-developer-salary-SRCH_IL.0,2_IN1_KO3,20.htm#:~:text=How%20much%20does%20an%20Android%20Developer%20make%3F&text=The%20estimated%20total%20pay%20for,salary%20of%20%2488%2C307%20per%20year.'>  $1,09,433 in the United States</Link> </p>
 
-                <img src="/syllabuspages/image-72.png" alt="error" />
+                <img src="/syllabuspages/image-72.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -285,12 +285,12 @@ const course_brief = [
             <>
                 <p>In the picture below, we have shared the requirements for a <Link className="link-color" to='https://www.linkedin.com/jobs/view/3931417177/?alternateChannel=search&refId=%2FDwSYxriActF7JmjmxonNg%3D%3D&trackingId=FJYdVeMI6emgi7nk3MZIeg%3D%3D'> full-stack Java developers </Link> role, which requires strong proficiency in the Java programming language. </p>
 
-                <img src="/syllabuspages/image-77.png" alt="error" />
+                <img src="/syllabuspages/image-77.png" alt="error" width="100%"/>
                 
                 <p><b>Years of experience required: </b> 2-4+ years</p>
                 <p><b>Average annual salary: </b> <Link className="link-color" to='https://www.ambitionbox.com/profile/full-stack-developer-salary'> ₹9.1 lakhs in India </Link>,<Link className="link-color" to='https://www.glassdoor.co.in/Salaries/us-full-stack-developer-salary-SRCH_IL.0,2_IN1_KO3,23.htm#:~:text=How%20much%20does%20a%20Full%20Stack%20Developer%20make%3F&text=The%20estimated%20total%20pay%20for,salary%20of%20%2489%2C523%20per%20year.'>   $1,20,792 in the United States</Link> </p>
 
-                <img src="/syllabuspages/image-73.png" alt="error" />
+                <img src="/syllabuspages/image-73.png" alt="error" width="100%"/>
                
             </>
         )
@@ -306,7 +306,7 @@ const course_brief = [
                 <h4>Job responsibilities</h4>
                 <p>The post below is about the <Link className="link-color" to='https://www.linkedin.com/jobs/view/3838224013/?alternateChannel=search&refId=oK%2B4WSph14xfQoFCOJos6A%3D%3D&trackingId=94Z3cxL5apUIAYAKbJ3osw%3D%3D'>   SDET </Link> job post vacancy that I found on LinkedIn a few days back. It gives an overview of SDET job requirements.</p>
 
-                <img src="/syllabuspages/image-75.png" alt="error" />
+                <img src="/syllabuspages/image-75.png" alt="error" width="100%"/>
                 <p>We have listed a few common responsibilities of SDET in a company</p>
 
             </>
@@ -354,7 +354,7 @@ const course_brief = [
                 
                 <p><b>Years of experience required: </b> <Link className="link-color" to='https://www.ambitionbox.com/profile/senior-sdet-engineer-salary'> 3-4+ years </Link> </p>
 
-                <img src="/syllabuspages/image-67.png" alt="error" />
+                <img src="/syllabuspages/image-67.png" alt="error" width="100%"/>
 
             </>
         )
@@ -411,10 +411,10 @@ const course_brief = [
         intro: () => (
             <>
                 <p>The image below shows how knowledge of Java can help you on the <Link className="link-color" to='https://www.linkedin.com/jobs/view/3911205583/?alternateChannel=search&refId=oU3iUA%2FuguQpRpXORdnFVw%3D%3D&trackingId=EB44AjTpA%2B2%2Bi7At5E4PwA%3D%3D'> software architect </Link>  career path. </p>
-                <img src="/syllabuspages/image-74.png" alt="error" />
+                <img src="/syllabuspages/image-74.png" alt="error" width="100%"/>
 
                 <p><b>Average annual salary: </b><Link className="link-color" to='https://www.ambitionbox.com/profile/java-architect-salary'> ₹22.3 lakhs in India </Link>, and <Link className="link-color" to='https://www.glassdoor.co.in/Salaries/us-java-architect-salary-SRCH_IL.0,2_IN1_KO3,17.htm#:~:text=The%20average%20salary%20for%20Java,a%20range%20from%20%2438%2C558%20%2D%20%2471%2C976.'>$1,72,743 in the United States </Link></p>
-                <img src="/syllabuspages/image-68.png" alt="error" />
+                <img src="/syllabuspages/image-68.png" alt="error" width="100%"/>
               
             </>
         )
@@ -428,7 +428,7 @@ const course_brief = [
                 <h4>Job responsibilities</h4>
                 <p>Subject Matter Experts have different roles in a company. We have taken a senior level Java back-end subject matter expert vacancy post from LinkedIn to get an overview of what these professionals do. </p>
 
-                <img src="/syllabuspages/image-85.png" alt="error" />
+                <img src="/syllabuspages/image-85.png" alt="error"  width="100%"/>
             </>
         )
     },
@@ -470,7 +470,7 @@ const course_brief = [
         intro: () => (
             <>
                 <p><b>Average annual salary: </b><Link className="link-color" to='https://www.ambitionbox.com/profile/subject-matter-expertsme-salary'> ₹8.5 lakhs in India </Link>, and <Link className="link-color" to='https://www.glassdoor.co.in/Salaries/us-subject-matter-expert-salary-SRCH_IL.0,2_IN1_KO3,24.htm?countryRedirect=true'>$95,542 in the US </Link></p>
-                <img src="/syllabuspages/image-69.png" alt="error" />
+                <img src="/syllabuspages/image-69.png" alt="error" width="100%" />
               
             </>
         )
@@ -492,7 +492,7 @@ const course_brief = [
                 <p>The below graph represents the <Link className="link-color" to='https://survey.stackoverflow.co/2023/#technology'> top 10 programming languages  </Link> Used by developers in 2023.</p>
                 <img src="/syllabuspages/image-81.png" alt="error" />
                 <p>To understand the <Link className="link-color" to='https://trends.google.com/trends/explore?date=today%205-y&geo=IN&q=%2Fm%2F07sbkfb&hl=en'> search demand for “Java” in India </Link>over the last five years, we have used Google Trends. The graph below represents that search demand, and it shows an upward rise.</p>
-                <img src="/syllabuspages/image-78.png" alt="error" />
+                <img src="/syllabuspages/image-78.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -504,7 +504,7 @@ const course_brief = [
                 <p> We searched on LinkedIn for Java job roles, and found 5,600+ Java developer job vacancies in India. If you are choosing other career paths, you will have thousands of vacancies, which make Java a good career in 2024.</p>
                 <img src="/syllabuspages/image-81.png" alt="error" />
                 <p>The below graph represents the <Link className="link-color" to='https://survey.stackoverflow.co/2023/#technology'> top 10 programming languages  </Link> Used by developers in 2023.</p>
-                <img src="/syllabuspages/image-86.png" alt="error" />
+                <img src="/syllabuspages/image-86.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -577,7 +577,7 @@ const course_brief = [
 
                 <p> This LinkedIn post is for hiring <Link className="link-color" to='https://www.linkedin.com/jobs/view/3836324028/?alternateChannel=search&refId=SedGFnAWNlfZSAEfe5KKyg%3D%3D&trackingId=HZYUlt2LIr0uIhPgOWw7VQ%3D%3D'> Junior Java developers.</Link> You can see there is no requirement for industry experience; only a graduation degree and proficiency in Java programming will do. If you can show your individual projects to recruiters, that would be a plus. </p>
 
-                <img src="/syllabuspages/image-80.png" alt="error" />
+                <img src="/syllabuspages/image-80.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -589,7 +589,7 @@ const course_brief = [
 
                 <p> This LinkedIn post is for hiring <Link className="link-color" to='https://www.linkedin.com/jobs/view/3836324028/?alternateChannel=search&refId=SedGFnAWNlfZSAEfe5KKyg%3D%3D&trackingId=HZYUlt2LIr0uIhPgOWw7VQ%3D%3D'> Junior Java developers.</Link> You can see there is no requirement for industry experience; only a graduation degree and proficiency in Java programming will do. If you can show your individual projects to recruiters, that would be a plus. </p>
 
-                <img src="/syllabuspages/image-80.png" alt="error" />
+                <img src="/syllabuspages/image-80.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -600,7 +600,7 @@ const course_brief = [
                 <p> Java developers enjoy a healthy work-life balance as companies are adopting a hybrid work culture, where they don’t have to visit the office daily and work from home.</p>
                 <p> The picture below is taken from AmbitionBox. It shows <Link className="link-color" to='https://www.ambitionbox.com/reviews/tcs-reviews/java-developer'> Java developers at TCS </Link> rated their work-life as 4.1 out of 5.0, which is good. </p>
 
-                <img src="/syllabuspages/image-70.png" alt="error" />
+                <img src="/syllabuspages/image-70.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -710,7 +710,7 @@ const course_brief = [
         intro: () => (
             <>
                 <p>The picture below illustrates the story of an individual becoming a Java expert, as shared on Reddit. </p>
-                <img src="/syllabuspages/image-83.png" alt="error" />
+                <img src="/syllabuspages/image-83.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -827,7 +827,7 @@ const course_brief = [
         intro: () => (
             <>
                 <p>Java developers make <Link className="link-color" to='https://www.ambitionbox.com/profile/java-developer-salary'>₹5.7 lakhs </Link>  on average in India for entry-level jobs. </p>
-                <img src="/syllabuspages/image-62.png" alt="error" />
+                <img src="/syllabuspages/image-62.png" alt="error" width="100%"/>
                 <p>We have listed the average annual salary of Java developers in the top 5 cities of India</p>
                 <table className="salary-table">
                     <thead>
@@ -905,7 +905,7 @@ const course_brief = [
                 <p> As an open-source language, Python offers several features, libraries, and frameworks for developers to build small-scale projects. Moreover, if you write code in Java, you can run it on any operating system.</p>
                 <p> As a beginner, learning Java can be a little challenging, and it requires hard work and determination to get better at it. Firstly, you need to learn OOP concepts and then understand verbose Java Syntax. Additionally, you need knowledge of databases, Version Control Systems, IDE, and more, which can be initially challenging. You can enroll in the right Java course or self-paced lectures that cover fundamental knowledge and use real-life scenarios for better understanding.</p>
                 <p> The graph below states the best possible ways you can <Link className="link-color" to='https://survey.stackoverflow.co/2022/#section-employment-work-environment'> learn Java </Link>  or any other programming language. </p>
-                <img src="/syllabuspages/image-82.png" alt="error" />
+                <img src="/syllabuspages/image-82.png" alt="error" width="100%"/>
             </>
         )
     },
@@ -915,28 +915,28 @@ const course_brief = [
             <>
                 <p> If you don’t want to lose any opportunity for Java developers on LinkedIn, Indeed, Glassdoor, and other job portals, enrol for a reputed Java certification course. But choosing the right one is difficult!</p>
                 <p> We suggest you try <Link className="link-color" to='https://codegnan.com'> Codegnan </Link> . It makes your Java certification path easy. Not only can you get an industry-accredited certification upon course completion from Codegnan, we also prepare you with all basic concepts for any global certification examinations. </p>
-                <img src="/syllabuspages/image-88.png" alt="error" />
+                <img src="/syllabuspages/image-88.png" alt="error" width="100%"/>
                 <p>You can find both online and offline Java training courses at Codegnan. You can find training institutes in <Link className="link-color" to='https://codegnan.com/core-java-training-course-in-hyderabad/'> Hyderabad </Link>, <Link className="link-color" to='https://codegnan.com/core-java-training-course-in-bangalore/'> Bangalore, </Link> and <Link className="link-color" to='https://codegnan.com/core-java-training-course-in-vijayawada/'> Vijayawada.</Link> We follow a practical approach to learning so that all our learners get good exposure to real-world project development.</p>
 
-                <img src="/syllabuspages/image-76.png" alt="error" />
+                <img src="/syllabuspages/image-76.png" alt="error" width="100%"/>
 
                 <p>Our <Link className="link-color" to='https://codegnan.com/blogs/java-course-syllabus/'> Java course syllabus</Link> covers basic concepts of Java, its syntax, data types, Object Oriented programming concepts, Interfaces, multithreading, and more. You will get practical sessions after almost every module to gain a better understanding.</p>
 
-                <img src="/syllabuspages/image-71.png" alt="error" />
+                <img src="/syllabuspages/image-71.png" alt="error" width="100%"/>
 
                 <p>This is a basic Java training course, so you can either opt for an advanced course, prepare for global certifications, or join Codegnan’s <Link className="link-color" to='/job-accelerator-program'> Job Accelerator Program.</Link> It offers you a job in 100 days after thorough training under top industry experts.</p>
 
-                <img src="/syllabuspages/image-87.png" alt="error" />
+                <img src="/syllabuspages/image-87.png" alt="error" width="100%"/>
 
                 <p>Codegnan is rated <Link className="link-color" to='https://www.google.com/search?q=codegnan+vijayawada&sca_esv=5ab8962a38650a00&sca_upv=1&sxsrf=ADLYWIKSS18zgYvi-Y7CVoRigpPrvUGDJA%3A1720063640914&ei=mBaGZpzDN8-dseMP-rikuAQ&gs_ssp=eJzj4tVP1zc0TC8yrcpOL0syYLRSNagwTjQ2TUsyNUw0MTZIS0tMsTKoSDVLTTFNTUk1NzJNMjYwSfISTs5PSU3PS8xTKMvMSqxMLE9MSQQAXCEX2w&oq=codegnan+vija&gs_lp=Egxnd3Mtd2l6LXNlcnAiDWNvZGVnbmFuIHZpamEqAggAMhEQLhiABBiRAhjHARiKBRivATIFEAAYgAQyBhAAGBYYHjIIEAAYgAQYogQyCBAAGKIEGIkFMggQABiABBiiBDIgEC4YgAQYkQIYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQNIgzhQsAhY-iRwAXgBkAEBmAHiA6AB_xeqAQkwLjYuNC4yLjG4AQHIAQD4AQGYAgmgAtMMwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAg4QABiwAxjkAhjWBNgBAcICGRAuGIAEGLADGEMYxwEYyAMYigUYrwHYAQLCAhAQLhiABBjHARgnGIoFGK8BwgIdEC4YgAQYxwEYigUYrwEYlwUY3AQY3gQY4ATYAQPCAgQQIxgnmAMAiAYBkAYPugYGCAEQARgJugYGCAIQARgIugYGCAMQARgUkgcFMS41LjOgB6N7&sclient=gws-wiz-serp#lrd=0x3a35fb51a430ffad:0xe6ed5ede725b304b,1,,,,'> 4.8 out of 5 </Link> on Google by 2,391 people, which ensures you can trust us for career building. </p>
-                <img src="/syllabuspages/image-79.png" alt="error" />
+                <img src="/syllabuspages/image-79.png" alt="error" width="100%"/>
                 
                 <p>We have successfully trained 30,000+ students with 2800+ students placed in 1250+ companies. This is a great success for us to share. We are planning for more placement drives for our students, help them with resume building and provide interview preparations with <Link className="link-color" to='/blog/java-interview-questions/'> Java interview questions.</Link> </p>
 
-                <img src="/syllabuspages/image-63.png" alt="error" />
+                <img src="/syllabuspages/image-63.png" alt="error" width="100%"/>
 
                 <p> <Link className="link-color" to='https://education.oracle.com/oracle-certification-path/pFamily_48'>  Oracle University </Link> offers a range of global Java certification opportunities that you can try.</p>
-                <img src="/syllabuspages/image-84.png" alt="error" />
+                <img src="/syllabuspages/image-84.png" alt="error" width="100%"/>
             </>
         )
     },
