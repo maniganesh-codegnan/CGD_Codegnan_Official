@@ -8,6 +8,10 @@ import m5 from '/members/shiva-ram-teja.webp';
 import m6 from '/members/manohar.webp';
 import m7 from '/members/Kowshik.webp';
 import m8 from '/members/Jitendra.webp';
+import m9 from '/members/sudheer-java-mentor.webp';
+import m10 from '/members/sai-vardhan.webp';
+import m11 from '/members/subbu-BDE.webp';
+import m12 from '/members/Jitendra.webp';
 
 import { Helmet } from 'react-helmet';
 
@@ -104,7 +108,7 @@ export default function About() {
                 </div>
                 <div className='members_div'>
                     <center>
-                    <img src={m6} alt="Manohar Chary Vadla" />
+                    {/*  <img src={m6} alt="Manohar Chary Vadla" />*/}
                     <a href="/manohar-chary-vadla">Manohar Chary Vadla</a>
                     <br /><br />
                     <p>Data Scientist & Mentor </p>
@@ -125,6 +129,48 @@ export default function About() {
                 <div className='members_div'>
                     <center>
                     <img src={m8} alt="" />
+                    <a href="">Jitendra Chautharia</a>
+                    <br /><br />
+                    <p>AI Engineer and Mentor, IIT-Jodhpur </p>
+                    <br />
+                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    </center>
+                </div>
+            </div>
+            <div className='codegnan_members'>
+                <div className='members_div'>
+                    <center>
+                    <img src={m9} alt="Ravi Siava Ram Teja" />
+                    <a href="/ravi-siva-ram-teja">Ravi Siava Ram Teja</a>
+                    <br /><br />
+                    <p>MERN Stack Developer & Mentor </p>
+                    <br />
+                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    </center>
+                </div>
+                <div className='members_div'>
+                    <center>
+                    <img src={m10} alt="Manohar Chary Vadla" />
+                    <a href="/manohar-chary-vadla">Manohar Chary Vadla</a>
+                    <br /><br />
+                    <p>Data Scientist & Mentor </p>
+                    <br />
+                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    </center>
+                </div>
+                <div className='members_div'>
+                    <center>
+                    <img src={m11} alt="" />
+                    <a href="">Kowshik Chilamkurthy</a>
+                    <br /><br />
+                    <p>Lead AI & Product Design Head IIT-Madras </p>
+                    <br />
+                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    </center>
+                </div>
+                <div className='members_div'>
+                    <center>
+
                     <a href="">Jitendra Chautharia</a>
                     <br /><br />
                     <p>AI Engineer and Mentor, IIT-Jodhpur </p>
