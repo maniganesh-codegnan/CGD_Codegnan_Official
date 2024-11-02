@@ -9,9 +9,13 @@ import m6 from '/members/manohar.webp';
 import m7 from '/members/Kowshik.webp';
 import m8 from '/members/Jitendra.webp';
 import m9 from '/members/sudheer-java-mentor.webp';
-import m10 from '/members/sai-vardhan.webp';
+import saiVardhan from '/members/sai-vardhan.webp';
 import m11 from '/members/subbu-BDE.webp';
 import m12 from '/members/Jitendra.webp';
+import mallikharjuna from '/members/mallikharjuna.jpg';
+import sagar from '/members/sagar.png';
+import bhemesh from '/members/bhemesh.png';
+
 
 import { Helmet } from 'react-helmet';
 
@@ -34,7 +38,7 @@ export default function About() {
                     <br />
                     <h4>Founder & CEO</h4>
                         <span>
-                            <i className="fa-brands fa-linkedin-in social-icon"></i>
+                        <a href="https://www.linkedin.com/in/sairam-uppugundla/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                             <i className="fa-brands fa-twitter social-icon"></i>
                             <i className="fa-brands fa-instagram social-icon"></i>
                             <i className="fa-brands fa-telegram social-icon"></i>
@@ -61,7 +65,8 @@ export default function About() {
                     <br /><br />
                     <p>Co-Founder and Chief Management Officer </p>
                     <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    <span><a href="https://www.linkedin.com/in/saketh-codegnan/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
+                    
                     </center>
                 </div>
                 <div className='members_div'>
@@ -71,19 +76,9 @@ export default function About() {
                     <br /><br />
                     <p>Co-Founder and Chief Operating Officer </p>
                     <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    <span><a href="https://www.linkedin.com/in/saikiran-tarigopula-222564136/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
                     </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m3} alt="Eshwar Gogineni" />
-                    <a href="">Eshwar Gogineni</a>
-                    <br /><br />
-                    <p>Co-Founder & Chief Information Officer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
+                </div>                
                 <div className='members_div'>
                     <center>
                     <img src={m4} alt="Kishor Kumar" />
@@ -91,91 +86,101 @@ export default function About() {
                     <br /><br />
                     <p>Senior Full Stack Corporate Trainer </p>
                     <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    <span><a href="https://www.linkedin.com/in/kishorgn/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
+                    </center>
+                </div>
+                <div className='members_div'>
+                    <center>
+                    <img src={m5} alt="Ravi Siva Ram Teja" />
+                    <a href="/ravi-siva-ram-teja">Ravi Siva Ram Teja</a>
+                    <br /><br />
+                    <p>MERN Stack Developer & Mentor </p>
+                    <br />
+                    <span><a href="https://www.linkedin.com/in/ravi-siva-ram-teja-nagulavancha-053199253/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
+                    </center>
+                </div>
+            </div>
+            <div className='codegnan_members'>               
+                <div className='members_div'>
+                    <center>
+                    <img src={m7} alt="Kowshik Chilamkurthy" />
+                    <a href="">Kowshik Chilamkurthy</a>
+                    <br /><br />
+                    <p>Lead AI & Product Design Head IIT-Madras </p>
+                    <br />
+                    <span><a href="https://www.linkedin.com/in/kowshik-chilamkurthy-67a501113/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
+                    </center>
+                </div>
+                <div className='members_div'>
+                    <center>
+                    <img src={m8} alt="Jitendra Chautharia" />
+                    <a href="/jitendra">Jitendra Chautharia</a>
+                    <br /><br />
+                    <p>AI Engineer and Mentor, IIT-Jodhpur </p>
+                    <br />
+                    <span><a href="https://www.linkedin.com/in/jiten15/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
+                    </center>
+                </div>
+                <div className='members_div'>
+                    <center>
+                    <img src={m9} alt="Sudheer" />
+                    <a href="/sudheer">Sudheer </a>
+                    <br /><br />
+                    <p>Java Full Stack Developer & Mentor & Trainer </p>
+                    <br />
+                    <span><a href="https://www.linkedin.com/in/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
+                    </center>
+                </div>
+                <div className='members_div'>
+                    <center>
+                     <img src={m11} alt="Subramanyam" />
+                    <a href="/d-subramanyam">D. Subramanyam</a>
+                    <br /><br />
+                    <p>Business Development Manager</p>
+                    <br />
+                    <span><a href="https://www.linkedin.com/in/subbu-devalla-021806222/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
                     </center>
                 </div>
             </div>
             <div className='codegnan_members'>
                 <div className='members_div'>
                     <center>
-                    <img src={m5} alt="Ravi Siava Ram Teja" />
-                    <a href="/ravi-siva-ram-teja">Ravi Siava Ram Teja</a>
+                    <img src={saiVardhan} alt="Sai Vardhan" /><br />
+                    <a href="/sai-vardhan">T. Venkata Sai Vardhan</a>
                     <br /><br />
-                    <p>MERN Stack Developer & Mentor </p>
+                    <p>Python FullStack Developer & Trainer </p>
                     <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    <span><a href="https://www.linkedin.com/in/sai-vardhan-thimmisetty-778389186/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
                     </center>
                 </div>
                 <div className='members_div'>
                     <center>
-                    {/*  <img src={m6} alt="Manohar Chary Vadla" />*/}
-                    <a href="/manohar-chary-vadla">Manohar Chary Vadla</a>
+                    <img src={mallikharjuna} alt="Mallikharjuna" />
+                    <a href="/k-mallikharjuna">K. Mallikharjuna</a>
                     <br /><br />
-                    <p>Data Scientist & Mentor </p>
+                    <p>Java FullStack Developer & Trainer </p>
                     <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    <span><a href="https://www.linkedin.com/in/mallikharjuna-kollipati-533aa5315/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
                     </center>
                 </div>
                 <div className='members_div'>
                     <center>
-                    <img src={m7} alt="" />
-                    <a href="">Kowshik Chilamkurthy</a>
+                    {/* <img src={sagar} alt="Samuel" /> */}
+                    <a href="/sagar">Ch. Samuel</a>
                     <br /><br />
-                    <p>Lead AI & Product Design Head IIT-Madras </p>
+                    <p>Django Developer  & Python Full Stack Mentor </p>
                     <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    <span><a href="https://www.linkedin.com/in/samuel-chitturi-4771081b6/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
                     </center>
                 </div>
                 <div className='members_div'>
                     <center>
-                    <img src={m8} alt="" />
-                    <a href="">Jitendra Chautharia</a>
+                    <img src={bhemesh} alt="bhemesh" />
+                    <a href="/bhemesh">Bhemesh</a>
                     <br /><br />
-                    <p>AI Engineer and Mentor, IIT-Jodhpur </p>
+                    <p>Java FullStack Developer  & Mentor</p>
                     <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-            </div>
-            <div className='codegnan_members'>
-                <div className='members_div'>
-                    <center>
-                    <img src={m9} alt="Ravi Siava Ram Teja" />
-                    <a href="/ravi-siva-ram-teja">Ravi Siava Ram Teja</a>
-                    <br /><br />
-                    <p>MERN Stack Developer & Mentor </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m10} alt="Manohar Chary Vadla" />
-                    <a href="/manohar-chary-vadla">Manohar Chary Vadla</a>
-                    <br /><br />
-                    <p>Data Scientist & Mentor </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m11} alt="" />
-                    <a href="">Kowshik Chilamkurthy</a>
-                    <br /><br />
-                    <p>Lead AI & Product Design Head IIT-Madras </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-
-                    <a href="">Jitendra Chautharia</a>
-                    <br /><br />
-                    <p>AI Engineer and Mentor, IIT-Jodhpur </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
+                    <span><a href="https://www.linkedin.com/in/saketh-codegnan/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a></span>
                     </center>
                 </div>
             </div>
