@@ -40,7 +40,7 @@ import Testimonials from '../student_testimonals/Testimonials.jsx';
 import ceo from '/members/sairam-sir.webp';
 import saketh from '/members/trainer-2.pngw3_.webp';
 import Collaboration from '../Collabarations.jsx';
-import Video_Testimonials from '../video-testimonials.jsx';
+// import Video_Testimonials from '../video-testimonials.jsx';
 
 import { Helmet } from 'react-helmet';
 
@@ -428,7 +428,7 @@ export default function Home() {
                         <center>
                             <h1 className='change_color'>Video Testimonials <span> of Our Students </span> </h1>
                             <br /><br />
-                            <Video_Testimonials/>
+                            {/*<Video_Testimonials/> */}
                         </center>
                     </div>
                     <center>

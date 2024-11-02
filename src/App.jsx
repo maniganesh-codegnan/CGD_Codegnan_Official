@@ -126,7 +126,7 @@ import Data_Science_Faq_vijayawada from './faqs/data-science-faq-vijayawada.jsx'
 import C_Programming_Curriculum from './faqs/c-programming-faqs.jsx';
 import TabS from './faqs/Tabs.jsx';
 
-import Video_Testimonials from './video-testimonials.jsx';
+// import Video_Testimonials from './video-testimonials.jsx';
 import Java from './Internship/java.jsx';
 import Java_Bangalore from './Internship/java-bangalore.jsx';
 // import Java_Vijayawada from './Internship/java-vijayawada.jsx';
@@ -280,7 +280,7 @@ function App() {
         <Route path='/data-structures-curriculum' element={<Data_Structures_Curriculum/>}></Route>
         <Route path='/data-science-faq-vijayawada' element={<Data_Science_Faq_vijayawada/>}></Route>
         <Route path='/c-programming-curriculum' element={<C_Programming_Curriculum/>}></Route>
-        <Route path='/video-testimonials' element={<Video_Testimonials/>}></Route>
+        {/*        <Route path='/video-testimonials' element={<Video_Testimonials/>}></Route> */}
         <Route path='/Tabs' element={<TabS/>}></Route>
         <Route path='/java' element={<Java/>}></Route>
         <Route path='/java-bangalore' element={<Java_Bangalore/>}></Route>
