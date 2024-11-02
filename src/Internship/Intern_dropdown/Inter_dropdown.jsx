@@ -1,9 +1,12 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import PropTypes from "prop-types";
 import "./Inter_dropdown.css";
 
 
 
 export default function Intern_dropdown( {data}) {
+  // alert('intern_dropdown');
+  console.log("intern_dropdown",data)
   const [expandedIndex, setExpandedIndex] = useState(null);
   const toggleExpansion = (index) => {
     setExpandedIndex((prevIndex) => (prevIndex === index ? null : index));
@@ -17,12 +20,12 @@ export default function Intern_dropdown( {data}) {
           <h3 onClick={() => toggleExpansion(index)}>
            {index+1}.{item.head} <span className="toggle-element">{expandedIndex === index ? "—" : "+"}</span>
           </h3>
-          <p
+          <div
             className={
               expandedIndex === index ? "expanded" : "collapsed"
             } >
             {item.p}
-          </p>
+          </div>
           <br />
           <hr />
         </div>
@@ -31,3 +34,6 @@ export default function Intern_dropdown( {data}) {
     </center>
   );
 }
+Intern_dropdown.propTypes = {
+  data: PropTypes.any,
+};

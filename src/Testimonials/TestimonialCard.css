@@ -1,0 +1,34 @@
+.testimonial-card {
+     background-color: #fff;
+     padding: 20px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     border-radius: 8px;
+     max-width: 300px;
+     margin: 0 auto;
+     text-align: left;
+   }
+   
+   .testimonial-text {
+     font-size: 1rem;
+     color: #555;
+   }
+   
+   .testimonial-author {
+     margin-top: 10px;
+   }
+   
+   .author-name {
+     font-size: 1.1rem;
+     font-weight: bold;
+     color: #333;
+   }
+   
+   .author-role {
+     font-size: 0.9rem;
+     color: #888;
+   }
+   
+   .author-org {
+     color: #e53935;
+   }
+   
