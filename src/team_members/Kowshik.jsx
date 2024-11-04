@@ -1,8 +1,8 @@
 // import './about.css';
 import './team.css';
-import jitendra from '/members/Jitendra.webp';
+import kowshik from '/members/Kowshik.webp';
 
-export default function Jitendra_Chautharia() {
+export default function Kowshik() {
     return (
         <div className="team_about"><br /><br />
             <center>
@@ -45,7 +45,7 @@ export default function Jitendra_Chautharia() {
 
                 </div>
                 <div className='ceo_img1'>
-                    <img src={jitendra} />
+                    <img src={kowshik} />
                     <br />
                     <center>
                     <br />
@@ -54,7 +54,8 @@ export default function Jitendra_Chautharia() {
                         </span>
                     </center>
                 </div><br /><br />
-            </div>
+            </div>         
+
         </div>
     );
 }

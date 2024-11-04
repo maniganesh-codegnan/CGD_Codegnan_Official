@@ -2,7 +2,7 @@
 import './team.css';
 import m5 from '/members/shiva-ram-teja.webp';
 
-export default function About() {
+export default function Siva_ram_teja() {
     return (
         <div className="team_about"><br /><br />
             <center>

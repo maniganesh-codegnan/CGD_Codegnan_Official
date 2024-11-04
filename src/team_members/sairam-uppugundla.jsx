@@ -2,7 +2,7 @@
 import './team.css';
 import ceo from '/members/sairam-sir.webp'
 
-export default function About() {
+export default function SaiRam_CEO_Founder() {
     return (
         <div className="team_about"><br /><br />
             <center>
@@ -60,7 +60,7 @@ export default function About() {
                     <br />
                     <h4>Founder & CEO</h4>
                         <span>
-                            <i className="fa-brands fa-linkedin-in social-icon"></i>
+                        <a href="https://www.linkedin.com/in/sairam-uppugundla/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                             <i className="fa-brands fa-twitter social-icon"></i>
                             <i className="fa-brands fa-instagram social-icon"></i>
                             <i className="fa-brands fa-telegram social-icon"></i>
@@ -68,93 +68,6 @@ export default function About() {
                     </center>
                 </div><br /><br />
             </div>
-          
-
-            {/* <div className='codegnan_members'>
-                <div className='members_div'>
-                    <center>
-                    <img src={m1} alt="" />
-                    <a href="">Kallepu Saketh Reddy</a>
-                    <br /><br />
-                    <p>Co-Founder and Chief Management Officer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m2} alt="" />
-                    <a href="">Saikiran Tarigopula</a>
-                    <br /><br />
-                    <p>Co-Founder and Chief Operating Officer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m3} alt="" />
-                    <a href="">Eshwar Gogineni</a>
-                    <br /><br />
-                    <p>Co-Founder & Chief Information Officer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m4} alt="" />
-                    <a href="">Kishor Kumar</a>
-                    <br /><br />
-                    <p>Senior Full Stack Corporate Trainer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-            </div>
-            <div className='codegnan_members'>
-                <div className='members_div'>
-                    <center>
-                    <img src={m5} alt="" />
-                    <a href="">Ravi Siava Ram Teja</a>
-                    <br /><br />
-                    <p>MERN Stack Developer & Mentor </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m6} alt="" />
-                    <a href="">Manohar Chary Vadla</a>
-                    <br /><br />
-                    <p>Data Scientist & Mentor </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m7} alt="" />
-                    <a href="">Kowshik Chilamkurthy</a>
-                    <br /><br />
-                    <p>Lead AI & Product Design Head IIT-Madras </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m8} alt="" />
-                    <a href="">Jitendra Chautharia</a>
-                    <br /><br />
-                    <p>AI Engineer and Mentor, IIT-Jodhpur </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-            </div> */}
-
         </div>
     );
 }
