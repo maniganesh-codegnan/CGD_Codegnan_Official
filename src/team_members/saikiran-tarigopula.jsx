@@ -2,7 +2,8 @@
 import './team.css';
 import m2 from '/members/sai-kiran.webp';
 
-export default function About() {
+export default function Saikiran_CoFounder() {
+    // alert('Sai kiran')
     return (
         <div className="team_about"><br /><br />
             <center>
@@ -53,7 +54,7 @@ export default function About() {
                     <br />
                     <center>
                         <span>
-                            <a href="https://www.linkedin.com/in/saikiran-tarigopula-222564136/?original_referer=https%3A%2F%2Fcodegnan.com%2F"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/saikiran-tarigopula-222564136/" target="_blank"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />

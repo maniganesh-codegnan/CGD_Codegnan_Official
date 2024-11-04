@@ -1,9 +1,9 @@
 // import './about.css';
 import './team.css';
-import m1 from '/members/trainer-2.pngw3_.webp'
+import mallikharjuna from '/members/mallikharjuna.jpg';
 
-export default function Saketh_CoFounder() {
-    // alert('Saketh')
+export default function Mallikharjuna() {
+    alert('sai')
     return (
         <div className="team_about"><br /><br />
             <center>
@@ -11,10 +11,9 @@ export default function Saketh_CoFounder() {
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                <h2><span className="Linkcolor"> Saketh Kallepu, </span> </h2>
+                <h2><span className="Linkcolor"> Venkata Sai Vardhan T </span>  <span style={{ textAlign:'justify',color:'blue'}}> &nbsp;( Python Full Stack Developer / Trainer ) </span></h2>
                 {/* <img src={style} alt="" /> */}
-                    <br />
-                    <p style={{ textAlign:'justify' }}>Co-Founder and Chief Management Officer </p>
+                    <br/>
                     <br />
                     <span style={{ fontSize: '19px' , textAlign:'left'}}>Saketh Kallepu is a Chief Management Officer and Data Science Mentor with a background of Masters in Computational Intelligence.</span>
                     <br /><br />
@@ -55,101 +54,16 @@ export default function Saketh_CoFounder() {
 
                 </div>
                 <div className='ceo_img1'>
-                    <img src={m1} />
+                    <img src={mallikharjuna} />
                     <br />
                     <center>
                         <span>
-                            <a href="https://www.linkedin.com/in/saikiran-tarigopula-222564136/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/saketh-codegnan/?original_referer=https%3A%2F%2Fcodegnan.com%2F"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />
-            </div>
-          
-
-            {/* <div className='codegnan_members'>
-                <div className='members_div'>
-                    <center>
-                    <img src={m1} alt="" />
-                    <a href="">Kallepu Saketh Reddy</a>
-                    <br /><br />
-                    <p>Co-Founder and Chief Management Officer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m2} alt="" />
-                    <a href="">Saikiran Tarigopula</a>
-                    <br /><br />
-                    <p>Co-Founder and Chief Operating Officer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m3} alt="" />
-                    <a href="">Eshwar Gogineni</a>
-                    <br /><br />
-                    <p>Co-Founder & Chief Information Officer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m4} alt="" />
-                    <a href="">Kishor Kumar</a>
-                    <br /><br />
-                    <p>Senior Full Stack Corporate Trainer </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-            </div>
-            <div className='codegnan_members'>
-                <div className='members_div'>
-                    <center>
-                    <img src={m5} alt="" />
-                    <a href="">Ravi Siava Ram Teja</a>
-                    <br /><br />
-                    <p>MERN Stack Developer & Mentor </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m6} alt="" />
-                    <a href="">Manohar Chary Vadla</a>
-                    <br /><br />
-                    <p>Data Scientist & Mentor </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m7} alt="" />
-                    <a href="">Kowshik Chilamkurthy</a>
-                    <br /><br />
-                    <p>Lead AI & Product Design Head IIT-Madras </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-                <div className='members_div'>
-                    <center>
-                    <img src={m8} alt="" />
-                    <a href="">Jitendra Chautharia</a>
-                    <br /><br />
-                    <p>AI Engineer and Mentor, IIT-Jodhpur </p>
-                    <br />
-                    <i className="fa-brands fa-linkedin-in social-icon"></i>
-                    </center>
-                </div>
-            </div> */}
+            </div>         
+        
 
         </div>
     );

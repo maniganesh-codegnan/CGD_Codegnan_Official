@@ -1,8 +1,8 @@
 // import './about.css';
 import './team.css';
-import kishor from '/members/Kishor-Kumar-java.webp';
+import bhemesh from '/members/bhemesh.png';
 
-export default function Kishor_Kumar() {
+export default function Bhemesh() {
     return (
         <div className="team_about"><br /><br />
             <center>
@@ -36,7 +36,7 @@ export default function Kishor_Kumar() {
 
                 </div>
                 <div className='ceo_img1'>
-                    <img src={kishor} />
+                    <img src={bhemesh} />
                     <br />
                     <center>
                         <span>
@@ -44,7 +44,8 @@ export default function Kishor_Kumar() {
                         </span>
                     </center>
                 </div><br /><br />
-            </div>                    
+            </div>
+         
         </div>
     );
 }

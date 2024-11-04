@@ -165,6 +165,13 @@ import C_Programming from './Internship/c-programming.jsx';
 import Software_Testing_Faq_Vijayawada from './faqs/Software-testing-faq-vijayawada.jsx';
 import Software_Testing_Faq_Hyderabad from './faqs/Software-testing-faq-hyderabad.jsx';
 import Java_Full_Stack_Faq_Vijayawada from'./faqs/java_full_stack_Faq_Vijayawada.jsx';
+import Sai_Vardhan from './team_members/Sai-Vardhan.jsx';
+import Kowshik from './team_members/Kowshik.jsx';
+import Samuel from './team_members/Samuel.jsx';
+import Mallikharjuna from './team_members/Mallikharjuna.jsx';
+import Subramanyam from './team_members/Subramanyam.jsx';
+import Sudheer from './team_members/Sudeer.jsx';
+import Bhemesh from './team_members/Bhemesh.jsx';
 
 
 
@@ -257,13 +264,20 @@ function App() {
         <Route path='/academy/online-web-development-with-python/' element={<Online_python_web/>}/>
         <Route path='/academy/online-python-mini-projects/' element={<Online_python_mini/>}></Route>
 
-        <Route path='/sairam-uppugundla' element={<Sairam_Uppugundla/>}></Route>
-        <Route path='/saketh-kallepu/' element={<Saketh_Kallepu/>}></Route>
-        <Route path='/saikiran-tarigopula' element={<Saikiran_Tarigopula/>}></Route>
+        <Route path='/Sairam-CEO' element={<Sairam_Uppugundla/>}></Route>
+        <Route path='/saketh-CoFounder' element={<Saketh_Kallepu/>}></Route>
+        <Route path='/saikiran-CoFounder' element={<Saikiran_Tarigopula/>}></Route>
         <Route path='/kishor-kumar' element={<Kishor_Kumar/>}></Route>
-        <Route path='/ravi-siva-ram-teja' element={<Ravi_Siva_Ram_Teja/>}></Route>
-        <Route path='/manohar-chary-vadla' element={<Manohar_Chary_Vadla/>}></Route>
-        <Route path='/jitendra-chautharia' element={<Jitendra_Chautharia/>}></Route>
+        <Route path='/siva-ram' element={<Ravi_Siva_Ram_Teja/>}></Route>
+        {/* <Route path='/manohar-chary-vadla' element={<Manohar_Chary_Vadla/>}></Route> */}
+        <Route path='/kowshik' element={<Kowshik/>}></Route>
+        <Route path='/jitendra' element={<Jitendra_Chautharia/>}></Route>
+        <Route path='/sudheer' element={<Sudheer/>}></Route>
+        <Route path='/subramanyam' element={<Subramanyam/>}></Route>
+        <Route path='/sai-vardhan' element={<Sai_Vardhan/>}></Route>
+        <Route path='/mallikharjuna' element={<Mallikharjuna/>}></Route>
+        <Route path='/samuel' element={<Samuel/>}></Route> 
+        <Route path='/bhemesh' element={<Bhemesh/>}></Route>
         <Route path='/privacy-policy' element={<Privacy_Policy />}></Route>
         <Route path='/terms-conditions' element={<Terms_Conditions />}></Route>
         <Route path='/refund-policy' element={<Refund_Policy />}></Route>
