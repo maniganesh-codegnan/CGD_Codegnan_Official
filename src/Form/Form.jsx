@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './form.css';
+import axios from 'axios';
 
 const FormComponent = () => {
   const [formData, setFormData] = useState({
@@ -19,8 +20,10 @@ const FormComponent = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    alert("Form Data added");
+    console.log('Student Form Data : ',formData)
     if (validateForm()) {
       // Form is valid, clear the form data
       setFormData({
@@ -31,6 +34,8 @@ const FormComponent = () => {
         availability: 'morning',
         course: '' // Resetting course field
       });
+      const response = await  axios.post('http://localhost:5000/storedata',formData)
+      alert("Data stored sucessfully")
     } else {
       // Form is not valid, do something like showing an error message
       console.log('Form submission failed. Please fill in all required fields.');
@@ -46,6 +51,7 @@ const FormComponent = () => {
       formData.course !== '' // Adding validation for course field
     );
   };
+
 
   return (
     <form onSubmit={handleSubmit} className="form-container">

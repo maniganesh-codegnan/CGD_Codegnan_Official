@@ -172,6 +172,8 @@ import Mallikharjuna from './team_members/Mallikharjuna.jsx';
 import Subramanyam from './team_members/Subramanyam.jsx';
 import Sudheer from './team_members/Sudeer.jsx';
 import Bhemesh from './team_members/Bhemesh.jsx';
+import TestimonialsSlider from './Testimonials/TestimonialsSlider.jsx';
+// import TestimonialsSlider from './Testimonials/TestimonialsSlider.js';
 
 
 
@@ -334,8 +336,8 @@ function App() {
         <Route path='/java_full_stack_Faq_Vijayawada' element={<Java_Full_Stack_Faq_Vijayawada/>}></Route>
 
       </Routes>
-     
-       <Footer></Footer>    
+      <TestimonialsSlider/>
+       <Footer/> 
       
     </div>
   );
