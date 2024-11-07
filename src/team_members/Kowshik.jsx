@@ -9,15 +9,14 @@ export default function Kowshik() {
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                <h2><span className="Linkcolor">Jitendra Chautharia, </span> AI Engineer at codegnan</h2>
-                {/* <img src={style} alt="" /> */}
-                    <br />
-                    <p style={{ textAlign:'justify' }}>AI ENGINEER AND MENTOR</p>
-                    <br />
-                    <span style={{ fontSize: '19px' , textAlign:'left'}}> Jitendra Chautharia specializes in artificial intelligence and holds a Master of Technology degree in cyber-physical systems. He has over three years of expertise in developing projects, including artificial intelligence, the Internet of Things, and robots.</span>
+                <h2><span className="Linkcolor">Kowshik Chilamkurthy, </span> AI Engineer at codegnan</h2>
+                    
+                    <p style={{ textAlign:'justify' ,color:'blue'}}>( AI ENGINEER AND MENTOR )</p>
+                    <br /><br/>
+                    <span style={{ fontSize: '19px' , textAlign:'left'}}> Kowshik Chilamkurthy specializes in artificial intelligence and holds a Master of Technology degree in cyber-physical systems. He has over three years of expertise in developing projects, including artificial intelligence, the Internet of Things, and robots.</span>
                     <br /><br />
                     
-                    <p> Jitendra Chautharia formerly held a position at ATL Lab, where he not only participated in developing projects using artificial intelligence (AI), (IoT), and robots but also trained students in these areas.</p>
+                    <p>  Kowshik Chilamkurthy formerly held a position at ATL Lab, where he not only participated in developing projects using artificial intelligence (AI), (IoT), and robots but also trained students in these areas.</p>
 
                     <p> At Digio, where he worked as a Software Engineer specializing in Machine Learning, he had the opportunity to contribute to some of the most cutting-edge initiatives in artificial intelligence and machine learning throughout his tenure there.</p>
                     <br />
