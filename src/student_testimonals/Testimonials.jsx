@@ -12,12 +12,6 @@ const data = [
     review: 'I am truly thankful to Codegnan IT Solutions for granting me the chance to intern with their wonderful organization. This experience has been a fantastic journey of growth and learning for me as a student, and it would not have been possible without their valuable guidance and mentorship. I am a ML student here, the course curriculum is well made with theoretical and practical knowledge. Great staff who guide you with all possibilities by clarifying your doubts.',
     name: 'Poojitha Reddy',
   },
-  // {
-  //   img: '/images/star-icon.jpg',
-  //   review: 'I got to know codegnan through online. I attended python course. The team helped me to overcome the problems I face while programming in python language. I learned much here so that i am pretty good with my core python.',
-  //   name: 'Udanya Korupolu',
-  //   title: 'Student, KL University'
-  // },
   {
     img: './images/star-icon.jpg',
     review: 'Flexible Timings, friendly environment and good staff!! good initiative for programme beginners in various computer languages, overall I love this experience.',

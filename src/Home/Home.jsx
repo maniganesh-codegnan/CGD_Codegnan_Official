@@ -38,7 +38,7 @@ import c24 from '/images/truminds-logo-1.webp';
 import c25 from '/images/voya-india-logo-1.webp'
 import Testimonials from '../student_testimonals/Testimonials.jsx';
 import ceo from '/members/sairam-sir.webp';
-import saketh from '/members/trainer-2.pngw3_.webp';
+import saketh from '/members/saketh.webp';
 import Collaboration from '../Collabarations.jsx';
 // import Video_Testimonials from '../video-testimonials.jsx';
 

@@ -25,7 +25,7 @@ const testimonialsData = [
 ];
 
 const TestimonialsSlider = () => {
-  alert('TestimonialsSlider')
+  // alert('TestimonialsSlider')
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const handleDotClick = (index) => {

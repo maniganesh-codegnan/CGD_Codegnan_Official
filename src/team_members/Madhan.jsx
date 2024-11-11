@@ -1,8 +1,8 @@
 // import './about.css';
 import './team.css';
-import sudheer from "/members/sudheer-java-mentor.webp";
+import subbu from '/members/subbu-BDE.webp';
 
-export default function Sudheer() {
+export default function Subramanyam() {
     return (
         <div className="team_about"><br /><br />
             <center>
@@ -10,7 +10,7 @@ export default function Sudheer() {
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                <h2><span className="Linkcolor"> Kishor Kumar, </span> Senior Full Stack Corporate Trainer at codegnan </h2>
+                <h2><span className="Linkcolor">Madhan, </span> Senior Full Stack Corporate Trainer at codegnan </h2>
                 {/* <img src={style} alt="" /> */}
                     <br />
                     <p style={{ textAlign:'justify' }}>FULL STACK CORPORATE TRAINER</p>
@@ -27,26 +27,25 @@ export default function Sudheer() {
 
                     <h2>Work Experience</h2><br />
                     <ul>
-                        <li><i className="fa-solid fa-check-double check_double"></i> Senior Full Stack Corporate Trainer at codegnan</li>
-                        <li><i className="fa-solid fa-check-double check_double"></i> Corporate Trainer, Freelance, Vijayawada, Andhra Pradesh, India (Sep2018- Present)</li>
-                        <li><i className="fa-solid fa-check-double check_double"></i> Corporate Trainer at SunTec Business Solutions,Trivandrum(Sep 2017 - Sep 2018)</li>
-                        <li><i className="fa-solid fa-check-double check_double"></i> Corporate Trainer, Freelance, Vijayawada, Andhra Pradesh, India (Mar 2008- Aug 2017)</li>
+                        <li><i className="fa-solid fa-check-double check_double"></i> Business Development  Manager at codegnan</li>
+                        <li><i className="fa-solid fa-check-double check_double"></i> Innomatics, Team lead, Hyderabad, India</li>
+                        <li><i className="fa-solid fa-check-double check_double"></i> ACCOR plus  Sr.Employee, Hyderabad,</li>
+                        <li><i className="fa-solid fa-check-double check_double"></i> TATA Business support services, Sr Associate Team lead, Hyderabad, India</li>
+                       
                     </ul>
 
 
                 </div>
                 <div className='ceo_img1'>
-                    <img src={sudheer} />
+                    <img src={subbu} />
                     <br />
                     <center>
                         <span>
-                            <a href="https://www.linkedin.com/in/kishorgn/?original_referer=https%3A%2F%2Fcodegnan.com%2F"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/madhan-kumar-v-t-5aaa0415b/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />
             </div>
-          
-
         </div>
     );
 }

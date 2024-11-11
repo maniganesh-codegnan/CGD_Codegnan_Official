@@ -49,7 +49,7 @@ export default function Kowshik() {
                     <center>
                     <br />
                         <span>
-                        <a href="https://www.linkedin.com/in/jiten15/"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
+                        <a href=" " target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />
