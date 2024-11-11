@@ -1,6 +1,6 @@
 // import './about.css';
 import './team.css';
-import m6 from '/members/manohar.webp';
+import samuel from '/members/samuel.png';
 
 
 export default function Samuel() {
@@ -10,52 +10,42 @@ export default function Samuel() {
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                <h2><span className="Linkcolor">Manohar Chary Vadla,</span> Data Scientist & Mentor at codegnan </h2>
-                {/* <img src={style} alt="" /> */}
-                    <br />
-                    <p style={{ textAlign:'justify' }}>DATA SCIENTIST</p>
-                    <br />
-                    <span style={{ fontSize: '19px' , textAlign:'left'}}> Manohar Chary Vadla is a Data Scientist and Mentor with a Bachelor of Commerce in Computer Science background, having 2+ years of hands-on experience in Data Extraction from documents using Python and deep learning techniques.</span>
+                    <h2><span className="Linkcolor">Samuel,</span> Python Full Stack Trainer  </h2>
+                    {/* <img src={style} alt="" /> */}
                     <br /><br />
-                    
-                    <p> Manohar Chary Vadla, a dedicated Data Science professional, Holds a background in Computer science with 2+ years of experience. He excels in technology.</p><br />
-
-                    <p> His areas of expertise include research and implementation in machine learning and deep learning, such as regression, classification, neural networks, and natural language processing (NLP).</p><br />
-
-                    <p> As part of the AI-for India Event, in collaboration with GUVI Geek Networks and IITM Research Park, he developed a facial recognition application using the Python programming language.</p><br />
-
-                    <p> As a result of his commitment to the technology field, Manohar Chary Vadla was able to finish a project in AI&ML on breast cancer diagnosis that was assigned to him by LetsUpgrade.</p><br />
+                    <span style={{ fontSize: '19px', textAlign: 'left' }}>Full Stack Python Trainer and Django Developer at Codegnan, delivering technical training, creating customized learning materials, and empowering learners. </span>
+                    <br /><br />
+                    <p>Over 2 years of experience as a Technical Trainer, working with clients like Talentio, Bytexl, and Campus Connect to provide training for recruitment, product-based, and service-based purposes. Known for increasing user retention and securing large contracts.</p>
                     <br />
-
+                    <p>Proficient in Python, Flask,  Django, HTML, CSS, SQL DBMS ,REST APIs. Achievements include creating a facial recognition application and publishing articles on Python and Full-Stack Development.</p>
+                    <br /><br /> <br />
                     <h2>Education</h2><br />
                     <ul>
-                        <li><i className="fa-solid fa-check-double check_double"></i><a href="https://www.acc.edu.in/" >Aviansh Degree College, </a> Bachelor of Commerce in Computers( June2016-June2019)</li>
-                    </ul><br />
+                        <li><i className="fa-solid fa-check-double check_double"></i><a href="https://www.acc.edu.in/" >JNTUK</a> Bachelor of Computers </li>
+                    </ul><br /> <br />
 
                     <h2>Work Experience</h2><br />
                     <ul>
-                        
-                        <li><i className="fa-solid fa-check-double check_double"></i> 
-                        Data Scientist at  <a href="codegnana.com"> Codegnan IT Solutions</a>  Hyderabad, Telangana, India (Aug 2023 - Present ) </li>
 
-                        <li><i className="fa-solid fa-check-double check_double"></i> 
-                        Associate Data Scientist at <a href="https://aibridgeml.ai/"> AIBridge ML,</a>Hyderabad, Telangana, India (Jul 2021 - Mar 2023 )</li>
+                        <li><i className="fa-solid fa-check-double check_double"></i>
+                            Django Developer and Python Full stack Trainer <a href="codegnana.com"> Codegnan IT Solutions</a>  Vijayawada and  Hyderabad, Telangana, India ( NOV 2022 - Present ) </li>
+
+                        <li><i className="fa-solid fa-check-double check_double"></i>
+                            <a href="https://aibridgeml.ai/"> VIT University </a> Java Technical Lead Chennai, India </li>
+                        <li><i className="fa-solid fa-check-double check_double"></i>  Campus Trainer at SRM, Chennai, India </li>
                     </ul>
                 </div>
                 <div className='ceo_img1'>
-                    <img src={m6} />
+                    <img src={samuel} alt='Samuel Photo' />
                     <br />
                     <center>
-                    <br />
+                        <br />
                         <span>
-                            <a href="https://www.linkedin.com/in/manohar-chary-v-2559811a5/"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/samuel-chitturi-4771081b6/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />
             </div>
-          
-
-
         </div>
     );
 }

@@ -104,7 +104,7 @@ import Saketh_Kallepu from './team_members/saketh-kallepu.jsx';
 import Saikiran_Tarigopula from './team_members/saikiran-tarigopula.jsx';
 import Kishor_Kumar from './team_members/kishor-kumar.jsx';
 import Ravi_Siva_Ram_Teja  from './team_members/ravi-siva-ram-teja.jsx';
-import Manohar_Chary_Vadla from './team_members/manohar-chary-vadla.jsx';
+// import Manohar_Chary_Vadla from './team_members/manohar-chary-vadla.jsx';
 import Jitendra_Chautharia from './team_members/jitendra-chautharia.jsx';
 import Privacy_Policy from './Privacy_policy/privacy-policy.jsx';
 import Terms_Conditions from './Privacy_policy/terms-conditions.jsx';
@@ -170,10 +170,14 @@ import Kowshik from './team_members/Kowshik.jsx';
 import Samuel from './team_members/Samuel.jsx';
 import Mallikharjuna from './team_members/Mallikharjuna.jsx';
 import Subramanyam from './team_members/Subramanyam.jsx';
-import Sudheer from './team_members/Sudeer.jsx';
+import Sudheer from './team_members/Sudheer.jsx';
 import Bhemesh from './team_members/Bhemesh.jsx';
-import TestimonialsSlider from './Testimonials/TestimonialsSlider.jsx';
-// import TestimonialsSlider from './Testimonials/TestimonialsSlider.js';
+import Ankit from './team_members/Ankit.jsx';
+
+// import TestimonialsSlider from './Testimonials/TestimonialsSlider.jsx';
+import Ganesh from './team_members/Ganesh.jsx';
+import Prasanna from './team_members/Prasanna.jsx';
+import Raghava from './team_members/Raghava.jsx';
 
 
 
@@ -280,6 +284,12 @@ function App() {
         <Route path='/mallikharjuna' element={<Mallikharjuna/>}></Route>
         <Route path='/samuel' element={<Samuel/>}></Route> 
         <Route path='/bhemesh' element={<Bhemesh/>}></Route>
+        <Route path='/raghava' element={<Raghava/>}></Route>
+        <Route path='/prasanna' element={<Prasanna/>}></Route>
+        <Route path='/ankit' element={<Ankit/>}></Route>
+        <Route path='/ganesh' element={<Ganesh/>}></Route>
+
+
         <Route path='/privacy-policy' element={<Privacy_Policy />}></Route>
         <Route path='/terms-conditions' element={<Terms_Conditions />}></Route>
         <Route path='/refund-policy' element={<Refund_Policy />}></Route>
@@ -336,7 +346,7 @@ function App() {
         <Route path='/java_full_stack_Faq_Vijayawada' element={<Java_Full_Stack_Faq_Vijayawada/>}></Route>
 
       </Routes>
-      <TestimonialsSlider/>
+      {/* <TestimonialsSlider/> */}
        <Footer/> 
       
     </div>

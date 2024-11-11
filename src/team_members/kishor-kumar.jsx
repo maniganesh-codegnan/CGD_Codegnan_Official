@@ -40,7 +40,7 @@ export default function Kishor_Kumar() {
                     <br />
                     <center>
                         <span>
-                            <a href="https://www.linkedin.com/in/kishorgn/?original_referer=https%3A%2F%2Fcodegnan.com%2F"><i className="fa-brands fa-linkedin-in social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/kishorgn" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />
