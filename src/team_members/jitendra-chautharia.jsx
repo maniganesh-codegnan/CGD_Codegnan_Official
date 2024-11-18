@@ -9,8 +9,8 @@ export default function Jitendra_Chautharia() {
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                <h2><span className="Linkcolor">Jitendra Chautharia, </span> AI Engineer at codegnan</h2>
-                {/* <img src={style} alt="" /> */}
+                <h2><span className="Linkcolor">Jitendra Chautharia </span> <span style={{color:'blue'}}> AI Engineer at codegnan</span></h2>
+                
                     <br />
                     <p style={{ textAlign:'justify' }}>AI ENGINEER AND MENTOR</p>
                     <br />

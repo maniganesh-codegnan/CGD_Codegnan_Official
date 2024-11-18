@@ -1,57 +1,63 @@
-import React, { useState } from 'react';
-import './form.css';
-import axios from 'axios';
+import { useState } from "react";
+import "./form.css";
+import axios from "axios";
 
 const FormComponent = () => {
   const [formData, setFormData] = useState({
-    fullname: '',
-    email: '',
-    phone: '',
-    userType: 'student',
-    availability: 'morning',
-    course: '' // Adding course field
+    name: "",
+    email: "",
+    mobile: "",
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
+    setFormData((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     alert("Form Data added");
-    console.log('Student Form Data : ',formData)
+    console.log("Student Form Data : ", formData);
     if (validateForm()) {
-      // Form is valid, clear the form data
-      setFormData({
-        fullname: '',
-        email: '',
-        phone: '',
-        userType: 'student',
-        availability: 'morning',
-        course: '' // Resetting course field
-      });
-      const response = await  axios.post('http://localhost:5000/storedata',formData)
-      alert("Data stored sucessfully")
+      try {
+        const response = await axios.post(
+          // "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
+          "http://localhost:5000/storedata",
+          formData,
+          {
+            headers: {
+              "Content-Type": "application/json", // Ensures payload is JSON formatted
+            },
+          }
+        );
+        alert("Data stored successfully");
+        console.log("Server Response:", response.data);
+
+        // Reset form after submission
+        setFormData({
+          name: "",
+          email: "",
+          mobile: "",
+        });
+      } catch (error) {
+        console.error(
+          "Error storing data:",
+          error.response?.data || error.message
+        );
+        alert("Failed to store data. Please try again.");
+      }
     } else {
-      // Form is not valid, do something like showing an error message
-      console.log('Form submission failed. Please fill in all required fields.');
+      alert("Please fill in all required fields.");
     }
   };
 
   const validateForm = () => {
-    // Check if required fields are filled out
-    return (
-      formData.fullname !== '' &&
-      formData.email !== '' &&
-      formData.phone !== '' &&
-      formData.course !== '' // Adding validation for course field
-    );
+    const { name, email, mobile } = formData;
+    return name.trim() && email.trim() && mobile.trim();
   };
-
 
   return (
     <form onSubmit={handleSubmit} className="form-container">
@@ -59,8 +65,8 @@ const FormComponent = () => {
         <input
           type="text"
           placeholder="Full Name *"
-          name="fullname"
-          value={formData.fullname}
+          name="name"
+          value={formData.name}
           onChange={handleChange}
           required
         />
@@ -79,65 +85,324 @@ const FormComponent = () => {
         <input
           type="tel"
           placeholder="Phone No *"
-          name="phone"
-          value={formData.phone}
+          name="mobile"
+          value={formData.mobile}
           onChange={handleChange}
           required
         />
       </div>
-      <div className="form-group">
-        <select
-          placeholder="User Type"
-          name="userType"
-          value={formData.userType}
-          onChange={handleChange}
-        >
-          <option value="student">Student</option>
-          <option value="job seeker">Job Seeker</option>
-          <option value="working professional">Working Professional</option>
-          <option value="other">Other</option>
-        </select>
-      </div>
-      <div className="form-group">
-        <select
-          placeholder="Availability"
-          name="availability"
-          value={formData.availability}
-          onChange={handleChange}
-        >
-          <option value="morning">Morning</option>
-          <option value="afternoon">Afternoon</option>
-          <option value="evening">Evening</option>
-          <option value="other">I'd like to have more details, before I decide.</option>
-        </select>
-      </div>
-      <div className="form-group">
-        <select
-          placeholder="Course"
-          name="course"
-          value={formData.course}
-          onChange={handleChange}
-          required 
-        >
-          <option value="">Select Course</option>
-          <option value="c">C</option>
-          <option value="c++">C++</option>
-          <option value="java">Java</option>
-          <option value="java-full-stack">Java Full Stack</option>
-          <option value="python">Python</option>
-          <option value="python-full-stack">Python Full Stack</option>
-          <option value="machine-learning">Machine Learning</option>
-          <option value="data-science">Data Science</option>
-          <option value="react-js">React JS</option>
-          <option value="software-testing">Software Testing</option>
-          <option value="data-structures">Data Structures</option>
-        </select>
-      </div>
       <center>
-        <button className="explore-button" type="submit">Submit</button>
+        <button className="explore-button" type="submit">
+          Submit
+        </button>
       </center>
     </form>
   );
 };
-
 export default FormComponent;
+
+///==========================================================================================================================//
+// import { useState } from "react";
+// import "./form.css";
+// import axios from "axios";
+
+// const FormComponent = () => {
+//   const [formData, setFormData] = useState({
+//     name: "",
+//     email: "",
+//     mobile: "",
+//     // userType: "student",
+//     // availability: "morning",
+//     // course: "",
+//   });
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData((prevData) => ({
+//       ...prevData,
+//       [name]: value,
+//     }));
+//   };
+
+//   const handleSubmit = async (e) => {
+//     e.preventDefault();
+//     alert("Form Data added");
+//     console.log("Student Form Data : ", formData);
+//     if (validateForm()) {
+//       try {
+//         const response = await axios.post(
+//           "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
+//           // "http://localhost:5000/storedata",
+//           // "https://jsonplaceholder.typicode.com/users", //
+//           formData
+//         );
+//         alert("Data stored successfully");
+//         console.log("Server Response:", response);
+
+//         // Clear the form after successful submission
+//         setFormData({
+//           name: "",
+//           email: "",
+//           mobile: "",
+//           // userType: "student",
+//           // availability: "morning",
+//           // course: "",
+//         });
+//       } catch (error) {
+//         console.error("Error storing data:", error);
+//         alert("Failed to store data. Please try again.");
+//       }
+//     } else {
+//       alert("Please fill in all required fields.");
+//     }
+//   };
+
+//   const validateForm = () => {
+//     const { name, email, mobile } = formData;
+//     return name && email && mobile;
+//     // const { fullname, email, phone, course } = formData;
+//     // return fullname && email && phone && course;
+//   };
+
+//   return (
+//     <form onSubmit={handleSubmit} className="form-container">
+//       <div className="form-group">
+//         <input
+//           type="text"
+//           placeholder="Full Name *"
+//           name="name"
+//           value={formData.name}
+//           onChange={handleChange}
+//           required
+//         />
+//       </div>
+//       <div className="form-group">
+//         <input
+//           type="email"
+//           placeholder="Email *"
+//           name="email"
+//           value={formData.email}
+//           onChange={handleChange}
+//           required
+//         />
+//       </div>
+//       <div className="form-group">
+//         <input
+//           type="tel"
+//           placeholder="Phone No *"
+//           name="mobile"
+//           value={formData.mobile}
+//           onChange={handleChange}
+//           required
+//         />
+//       </div>
+//       {/* <div className="form-group">
+//         <select
+//           name="userType"
+//           value={formData.userType}
+//           onChange={handleChange}
+//         >
+//           <option value="student">Student</option>
+//           <option value="job seeker">Job Seeker</option>
+//           <option value="working professional">Working Professional</option>
+//           <option value="other">Other</option>
+//         </select>
+//       </div>
+//       <div className="form-group">
+//         <select
+//           name="availability"
+//           value={formData.availability}
+//           onChange={handleChange}
+//         >
+//           <option value="morning">Morning</option>
+//           <option value="afternoon">Afternoon</option>
+//           <option value="evening">Evening</option>
+//           <option value="other">
+//             I did like to have more details, before I decide.
+//           </option>
+//         </select>
+//       </div> */}
+//       {/* <div className="form-group">
+//         <select
+//           name="course"
+//           value={formData.course}
+//           onChange={handleChange}
+//           required
+//         >
+//           <option value="">Select Course</option>
+//           <option value="c">C</option>
+//           <option value="c++">C++</option>
+//           <option value="java">Java</option>
+//           <option value="java-full-stack">Java Full Stack</option>
+//           <option value="python">Python</option>
+//           <option value="python-full-stack">Python Full Stack</option>
+//           <option value="machine-learning">Machine Learning</option>
+//           <option value="data-science">Data Science</option>
+//           <option value="react-js">React JS</option>
+//           <option value="software-testing">Software Testing</option>
+//           <option value="data-structures">Data Structures</option>
+//         </select>
+//       </div> */}
+//       <center>
+//         <button className="explore-button" type="submit">
+//           Submit
+//         </button>
+//       </center>
+//     </form>
+//   );
+// };
+// export default FormComponent;
+
+///////////////========================================================================================//
+
+// import React, { useState } from "react";
+// import "./form.css";
+// import axios from "axios";
+
+// const FormComponent = () => {
+//   const [formData, setFormData] = useState({
+//     fullname: "",
+//     email: "",
+//     phone: "",
+//     userType: "student",
+//     availability: "morning",
+//     course: "", // Adding course field
+//   });
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData({
+//       ...formData,
+//       [name]: value,
+//     });
+//   };
+
+//   const handleSubmit = async (e) => {
+//     e.preventDefault();
+//     alert("Form Data added");
+//     console.log("Student Form Data : ", formData);
+//     if (validateForm()) {
+//       // Form is valid, clear the form data
+//       setFormData({
+//         fullname: "",
+//         email: "",
+//         phone: "",
+//         userType: "student",
+//         availability: "morning",
+//         course: "", // Resetting course field
+//       });
+//       const response = await axios.post(
+//         "http://localhost:5000/storedata",
+//         formData
+//       );
+//       alert("Data stored sucessfully");
+//     } else {
+//       // Form is not valid, do something like showing an error message
+//       console.log(
+//         "Form submission failed. Please fill in all required fields."
+//       );
+//     }
+//   };
+
+//   const validateForm = () => {
+//     // Check if required fields are filled out
+//     return (
+//       formData.fullname !== "" &&
+//       formData.email !== "" &&
+//       formData.phone !== "" &&
+//       formData.course !== "" // Adding validation for course field
+//     );
+//   };
+
+//   return (
+//     <form onSubmit={handleSubmit} className="form-container">
+//       <div className="form-group">
+//         <input
+//           type="text"
+//           placeholder="Full Name *"
+//           name="fullname"
+//           value={formData.fullname}
+//           onChange={handleChange}
+//           required
+//         />
+//       </div>
+//       <div className="form-group">
+//         <input
+//           type="email"
+//           placeholder="Email *"
+//           name="email"
+//           value={formData.email}
+//           onChange={handleChange}
+//           required
+//         />
+//       </div>
+//       <div className="form-group">
+//         <input
+//           type="tel"
+//           placeholder="Phone No *"
+//           name="phone"
+//           value={formData.phone}
+//           onChange={handleChange}
+//           required
+//         />
+//       </div>
+//       <div className="form-group">
+//         <select
+//           placeholder="User Type"
+//           name="userType"
+//           value={formData.userType}
+//           onChange={handleChange}
+//         >
+//           <option value="student">Student</option>
+//           <option value="job seeker">Job Seeker</option>
+//           <option value="working professional">Working Professional</option>
+//           <option value="other">Other</option>
+//         </select>
+//       </div>
+//       <div className="form-group">
+//         <select
+//           placeholder="Availability"
+//           name="availability"
+//           value={formData.availability}
+//           onChange={handleChange}
+//         >
+//           <option value="morning">Morning</option>
+//           <option value="afternoon">Afternoon</option>
+//           <option value="evening">Evening</option>
+//           <option value="other">
+//             I'd like to have more details, before I decide.
+//           </option>
+//         </select>
+//       </div>
+//       <div className="form-group">
+//         <select
+//           placeholder="Course"
+//           name="course"
+//           value={formData.course}
+//           onChange={handleChange}
+//           required
+//         >
+//           <option value="">Select Course</option>
+//           <option value="c">C</option>
+//           <option value="c++">C++</option>
+//           <option value="java">Java</option>
+//           <option value="java-full-stack">Java Full Stack</option>
+//           <option value="python">Python</option>
+//           <option value="python-full-stack">Python Full Stack</option>
+//           <option value="machine-learning">Machine Learning</option>
+//           <option value="data-science">Data Science</option>
+//           <option value="react-js">React JS</option>
+//           <option value="software-testing">Software Testing</option>
+//           <option value="data-structures">Data Structures</option>
+//         </select>
+//       </div>
+//       <center>
+//         <button className="explore-button" type="submit">
+//           Submit
+//         </button>
+//       </center>
+//     </form>
+//   );
+// };
+
+// export default FormComponent;

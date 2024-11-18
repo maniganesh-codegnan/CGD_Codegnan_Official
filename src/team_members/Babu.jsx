@@ -1,16 +1,15 @@
-// import './about.css';
 import './team.css';
-import prasanna from '/members/prasanna_photo.jpeg';
+import babu from "/members/babu.png";
 
-export default function Prasanna() {
+export default function Babu() {
     return (
         <div className="team_about"><br /><br />
             <center>
-                <h1>Our Team Members at codegnan</h1>
+                {/* <h1>Our Team Members at codegnan</h1> */}
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                    <h2><span className="Linkcolor">Prasanna, </span> Senior Aptitude Trainer at Codegnan, </h2>
+                    <h2><span className="Linkcolor">Babu, </span> Senior Aptitude Trainer at Codegnan, </h2>
                     {/* <img src={style} alt="" /> */}
                     <br />
 
@@ -31,14 +30,13 @@ export default function Prasanna() {
                         <li><i className="fa-solid fa-check-double check_double"></i> Freelance Aptitude Trainer, providing personalized training sessions and competitive exam preparation. </li>
                         <li><i className="fa-solid fa-check-double check_double"></i> Aptitude Trainer at Venus Institute of Competitive Exams and Eswar College of Engineering, focusing on enhancing students' problem-solving and logical reasoning abilities for competitive exams..</li>
                     </ul>
-
                 </div>
                 <div className='ceo_img1'>
-                    <img src={prasanna} />
+                    <img src={babu} alt='Babu Photo'/>
                     <br />
                     <center>
                         <span>
-                            <a href="https://www.linkedin.com/in/prasanna-vatturi-05b87a29b/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
+                            <a href="https://www.linkedin.com/in/ganesh-babu-b87021274/" target='_blank'><i className="fa-brands fa-linkedin-in social-icon"></i></a>
                         </span>
                     </center>
                 </div><br /><br />
