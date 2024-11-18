@@ -6,14 +6,12 @@ export default function Kishor_Kumar() {
     return (
         <div className="team_about"><br /><br />
             <center>
-                {/* <h1>Our Team Members at codegnan</h1> */}
+                <h1>Our Team Members at codegnan</h1>
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                <h2><span className="Linkcolor"> Kishor Kumar, </span> Senior Full Stack Corporate Trainer at codegnan </h2>
-                {/* <img src={style} alt="" /> */}
-                    <br />
-                    <p style={{ textAlign:'justify' }}>FULL STACK CORPORATE TRAINER</p>
+                <h2><span className="Linkcolor"> Kishor Kumar </span>  <span style={{color:'blue'}}>(Senior Full Stack Corporate Trainer at codegnan) </span></h2>                
+                    <br /><br />
                     <br />
                     <span style={{ fontSize: '19px' , textAlign:'left'}}>Kishor Kumar is a freelance corporate trainer having 20+ years of expertise in corporate training. He hones his expertise in Java, having trained in many corporates, including JP Morgan Chase, TCS, HSBC, DBS, and many more.</span>
                     <br /><br />

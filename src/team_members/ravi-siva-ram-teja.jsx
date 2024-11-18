@@ -10,12 +10,10 @@ export default function Siva_ram_teja() {
             </center>
             <div className='ceoo'>
                 <div className='ceo_info1'>
-                <h2><span className="Linkcolor"> Ravi Siva Ram Teja Nagulavancha, </span> MERN Stack Developer & Mentor at codegnan </h2>
-                {/* <img src={style} alt="" /> */}
+                <h2><span className="Linkcolor"> Ravi Siva Ram Teja Nagulavancha </span> <span style={{color:'blue'}}> (MERN Stack Developer & Senior Trainer at Codegnan)</span></h2>
+               <br /><br />                 
                     <br />
-                    <p style={{ textAlign:'justify' }}>MERN STACK DEVELOPER </p>
-                    <br />
-                    <span style={{ fontSize: '19px' , textAlign:'left'}}> Ravi Siva Ram Teja is a Developer and Mentor with a background in BTech in Computer science and 4+ years of hands-on experience and expertise as a full-stack developer and mentor. </span>
+                    <span style={{ fontSize: '19px' , textAlign:'left'}}> Ravi Siva Ram Teja is a Developer and Senior with a background in BTech in Computer science and 4+ years of hands-on experience and expertise as a full-stack developer and mentor. </span>
                     <br /><br />
                    
                     <p> Ravi Siva Ram Teja is a seasoned IT professional with a computer science background and over 4+ years of experience in this domain.</p><br />
