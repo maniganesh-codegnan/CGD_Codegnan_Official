@@ -24,8 +24,8 @@ const FormComponent = () => {
     if (validateForm()) {
       try {
         const response = await axios.post(
-          // "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
-          "http://localhost:5000/storedata",
+          "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
+          // "http://localhost:5000/storedata",
           formData,
           {
             headers: {
