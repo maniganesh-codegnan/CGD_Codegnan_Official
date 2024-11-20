@@ -44,7 +44,7 @@ const data = [
 ];
 
 function Testimonials() {
-  alert("Our Testimonials Card");
+  alert("Our Testimonials Card_Model display");
   const settings = {
     dots: true,
     infinite: true,
@@ -126,5 +126,4 @@ function Testimonials() {
     </div>
   );
 }
-
 export default Testimonials;
