@@ -3,12 +3,14 @@ import "./form.css";
 import axios from "axios";
 
 const FormComponent = () => {
+  // State to manage form data
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     mobile: "",
   });
 
+  // Handles input changes and updates state
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
@@ -17,26 +19,36 @@ const FormComponent = () => {
     }));
   };
 
+  // Form submission logic
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    alert("Form Data added");
-    console.log("Student Form Data : ", formData);
+    e.preventDefault(); // Prevents default form behavior
+    console.log("Student Form Data: ", formData);
+
     if (validateForm()) {
       try {
+        // Sending data to the server
         const response = await axios.post(
-          "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
-          // "http://localhost:5000/storedata",
+          // "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
+          // "http://localhost:5001/storedata",
+          "http://127.0.0.1:5000/studentdata",
+
           formData,
           {
             headers: {
-              "Content-Type": "application/json", // Ensures payload is JSON formatted
+              "Content-Type": "application/json",
             },
           }
         );
-        alert("Data stored successfully");
-        console.log("Server Response:", response.data);
+        console.log("response", response);
 
-        // Reset form after submission
+        if (response.status === 200) {
+          alert("Data stored successfully!");
+          console.log("Response Data:", response.data);
+        } else {
+          console.log("Unexpected response:", response.status, response.data);
+          alert("Unexpected server response. Please try again.");
+        }
+        // Reset the form fields after successful submission
         setFormData({
           name: "",
           email: "",
@@ -47,13 +59,14 @@ const FormComponent = () => {
           "Error storing data:",
           error.response?.data || error.message
         );
-        alert("Failed to store data. Please try again.");
+        alert("Failed to store data. Please try again later.");
       }
     } else {
       alert("Please fill in all required fields.");
     }
   };
 
+  // Validation logic to ensure all fields are filled
   const validateForm = () => {
     const { name, email, mobile } = formData;
     return name.trim() && email.trim() && mobile.trim();
@@ -102,6 +115,7 @@ const FormComponent = () => {
 export default FormComponent;
 
 ///==========================================================================================================================//
+//// "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
 // import { useState } from "react";
 // import "./form.css";
 // import axios from "axios";
