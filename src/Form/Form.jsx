@@ -4,6 +4,7 @@ import axios from "axios";
 
 const FormComponent = () => {
   // State to manage form data
+  const [isLoading, setIsLoading] = useState(false);
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -25,10 +26,10 @@ const FormComponent = () => {
     console.log("Student Form Data: ", formData);
 
     if (validateForm()) {
+      setIsLoading(true); // Start loading
       try {
         // Sending data to the server
         const response = await axios.post(
-
           // "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
           // "http://localhost:5001/storedata",
           "http://127.0.0.1:5000/studentdata",
@@ -42,7 +43,7 @@ const FormComponent = () => {
         );
         console.log("response", response);
 
-        if (response.status === 200) {
+        if ((response.status === 200) | 201) {
           alert("Data stored successfully!");
           console.log("Response Data:", response.data);
         } else {
@@ -61,6 +62,8 @@ const FormComponent = () => {
           error.response?.data || error.message
         );
         alert("Failed to store data. Please try again later.");
+      } finally {
+        setIsLoading(false); // End loading
       }
     } else {
       alert("Please fill in all required fields.");
@@ -70,7 +73,24 @@ const FormComponent = () => {
   // Validation logic to ensure all fields are filled
   const validateForm = () => {
     const { name, email, mobile } = formData;
-    return name.trim() && email.trim() && mobile.trim();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const mobileRegex = /^[0-9]{10}$/;
+
+    if (!name.trim()) {
+      alert("Please enter your full name.");
+    } else if (!emailRegex.test(email)) {
+      alert("Please enter a valid email address.");
+    } else if (!mobileRegex.test(mobile)) {
+      alert("Please enter a valid 10-digit mobile number.");
+    }
+
+    return (
+      name.trim() &&
+      email.trim() &&
+      mobile.trim() &&
+      emailRegex.test(email) &&
+      mobileRegex.test(mobile)
+    );
   };
 
   return (
@@ -106,8 +126,11 @@ const FormComponent = () => {
         />
       </div>
       <center>
-        <button className="explore-button" type="submit">
+        {/* <button className="explore-button" type="submit">
           Submit
+        </button> */}
+        <button className="explore-button" type="submit" disabled={isLoading}>
+          {isLoading ? "Submitting..." : "Submit"}
         </button>
       </center>
     </form>
