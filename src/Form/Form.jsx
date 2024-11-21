@@ -30,7 +30,6 @@ const FormComponent = () => {
       try {
         // Sending data to the server
         const response = await axios.post(
-
           // "https://codegnan.amoga.io/api/v2/core/service/apt/trigger/website-9ht4s4",
           // "http://localhost:5001/storedata",
           "http://127.0.0.1:5000/studentdata",
@@ -44,7 +43,7 @@ const FormComponent = () => {
         );
         console.log("response", response);
 
-        if (response.status === 200) {
+        if ((response.status === 200) | 201) {
           alert("Data stored successfully!");
           console.log("Response Data:", response.data);
         } else {
