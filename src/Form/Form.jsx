@@ -23,7 +23,7 @@ const FormComponent = () => {
   // Form submission logic
   const handleSubmit = async (e) => {
     e.preventDefault(); // Prevents default form behavior
-    console.log("Student Form Data: ", formData);
+    console.log("Student details Form Data: ", formData);
 
     if (validateForm()) {
       setIsLoading(true); // Start loading
