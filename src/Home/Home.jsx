@@ -2,7 +2,7 @@ import "./home.css";
 import "../helper.js";
 // import React, { useState } from "react";
 import Rated from "./Rated";
-import banner from "./banner.webp";
+// import banner from "./banner.webp";
 import rate1 from "./rate_1.webp";
 import rate3 from "./rate3.webp";
 import rate4 from "./rate4.webp";
@@ -41,6 +41,7 @@ import ceo from "/members/sairam-sir.webp";
 import saketh from "/members/saketh.webp";
 import Collaboration from "../Collabarations.jsx";
 import Video_Testimonials from "../video-testimonials.jsx";
+import SessionPage from "../components/SessionPage";
 
 import { Helmet } from "react-helmet";
 
@@ -72,7 +73,7 @@ export default function Home() {
           content="Codegnan offers finishing schools for students starting their career in tech. Become job-ready with our expert trainer led online and classroom IT courses."
         />
       </Helmet>
-      <div className="home">
+      {/* <div className="home">
         <div className="banner_div">
           <h1>
             Online & classroom <br />{" "}
@@ -124,7 +125,8 @@ export default function Home() {
         <span>
           <img src={banner} alt="" className="banner-img" width="100%"></img>
         </span>
-      </div>
+      </div> */}
+      <div><SessionPage/></div>
       <div className="rating_container">
         <div className="rated_div">
           <Rated

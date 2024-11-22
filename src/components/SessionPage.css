@@ -1,0 +1,575 @@
+/* Container Setup */
+.sessionCls {
+  width: 100%;
+  height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+  /* padding: 1rem; */
+  /* border:0.1px solid rgba(239, 238, 238, 0.858); */
+}
+
+.session-page {
+  width: 1440px;
+  height: 920px;
+  /* border:2px solid red; */
+  padding: 1rem;
+}
+
+/* Header Styling */
+.header h1 img {
+  font-size: 40px;
+  font-family: "monda";
+  font-weight: 600;
+  /* font-weight: bold; */
+  width: 560px;
+  height: 65px;
+  /* shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5); */
+  position: relative;
+  left: 1.8rem;
+  top: 1rem;
+  /* inter,light */
+}
+
+.header h2 img {
+  font-size: 80px;
+  width: 675px;
+  height: 90px;
+  padding: 5px;
+  color: #14238a;
+  font-family: "monda";
+  font-weight: 700;
+}
+
+.code-text {
+  color: #14238a;
+}
+
+.red-text {
+  color: #ee1e3d;
+}
+
+/* Features Section */
+.features-section {
+  padding: 0.5rem 0;
+}
+
+.features-list {
+  width: 656px;
+  height: 305px;
+  list-style-type: none;
+  padding-left: 0;
+  position: relative;
+  /* top:1rem; */
+  left: 2.5rem;
+}
+
+.features-list li {
+  margin: 0.5rem;
+  width: 656px;
+  text-align: left;
+  font-size: 24px;
+  /* font-weight:semi bold; */
+  /* font-family: montserrat; */
+  font-family: "monda";
+  /* 'Lato', 'Montserrat', sans-serif;   */
+  font-weight: 600;
+  /* Light: 200
+       - Regular: 400
+       - Semi-bold: 600
+       - Extra Bold: 800
+    */
+}
+
+.features-list img {
+  margin-right: 0.8rem;
+  width: 49px;
+  height: 48px;
+}
+
+/* Decorations Circle */
+.dotImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  position: absolute;
+  top: 6rem;
+  /* left:0; */
+}
+.dotImg img {
+  width: 3rem;
+  height: 6rem;
+  position: absolute;
+  left: 0;
+  top: 1rem;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  position: absolute;
+  left: 22rem;
+  top: 14rem;
+}
+.center-container img {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  position: absolute;
+  left: 45rem;
+}
+.btm_circle {
+  position: absolute;
+  top: -15rem;
+}
+
+.bottom-container img {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+
+/* Statistics */
+.statistics {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 0;
+  position: relative;
+  left: 5rem;
+}
+
+.studentImg {
+  width: 173px;
+  height: 245px;
+  position: relative;
+  left: -3.8rem;
+  top: 0;
+}
+/* Apply height change for student image */
+.studentImg.stu_Img {
+  width: auto; /* You can adjust this or keep it as 'auto' */
+  height: 280px !important; /* Forcefully apply the height */
+}
+
+.studentResults {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  position: relative;
+  left: -3.5rem;
+  top: 2.5rem;
+}
+
+.studentResults div h3 {
+  width: 133px;
+  height: 39px;
+  text-align: left;
+  padding-left: 1rem;
+  color: #ee1e3d;
+  font-size: 32px;
+  /* Montserrat */
+  font-family: "Montserrat";
+  /* 'Lato', 'Montserrat', sans-serif;   */
+  font-weight: 700;
+}
+
+.studentResults div p {
+  width: 146px;
+  height: 29px;
+  /* font-weight: bold; */
+  font-size: 18px;
+  /* Montserrat */
+  font-family: "Monda";
+  /* 'Lato', 'Montserrat', sans-serif;   */
+  font-weight: 600;
+  /* Light: 200
+       - Regular: 400
+       - Semi-bold: 600
+       - Extra Bold: 800
+    */
+}
+.studentResults .rating {
+  width: 115px;
+  height: 22px;
+  position: relative;
+  top: -2.5rem;
+  left: 3.7rem;
+}
+
+.dash {
+  font-size: 2.6rem;
+  padding: 0.8rem;
+  position: relative;
+  top: -1rem;
+  font-weight: 300;
+  height: 10rem;
+}
+
+/* Right Section Styling */
+.bgImage {
+  width: 1259px;
+  height: 1089px;
+  /* border: 2px solid yellow; */
+  position: relative;
+}
+.bgBlueRight {
+  position: absolute;
+  right: 0;
+  top: -5rem;
+}
+
+.backImg {
+  position: relative;
+}
+
+.centerStudent img {
+  width: 188px;
+  height: 193px;
+}
+
+.student1 img,
+.student2 img,
+.student3 img,
+.student4 img,
+.student5 img,
+.student6 img,
+.student7 img,
+.student8 img {
+  width: 80px;
+  height: 120px;
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  top: -2rem; /*  if Needed */
+  width: 100%;
+  /* height: 1rem; Adjust the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-background {
+  width: 100%;
+  height: 8rem;
+  /* border:2px solid green; */
+  background-image: url("../photos/sessionPage/blueBottom_Img.png");
+  background-size: cover; /* Ensure the image covers the entire background */
+  background-position: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolte;
+  top: 5rem;
+  left: -1rem;
+}
+
+.footerPara {
+  color: white;
+  align-items: center;
+  text-align: center;
+  font-size: 1.3rem;
+  font-family: "monda";
+  font-weight: 800;
+  width: 821px;
+  height: 84px;
+  position: absolute;
+  left: 4rem;
+  line-height: 2rem;
+  top: 2rem;
+}
+.footer-background .para {
+  text-align: center;
+}
+
+/* All Students */
+.centerStudent {
+  position: absolute;
+  top: 33%;
+  right: 30%;
+}
+.centerStudent img {
+  width: 188px;
+  height: 193px;
+}
+
+.studentSalary {
+  width: 129px;
+  height: 48px;
+  color: #fdfa01;
+  font-size: 40px;
+  font: bold;
+  /* inter, semibold */
+  position: absolute;
+  top: 54%;
+  right: 38%;
+}
+.studentCompany {
+  width: 83px;
+  height: 29px;
+  color: #ffffff;
+  font-size: 24px;
+  font: medium;
+}
+
+.student1 img,
+.student2 img,
+.student3 img,
+.student4 img,
+.student5 img,
+.student6 img,
+.student7 img,
+.student8 img {
+  width: 105px;
+  height: 164px;
+}
+.student1 {
+  position: absolute;
+  top: 37%;
+  left: 18%;
+}
+.student2 {
+  position: absolute;
+  top: 15%;
+  left: 26%;
+}
+.student3 {
+  position: absolute;
+  top: 3%;
+  left: 45%;
+}
+.student4 {
+  position: absolute;
+  top: 6%;
+  left: 68%;
+}
+.student5 {
+  position: absolute;
+  top: 26%;
+  left: 84%;
+}
+.student6 {
+  position: absolute;
+  top: 53%;
+  left: 81%;
+}
+
+.student7 {
+  position: absolute;
+  top: 66%;
+  left: 56%;
+}
+.student8 {
+  position: absolute;
+  top: 58%;
+  left: 30%;
+}
+.allPlaced {
+  color: #fdfa01;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: monda;
+  width: 450px;
+  height: 39px;
+  padding: 5px;
+  position: absolute;
+  top: 81%;
+  left: 45%;
+}
+.moreStudents {
+  color: #14238a;
+  font-size: 20px;
+  border-radius: 50px;
+  width: 138px;
+  height: 60px;
+  border: 3px solid #14238a;
+  text-decoration: none;
+  background-color: #fff;
+  position: relative;
+  left: 1rem;
+  /* margin: 5px; */
+}
+.seeMore {
+  color: #14238a;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.seeMore a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.seeMore a:hover {
+  color: #14238a;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/*======== */
+
+/* Base styles */
+.sessionCls {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  height: auto;
+  /* padding: 1rem; */
+  /* border: 0.1px solid rgba(239, 238, 238, 0.858); */
+}
+
+.session-page {
+  width: 100%;
+  padding: 1rem;
+}
+
+/* Responsive Design */
+
+@media (min-width: 576px) {
+  .features-list {
+    font-size: 14px;
+  }
+
+  .studentImg {
+    width: 80px;
+    height: 120px;
+  }
+
+  .centerStudent img {
+    width: 80px;
+    height: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  .features-list {
+    font-size: 16px;
+  }
+
+  .studentImg {
+    width: 100px;
+    height: 150px;
+  }
+
+  .centerStudent img {
+    width: 100px;
+    height: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .features-list {
+    font-size: 20px;
+  }
+
+  .studentImg {
+    width: 140px;
+    height: 210px;
+  }
+
+  .centerStudent img {
+    width: 160px;
+    height: 170px;
+  }
+
+  .bottom-container {
+    left: 30rem;
+    top: 28rem;
+  }
+
+  @media (min-width: 1400px) {
+    .header {
+      width: 100%; /* Set the width of the .header */
+    }
+    .header h1 img {
+      width: 560px;
+      height: 65px;
+      position: relative;
+      left: 10rem;
+      /* top: 1rem; */
+    }
+    .header h2 img {
+      width: 980px;
+      height: 90px;
+      position: relative;
+      left: 2rem;
+      top: 1rem;
+    }
+    .header .startText {
+      width: 960px;
+      position: relative;
+      top: 0.3rem;
+      left: 1rem;
+      /* height: auto; */
+    }
+    .dotImg {
+      top: 5.3rem;
+    }
+    .dotImg img {
+      width: 3rem;
+      height: 7rem;
+    }
+    .features-list li {
+      font-size: 22px;
+    }
+    .studentImg {
+      width: 150px;
+      height: 310px;
+      position: relative;
+      top: -3rem;
+    }
+    .center-container {
+      height: 40vh;
+      position: absolute;
+      left: 30rem;
+    }
+    .centerStudent img {
+      width: 225px;
+      height: 205px;
+    }
+    .footer-background {
+      width: 100%;
+      height: 6rem;
+      position: absolute;
+      top: 10rem;
+      left: -1rem;
+    }
+
+    .dash {
+      font-size: 4rem;
+      padding: 2.2rem;
+      position: relative;
+      top: -3.4rem;
+      left: 1.5rem;
+      font-weight: 300;
+      height: 15rem;
+    }
+    .bgImage {
+      width: 950px;
+      height: 950px;
+    }
+    .footerPara {
+      left: 8rem;
+      width: 660px;
+      height: 18px;
+      font-size: 1.3rem;
+      line-height: 1.8rem;
+      padding-left: 6rem;
+    }
+
+    .bottom-container {
+      left: 48rem;
+      top: -1rem;
+    }
+  }
+}
