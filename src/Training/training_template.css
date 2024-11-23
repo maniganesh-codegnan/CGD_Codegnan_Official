@@ -1,502 +1,120 @@
 .tth {
-    /* margin-top: 100px; */
-    padding-bottom: 100px;
+  /* margin-top: 100px; */
+  padding-bottom: 100px;
 }
 
 .download_broucher {
-    height: 36px;
-    width: 340px;
-    padding: 10px 20px;
-    color: white;
-    border-radius: 10px;
+  height: 36px;
+  width: 340px;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  /* background-color: #ba243b; */
+
+  button {
+    font-size: 16px;
     background-color: #ba243b;
+    border-radius: 10px;
+    color: white;
+    border: none;
 
-    button {
-        font-size: 16px;
-        background-color: #ba243b;
-        color: white;
-        border: none;
-
-        span {
-            text-decoration: underline;
-        }
-
-        cursor: pointer;
+    span {
+      text-decoration: underline;
     }
+
+    cursor: pointer;
+  }
 }
 
-
 .training_template_headerdetails {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    .ins {
-        font-size: 28px;
-        font-weight: 680;
-        color: #ba243b;
-        padding: 10px;
+  .ins {
+    font-size: 28px;
+    font-weight: 680;
+    color: #ba243b;
+    padding: 10px;
+  }
+
+  .course_head_details {
+    h2 {
+      font-size: 30px;
+      padding: 10px;
     }
 
-    .course_head_details {
-        h2 {
-            font-size: 30px;
-            padding: 10px;
-        }
+    width: 720px;
+    padding: 20px;
+    margin: 10px;
+    line-height: 1.5;
 
-        width:720px;
-        padding:20px;
-        margin:10px;
-        line-height: 1.5;
+    p {
+      font-size: 19px;
+      padding: 20px 10px;
+      line-height: 26px;
+    }
+  }
 
-        p {
-            font-size: 19px;
-            padding: 20px 10px;
-            line-height: 26px;
-        }
+  .ldpr {
+    text-decoration: none;
+    margin-bottom: 20px;
+    padding: 10 0px;
+
+    .t_t_icon {
+      padding: 10px;
+      font-size: 20px;
     }
 
-    .ldpr {
-        text-decoration: none;
-        margin-bottom: 20px;
-        padding: 10 0px;
+    .star_t_t {
+      color: rgb(239, 181, 34);
+      font-size: 18px;
+    }
+  }
 
-        .t_t_icon {
-            padding: 10px;
-            font-size: 20px;
-        }
+  .training_template_form_1 {
+    border-top: 5px solid #ba243b;
+    background-color: #f3f3f3;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+    line-height: 1.5;
 
-        .star_t_t {
-            color: rgb(239, 181, 34);
-            font-size: 18px;
-        }
+    h4 {
+      padding-bottom: 10px;
+      font-size: 24px;
+      font-weight: 500;
     }
 
-    .training_template_form_1 {
-        border-top: 5px solid #ba243b;
-        background-color: #f3f3f3;
-        margin: 20px;
-        padding: 20px;
-        width: 400px;
-        border-radius: 10px;
-        line-height: 1.5;
-
-        h4 {
-            padding-bottom: 10px;
-            font-size: 24px;
-            font-weight: 500;
-        }
-
-        p {
-            font-size: 18px;
-        }
+    p {
+      font-size: 18px;
     }
+  }
 
-    a {
-        text-decoration: none;
-        cursor: pointer;
-    }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
 
-    .explore-button {
-        background-color: #1AB69D;
-        border-radius: 15px;
-        color: white;
-        padding: 15px;
-        font-size: 17px;
-    }
+  .explore-button {
+    background-color: #1ab69d;
+    border-radius: 15px;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+  }
 
-    .explore-button:hover {
-        background-color: #cc3366;
-
-    }
+  .explore-button:hover {
+    background-color: #cc3366;
+  }
 }
 
 .service_provided_in_training {
-    background-color: #11AD93;
-    padding: 30px;
-    padding-bottom: 60px;
-    .sevices_provided {
-        /* width:1000px; */
-        align-items: center;
-        text-align: center;
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-        gap: 40px;
-        font-weight: bolder;
-        color: white;
-        justify-content: center;
-        padding: 10px;
-    }
-    .each_service {
-        height: 90px;
-        width: 140px;
-        padding: 0px 10px;
-        font-size: 13px;
-        text-align: center;
-    }
-    img {
-        height: 48px;
-        width: 48px;
-    }
-}
-.course_breif{
-    padding: 100px 0;
-    .breif_about_course{
-       padding: 20px;
-        text-align: left; 
-        width: 900px;
-        h1{
-            text-align: center;
-            font-size: 36px;
-        }
-        p{
-            line-height: 1.5;
-            font-size: 19px;
-        }
-        li{
-            list-style: none;
-            font-size: 19px;
-            line-height: 1.5;
-            padding: 5px;
-        }
-        .check_double{
-            height: 20px;
-            width:20px;
-            color:#cc3366;
-            font-weight: bolder;
-            padding: 1px;
-        }
-    }
-}
-.career_scope_container{
-    background-color:#e3f7f5;
-    padding:50px;
-}
-.career_scope{
-    padding:20 px;
-    text-align: left;
-    width:1000px;
-    h1{
-        text-align: center;
-        padding: 10px;
-    }
-    .carrer_scope_info{
-        background-color: white;
-        padding:20px;
-        line-height: 1.5;
-        font-size: 18px;
-        border-radius: 10px;
-    }
-    .each_scope{
-        padding: 20px;
-        /* width: 460px; */
-        line-height: 1.5;
-        font-size: 18px;
-        background-color: white;
-        border-radius: 10px;
-        h4{
-            color: #1AB69D;
-            padding:10px 0;
-            
-        }
-        h3{
-            padding:10px 0;
-            color:#ba243b;
-            text-decoration: none;
-        }
-        h4:hover{
-            color:#ba243b;    
-            text-decoration: dotted;
-        }
-       
-        
-        p{
-            margin-top: 10px;
-            line-height: 26px;
-        }
-    }
-    .each_scope_container{
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-       gap:40px;
-    }
-    .special_p{
-        background-color: white;
-        padding:20px;
-        line-height: 1.5;
-        font-size: 18px;
-        border-radius: 10px;
-    }
-}
-
-.mentors_of_the_course{
-    margin:100px 0px;
-}
-.mentors_container{
-    text-align: left;
-    width:1100px;
-    .course_mentor_image{
-        height:380px;
-        width:300px;
-        border-top-left-radius: 20px;
-        border-bottom-right-radius: 20px;
-        box-shadow: 0 0 20px lightgray;
-    }
-    .metor_description{
-        padding:20px;
-       width:720px;
-       h2{
-        color: #ba243b;
-        padding: 0px 0px 20px  0px;
-       }
-       p{
-        line-height: 1.5;
-       }
-    }
-    .mentor{
-        padding:50px 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-  }
-
-.course_pricing_details{
-    width:780px;
-    padding:10px;
-    p{
-        text-align: left;
-        line-height: 1.5;
-        font-size: 18px;
-    }
-}
-.other_locations_container{
-    width:800px;
-    text-align: left;
-    padding:20px;
-    border:1px solid darkgray;
-    border-radius: 10px;
-
-    .olp{
-        text-decoration: none;
-        color:#ba243b;
-    }
-    .olp:hover{
-        color:#1AB69D;
-    }
-    .olpul{
-        li{
-            list-style-type: none;
-            display: inline;
-            
-        }
-    }
-}
-
-.other_locations{
-    padding:70px 0px;
-}
-.map_grid-container1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 50px 0;
-  }
-  
-  .map_grid-item1 {
-    flex: 1;
-    overflow: hidden;
-    border-radius: 20px;
-    box-shadow: 0 0 10px whitesmoke;
-    height:380px;
-    width: 560px;
-    
-  }
-  .map_grid-item2{
-    /* box-shadow: 0 0 10px gray; */
-    box-shadow: 0px 30px 50px 0px rgba(7.999999999999998, 2.000000000000002, 33, 0.10196078431372549);
-    width:400px;
-    padding:40px;
-    margin-left: 60px;
-    text-align: left;
-    background-color: white;
-    border-radius: 10px;
-    a{
-        text-decoration: none;
-        color:#cc3366;
-    }
-    a:hover{
-        color: #1AB69D;
-    }
-    .en-icon{
-        font-size: 25px;
-        color:green;
-    }
-    .phone-icon{
-        font-size: 25px;
-        color:green;
-    }
-    .add-icon{
-        font-size: 25px;
-        color:green;
-    }
-    span{
-        padding: 0 20px;
-        font-weight: bolder;
-    }
-    p{
-        color: darkgrey;
-        padding-left: 50px;
-    }
-
-  }
-  .show-right{
-    font-size: 28px;
-    color:goldenrod;
-  }
-
-  .map_section{
-    h1{
-        padding-top: 50px;
-        font-size: 36px;
-    }
-  }
-
-  .link-button {
-    text-decoration: none; 
-}
-.codegnan_success{
-    width:1140px;
-    padding:70px 0px;
-    h4{
-        color:#ba243b;
-        padding:20px;
-    }
-    p{
-        font-size: 20px;
-        text-align: left;
-        color: rgb(60, 60, 60);
-    }
-  
-}
-.offer{
-    color: #6b6b6bc0;
-    font-family: 'Times New Roman', Times, serif;
-}
-.discount{
-    color: #cc3366;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
-}
-
-
-  /* ================================ */
-  
-
-
-/* Media query for mobile view */
-@media only screen and (max-width: 767px) {
-    .training_template_headerdetails {
-        flex-direction: column; 
-        align-items: center;
-    }
-
-    .training_template_headerdetails .course_head_details,
-    .training_template_headerdetails .training_template_form_1 {
-        width: 100%; 
-    }
-
-    .service_provided_in_training .sevices_provided {
-        width: auto; 
-        grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); 
-        gap: 38px; 
-    }
-    .course_breif {
-        padding: 50px 20px;
-    }
-    
-    .breif_about_course {
-        /* padding: 20px; */
-        /* text-align: left; */
-        max-width: 100%; 
-        margin: 0 auto; 
-    }
-    .career_scope {
-        width: 90%;
-    }
-
-    .each_scope {
-        width: 310px!important; 
-    }
-    .career_scope_container {
-        padding: 30px; 
-    }
-    .career_scope {
-        /* padding: 10px; */
-        text-align: left;
-        max-width: 1000px; 
-        margin: 0 auto;
-    }
-    .mentors_container {
-        width: 100%; 
-        max-width: 600px; 
-        margin: 0 auto; 
-    
-        .course_mentor_image {
-            /* height: auto;  */
-            width: 100%; 
-            border-radius: 20px;
-            box-shadow: 0 0 20px lightgray;
-        }
-    
-        .metor_description {
-            padding: 20px;
-            width: 100%;
-        }
-    
-        .mentor {
-            padding: 50px 0px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column; 
-        }
-    }
-    .course_pricing_details {
-        width: 100%;
-        /* max-width: 780px;  */
-        padding: 20px;
-    }
-    .other_locations_container {
-        width: 90%; 
-        max-width: 800px; 
-        margin: 0 auto; 
-    }
-    .other_locations {
-    padding: 30px 0; 
-    }
-    .map_grid-container1 {
-        display: grid;
-        grid-template-columns: 1fr; 
-        gap: 0px; 
-        }
-    
-        .map_grid-item1 {
-            width: 65%; /* Set width to 100% for mobile and tablet */
-        }
-    
-        .map_grid-item2 {
-            width: 75%;
-        }
-        .mapSrc{
-            width: 40%;
-        }
-}
-
-
-
-/* Styles for desktop/laptop view */
-.service_provided_in_training .sevices_provided {
-    /*width: 1000px;*/
+  background-color: #11ad93;
+  padding: 30px;
+  padding-bottom: 60px;
+  .sevices_provided {
+    /* width:1000px; */
     align-items: center;
     text-align: center;
     display: grid;
@@ -506,168 +124,526 @@
     color: white;
     justify-content: center;
     padding: 10px;
+  }
+  .each_service {
+    height: 90px;
+    width: 140px;
+    padding: 0px 10px;
+    font-size: 13px;
+    text-align: center;
+  }
+  img {
+    height: 48px;
+    width: 48px;
+  }
+}
+.course_breif {
+  padding: 100px 0;
+  .breif_about_course {
+    padding: 20px;
+    text-align: left;
+    width: 900px;
+    h1 {
+      text-align: center;
+      font-size: 36px;
+    }
+    p {
+      line-height: 1.5;
+      font-size: 19px;
+    }
+    li {
+      list-style: none;
+      font-size: 19px;
+      line-height: 1.5;
+      padding: 5px;
+    }
+    .check_double {
+      height: 20px;
+      width: 20px;
+      color: #cc3366;
+      font-weight: bolder;
+      padding: 1px;
+    }
+  }
+}
+.career_scope_container {
+  background-color: #e3f7f5;
+  padding: 50px;
+}
+.career_scope {
+  padding: 20 px;
+  text-align: left;
+  width: 1000px;
+  h1 {
+    text-align: center;
+    padding: 10px;
+  }
+  .carrer_scope_info {
+    background-color: white;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+    border-radius: 10px;
+  }
+  .each_scope {
+    padding: 20px;
+    /* width: 460px; */
+    line-height: 1.5;
+    font-size: 18px;
+    background-color: white;
+    border-radius: 10px;
+    h4 {
+      color: #1ab69d;
+      padding: 10px 0;
+    }
+    h3 {
+      padding: 10px 0;
+      color: #ba243b;
+      text-decoration: none;
+    }
+    h4:hover {
+      color: #ba243b;
+      text-decoration: dotted;
+    }
+
+    p {
+      margin-top: 10px;
+      line-height: 26px;
+    }
+  }
+  .each_scope_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 40px;
+  }
+  .special_p {
+    background-color: white;
+    padding: 20px;
+    line-height: 1.5;
+    font-size: 18px;
+    border-radius: 10px;
+  }
 }
 
+.mentors_of_the_course {
+  margin: 100px 0px;
+}
+.mentors_container {
+  text-align: left;
+  width: 1100px;
+  .course_mentor_image {
+    height: 380px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 0 0 20px lightgray;
+  }
+  .metor_description {
+    padding: 20px;
+    width: 720px;
+    h2 {
+      color: #ba243b;
+      padding: 0px 0px 20px 0px;
+    }
+    p {
+      line-height: 1.5;
+    }
+  }
+  .mentor {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.course_pricing_details {
+  width: 780px;
+  padding: 10px;
+  p {
+    text-align: left;
+    line-height: 1.5;
+    font-size: 18px;
+  }
+}
+.other_locations_container {
+  width: 800px;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+
+  .olp {
+    text-decoration: none;
+    color: #ba243b;
+  }
+  .olp:hover {
+    color: #1ab69d;
+  }
+  .olpul {
+    li {
+      list-style-type: none;
+      display: inline;
+    }
+  }
+}
+
+.other_locations {
+  padding: 70px 0px;
+}
+.map_grid-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.map_grid-item1 {
+  flex: 1;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 10px whitesmoke;
+  height: 380px;
+  width: 560px;
+}
+.map_grid-item2 {
+  /* box-shadow: 0 0 10px gray; */
+  box-shadow: 0px 30px 50px 0px
+    rgba(7.999999999999998, 2.000000000000002, 33, 0.10196078431372549);
+  width: 400px;
+  padding: 40px;
+  margin-left: 60px;
+  text-align: left;
+  background-color: white;
+  border-radius: 10px;
+  a {
+    text-decoration: none;
+    color: #cc3366;
+  }
+  a:hover {
+    color: #1ab69d;
+  }
+  .en-icon {
+    font-size: 25px;
+    color: green;
+  }
+  .phone-icon {
+    font-size: 25px;
+    color: green;
+  }
+  .add-icon {
+    font-size: 25px;
+    color: green;
+  }
+  span {
+    padding: 0 20px;
+    font-weight: bolder;
+  }
+  p {
+    color: darkgrey;
+    padding-left: 50px;
+  }
+}
+.show-right {
+  font-size: 28px;
+  color: goldenrod;
+}
+
+.map_section {
+  h1 {
+    padding-top: 50px;
+    font-size: 36px;
+  }
+}
+
+.link-button {
+  text-decoration: none;
+}
+.codegnan_success {
+  width: 1140px;
+  padding: 70px 0px;
+  h4 {
+    color: #ba243b;
+    padding: 20px;
+  }
+  p {
+    font-size: 20px;
+    text-align: left;
+    color: rgb(60, 60, 60);
+  }
+}
+.offer {
+  color: #6b6b6bc0;
+  font-family: "Times New Roman", Times, serif;
+}
+.discount {
+  color: #cc3366;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+}
+
+/* ================================ */
+
+/* Media query for mobile view */
+@media only screen and (max-width: 767px) {
+  .training_template_headerdetails {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .training_template_headerdetails .course_head_details,
+  .training_template_headerdetails .training_template_form_1 {
+    width: 100%;
+  }
+
+  .service_provided_in_training .sevices_provided {
+    width: auto;
+    grid-template-columns: repeat(auto-fit, minmax(60px, 1fr));
+    gap: 38px;
+  }
+  .course_breif {
+    padding: 50px 20px;
+  }
+
+  .breif_about_course {
+    /* padding: 20px; */
+    /* text-align: left; */
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .career_scope {
+    width: 90%;
+  }
+
+  .each_scope {
+    width: 310px !important;
+  }
+  .career_scope_container {
+    padding: 30px;
+  }
+  .career_scope {
+    /* padding: 10px; */
+    text-align: left;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .mentors_container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
+    .course_mentor_image {
+      /* height: auto;  */
+      width: 100%;
+      border-radius: 20px;
+      box-shadow: 0 0 20px lightgray;
+    }
+
+    .metor_description {
+      padding: 20px;
+      width: 100%;
+    }
+
+    .mentor {
+      padding: 50px 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+  .course_pricing_details {
+    width: 100%;
+    /* max-width: 780px;  */
+    padding: 20px;
+  }
+  .other_locations_container {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .other_locations {
+    padding: 30px 0;
+  }
+  .map_grid-container1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .map_grid-item1 {
+    width: 65%; /* Set width to 100% for mobile and tablet */
+  }
+
+  .map_grid-item2 {
+    width: 75%;
+  }
+  .mapSrc {
+    width: 40%;
+  }
+}
+
+/* Styles for desktop/laptop view */
+.service_provided_in_training .sevices_provided {
+  /*width: 1000px;*/
+  align-items: center;
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 40px;
+  font-weight: bolder;
+  color: white;
+  justify-content: center;
+  padding: 10px;
+}
 
 /* Media query for tablet view */
 @media only screen and (max-width: 991px) {
-    .service_provided_in_training .sevices_provided {
-        width: auto; 
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); 
-        gap: 72px; 
-    }
+  .service_provided_in_training .sevices_provided {
+    width: auto;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    gap: 72px;
+  }
 
-    .service_provided_in_training .each_service {
-        height: 70px; 
-        width: 120px; 
-        padding: 0px 5px; 
-        font-size: 12px; 
-    }
-    .training_template_headerdetails .course_head_details {
-        width: auto; 
-        padding: 10px; 
-        margin: 0; 
-    }
+  .service_provided_in_training .each_service {
+    height: 70px;
+    width: 120px;
+    padding: 0px 5px;
+    font-size: 12px;
+  }
+  .training_template_headerdetails .course_head_details {
+    width: auto;
+    padding: 10px;
+    margin: 0;
+  }
 
-    .training_template_headerdetails .training_template_form_1 {
-        width: 100%; 
-    }
-    
-.codegnan_success {
-    width: 100%; 
-    max-width: 1140px; 
+  .training_template_headerdetails .training_template_form_1 {
+    width: 100%;
+  }
+
+  .codegnan_success {
+    width: 100%;
+    max-width: 1140px;
     padding: 70px 20px;
-    box-sizing: border-box; 
-}
+    box-sizing: border-box;
+  }
 
-.codegnan_success h4 {
+  .codegnan_success h4 {
     color: #ba243b;
     padding: 20px;
     font-size: 24px;
 
-.codegnan_success p {
-    font-size: 16px; 
-    text-align: left;
-    color: rgb(60, 60, 60);
-}
+    .codegnan_success p {
+      font-size: 16px;
+      text-align: left;
+      color: rgb(60, 60, 60);
+    }
 
+    .codegnan_success {
+      width: 100%;
+      max-width: 1140px;
+      padding: 70px 20px;
+      box-sizing: border-box;
+    }
+  }
 
-.codegnan_success {
-    width: 100%; 
-    max-width: 1140px;
-    padding: 70px 20px; 
-    box-sizing: border-box;
-}
-
-
-}
-
-
-
-
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) { 
+  @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .mentors_container {
-      width: 8%; 
+      width: 8%;
     }
-     .map_grid-container1 {
-        grid-template-columns: 1fr 1fr; 
+    .map_grid-container1 {
+      grid-template-columns: 1fr 1fr;
     }
-    .explore-button{
-        font-size: 15px!important;
+    .explore-button {
+      font-size: 15px !important;
     }
-    .service_provided_in_training .sevices_provided{
-        /* gap: 21px; */
-        padding-right: 50px!important;
+    .service_provided_in_training .sevices_provided {
+      /* gap: 21px; */
+      padding-right: 50px !important;
     }
     .course_breif {
-        padding: 50px 0; 
+      padding: 50px 0;
 
-        .breif_about_course {
-            width: 90%; 
-            margin: 0 auto; 
-        }
+      .breif_about_course {
+        width: 90%;
+        margin: 0 auto;
+      }
     }
     .career_scope_container {
-        padding: 30px; 
+      padding: 30px;
     }
     .career_scope {
-        padding: 10px; 
-        width: 90%; 
-        margin: 0 auto; 
-        .carrer_scope_info,
-        .each_scope {
-            width: 100%; 
-            margin-bottom: 20px; 
-        }
+      padding: 10px;
+      width: 90%;
+      margin: 0 auto;
+      .carrer_scope_info,
+      .each_scope {
+        width: 100%;
+        margin-bottom: 20px;
+      }
 
-        .each_scope_container {
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
-            gap: 20px; 
-        }
+      .each_scope_container {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+      }
     }
-    .codegnan_success{
-        width: 740px;
+    .codegnan_success {
+      width: 740px;
     }
     .company-logo {
-        img{
-            width: 120px;
-        }
+      img {
+        width: 120px;
+      }
     }
 
     .mentors_container {
-        width: 90%; 
-        margin: 0 auto;
+      width: 90%;
+      margin: 0 auto;
 
-        .metor_description {
-            padding: 15px; 
-            width: 100%; 
-            p{
-                font-size: 19px;
-            }
+      .metor_description {
+        padding: 15px;
+        width: 100%;
+        p {
+          font-size: 19px;
         }
+      }
 
-        .mentor {
-            padding: 30px 0; 
-        }
+      .mentor {
+        padding: 30px 0;
+      }
     }
     .other_locations_container {
-        width: 90%; 
-        margin: 0 auto;
-        padding: 15px; 
+      width: 90%;
+      margin: 0 auto;
+      padding: 15px;
     }
     .other_locations {
-        padding: 50px 0;
+      padding: 50px 0;
     }
 
     .map_grid-container1 {
-        flex-direction: column; 
-        align-items: center; 
+      flex-direction: column;
+      align-items: center;
     }
 
     .map_grid-item1 {
-        width: 90%; 
-        margin-bottom: 30px;
+      width: 90%;
+      margin-bottom: 30px;
     }
 
     .map_grid-item2 {
-        width: 90%; 
-        margin-left: 0; 
-        padding: 20px; 
+      width: 90%;
+      margin-left: 0;
+      padding: 20px;
     }
   }
-  
-  .custom-link{
+
+  .custom-link {
     color: green;
     transition: color 0.3s ease;
-}
+  }
 
-.custom-link:hover {
+  .custom-link:hover {
     color: red;
+  }
 }
-
-}
-
-
-
-

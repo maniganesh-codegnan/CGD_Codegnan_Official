@@ -48,8 +48,9 @@
   border: none;
   outline: none;
   color: black;
-  font-family: inherit;
-  margin: 0;
+  font-family: monda;
+  margin: 0 1rem;
+  font-weight: 600;
   padding: 6px 6px;
   background-color: white;
   cursor: pointer;
@@ -87,11 +88,9 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-    /* text-decoration: none; */
-
-    
+  /* text-decoration: none; */
 }
-.drop{
+.drop {
   text-decoration: none;
   color: black;
 }
@@ -99,14 +98,13 @@
   padding: 10px;
   cursor: pointer;
   text-decoration: none;
-
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-.option:hover+.side-listings,
+.option:hover + .side-listings,
 .side-listings:hover {
   display: block;
 }
@@ -128,8 +126,6 @@
   .Navbar {
     padding: 16px;
     padding-right: 50px;
-  
-   
   }
 
   .dropbtn {

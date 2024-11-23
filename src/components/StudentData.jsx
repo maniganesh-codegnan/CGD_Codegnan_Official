@@ -1,4 +1,4 @@
-import  { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import "./StudentData.css";
 // import studentOne from "../photos/1.png";
 // import studentTwo from "../photos/2.png";
@@ -7,7 +7,7 @@ import "./StudentData.css";
 // import studentFive from "../photos/5.png";
 // import studentSix from "../photos/6.png";
 // import studentSeven from "../photos/7.png";
-// import studentEight from "../photos/8.png";         
+// import studentEight from "../photos/8.png";
 import studentOne from "../photos/students/2.jpg";
 import studentTwo from "../photos/students/3.jpg";
 import studentThree from "../photos/students/4.jpg";
@@ -72,56 +72,56 @@ const companies = [
     salary: "16 LPA",
     image: studentEight,
   },
-  { id: 9, name: "A", companyName: "TCS", salary: "10 LPA", image: studentOne },
+  { id: 9, name: "A", companyName: "TCS", salary: "10 LPA", image: studentFour },
   {
     id: 10,
     name: "B",
     companyName: "Infosys",
     salary: "11 LPA",
-    image: studentTwo,
+    image: studentFive,
   },
   {
     id: 11,
     name: "C",
     companyName: "L&T",
     salary: "13 LPA",
-    image: studentThree,
+    image: studentSix,
   },
   {
     id: 12,
     name: "D",
     companyName: "HCL",
     salary: "14 LPA",
-    image: studentFour,
+    image: studentSeven,
   },
   {
     id: 13,
     name: "E",
     companyName: "Amazon",
     salary: "20 LPA",
-    image: studentFive,
+    image: studentEight,
   },
   {
     id: 14,
     name: "F",
     companyName: "Wipro",
     salary: "12 LPA",
-    image: studentSix,
+    image: studentOne,
   },
   {
     id: 15,
     name: "G",
     companyName: "ADP",
     salary: "15 LPA",
-    image: studentSeven,
+    image: studentTwo,
   },
   {
     id: 16,
     name: "H",
     companyName: "Swiggy",
     salary: "16 LPA",
-    image: studentEight,
-  }
+    image: studentThree,
+  },
 ];
 
 function StudentData() {
