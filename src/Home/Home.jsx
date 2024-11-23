@@ -43,10 +43,10 @@ import Collaboration from "../Collabarations.jsx";
 import Video_Testimonials from "../video-testimonials.jsx";
 import SessionPage from "../components/SessionPage";
 import Certification from "../components/Certification";
-// import CourseCard from "../components/CourseCard";
-// import Companies from "../components/CompaniesHire";
-// import CodegnanPrograms from "../components/CodegnanPrograms";
-// import TrainingInstitution from "../components/TrainingInstitution";
+import CourseCard from "../components/CourseCard";
+import Companies from "../components/CompaniesHire";
+import CodegnanPrograms from "../components/CodegnanPrograms";
+import TrainingInstitution from "../components/TrainingInstitution";
 
 import { Helmet } from "react-helmet";
 
@@ -81,10 +81,10 @@ export default function Home() {
       <div><SessionPage/></div>
       <div className="rating_container">
          <div><Certification/></div>
-         {/* <div><CourseCard/></div>
+         <div><CourseCard/></div>
          <div><Companies/></div>
          <div><CodegnanPrograms/></div>
-         <div><TrainingInstitution/></div> */}
+         <div><TrainingInstitution/></div>
         <div className="company_tie_up">
           <div className="Why_to_enroll">
             <div className="why_to_enroll_heading">
