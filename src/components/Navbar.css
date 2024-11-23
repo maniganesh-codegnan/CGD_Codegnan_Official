@@ -1,0 +1,131 @@
+.container-fluid {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.headerCls {
+  width: 100%;
+  /* border: 0.1px solid rgba(239, 238, 238, 0.858); */
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1000;
+  box-shadow: 0 3px 0 0  rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar styling */
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  background-color: white;
+}
+
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  height: 97px;
+  width: 194px;
+  padding-left: 2rem;
+}
+
+/* Navigation links styling */
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  font-weight: medium;
+  padding-right: 2rem;
+}
+
+.nav-links li {
+  position: relative;
+  font-family: 'monda';
+  /* 'Lato', 'Montserrat', sans-serif;   */
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #007bff;
+}
+
+/* Responsive styles for different breakpoints */
+/* Navbar styling for different screen sizes */
+
+/* Mobile devices (up to 576px) */
+@media (min-width: 576px) {
+  /* .navbar {
+    padding: 10px;
+  } */
+
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .logo-img {
+    height: 50px;
+  }
+}
+
+/* Tablet devices (up to 768px) */
+@media (min-width: 768px) {
+  .nav-links {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .logo-img {
+    height: 60px;
+  }
+}
+
+/* Medium devices (up to 992px) */
+@media (min-width: 992px) {
+  .nav-links {
+    gap: 1.5rem;
+  }
+
+  .logo-img {
+    height: 70px;
+  }
+}
+
+/* Large devices (up to 1200px) */
+@media (min-width: 1200px) {
+  .nav-links {
+    gap: 2rem;
+  }
+
+  .logo-img {
+    height: 80px;
+  }
+}
+
+/* Extra-large devices (1400px and above) */
+@media (min-width: 1400px) {
+  .nav-links {
+    gap: 4rem;
+  }
+
+  .logo-img {
+    height: 90px;
+    width: 200px;
+  }
+}
