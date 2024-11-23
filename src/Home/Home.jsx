@@ -1,14 +1,14 @@
 import "./home.css";
 import "../helper.js";
 // import React, { useState } from "react";
-import Rated from "./Rated";
+// import Rated from "./Rated";
 // import banner from "./banner.webp";
-import rate1 from "./rate_1.webp";
-import rate3 from "./rate3.webp";
-import rate4 from "./rate4.webp";
-import rate5 from "./rate5.webp";
-import rate6 from "./rate6.webp";
-import rate7 from "./rate7.webp";
+// import rate1 from "./rate_1.webp";
+// import rate3 from "./rate3.webp";
+// import rate4 from "./rate4.webp";
+// import rate5 from "./rate5.webp";
+// import rate6 from "./rate6.webp";
+// import rate7 from "./rate7.webp";
 import bg from "/i.png";
 import Course_details from "./Course_details";
 import c1 from "/images/adabella1.webp";
@@ -42,6 +42,7 @@ import saketh from "/members/saketh.webp";
 import Collaboration from "../Collabarations.jsx";
 import Video_Testimonials from "../video-testimonials.jsx";
 import SessionPage from "../components/SessionPage";
+import Certification from "../components/Certification";
 
 import { Helmet } from "react-helmet";
 
@@ -128,7 +129,8 @@ export default function Home() {
       </div> */}
       <div><SessionPage/></div>
       <div className="rating_container">
-        <div className="rated_div">
+         <div><Certification/></div>
+         {/* <div className="rated_div">
           <Rated
             imageSrc={rate1}
             spanText="Google My Business"
@@ -169,7 +171,7 @@ export default function Home() {
             spanText="Average salary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
             paragraphText="package"
           />
-        </div>
+        </div>  */}
         <div
           className="certification_program"
           style={{ backgroundImage: `url(${bg})` }}
