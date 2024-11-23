@@ -9,33 +9,33 @@ import "../helper.js";
 // import rate5 from "./rate5.webp";
 // import rate6 from "./rate6.webp";
 // import rate7 from "./rate7.webp";
-import bg from "/i.png";
-import Course_details from "./Course_details";
-import c1 from "/images/adabella1.webp";
-import c2 from "/images/amazon.webp";
-import c3 from "/images/bankof-america.webp";
-import c4 from "/images/bosch.webp";
-import c5 from "/images/capgeminin.webp";
-import c6 from "/images/deloitte.webp";
-import c7 from "/images/ezetap.webp";
-import c8 from "/images/gensuite.webp";
-import c9 from "/images/google.webp";
-import c10 from "/images/hcl.webp";
-import c11 from "/images/hired.webp";
-import c12 from "/images/iit-bombay.webp";
-import c13 from "/images/microsoft.webp";
-import c14 from "/images/mphasis.webp";
-import c15 from "/images/Nielseni-iq.webp";
-import c16 from "/images/pwc.webp";
-import c17 from "/images/slb.webp";
-import c18 from "/images/stanford-university.webp";
-import c19 from "/images/star-icon.jpg";
-import c20 from "/images/tcs.webp";
-import c21 from "/images/tech-mahindra.webp";
-import c22 from "/images/teksan-logo.webp";
-import c23 from "/images/temenos-logo-1.webp";
-import c24 from "/images/truminds-logo-1.webp";
-import c25 from "/images/voya-india-logo-1.webp";
+// import bg from "/i.png";
+// import Course_details from "./Course_details";
+// import c1 from "/images/adabella1.webp";
+// import c2 from "/images/amazon.webp";
+// import c3 from "/images/bankof-america.webp";
+// import c4 from "/images/bosch.webp";
+// import c5 from "/images/capgeminin.webp";
+// import c6 from "/images/deloitte.webp";
+// import c7 from "/images/ezetap.webp";
+// import c8 from "/images/gensuite.webp";
+// import c9 from "/images/google.webp";
+// import c10 from "/images/hcl.webp";
+// import c11 from "/images/hired.webp";
+// import c12 from "/images/iit-bombay.webp";
+// import c13 from "/images/microsoft.webp";
+// import c14 from "/images/mphasis.webp";
+// import c15 from "/images/Nielseni-iq.webp";
+// import c16 from "/images/pwc.webp";
+// import c17 from "/images/slb.webp";
+// import c18 from "/images/stanford-university.webp";
+// import c19 from "/images/star-icon.jpg";
+// import c20 from "/images/tcs.webp";
+// import c21 from "/images/tech-mahindra.webp";
+// import c22 from "/images/teksan-logo.webp";
+// import c23 from "/images/temenos-logo-1.webp";
+// import c24 from "/images/truminds-logo-1.webp";
+// import c25 from "/images/voya-india-logo-1.webp";
 import Testimonials from "../student_testimonals/Testimonials.jsx";
 import ceo from "/members/sairam-sir.webp";
 import saketh from "/members/saketh.webp";
@@ -43,6 +43,10 @@ import Collaboration from "../Collabarations.jsx";
 import Video_Testimonials from "../video-testimonials.jsx";
 import SessionPage from "../components/SessionPage";
 import Certification from "../components/Certification";
+import CourseCard from "../components/CourseCard";
+import Companies from "../components/CompaniesHire";
+import CodegnanPrograms from "../components/CodegnanPrograms";
+import TrainingInstitution from "../components/TrainingInstitution";
 
 import { Helmet } from "react-helmet";
 
@@ -74,317 +78,14 @@ export default function Home() {
           content="Codegnan offers finishing schools for students starting their career in tech. Become job-ready with our expert trainer led online and classroom IT courses."
         />
       </Helmet>
-      {/* <div className="home">
-        <div className="banner_div">
-          <h1>
-            Online & classroom <br />{" "}
-            <span className="change_color">IT training institute (India)</span>{" "}
-          </h1>
-          <br />
-          <p>
-            Codegnan offers finishing schools for students who wants to start
-            and grow their tech career. Become job-ready with our expert trainer
-            led online and classroom IT certification courses.
-          </p>
-          <br />
-          <ul>
-            <li>
-              {" "}
-              <span className="check">&#x2713;</span>Expert trainers from top
-              universities and companies
-            </li>
-            <li>
-              <span className="check">&#x2713;</span>Trained 30,000+ students
-            </li>
-            <li>
-              <span className="check">&#x2713;</span>1250+ companies have hired
-              Codegnan learners
-            </li>
-            <li>
-              <span className="check">&#x2713;</span>Most advanced course
-              curriculum
-            </li>
-            <li>
-              <span className="check">&#x2713;</span>Practical learning with
-              live projects
-            </li>
-            <li>
-              <span className="check">&#x2713;</span>Career support with our job
-              acceleration program
-            </li>
-            <li>
-              <span className="check">&#x2713;</span>Rated 4.8/5 by more than
-              2,200 students
-            </li>
-          </ul>
-          <br />
-          <a href="/job_accelerator_program" className="explore-button">
-            Explore Program <i className="fas fa-arrow-right"></i>
-          </a>{" "}
-          <br /> <br />
-        </div>
-        <span>
-          <img src={banner} alt="" className="banner-img" width="100%"></img>
-        </span>
-      </div> */}
       <div><SessionPage/></div>
       <div className="rating_container">
          <div><Certification/></div>
-         {/* <div className="rated_div">
-          <Rated
-            imageSrc={rate1}
-            spanText="Google My Business"
-            paragraphText="Rated 4.8/5"
-          />
-          <Rated
-            imageSrc={rate1}
-            spanText="Trustpilot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-            paragraphText="Rated 4.8/5"
-          />
-          <Rated
-            imageSrc={rate3}
-            spanText="Justdial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-            paragraphText="Rated 4.7/5"
-          />
-        </div>
-        <br />
-        <br />
-        <br />
-        <div className="rated_div">
-          <Rated
-            imageSrc={rate4}
-            spanText="Students placed till&nbsp;&nbsp;"
-            paragraphText="date"
-          />
-          <Rated
-            imageSrc={rate5}
-            spanText="Drives conducted so"
-            paragraphText="for"
-          />
-          <Rated
-            imageSrc={rate6}
-            spanText="Highest salary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-            paragraphText="package"
-          />
-          <Rated
-            imageSrc={rate7}
-            spanText="Average salary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
-            paragraphText="package"
-          />
-        </div>  */}
-        <div
-          className="certification_program"
-          style={{ backgroundImage: `url(${bg})` }}
-        >
-          <center>
-            <h1>
-              <i className="fa-solid fa-star custom-icon"></i>Our Certification{" "}
-              <span className="change_color">programs</span>
-            </h1>
-          </center>
-          <div className="course_details_container">
-            <Course_details
-              duration="1 Month"
-              courseTitle="Python"
-              course="training"
-              locations={["Hyderabad  ,", "Vijayawada ,", "Bangalore"]}
-              urls={[
-                "/python-training-course-in-hyderabad",
-                "/python-training-in-vijayawada",
-                "/python-training-in-banglore",
-              ]}
-              paragraph={
-                <p>
-                  Launch your data science or web development career with
-                  Python, the versatile programming language.
-                </p>
-              }
-            />
-            <Course_details
-              duration="6 Months"
-              courseTitle="Data science"
-              course="training"
-              locations={["Hyderabad  ,", "Vijayawada  "]}
-              urls={[
-                "/data-science-course-training-in-hyderabad",
-                "/data-science-course-training-in-vijayawada",
-              ]}
-              paragraph={
-                <p>
-                  Advance your analytics career by gaining data science skills
-                  to extract strategic insights.
-                </p>
-              }
-            />
-            <Course_details
-              duration="100 Days"
-              courseTitle="Full-stack Pyhton"
-              course="course"
-              locations={["Hyderabad  ,", "Vijayawada , ", "Bangalore"]}
-              urls={[
-                "/python-full-stack-developer-course-in-hyderabad",
-                "/python-full-stack-developer-course-in-vijayawada",
-                "/python-full-stack-developer-course-in-banglore",
-              ]}
-              paragraph={
-                <p>
-                  Become a full-stack Python developer and kickstart your web
-                  and app development career.
-                </p>
-              }
-            />
-
-            <Course_details
-              duration="1 Month"
-              courseTitle="Java"
-              course="training"
-              locations={["Hyderabad  ,", "Vijayawada , ", "Bangalore"]}
-              urls={[
-                "/core-java-training-course-in-hyderabad",
-                "/core-java-training-course-in-vijayawada",
-                "/core-java-training-course-in-bangalore",
-              ]}
-              paragraph={
-                <p>
-                  Strengthen your backend development career by mastering
-                  object-oriented Java.
-                </p>
-              }
-            />
-            <Course_details
-              duration="6 Months"
-              courseTitle="Machine Learning"
-              course="training"
-              locations={["Hyderabad  ,", "Vijayawada  "]}
-              urls={[
-                "/machine-learning-course-training-in-hyderabad",
-                "/machine-learning-course-training-in-vijayawada",
-              ]}
-              paragraph={
-                <p>
-                  Advance your career in AI by mastering machine learning models
-                  and algorithms.
-                </p>
-              }
-            />
-            <Course_details
-              duration="100 Days"
-              courseTitle="Full-stack Java"
-              course="course"
-              locations={["Hyderabad  ,", "Vijayawada , ", "Bangalore"]}
-              urls={[
-                "/java-full-stack-training-course-in-hyderabad",
-                "/full-stack-java-training-course-in-vijayawada",
-                "/java-full-stack-training-course-in-bangalore",
-              ]}
-              paragraph={
-                <p>
-                  Launch your career as a full-stack developer by gaining
-                  in-demand Java skills spanning front and backend.
-                </p>
-              }
-            />
-
-            <Course_details
-              duration="1 Month"
-              courseTitle="React JS"
-              course="training"
-              locations={["Vijayawada  "]}
-              urls={["/react-js-training-course-in-vijayawada"]}
-              paragraph={
-                <p>
-                  Boost your front-end career by building interactive web apps
-                  with React.
-                </p>
-              }
-            />
-            <Course_details
-              duration="3 Months"
-              courseTitle="Data structures & algoritm"
-              course="training"
-              locations={["Vijayawada  "]}
-              urls={["/data-structures-and-algorithms-training-in-vijayawada"]}
-              paragraph={
-                <p>
-                  Strengthen your foundations to pass interviews and excel in
-                  software roles.
-                </p>
-              }
-            />
-            <Course_details
-              duration="30 Days"
-              courseTitle="C Programming"
-              course="course"
-              locations={["Vijayawada  "]}
-              urls={["/c-programming-course-training-in-vijayawada"]}
-              paragraph={
-                <p>
-                  Advance your systems and hardware programming career by
-                  mastering C language.
-                </p>
-              }
-            />
-            <Course_details
-              className="special_course_details"
-              duration="100 Days"
-              courseTitle="Software testing"
-              course="course"
-              locations={["Vijayawada  ", "Bangalore ,", " Hyderabad"]}
-              urls={[
-                "/Software-testing-training-course-in-vijayawada",
-                "/software-testing-training-course-in-banglore",
-                "/software-testing-training-course-in-hyderabad",
-              ]}
-              paragraph={
-                <p>
-                  Comprehensive training in manual, white-box, and black-box
-                  testing, integrating Selenium, with practical application in
-                  live projects, ensures mastery in software testing.
-                </p>
-              }
-            />
-            {/* customStyle={{ width: , gridColumn: 'span 3'}} */}
-          </div>
-        </div>
+         <div><CourseCard/></div>
+         <div><Companies/></div>
+         <div><CodegnanPrograms/></div>
+         <div><TrainingInstitution/></div>
         <div className="company_tie_up">
-          <div className="company_tie_up_in">
-            <center>
-              <h2>
-                Companies where{" "}
-                <span className="change_color"> Our students got placed</span>
-              </h2>
-            </center>
-
-            <section className="logo_section">
-              <div className="company_logo_container">
-                <img src={c1} alt="" />
-                <img src={c2} alt="" />
-                <img src={c3} alt="" />
-                <img src={c4} alt="" />
-                <img src={c5} alt="" />
-                <img src={c6} alt="" />
-                <img src={c7} alt="" />
-                <img src={c8} alt="" />
-                <img src={c9} alt="" />
-                <img src={c10} alt="" />
-                <img src={c11} alt="" />
-                <img src={c12} alt="" />
-                <img src={c13} alt="" />
-                <img src={c14} alt="" />
-                <img src={c15} alt="" />
-                <img src={c16} alt="" />
-                <img src={c17} alt="" />
-                <img src={c18} alt="" />
-                <img src={c19} alt="" />
-                <img src={c20} alt="" />
-                <img src={c21} alt="" />
-                <img src={c22} alt="" />
-                <img src={c23} alt="" />
-                <img src={c24} alt="" />
-                <img src={c25} alt="" />
-              </div>
-            </section>
-          </div>
           <div className="Why_to_enroll">
             <div className="why_to_enroll_heading">
               <h2>
@@ -685,3 +386,314 @@ export default function Home() {
     </div>
   );
 }
+
+
+//==========
+{/* <div className="home">
+        <div className="banner_div">
+          <h1>
+            Online & classroom <br />{" "}
+            <span className="change_color">IT training institute (India)</span>{" "}
+          </h1>
+          <br />
+          <p>
+            Codegnan offers finishing schools for students who wants to start
+            and grow their tech career. Become job-ready with our expert trainer
+            led online and classroom IT certification courses.
+          </p>
+          <br />
+          <ul>
+            <li>
+              {" "}
+              <span className="check">&#x2713;</span>Expert trainers from top
+              universities and companies
+            </li>
+            <li>
+              <span className="check">&#x2713;</span>Trained 30,000+ students
+            </li>
+            <li>
+              <span className="check">&#x2713;</span>1250+ companies have hired
+              Codegnan learners
+            </li>
+            <li>
+              <span className="check">&#x2713;</span>Most advanced course
+              curriculum
+            </li>
+            <li>
+              <span className="check">&#x2713;</span>Practical learning with
+              live projects
+            </li>
+            <li>
+              <span className="check">&#x2713;</span>Career support with our job
+              acceleration program
+            </li>
+            <li>
+              <span className="check">&#x2713;</span>Rated 4.8/5 by more than
+              2,200 students
+            </li>
+          </ul>
+          <br />
+          <a href="/job_accelerator_program" className="explore-button">
+            Explore Program <i className="fas fa-arrow-right"></i>
+          </a>{" "}
+          <br /> <br />
+        </div>
+        <span>
+          <img src={banner} alt="" className="banner-img" width="100%"></img>
+        </span>
+      </div> */}
+{/* <div className="rated_div">
+          <Rated
+            imageSrc={rate1}
+            spanText="Google My Business"
+            paragraphText="Rated 4.8/5"
+          />
+          <Rated
+            imageSrc={rate1}
+            spanText="Trustpilot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+            paragraphText="Rated 4.8/5"
+          />
+          <Rated
+            imageSrc={rate3}
+            spanText="Justdial &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+            paragraphText="Rated 4.7/5"
+          />
+        </div>
+        <br />
+        <br />
+        <br />
+        <div className="rated_div">
+          <Rated
+            imageSrc={rate4}
+            spanText="Students placed till&nbsp;&nbsp;"
+            paragraphText="date"
+          />
+          <Rated
+            imageSrc={rate5}
+            spanText="Drives conducted so"
+            paragraphText="for"
+          />
+          <Rated
+            imageSrc={rate6}
+            spanText="Highest salary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+            paragraphText="package"
+          />
+          <Rated
+            imageSrc={rate7}
+            spanText="Average salary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
+            paragraphText="package"
+          />
+        </div>  */}
+        {/* <div
+          className="certification_program"
+          style={{ backgroundImage: `url(${bg})` }}
+        >
+          <center>
+            <h1>
+              <i className="fa-solid fa-star custom-icon"></i>Our Certification{" "}
+              <span className="change_color">programs</span>
+            </h1>
+          </center>
+          <div className="course_details_container">
+            <Course_details
+              duration="1 Month"
+              courseTitle="Python"
+              course="training"
+              locations={["Hyderabad  ,", "Vijayawada ,", "Bangalore"]}
+              urls={[
+                "/python-training-course-in-hyderabad",
+                "/python-training-in-vijayawada",
+                "/python-training-in-banglore",
+              ]}
+              paragraph={
+                <p>
+                  Launch your data science or web development career with
+                  Python, the versatile programming language.
+                </p>
+              }
+            />
+            <Course_details
+              duration="6 Months"
+              courseTitle="Data science"
+              course="training"
+              locations={["Hyderabad  ,", "Vijayawada  "]}
+              urls={[
+                "/data-science-course-training-in-hyderabad",
+                "/data-science-course-training-in-vijayawada",
+              ]}
+              paragraph={
+                <p>
+                  Advance your analytics career by gaining data science skills
+                  to extract strategic insights.
+                </p>
+              }
+            />
+            <Course_details
+              duration="100 Days"
+              courseTitle="Full-stack Pyhton"
+              course="course"
+              locations={["Hyderabad  ,", "Vijayawada , ", "Bangalore"]}
+              urls={[
+                "/python-full-stack-developer-course-in-hyderabad",
+                "/python-full-stack-developer-course-in-vijayawada",
+                "/python-full-stack-developer-course-in-banglore",
+              ]}
+              paragraph={
+                <p>
+                  Become a full-stack Python developer and kickstart your web
+                  and app development career.
+                </p>
+              }
+            />
+
+            <Course_details
+              duration="1 Month"
+              courseTitle="Java"
+              course="training"
+              locations={["Hyderabad  ,", "Vijayawada , ", "Bangalore"]}
+              urls={[
+                "/core-java-training-course-in-hyderabad",
+                "/core-java-training-course-in-vijayawada",
+                "/core-java-training-course-in-bangalore",
+              ]}
+              paragraph={
+                <p>
+                  Strengthen your backend development career by mastering
+                  object-oriented Java.
+                </p>
+              }
+            />
+            <Course_details
+              duration="6 Months"
+              courseTitle="Machine Learning"
+              course="training"
+              locations={["Hyderabad  ,", "Vijayawada  "]}
+              urls={[
+                "/machine-learning-course-training-in-hyderabad",
+                "/machine-learning-course-training-in-vijayawada",
+              ]}
+              paragraph={
+                <p>
+                  Advance your career in AI by mastering machine learning models
+                  and algorithms.
+                </p>
+              }
+            />
+            <Course_details
+              duration="100 Days"
+              courseTitle="Full-stack Java"
+              course="course"
+              locations={["Hyderabad  ,", "Vijayawada , ", "Bangalore"]}
+              urls={[
+                "/java-full-stack-training-course-in-hyderabad",
+                "/full-stack-java-training-course-in-vijayawada",
+                "/java-full-stack-training-course-in-bangalore",
+              ]}
+              paragraph={
+                <p>
+                  Launch your career as a full-stack developer by gaining
+                  in-demand Java skills spanning front and backend.
+                </p>
+              }
+            />
+
+            <Course_details
+              duration="1 Month"
+              courseTitle="React JS"
+              course="training"
+              locations={["Vijayawada  "]}
+              urls={["/react-js-training-course-in-vijayawada"]}
+              paragraph={
+                <p>
+                  Boost your front-end career by building interactive web apps
+                  with React.
+                </p>
+              }
+            />
+            <Course_details
+              duration="3 Months"
+              courseTitle="Data structures & algoritm"
+              course="training"
+              locations={["Vijayawada  "]}
+              urls={["/data-structures-and-algorithms-training-in-vijayawada"]}
+              paragraph={
+                <p>
+                  Strengthen your foundations to pass interviews and excel in
+                  software roles.
+                </p>
+              }
+            />
+            <Course_details
+              duration="30 Days"
+              courseTitle="C Programming"
+              course="course"
+              locations={["Vijayawada  "]}
+              urls={["/c-programming-course-training-in-vijayawada"]}
+              paragraph={
+                <p>
+                  Advance your systems and hardware programming career by
+                  mastering C language.
+                </p>
+              }
+            />
+            <Course_details
+              className="special_course_details"
+              duration="100 Days"
+              courseTitle="Software testing"
+              course="course"
+              locations={["Vijayawada  ", "Bangalore ,", " Hyderabad"]}
+              urls={[
+                "/Software-testing-training-course-in-vijayawada",
+                "/software-testing-training-course-in-banglore",
+                "/software-testing-training-course-in-hyderabad",
+              ]}
+              paragraph={
+                <p>
+                  Comprehensive training in manual, white-box, and black-box
+                  testing, integrating Selenium, with practical application in
+                  live projects, ensures mastery in software testing.
+                </p>
+              }
+            />
+            // customStyle={{ width: , gridColumn: 'span 3'}} 
+          </div>
+        </div> */}
+{/* <div className="company_tie_up_in">
+            <center>
+              <h2>
+                Companies where{" "}
+                <span className="change_color"> Our students got placed</span>
+              </h2>
+            </center>
+
+            <section className="logo_section">
+              <div className="company_logo_container">
+                <img src={c1} alt="" />
+                <img src={c2} alt="" />
+                <img src={c3} alt="" />
+                <img src={c4} alt="" />
+                <img src={c5} alt="" />
+                <img src={c6} alt="" />
+                <img src={c7} alt="" />
+                <img src={c8} alt="" />
+                <img src={c9} alt="" />
+                <img src={c10} alt="" />
+                <img src={c11} alt="" />
+                <img src={c12} alt="" />
+                <img src={c13} alt="" />
+                <img src={c14} alt="" />
+                <img src={c15} alt="" />
+                <img src={c16} alt="" />
+                <img src={c17} alt="" />
+                <img src={c18} alt="" />
+                <img src={c19} alt="" />
+                <img src={c20} alt="" />
+                <img src={c21} alt="" />
+                <img src={c22} alt="" />
+                <img src={c23} alt="" />
+                <img src={c24} alt="" />
+                <img src={c25} alt="" />
+              </div>
+            </section>
+          </div> */}
+
