@@ -52,7 +52,8 @@ function Certification(){
     <h1>Skills Certificate from the Codegnan</h1>
     <div className="image-flex">
       <img 
-        src={require('../photos/certification_pics/certificate.png')} 
+        // src={require('../photos/certification_pics/certificate.png')} 
+        src={certificate}
         alt="Certificate"
         className="certificate-image"
       />
@@ -65,6 +66,6 @@ function Certification(){
   </div>
     </div>
   );
-};
+}
 
 export default Certification;
