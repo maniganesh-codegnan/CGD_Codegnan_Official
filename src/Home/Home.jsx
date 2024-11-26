@@ -36,7 +36,7 @@ import "../helper.js";
 // import c23 from "/images/temenos-logo-1.webp";
 // import c24 from "/images/truminds-logo-1.webp";
 // import c25 from "/images/voya-india-logo-1.webp";
-import Testimonials from "../student_testimonals/Testimonials.jsx";
+// import Testimonials from "../student_testimonals/Testimonials.jsx";
 import ceo from "/members/sairam-sir.webp";
 import saketh from "/members/saketh.webp";
 import Collaboration from "../Collabarations.jsx";
@@ -49,6 +49,7 @@ import CodegnanPrograms from "../components/CodegnanPrograms";
 import TrainingInstitution from "../components/TrainingInstitution";
 
 import { Helmet } from "react-helmet";
+// import TestimonialCard from "../components/TestimonialCard.jsx";
 
 export default function Home() {
   function showText(event) {
@@ -208,19 +209,24 @@ export default function Home() {
         <div>
           <CodegnanPrograms enrollCourse={enrollCourse} />
         </div>
-        <TrainingInstitution />
+        <div>
+          {" "}
+          <TrainingInstitution />
+        </div>
+
+
         {/* <div className="Why_to_enroll">
           
         </div> */}
-        <div className="company_tie_up">
-          <div className="testimonials">
+        {/* <div className="testimonials">
             <center>
               <h1 className="change_color">Our Testimonials</h1>
               <br />
               <h1>What Our Students have to Say</h1>
             </center>
             <Testimonials />
-          </div>
+          </div> */}
+        <div className="company_tie_up">
           <div className="top-notch-team">
             <div>
               <strong style={{ color: "#808080", fontWeight: "bold" }}>
@@ -360,6 +366,9 @@ export default function Home() {
               <br />
               <Video_Testimonials />
             </center>
+          </div> 
+          <div>
+          {/* <TestimonialCard/> */}
           </div>
           <center>
             <div className="still_douts">
