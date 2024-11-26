@@ -66,7 +66,121 @@ export default function Home() {
     // Change color of h4 heading
     event.currentTarget.classList.toggle("heading-clicked");
   }
-
+  const enrollCourse = (
+    <div className="why_to_entroll_details">
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Job Assistance Program
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Enroll in our 100-day{" "}
+          <a href="/job_accelerator_program"> Job Accelerator Program</a>,
+          offering ajob placement and career support for a successful transition
+          into the workforce.
+        </p>
+      </div>
+      <hr />
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Affordable Training Fees
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Start your learning journey with affordable training fees, beginning
+          at just 5000 INR for the foundational course.
+        </p>
+      </div>
+      <hr />
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Expert Trainers and Mentors
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Get mentored by industry experts, including professionals from IITs,
+          Amazon, Google, ensuring top-notch education and real-world insights.
+          Meet our <a href="/team">team of trainers and mentors</a>.
+        </p>
+      </div>
+      <hr />
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Online or Classroom Training
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Choose your preferred learning mode – online live classes or attend
+          classroom training in Hyderabad, Vijayawada, and Bangalore.{" "}
+          <a href="/contact">Contact us now</a> to share your queries
+        </p>
+      </div>
+      <hr />
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Trusted by 30,000+ Students
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Join a community of over 30,000 satisfied students who have rated our
+          courses at 4.8/5, trusting Codegnan for quality education.
+        </p>
+      </div>
+      <hr />
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Practical Learning with Projects
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Gain hands-on experience with live projects integrated into every
+          certification program, ensuring practical application of your newly
+          acquired skills.
+        </p>
+      </div>
+      <hr />
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Industry recognized certification
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Successfully pass the exam to attain a recognized certification and
+          further showcase your skills through participation in HackerRank
+          certifications.
+        </p>
+      </div>
+      <hr />
+      <div className="why_to_enroll_listings">
+        <h3 onClick={showText}>
+          <span id="buttonSymbol" className="buttonclick">
+            &#9660;
+          </span>{" "}
+          Updated and Comprehensive Course Curriculum
+        </h3>
+        <p id="para_buttonclick" className="hidden">
+          Stay ahead with our updated and comprehensive course curriculum,
+          ensuring you learn the latest industry-relevant skills for a
+          successful career.
+        </p>
+      </div>
+      <hr />
+    </div>
+  );
   return (
     <div>
       <Helmet>
@@ -78,144 +192,27 @@ export default function Home() {
           content="Codegnan offers finishing schools for students starting their career in tech. Become job-ready with our expert trainer led online and classroom IT courses."
         />
       </Helmet>
-      <div><SessionPage/></div>
+      <div>
+        <SessionPage />
+      </div>
       <div className="rating_container">
-         <div><Certification/></div>
-         <div><CourseCard/></div>
-         <div><Companies/></div>
-         <div><CodegnanPrograms/></div>
-         <div><TrainingInstitution/></div>
+        <div>
+          <Certification />
+        </div>
+        <div>
+          <CourseCard />
+        </div>
+        <div>
+          <Companies />
+        </div>
+        <div>
+          <CodegnanPrograms enrollCourse={enrollCourse} />
+        </div>
+        <TrainingInstitution />
+        {/* <div className="Why_to_enroll">
+          
+        </div> */}
         <div className="company_tie_up">
-          <div className="Why_to_enroll">
-            <div className="why_to_enroll_heading">
-              <h2>
-                {" "}
-                Why enroll in Codegnan’s <br />
-                <span className="change_color">
-                  Certification programs
-                </span>{" "}
-              </h2>
-            </div>
-            <div className="why_to_entroll_details">
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Job Assistance Program
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Enroll in our 100-day{" "}
-                  <a href="/job_accelerator_program">
-                    {" "}
-                    Job Accelerator Program
-                  </a>
-                  , offering ajob placement and career support for a successful
-                  transition into the workforce.
-                </p>
-              </div>
-              <hr />
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Affordable Training Fees
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Start your learning journey with affordable training fees,
-                  beginning at just 5000 INR for the foundational course.
-                </p>
-              </div>
-              <hr />
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Expert Trainers and Mentors
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Get mentored by industry experts, including professionals from
-                  IITs, Amazon, Google, ensuring top-notch education and
-                  real-world insights. Meet our{" "}
-                  <a href="/team">team of trainers and mentors</a>.
-                </p>
-              </div>
-              <hr />
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Online or Classroom Training
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Choose your preferred learning mode – online live classes or
-                  attend classroom training in Hyderabad, Vijayawada, and
-                  Bangalore. <a href="/contact">Contact us now</a> to share your
-                  queries
-                </p>
-              </div>
-              <hr />
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Trusted by 30,000+ Students
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Join a community of over 30,000 satisfied students who have
-                  rated our courses at 4.8/5, trusting Codegnan for quality
-                  education.
-                </p>
-              </div>
-              <hr />
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Practical Learning with Projects
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Gain hands-on experience with live projects integrated into
-                  every certification program, ensuring practical application of
-                  your newly acquired skills.
-                </p>
-              </div>
-              <hr />
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Industry recognized certification
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Successfully pass the exam to attain a recognized
-                  certification and further showcase your skills through
-                  participation in HackerRank certifications.
-                </p>
-              </div>
-              <hr />
-              <div className="why_to_enroll_listings">
-                <h3 onClick={showText}>
-                  <span id="buttonSymbol" className="buttonclick">
-                    &#9660;
-                  </span>{" "}
-                  Updated and Comprehensive Course Curriculum
-                </h3>
-                <p id="para_buttonclick" className="hidden">
-                  Stay ahead with our updated and comprehensive course
-                  curriculum, ensuring you learn the latest industry-relevant
-                  skills for a successful career.
-                </p>
-              </div>
-              <hr />
-            </div>
-          </div>
           <div className="testimonials">
             <center>
               <h1 className="change_color">Our Testimonials</h1>
@@ -387,9 +384,9 @@ export default function Home() {
   );
 }
 
-
 //==========
-{/* <div className="home">
+{
+  /* <div className="home">
         <div className="banner_div">
           <h1>
             Online & classroom <br />{" "}
@@ -441,8 +438,10 @@ export default function Home() {
         <span>
           <img src={banner} alt="" className="banner-img" width="100%"></img>
         </span>
-      </div> */}
-{/* <div className="rated_div">
+      </div> */
+}
+{
+  /* <div className="rated_div">
           <Rated
             imageSrc={rate1}
             spanText="Google My Business"
@@ -483,8 +482,10 @@ export default function Home() {
             spanText="Average salary &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"
             paragraphText="package"
           />
-        </div>  */}
-        {/* <div
+        </div>  */
+}
+{
+  /* <div
           className="certification_program"
           style={{ backgroundImage: `url(${bg})` }}
         >
@@ -657,8 +658,10 @@ export default function Home() {
             />
             // customStyle={{ width: , gridColumn: 'span 3'}} 
           </div>
-        </div> */}
-{/* <div className="company_tie_up_in">
+        </div> */
+}
+{
+  /* <div className="company_tie_up_in">
             <center>
               <h2>
                 Companies where{" "}
@@ -695,5 +698,5 @@ export default function Home() {
                 <img src={c25} alt="" />
               </div>
             </section>
-          </div> */}
-
+          </div> */
+}
