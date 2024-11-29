@@ -1,5 +1,5 @@
 // import React from "react";
-// import "./TestimonialCard.css"; // Custom styles if needed
+import "./TestimonialCard.css";
 import left1 from "../photos/testimonials/left1.png";
 import left2 from "../photos/testimonials/left2.png";
 import left3 from "../photos/testimonials/left3.png";
@@ -10,102 +10,69 @@ import centerMain from "../photos/testimonials/centerMain.png";
 import smile from "../photos/testimonials/smile.png";
 import RectangleBlue from "../photos/testimonials/RectangleBlue.png";
 import RectangleRed from "../photos/testimonials/RectangleRed.png";
-import Rectangle_main from "../photos/testimonials/Rectangle_main.png";
 
 const TestimonialCard = () => {
   return (
-    <div className="container text-center my-5 ">
-      <h1 className="pt-5">What Our Students Have To Say</h1>
-      <div
-        className="row justify-content-center position-relative"
-        style={{ height: "600px", width: "auto" , margin:"5rem 0"}}
-      >
-        {/* Avatar Images */}
-        <div>
-          <div
-            className="col-md-2 position-absolute "
-            style={{ top: "20%", left: "-10%" }}
-          >
-            <img
-              src={left1}
-              alt="Avatar 1"
-              className="rounded-circle img-fluid shadow-sm"
-            />
-          </div>
-          <div
-            className="col-md-2 position-absolute"
-            style={{ top: "50%", left: "-20%" }}
-          >
-            <img
-              src={left2}
-              alt="Avatar 2"
-              className="rounded-circle img-fluid shadow-sm"
-            />
-          </div>
-          <div
-            className="col-md-2 position-absolute"
-            style={{ top: "80%", left: "-10%" }}
-          >
-            <img
-              src={left3}
-              alt="Avatar 2"
-              className="rounded-circle img-fluid shadow-sm"
-            />
-          </div>
-        </div>
-        <div>
-          <div
-            className="col-md-2 position-absolute"
-            style={{ top: "20%", right: "-10%" }}
-          >
-            <img
-              src={right1}
-              alt="Avatar 3"
-              className="rounded-circle img-fluid shadow-sm"
-            />
-          </div>
-          <div
-            className="col-md-2 position-absolute"
-            style={{ top: "50%", right: "-20%" }}
-          >
-            <img
-              src={right2}
-              alt="Avatar 4"
-              className="rounded-circle img-fluid shadow-sm"
-            />
-          </div>
-          <div
-            className="col-md-2 position-absolute"
-            style={{ top: "80%", right: "-10%" }}
-          >
-            <img
-              src={right3}
-              alt="Avatar 4"
-              className="rounded-circle img-fluid shadow-sm"
-            />
-          </div>
+    <div className="testimonial-container">
+      <h1 className="testimonial-title">What Our Students Have To Say</h1>
+      <div className="testimonial-content">
+        {/* Left Avatars */}
+        <div className="avatar-group left">
+          <img src={left1} alt="Avatar 1" className="avatar" />
+          <img src={left2} alt="Avatar 2" className="avatar1" />
+          <img src={left3} alt="Avatar 3" className="avatar" />
         </div>
 
-        <img
+        {/* Right Avatars */}
+        <div className="avatar-group right">
+          <img src={right1} alt="Avatar 4" className="avatar" />
+          <img src={right2} alt="Avatar 5" className="avatar2" />
+          <img src={right3} alt="Avatar 6" className="avatar" />
+        </div>
+
+        {/* Decorative Elements */}
+        {/* <img src={RectangleRed} alt="Red Rectangle" className="decorative red" />
+        <img src={RectangleBlue} alt="Blue Rectangle" className="decorative blue" />
+
+       
+        <div className="testimonial-card">
+          <div className="card-content">
+            <div className="image-container">
+              <img src={centerMain} alt="Main Avatar" className="main-avatar" />
+            </div>
+            <div className="text-container">
+              <h2 className="name">PRIYA</h2>
+              <div className="rating">★★★★★</div>
+              <p className="testimonial-text">
+                I completed a Python course at Codegnan under the guidance of Saketh sir, and his teaching style is so effective.
+                He explains concepts so clearly. I highly recommend Codegnan for their excellent training. Thanks to Saketh sir
+                and the entire Codegnan team!
+              </p>
+              <img src={smile} alt="Smile Logo" className="smile-logo" />
+            </div>
+          </div>
+        </div> */}
+
+<img
           src={RectangleRed}
           alt=""
           style={{
             position: "relative",
             width: "178px",
             height: "149px",
-            right: "-28rem",
-            top:"1rem"
+            right: "-26rem",
+            top:"2rem", borderColor: 'white'
           }}
           
         />
         <img
           src={RectangleBlue}
           alt=""
-          style={{ position: "relative", width: "178px", height: "149px", top:'31.5rem', left:"-28rem" }}
+          style={{ position: "relative", width: "178px", height: "149px", top:'33rem', left:"-27rem", borderColor: 'white' }}
         />
         <div
-          className="col-lg-9  shadow rounded p-3 m-5 bg-light "
-          style={{ position: "absolute" ,  backgroundImage: {Rectangle_main}}}
+          className="col-lg-5  shadow rounded p-3 m-5 bg-light "
+          style={{ position: "relative" , left:'30rem', top:'-8rem'}}
         >
           <div className="row m-5 ">
             <div
@@ -157,7 +124,7 @@ const TestimonialCard = () => {
                     <img
                       src={smile}
                       alt="smile logo"
-                      style={{ position: "relative", right: "-40%" }}
+                      style={{ position: "relative", right: "-40%", width:'80px' }}
                     />
                   </div>
                 </div>
@@ -165,7 +132,6 @@ const TestimonialCard = () => {
             </div>
           </div>
         </div>
-        
       </div>
     </div>
   );

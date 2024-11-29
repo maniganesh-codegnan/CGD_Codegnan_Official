@@ -49,7 +49,7 @@ import CodegnanPrograms from "../components/CodegnanPrograms";
 import TrainingInstitution from "../components/TrainingInstitution";
 
 import { Helmet } from "react-helmet";
-// import TestimonialCard from "../components/TestimonialCard.jsx";
+import TestimonialCard from "../components/TestimonialCard.jsx";
 
 export default function Home() {
   function showText(event) {
@@ -213,7 +213,9 @@ export default function Home() {
           {" "}
           <TrainingInstitution />
         </div>
-
+        <div>
+          <TestimonialCard/>
+          </div>
 
         {/* <div className="Why_to_enroll">
           
@@ -367,9 +369,7 @@ export default function Home() {
               <Video_Testimonials />
             </center>
           </div> 
-          <div>
-          {/* <TestimonialCard/> */}
-          </div>
+          
           <center>
             <div className="still_douts">
               <h1>Still have questions regarding courses?</h1>
