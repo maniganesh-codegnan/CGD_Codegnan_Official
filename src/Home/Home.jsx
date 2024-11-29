@@ -47,9 +47,10 @@ import CourseCard from "../components/CourseCard";
 import Companies from "../components/CompaniesHire";
 import CodegnanPrograms from "../components/CodegnanPrograms";
 import TrainingInstitution from "../components/TrainingInstitution";
-
 import { Helmet } from "react-helmet";
 import TestimonialCard from "../components/TestimonialCard.jsx";
+import QueryCourse from "../components/queryCourse.jsx";
+// import OurManagement from "../components/OurManagement.jsx";
 
 export default function Home() {
   function showText(event) {
@@ -217,6 +218,14 @@ export default function Home() {
           <TestimonialCard/>
           </div>
 
+          <div>
+            <QueryCourse/>
+          </div>
+
+          <div>
+            {/* <OurManagement/> */}
+          </div>
+
         {/* <div className="Why_to_enroll">
           
         </div> */}
@@ -370,23 +379,7 @@ export default function Home() {
             </center>
           </div> 
           
-          <center>
-            <div className="still_douts">
-              <h1>Still have questions regarding courses?</h1>
-              <br />
-              <p>
-                Talk to our team and get support in identifying the right tech
-                career course for you. Our team will answer your questions
-                regarding courses, fees, batch details, and all.
-              </p>
-              <br />
-              <button>
-                {" "}
-                <i className="fa-solid fa-phone phone"></i>
-                <a href="contact"> Call us </a>
-              </button>
-            </div>
-          </center>
+          
         </div>
       </div>
     </div>
