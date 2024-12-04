@@ -29,7 +29,7 @@ function Collaboration() {
         {data.map((d, index) => (
   <div key={index}>
     <div className='collaboration-one' style={{backgroundColor:"white"}}>
-      <img src={d.img} alt="Error" className="collaboration" style={{width:"116px",height:"120px"}}/>
+      <img src={d.img} alt="Error" className="collaboration" style={{width:"116px",height:"120px",border:"2px solid #337ab7"}}/>
     </div>
   </div>
 ))}
@@ -44,18 +44,14 @@ function Collaboration() {
 const data = [
 
   
-  {
-    img : './collaboration/chiral.webp',
-  },
+  
   {
     img : './collaboration/eluru.webp',
   },
   {
     img : './collaboration/gec.webp',
   },
-  {
-    img : './collaboration/geetanjali.webp',
-  },
+  
   
   {
     img : './collaboration/logo-1.webp',
@@ -112,7 +108,13 @@ const data = [
   },
   {
     img : './collaboration/kits.webp',
-  }
+  },
+  {
+    img : './collaboration/chiral.webp',
+  },
+  {
+    img : './collaboration/geetanjali.webp',
+  },
   
 ]
 export default Collaboration;

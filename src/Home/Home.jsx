@@ -37,8 +37,8 @@ import "../helper.js";
 // import c24 from "/images/truminds-logo-1.webp";
 // import c25 from "/images/voya-india-logo-1.webp";
 // import Testimonials from "../student_testimonals/Testimonials.jsx";
-import ceo from "/members/sairam-sir.webp";
-import saketh from "/members/saketh.webp";
+// import ceo from "/members/sairam-sir.webp";
+// import saketh from "/members/saketh.webp";
 import Collaboration from "../Collabarations.jsx";
 import Video_Testimonials from "../video-testimonials.jsx";
 import SessionPage from "../components/SessionPage";
@@ -50,7 +50,7 @@ import TrainingInstitution from "../components/TrainingInstitution";
 import { Helmet } from "react-helmet";
 import TestimonialCard from "../components/TestimonialCard.jsx";
 import QueryCourse from "../components/queryCourse.jsx";
-// import OurManagement from "../components/OurManagement.jsx";
+import OurManagement from "../components/OurManagement.jsx";
 
 export default function Home() {
   function showText(event) {
@@ -223,7 +223,7 @@ export default function Home() {
           </div>
 
           <div>
-            {/* <OurManagement/> */}
+            <OurManagement/>
           </div>
 
         {/* <div className="Why_to_enroll">
@@ -238,7 +238,15 @@ export default function Home() {
             <Testimonials />
           </div> */}
         <div className="company_tie_up">
-          <div className="top-notch-team">
+        <div className="our_collaborations">
+            <center>
+              <h1 className="change_color" style={{fontFamily:'monda', fontWeight: 600}}>Our Collaborations</h1>
+              <br />
+              <br />
+              <Collaboration />
+            </center>
+          </div>
+          {/* <div className="top-notch-team">
             <div>
               <strong style={{ color: "#808080", fontWeight: "bold" }}>
                 OUR TEAM
@@ -289,8 +297,8 @@ export default function Home() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="Our_training_center">
+          </div> */}
+          {/* <div className="Our_training_center">
             <center>
               {" "}
               <h2>
@@ -359,15 +367,8 @@ export default function Home() {
                 </p>
               </div>
             </div>
-          </div>
-          <div className="our_collaborations">
-            <center>
-              <h1 className="change_color">Our Collaborations</h1>
-              <br />
-              <br />
-              <Collaboration />
-            </center>
-          </div>
+          </div> */}
+          
           <div className="our_collaborations">
             <center>
               <h1 className="change_color">
