@@ -616,7 +616,7 @@ function App() {
           element={<Java_Full_Stack_Faq_Vijayawada />}
         ></Route>
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

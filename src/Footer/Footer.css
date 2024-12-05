@@ -110,6 +110,12 @@
   color: gray;
 }
 
+@media (min-width: 768px) {
+  .left {
+    width: 100%;
+  }
+}
+
 /* .footer-bottom a {
   color: #ffb400;
   text-decoration: none;
